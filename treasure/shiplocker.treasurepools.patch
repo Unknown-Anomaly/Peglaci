@@ -1,0 +1,20 @@
+[	
+	{"op" : "add",
+		"path" : "/peglaciStarterTreasure",
+		"value" : [
+			[0, {
+			"fill" : [
+				{"pool" : "starterTreasure"},
+				{"item" : [ "snowberryseed", 3]},
+				{"item" : [ "spongeweedseed", 3]},
+				{"item" : "peglacitier1chest"},
+				{"item" : "peglacitier1pants"},
+				{"item" : "peglacitier1head"},
+				{"item" : "emergpistol"},
+				{"item" : [ "peglacitier1knife", 10]},
+				{"item" : [ "peglacitorch", 10]}
+				]
+			}]
+		]	
+	}
+]

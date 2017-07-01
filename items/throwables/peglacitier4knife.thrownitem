@@ -1,0 +1,31 @@
+{
+  "itemName" : "peglacitier4knife",
+  "price" : 40,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "peglacitier4knife.png",
+  "image" : "peglacitier4knife.png",
+  "shortdescription" : "Spiker",
+  "description" : "A flat discus that sticks to objects momentarily before emitting frozen blades.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "peglacitier4knife",
+  "projectileConfig" : {
+    "speed" : 45,
+    "power" : 150,
+    "knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "peglaciicecrystal",
+  "price" : 15,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "peglaciicecrystal.png",
+  "description" : "A frigid, forged ice crystal. A secret from the very heart of Pegla.",
+  "shortdescription" : "Ice Crystal",
+  "itemTags" : [ "reagent" ]
+}

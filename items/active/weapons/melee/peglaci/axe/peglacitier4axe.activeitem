@@ -1,0 +1,73 @@
+{
+  "itemName" : "peglacitier4axe",
+  "level" : 4,
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "No ice can stop you now!",
+  "shortdescription" : "Icehacker",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+  
+  "inventoryIcon" : "peglacitier4axe.png",
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "peglacitier4axe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
+      "offset" : [-0.5, 1.75]
+    }}}},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 9.5,
+    "damageConfig" : {
+      "knockback" : 25
+    },
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0.25, 1.5]
+      },
+      "windup" : {
+        "duration" : 0.7,
+        "weaponOffset" : [0.25, 1.5],
+
+        "minWindup" : 0.6,
+
+        "weaponAngle" : [
+          [0.7, "linear", -20, 0],
+          [0.85, "linear", 0, 50],
+          [0.925, "sin", 50, 45],
+          [1.0, "cos", 50, 45]
+        ],
+
+        "armAngle" : [
+          [1.0, "sin", -90, 50]
+        ]
+      },
+      "fire" : {
+        "weaponOffset" : [0.25, 1.5]
+      }
+    }
+  },
+  
+  "palette" : "/items/active/weapons/colors/tier4melee.weaponcolors",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "cryocondenser",
+  "colonyTags" : [ "commerce" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "This machine can reorganize solid matter into snow and ice.",
+  "shortdescription" : "^orange;Cryocondenser^white;",
+  "subtitle" : "Keep your cool.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 100,
+  "objectType" : "container",
+
+  "apexDescription" : "Some sort of advanced matter printer... cold to the touch.",
+  "avianDescription" : "Ice printing... This technology could be devastating in the wrong hands.",
+  "floranDescription" : "Cold machine print pretty ice crysstalss but too cold for Floranss.",
+  "glitchDescription" : "Amazed. The ability to create crystals out of nothing",
+  "humanDescription" : "Don't... lick... the... metal. Nothing good will come of this.",
+  "hylotlDescription" : "The power of ice and snow at my fingertips... watch out Florans.",
+  "novakidDescription" : "Crystal printing is pretty fancy. And pretty cool - see what I did there?",
+  "peglaciDescription" : "A CryoDenser. Epitome of Peacekeeper technology. Allows for optimal survival in all non-cold environments.",
+
+  "lightColor" : [102, 255, 181],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "cryocondensericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "cryocondenser.png:<color>.<frame>", "fullbright" : true }, { "image" : "cryocondenserlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "cryocondenser.png:<color>.<frame>", "fullbright" : true }, { "image" : "cryocondenserlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 8,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "recipeGroup" : "cryocondenser",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/cryocondenser.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

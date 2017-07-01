@@ -1,0 +1,24 @@
+{
+  "materialId" : 3497,
+  "materialName" : "giantek",
+  "particleColor" : [150, 50, 50, 255],
+  "itemDrop" : "giantek",
+  "description" : "A panel of ancient Giantek. It makes me feel dizzy.",
+  "shortdescription" : "Giantek Panel",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 10000,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "giantek.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

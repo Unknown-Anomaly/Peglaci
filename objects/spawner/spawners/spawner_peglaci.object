@@ -1,0 +1,56 @@
+{
+  "objectName" : "spawnerpeglaci",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own Peglaci citizen!",
+  "shortdescription" : "Peglaci Spawner",
+  "race" : "peglaci",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+
+  "apexDescription" : "Peglaci, eh? They seem nice enough.",
+  "avianDescription" : "As long as they stop bashing Kluex, I'm sure it'd be nice to have a few of them around.",
+  "floranDescription" : "Cold hunting-mates! Good fighters!",
+  "glitchDescription" : "Acerbic. Excellent, let's summon some furry machine hating Hyotl.",
+  "humanDescription" : "Oh man, these guys are awesome - I can't wait to talk to them!",
+  "hylotlDescription" : "Oh, them. I suppose it won't be completely terrible to have them around.",
+  "peglaciDescription" : "Oh, how wonderful! I could use a reminder of home...",
+  
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_peglaci.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/peglaci.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_peglaci.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "peglaci" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

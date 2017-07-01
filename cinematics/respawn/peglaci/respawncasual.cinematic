@@ -1,0 +1,165 @@
+{
+	"muteSfx" : true,
+	"muteMusic" : true,
+	"scissor" : false,
+	"letterbox" : false,
+	"panels" : [
+		{
+			"drawables" : [ { "image" : "/cinematics/respawn/black.png" } ],
+			"keyframes" : [
+				{
+					"timecode" : 0.75,
+					"zoom" : 500,
+					"alpha" : 0,
+					"position" : [480, 270]
+				},
+				{
+					"timecode" : 0.75,
+					"zoom" : 500,
+					"alpha" : 1,
+					"position" : [480, 270]
+				},
+				{
+					"timecode" : 9.5,
+					"zoom" : 500,
+					"alpha" : 1,
+					"position" : [480, 270]
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/respawn/peglaci/beneath.png" } ],
+			"keyframes" : [
+				{
+					"timecode" : 0.75,
+					"zoom" : 2.5,
+					"alpha" : 0,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 0.75,
+					"zoom" : 2.5,
+					"alpha" : 0.4,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 2,
+					"zoom" : 2.5,
+					"alpha" : 0.6,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 3.5,
+					"zoom" : 2.5,
+					"alpha" : 0.2,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 6.5,
+					"zoom" : 2.5,
+					"alpha" : 0.8,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 8.5,
+					"zoom" : 2.5,
+					"alpha" : 0.4,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 9.5,
+					"zoom" : 2.5,
+					"alpha" : 0.7,
+					"position" : [490, 270]
+				}
+			]
+		},
+		{
+			"startTime" : 4.5,
+			"endTime" : 13,
+			"drawables" : [ { "image" : "/cinematics/respawn/peglaci/outer.png" } ],
+			"fontSize" : 16,
+			"text" : "10% of Pixels Lost",
+			"textPosition" : {
+				"position" : [40, 40],
+				"vAnchor" : "top",
+				"wrapWidth" : 218
+			},
+			"keyframes" : [
+				{
+					"timecode" : 0.75,
+					"zoom" : 2.5,
+					"alpha" : 0,
+					"position" : [490, 270],
+					"textPercentage" : 0
+				},
+				{
+					"timecode" : 0.75,
+					"zoom" : 2.5,
+					"alpha" : 0.4,
+					"position" : [490, 270],
+					"textPercentage" : 0
+				},
+				{
+					"timecode" : 9.5,
+					"zoom" : 2.5,
+					"alpha" : 0.7,
+					"position" : [490, 270],
+					"textPercentage" : 1
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/respawn/peglaci/layer1.png:{frame}" } ],
+			"keyframes" : [
+				{
+					"timecode" : 0.5,
+					"zoom" : 2.5,
+					"alpha" : 0,
+					"frame" : 0,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 1.5,
+					"zoom" : 2.5,
+					"alpha" : 1,
+					"frame" : 0,
+					"position" : [490, 270]
+				},
+				{
+					"timecode" : 8,
+					"alpha" : 1,
+					"zoom" : 2.5,
+					"frame" : 67
+				},
+				{
+					"timecode" : 9,
+					"alpha" : 0,
+					"zoom" : 2.5,
+					"frame" : 70
+				}
+			]
+		},
+		{
+			"avatar" : "nude",
+			"keyframes" : [
+				{
+					"timecode" : 8,
+					"zoom" : 2.5,
+					"alpha" : 0,
+					"frame" : 0,
+					"position" : [487, 270]
+				},
+				{
+					"timecode" : 9.5,
+					"zoom" : 2.5,
+					"alpha" : 1,
+					"frame" : 70,
+					"position" : [487, 270]
+				}
+			]
+		}
+	],
+	"audio" : [
+	]
+}

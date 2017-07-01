@@ -1,0 +1,73 @@
+{
+  "objectName" : "peglaciguncrafter",
+  "colonyTags" : [ "crafting" ],
+  "category" : "crafting",
+  "rarity" : "Uncommon",
+  "description" : "A pocket assembler that fabricates a variety of firearms.",
+  "shortdescription" : "^orange;Gun Crafter^white;",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 100,
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinganvil.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Iron Anvil",
+        "subtitle" : " ^#b9b5b2;Armour and Weapons",
+        "icon" : {
+          "file" : "/interface/crafting/craftingguncrafter.png"
+        }
+      }
+    },
+    "filter" : [ "craftingguncrafter" ]
+  },
+
+  "apexDescription" : "This is a highly advanced piece of technology...",
+  "avianDescription" : "This is a highly advanced piece of technology...",
+  "floranDescription" : "Machine that makess the pew pewss.",
+  "glitchDescription" : "Interested. The Glitch could perhaps use this to mass fabricate crossbows.",
+  "humanDescription" : "I'm gonna make so many blasty things!",
+  "hylotlDescription" : "Probably used in the fabrication of firearms.",
+  "novakidDescription" : "You get a six-shooter, and you get a six-shooter, EVERYBODY gets a six-shooter!",
+  "peglaciDescription" : "This is a pocket assembler that can fabricate a variety of firearms. For hunting purposes, of course.",
+
+  "lightColor" : [62, 89, 89],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0,
+  
+  "inventoryIcon" : "peglaciguncraftericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "peglaciguncrafter.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 41,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "peglaciguncrafter.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 41,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

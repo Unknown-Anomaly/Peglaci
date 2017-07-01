@@ -1,0 +1,36 @@
+{
+  "objectName" : "snowpersonbodyapex",
+  "colonyTags" : [ "peglaci", "peglacivillage", "pretty" ],
+  "rarity" : "Common", 
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "The body of a Snowperson. Looks familiar...",
+  "shortdescription" : "Apex Snowbody",
+  "race" : "peglaci",
+
+  "apexDescription" : "The body of a Snowman. Looks familiar...",
+  "avianDescription" : "The body of a Snowman. Looks familiar...",
+  "floranDescription" : "The body of a Snowman. Looks familiar...",
+  "glitchDescription" : "The body of a Snowman. Looks familiar...",
+  "humanDescription" : "The body of a Snowman. Looks familiar...",
+  "hylotlDescription" : "The body of a Snowman. Looks familiar...",
+  "novakidDescription" : "The body of a Snowman. Looks familiar...",
+  "peglaciDescription" : "The body of a Snowman. Looks familiar...",
+
+  "inventoryIcon" : "snowbodyapexicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "snowbodyapex.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

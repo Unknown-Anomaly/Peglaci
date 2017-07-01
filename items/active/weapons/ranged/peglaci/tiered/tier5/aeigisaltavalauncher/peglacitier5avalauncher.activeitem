@@ -1,0 +1,98 @@
+{
+  "itemName" : "peglacitier5avalauncher",
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
+  "shortdescription" : "Coldsnap Avalauncher",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 5,
+
+  "inventoryIcon" : "peglacitier5avalaunchericon.png",
+
+  "animation" : "peglacitier5avalauncher.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "peglacitier5avalauncher.png",
+    "middlefullbright" : "peglacitier5avalauncherfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+    }
+  },
+  
+  "baseOffset" : [1.0, 0.120],
+  "muzzleOffset" : [1.645, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.5,
+    "baseDps" : 8.0,
+    "energyUsage" : 24,
+    "inaccuracy" : 0.008,
+    "fireType" : "auto",
+
+    "projectileType" : "peglaciicecloud2",
+    "projectileParameters" : {
+      "knockback" : 5,
+      "speed" : 50,
+      "statusEffects" : [ "frostslow" ]
+    },
+    "projectileCount" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "particles" : [
+        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
+        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
+        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] }
+      ]
+    }
+  },
+
+  "altAbilityType" : "",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 3503,
+  "materialName" : "pykreteblock",
+  "particleColor" : [200, 200, 200, 255],
+  "itemDrop" : "pykreteblock",
+  "description" : "A block made of Pykrete.",
+  "shortdescription" : "Pykrete Block",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 35,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pykreteblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

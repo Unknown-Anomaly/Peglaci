@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/peglaci",
+		"value" : [ 
+			"/ships/peglaci/peglaciT0.structure",
+			"/ships/peglaci/peglaciT1.structure",
+			"/ships/peglaci/peglaciT2.structure",
+			"/ships/peglaci/peglaciT3.structure",
+			"/ships/peglaci/peglaciT4.structure",
+			"/ships/peglaci/peglaciT5.structure",
+			"/ships/peglaci/peglaciT6.structure", 
+			"/ships/peglaci/peglaciT7.structure", 
+			"/ships/peglaci/peglaciT8.structure" 
+		]
+	}
+]

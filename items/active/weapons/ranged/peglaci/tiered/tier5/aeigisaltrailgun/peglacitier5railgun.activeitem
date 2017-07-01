@@ -1,0 +1,70 @@
+{
+  "itemName" : "peglacitier5railgun",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fires a quick and devastating round - charge to fire through walls.",
+  "shortdescription" : "Eclair Railgun",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "sniperrifle"],
+  "level" : 5,
+  
+  "inventoryIcon" : "peglacitier5railgunicon.png",
+
+  "animation" : "peglacitier5railgun.animation",
+  "animationParts" : {
+    "gun" : "peglacitier5railgun.png",
+    "gunfullbright" : "peglacitier5railgunfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.87, 0.35],
+  "muzzleOffset" : [1.5, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 1,
+        "energyCost" : 32,
+        "cooldown" : 0.1,
+        "projectileType" : "peglacirailgundart1",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 90,
+          "statusEffects" : [ "" ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 8.2,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 2,
+        "energyCost" : 52,
+        "cooldown" : 0.5,
+        "projectileType" : "peglacirailgundartpower1",
+        "projectileParameters" : {
+          "knockback" : 20,
+          "speed" : 110,
+          "statusEffects" : [ "" ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 10.2,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

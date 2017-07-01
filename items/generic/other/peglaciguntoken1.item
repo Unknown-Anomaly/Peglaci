@@ -1,0 +1,11 @@
+{
+  "itemName" : "peglaciguntoken1",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "peglaciguntoken1.png",
+  "description" : "This certifies that you have qualified for an upgrade to your emergency sidearm.",
+  "shortdescription" : "Peacekeeper Pistol Upgrade",
+  
+  "learnBlueprintsOnPickup" : [ ]
+}

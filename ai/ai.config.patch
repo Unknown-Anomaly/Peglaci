@@ -1,0 +1,10 @@
+[
+	{ "op" : "add",
+		"path" : "/species/peglaci",
+		"value" : {
+			"aiFrames" : "peglaciai.png",
+			"portraitFrames" : "portraits/peglaciportrait.png",
+			"staticFrames" : "staticpeglaci.png"
+		}
+	}
+]

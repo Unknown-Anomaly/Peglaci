@@ -1,0 +1,61 @@
+{
+  "itemName" : "peglacitier4cannon",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Fires a heavy round to deal focused damage - charge to launch an explosive round.",
+  "shortdescription" : "Crevasse Grenade Rifle",
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "level" : 4,
+  
+  "inventoryIcon" : "peglacitier4cannonicon.png",
+
+  "animation" : "peglacitier4cannon.animation",
+  "animationParts" : {
+    "gun" : "peglacitier4cannon.png",
+    "gunfullbright" : "peglacitier4cannonfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+    }
+  },
+
+  "muzzleOffset" : [1.4, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.1,
+        "projectileType" : "peglacicannonshot1",
+        "projectileParameters" : {},
+        "inaccuracy" : 0.008,
+        "baseDamage" : 1.5,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "peglacicannonshot1power",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 7,
+        "fireSound" : "fire2"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

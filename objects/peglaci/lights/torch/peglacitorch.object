@@ -1,0 +1,154 @@
+{
+  "objectName" : "peglacitorch",
+  "colonyTags" : [ "light" ],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 50,
+  "printable" : false,
+  "retainObjectParametersInItem" : true, 
+  
+  "description" : "This glowing crystal can provide illumination under the water as well.",
+  "shortdescription" : "Glowstar",
+  "race" : "peglaci",
+
+  "apexDescription" : "This glowing mechanism sticks to all kinds of surfaces. ",
+  "avianDescription" : "These look oddly similar to our crystal technology...",
+  "floranDescription" : "Cold light from thisss cryssstal.",
+  "glitchDescription" : "Statement. Versatile waterproof lighting.",
+  "humanDescription" : "Hey, these are cool! They're all glowy!",
+  "hylotlDescription" : "Hmm. Seems like the Hyotl could do better.",
+  "novakidDescription" : "Hey, these are cool! They're all glowy!",
+  "peglaciDescription" : "A simple fluorescing crystal. Lights the way, even underwater. ",
+
+  "lightColors" : {
+    "default" :  [100, 200, 255],    
+    "red" : [200, 100, 100],    
+    "blue" : [100, 100, 200],    
+    "green" : [100, 200, 100],    
+    "yellow" : [200, 200, 100],    
+    "orange" : [200, 150, 16],    
+    "pink" : [200, 0, 200],    
+    "black" : [32, 32, 32],    
+    "white" : [200, 200, 200]  
+  },
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "peglacitorchicon.png",
+  "orientations" : [
+    {
+      "image" : "peglacitorchback.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorchback.png",
+        "fg" : "peglacitorchbacklit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, 0] ]
+    },
+
+    {
+      "image" : "peglacitorchdown.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorchdown.png",
+        "fg" : "peglacitorchdownlit.png"
+      },
+
+      "imagePosition" : [0, -4],
+      "animationPosition" : [0, -4],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "anchors" : [ "top" ]
+    },
+    
+    {
+      "image" : "peglacitorchleft.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorchleft.png",
+        "fg" : "peglacitorchleftlit.png"
+      },
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "peglacitorchright.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorchright.png",
+        "fg" : "peglacitorchrightlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "peglacitorch.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorch.png",
+        "fg" : "peglacitorchlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "peglacitorchback.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "peglacitorchback.png",
+        "fg" : "peglacitorchbacklit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "peglacitorch.animation",
+  "animationParts" : {
+    "bg" : "peglacitorch.png",
+    "fg" : "peglacitorchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  // "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

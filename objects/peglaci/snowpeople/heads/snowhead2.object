@@ -1,0 +1,36 @@
+{
+  "objectName" : "snowpersonhead2",
+  "colonyTags" : [ "peglaci", "peglacivillage", "pretty" ],
+  "rarity" : "Common", 
+  "printable" : false,
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "The head of a Snowperson. Looks familiar...",
+  "shortdescription" : "Plain Snowhead",
+  "race" : "peglaci",
+
+  "apexDescription" : "The head of a Snowman. Looks familiar...",
+  "avianDescription" : "The head of a Snowman. Looks familiar...",
+  "floranDescription" : "The head of a Snowman. Looks familiar...",
+  "glitchDescription" : "The head of a Snowman. Looks familiar...",
+  "humanDescription" : "The head of a Snowman. Looks familiar...",
+  "hylotlDescription" : "The head of a Snowman. Looks familiar...",
+  "novakidDescription" : "The head of a Snowman. Looks familiar...",
+  "peglaciDescription" : "The head of a Snowman. Looks familiar...",
+
+  "inventoryIcon" : "snowhead2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "snowhead2.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

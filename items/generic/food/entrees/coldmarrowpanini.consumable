@@ -1,0 +1,24 @@
+{
+  "itemName" : "coldmarrowpanini",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "coldmarrowpanini.png",
+  "description" : "A frozen meat and Boneboo sandwich, cooked to perfection - then served cold.",
+  "shortdescription" : "Coldmarrow Panini",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+    }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

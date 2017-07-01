@@ -1,0 +1,24 @@
+{
+  "materialId" : 3505,
+  "materialName" : "pykretedecor",
+  "particleColor" : [200, 200, 200, 255],
+  "itemDrop" : "pykretedecor",
+  "description" : "A decorative panel made of Pykrete.",
+  "shortdescription" : "Pykrete Decor Panel",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 35,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "pykretedecor.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

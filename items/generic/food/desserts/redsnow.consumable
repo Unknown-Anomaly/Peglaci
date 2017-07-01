@@ -1,0 +1,27 @@
+{
+  "itemName" : "redsnow",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "redsnow.png",
+  "description" : "Slow, long-lasting healing in convenient popsicle format. Tastes like medicine.",
+  "shortdescription" : "Red Snow",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+      "effect" : "peglacislowregen"
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 80
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

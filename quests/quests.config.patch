@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/peglaci",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/peglaci",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
