@@ -1,12 +1,12 @@
 [
 {
 	"op" : "add",
-		"path" : "/snowberryHarvest",
+		"path" : "/peglacisnowberryHarvest",
 		"value" : [
 			[0, {
 			  "pool" : [
-				{"weight" : 0.89, "item" : "snowberry"},
-				{"weight" : 0.01, "item" : "snowberryseed"},
+				{"weight" : 0.89, "item" : "peglacisnowberry"},
+				{"weight" : 0.01, "item" : "peglacisnowberryseed"},
 				{"weight" : 0.1, "item" : "plantfibre"}
 			  ],
 			  "poolRounds" : [
@@ -17,12 +17,12 @@
 	]},
 
 	{"op" : "add",
-		"path" : "/spongeweedHarvest",
+		"path" : "/peglacispongeweedHarvest",
 		"value" : [
 			[0, {
 			  "pool" : [
-				{"weight" : 0.89, "item" : "spongeweed"},
-				{"weight" : 0.01, "item" : "spongeweedseed"},
+				{"weight" : 0.89, "item" : "peglacispongeweed"},
+				{"weight" : 0.01, "item" : "peglacispongeweedseed"},
 				{"weight" : 0.1, "item" : "plantfibre"}
 			  ],
 			  "poolRounds" : [

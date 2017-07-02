@@ -1,0 +1,23 @@
+{
+  "materialId" : 3514,
+  "materialName" : "peglacialloyplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "peglacialloyplatform",
+  "shortdescription" : "Alloy Platform",
+  "description" : "A platform made of an advanced alloy.",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacialloyplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

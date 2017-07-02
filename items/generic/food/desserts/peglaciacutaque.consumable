@@ -1,0 +1,27 @@
+{
+  "itemName" : "peglaciacutaque",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "peglaciacutaque.png",
+  "description" : "A tangy, creamy mixture of frozen Oculemon and pureed fat. Oddly quite delicious!",
+  "shortdescription" : "Acutaque",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+	  {
+      "effect" : "peglacidoping"
+    },
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 180
+    }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

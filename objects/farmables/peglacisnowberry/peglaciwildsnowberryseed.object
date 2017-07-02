@@ -1,0 +1,59 @@
+{
+  "objectName" : "peglaciwildsnowberryseed",
+  "colonyTags" : [ "nature" ],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "Resistant to snow and ice.",
+  "shortdescription" : "Snowberry",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "apexDescription" : "These fruit are poisonous - they slow down bodily processes and cool your core temperature. Dangerous.",
+  "avianDescription" : "I've heard these are really poisonous. They don't look appetizing.",
+  "floranDescription" : "Tassstes like cold poissson - IS cold poissson.",
+  "glitchDescription" : "Alarm. This fruit is heavily toxic!",
+  "humanDescription" : "This looks and feels like a fruity ice cube. No thanks.",
+  "hylotlDescription" : "The poison in this berry slows you down while making you feel warmer. Ingredients for hypothermia.",
+  "novakidDescription" : "I've heard these are really poisonous. They don't look appetizing.",
+  "peglaciDescription" : "Snowberries are quite toxic, but their chemical properties make them surprisingly useful.",
+
+  "inventoryIcon" : "peglacisnowberryseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "peglacisnowberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [120, 360]
+    },
+    {
+      "duration" : [120, 360]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "peglacisnowberryHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "learnBlueprintsOnPickup" : [ "" ],
+
+  "maxImmersion" : 0.125,
+  "breakDropOptions" : [ [ [ "peglacisnowberryseed", 1, { } ] ]
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "objectName" : "snowpersongenerator",
+  "objectName" : "peglacisnowpersongenerator",
   "colonyTags" : [ "peglaci", "misc" ],
   "printable" : false,
   "price" : 100,
@@ -7,13 +7,13 @@
   "category" : "crafting",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingsnowpeoplegenerator.config",
+    "config" : "/interface/windowconfig/peglacicraftingsnowpeoplegenerator.config",
     "filter" : [ "snowpeoplegenerator" ]
   },
   "description" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
   "shortdescription" : "Snowperson Generator",
   "race" : "peglaci",
-  
+
   "apexDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
   "avianDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
   "floranDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
@@ -22,7 +22,7 @@
   "hylotlDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
   "novakidDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
   "peglaciDescription" : "This compact 3D printer works in the medium of snow to generate cunning snowy replicas of a variety of races.",
-  
+
   "inventoryIcon" : "snowpersongeneratoricon.png",
   "orientations" : [
     {

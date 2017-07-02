@@ -1,0 +1,25 @@
+{
+  "itemName" : "peglacispongeweed",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "peglacispongeweed.png",
+  "description" : "This slice of spongeweed contains excessive amounts of refreshing dissolved oxygen.",
+  "shortdescription" : "Spongeweed Slice",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "peglacibreathboostmini"
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "peglacioxymax" ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "peglacifrostburntmeat",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "peglacifrostburntmeat.png",
+  "description" : "A Peglaci delicacy. An accident for everyone else.",
+  "shortdescription" : "Frostburnt Alien Meat",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "peglacicoldmarrowpanini" ]
+}

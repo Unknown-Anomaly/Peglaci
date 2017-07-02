@@ -29,8 +29,7 @@
       "/monsters/pets/actions/inspectAction.lua",
       "/monsters/pets/actions/eatAction.lua",
       "/monsters/pets/actions/sleepAction.lua",
-      "/monsters/pets/actions/begAction.lua",
-      "/monsters/pets/actions/pounceAction.lua"
+      "/monsters/pets/actions/begAction.lua"
     ],
 
     "petBehavior" : "petBehavior",
@@ -50,7 +49,6 @@
     },
 
     "actionParams" : {
-      "hungerStarvingLevel" : 80, 
       "beg" : {
         "minScore" : 50,
         "cooldown" : 5,

@@ -1,0 +1,26 @@
+{
+  "itemName" : "peglacisnowberry",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "peglacisnowberry.png",
+  "description" : "Cold, crunchy and poisonous. The trifecta of qualities for a delicious fruit.",
+  "shortdescription" : "Snowberry",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 10
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "peglaciberrymeat" ]
+}

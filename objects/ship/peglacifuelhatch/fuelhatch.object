@@ -33,6 +33,11 @@
   "uiConfig" : "/interface/fuel/fuel.config",
   "autoCloseCooldown" : 3600,
   "frameCooldown" : 67,
-  "soundEffect" : "/sfx/objects/shipengine.ogg",
-  "soundEffectRadius" : 300
+
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "fuel"
 }
