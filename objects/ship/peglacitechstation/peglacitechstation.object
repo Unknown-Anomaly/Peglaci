@@ -3,7 +3,9 @@
   "colonyTags" : [ "peglaci" ],
   "printable" : false,
   "rarity" : "Common",
+
   "interactAction" : "OpenAiInterface",
+
   "category" : "decorative",
   "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
   "shortdescription" : "S.A.I.L",
@@ -31,14 +33,15 @@
 
     }
   ],
+
 	"offeredQuests" : [ "gaterepair" ],
-  
+
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "petjuvpeg",
+  "shipPetType" : "petjuvenilepeglaci",
   "spawnOffset" : [2, -2],
   "chatPortrait" : "/ai/portraits/peglaciportrait.png:yell.1",
   "dialog" : {
@@ -58,5 +61,6 @@
       [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/peglaciportrait.png:unique.1" ]
     ]
   },
+  
   "uniqueId" : "techstation"
 }
