@@ -1,0 +1,34 @@
+{
+  "itemName" : "peglacitier10avalauncher",
+  "price" : 1500,
+  "inventoryIcon" : "peglacitier10avalaunchericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
+  "shortdescription" : "Coldsnap Avalauncher X",
+  "image" : "peglacitier10avalauncher.png:<frame>",
+  "imageFrameSelector" : "peglacitier10avalauncherImageSelector",
+  "handPosition" : [0, -1],
+  "firePosition" : [12, -1],
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "fireTime" : 0.1,
+  "twoHanded" : true,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+  
+   "projectileType" : "peglacitier10avalaunchershot",
+  "projectile" : {
+    "power" : 1.7,
+    "powerCurve" : "peglacitier10avalauncherTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

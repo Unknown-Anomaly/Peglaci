@@ -1,0 +1,4 @@
+{
+  "peglacitier10minigunTimeMultiplier" : [ "linear", "clamp", [0, 1], [1, 1]],
+  "peglacitier10minigunImageSelector" : [ "linear", "wrap", [0, 0], [0.3, 6]]
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "peglacitier10splittershot3",
+  "frames" : "splitterdart.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "stickybullet",
+  "bounces" : 0,
+  "frameNumber" : 1,  
+  "pointLight" : false,
+  "speed" :30,
+
+  "lightColor" : [200, 200, 255],
+	 "timeToLive" : 0.6,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}
+
+

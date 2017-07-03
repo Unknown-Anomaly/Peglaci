@@ -1,0 +1,16 @@
+{
+  "projectileName" : "peglacitier10railgunshot",
+  "frames" : "shotgundart.png",
+  "animationCycle" : 0.1,
+  "armorPenetration" : 3,
+  "physics" : "stickybullet",
+  "bounces" : 0,
+  "frameNumber" : 3,  
+  "pointLight" : false,
+  "speed" :60,
+   "lightColor" : [40, 40, 190],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}
+
+

@@ -1,0 +1,36 @@
+{
+  "itemName" : "peglacitier8machinegun",
+  "price" : 1200,
+  "inventoryIcon" : "peglacitier8machinegunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Violium spikes shred armor plating - stay on target to strip enemy protection.",
+  "shortdescription" : "Thresher Machinegun II",
+  "image" : "peglacitier8machinegun.png:<frame>",
+  "imageFrameSelector" : "peglacitier8machinegunImageSelector",
+ 
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, 0],
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+ 
+  "fireTime" : 0.1,
+  "twoHanded" : true,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+   "projectileType" : "peglacitier8machinegunshot",
+  "projectile" : {
+    "power" : 1.7,
+    "powerCurve" : "peglacitier8machinegunTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

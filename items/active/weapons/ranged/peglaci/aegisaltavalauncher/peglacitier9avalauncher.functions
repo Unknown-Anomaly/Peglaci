@@ -1,0 +1,4 @@
+{
+  "peglacitier9avalauncherTimeMultiplier" : [ "linear", "clamp", [0, 1], [0.6, 1.5]],
+  "peglacitier9avalauncherImageSelector" : [ "linear", "wrap", [0, 0], [0.8, 6]]
+}

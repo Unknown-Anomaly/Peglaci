@@ -1,0 +1,28 @@
+{
+  "projectileName" : "peglacipowerdarttier10a",
+  "frames" : "powerdart.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 5,
+  "physics" : "bullet",
+  "bounces" : 0,
+  "frameNumber" : 4,
+  "piercing" : false,  
+  "power" : 40,
+  
+  "lightColor" : [200, 200, 255],
+  "speed" :22,
+"timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/zapsplosion/zapsplosion.config"
+    }
+  ],
+    "statusEffects" : [
+    {"effect" : "peglacistun"}
+  ],  
+  "damageKind" : "default",
+  "emitters" : [ "peglacitraillong" ]
+}
+
+

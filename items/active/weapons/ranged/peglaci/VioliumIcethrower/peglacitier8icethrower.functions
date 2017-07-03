@@ -1,0 +1,4 @@
+{
+  "peglacitier8icethrowerTimeMultiplier" : [ "linear", "clamp", [0, 1], [0.6, 1.5]],
+  "peglacitier8icethrowerImageSelector" : [ "linear", "wrap", [0, 0], [0.2, 4]]
+}

@@ -1,0 +1,41 @@
+{
+  "itemName" : "peglacitier9cloudgun",
+  "price" : 1200,
+  "inventoryIcon" : "peglacitier9cloudgunicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Launches a cloud of incandescent gas that erupts - charge to launch as a grenade.",
+  "shortdescription" : "Tonerre Cloudgun",
+  "image" : "peglacitier9cloudgun.png:<frame>",
+  "imageFrameSelector" : "peglacitier9cloudgunImageSelector",
+ 
+  "handPosition" : [-10, -1],
+  "firePosition" : [12, 0],
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+ 
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+  "recoilTime" : 0.2,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+  "fireOnRelease" : true,
+  
+   "projectileType" : "peglacitier9cloudgunshot1",
+   "powerProjectileType" : "peglacitier9cloudgunshotpower",
+  "powerProjectileTime" : [0.3, 50],
+  "projectile" : {
+    "power" : 6,
+    "powerCurve" : "peglacitier9cloudgunTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

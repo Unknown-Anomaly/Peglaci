@@ -1,0 +1,35 @@
+{
+  "itemName" : "peglacitier10laser",
+  "price" : 1500,
+  "inventoryIcon" : "peglacitier10lasericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Impervium lens focuses a powerful, incandescent ray of microwave radiation.",
+  "shortdescription" : "Apollo Maser X",
+  "image" : "peglacitier10laser.png:<frame>",
+  "imageFrameSelector" : "peglacitier10laserImageSelector",
+  "handPosition" : [-10, -1],
+  "firePosition" : [12, 0],
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "fireTime" : 0.01,
+  "twoHanded" : true,
+  "tileDamage": 50,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+   "projectileType" : "peglacitier10lasershot",
+  "projectile" : {
+    "power" : 0.6,
+    "powerCurve" : "peglacitier10laserTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

@@ -1,0 +1,29 @@
+{
+  "projectileName" : "peglacitier10bsmgshot",
+  "frames" : "smgdart.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "bullet",
+  "bounces" : 0,
+  "frameNumber" : 1,  
+  "pointLight" : false,
+  "speed" :60,
+
+  "lightColor" : [200, 200, 255],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [
+	{
+      "effect" : "protectiondrainpeglaci",
+      "amount" : 10
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}
+
+

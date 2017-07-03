@@ -1,0 +1,35 @@
+{
+  "itemName" : "peglacitier9laser",
+  "price" : 1200,
+  "inventoryIcon" : "peglacitier9lasericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
+  "shortdescription" : "Apollo Maser",
+  "image" : "peglacitier9laser.png:<frame>",
+  "imageFrameSelector" : "peglacitier9laserImageSelector",
+  "handPosition" : [-10, -1],
+  "firePosition" : [12, 0],
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "fireTime" : 0.01,
+  "twoHanded" : true,
+  "tileDamage": 50,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+   "projectileType" : "peglacitier9lasershot",
+  "projectile" : {
+    "power" : 0.6,
+    "powerCurve" : "peglacitier9laserTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

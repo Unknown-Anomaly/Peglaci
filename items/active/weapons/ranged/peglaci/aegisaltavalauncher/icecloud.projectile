@@ -1,0 +1,53 @@
+{
+  "projectileName" : "peglacitier9avalaunchershot",
+  "frames" : "icecloud.png",
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "armorPenetration" : 1,
+  "physics" : "laser",
+  "bounces" : 3,
+    "lightColor" : [0, 100, 200],
+  "speed" : 15,
+  "timeToLive" : 0.01,
+   "statusEffects" : [
+    {"effect" : "peglacislow"}
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier9avalaunchershot2",
+      "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier9avalaunchershot1",
+      "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 5,
+      "angleAdjust" : -5
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier9avalaunchershot1",
+      "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 5,
+      "angleAdjust" : 5
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier9avalaunchershot3",
+      "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "defaultwhite" ]
+}
+
+
