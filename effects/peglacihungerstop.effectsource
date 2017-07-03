@@ -1,0 +1,29 @@
+{
+  "kind" : "peglacihungerstop",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "hungerstopmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      []
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        []
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

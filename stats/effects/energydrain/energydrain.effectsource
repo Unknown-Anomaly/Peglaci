@@ -1,0 +1,29 @@
+{
+  "kind" : "energydrain",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "energydrainmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "defaultgreen" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "defaultgreen", "defaultgreen", "defaultgreen", "defaultgreen" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 10 },
+    { "item" : "silk", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacitier5mchest", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armors", "all" ]
+}

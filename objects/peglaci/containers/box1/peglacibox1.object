@@ -11,7 +11,7 @@
   "shortdescription" : "Alloy Crate",
   "race" : "peglaci",
   "health" : 1.5,
-  "retainObjectParametersInItem" : true, 
+  "retainObjectParametersInItem" : true,
 
   "apexDescription" : "A heavy metal crate - some sort of code appears to be flashing around the perimetre.",
   "avianDescription" : "A big metal box - it's somehow cold to the touch.",
@@ -41,7 +41,7 @@
   "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
   "slotCount" : 32,
-  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600
 }

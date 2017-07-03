@@ -1,0 +1,17 @@
+{
+  "name" : "energydrainpeglaci",
+  "effectConfig" : {
+    "regenAmount" : -5,
+    "emissionRate" : 5
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "energyregen.lua"
+  ],
+
+  "animationConfig" : "protectiondrain.animation",
+
+  "label" : "Energy Drain",
+  "icon" : "/interface/statuses/energydrain.png"
+}

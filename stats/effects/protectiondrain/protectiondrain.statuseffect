@@ -1,0 +1,17 @@
+{
+  "name" : "protectiondrainpeglaci",
+  "effectConfig" : {
+    "regenAmount" : -5,
+    "emissionRate" : 5
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "protectiondrain.lua"
+  ],
+
+  "animationConfig" : "protectiondrain.animation",
+
+  "label" : "Armorbreak",
+  "icon" : "/interface/statuses/armorbreak.png"
+}

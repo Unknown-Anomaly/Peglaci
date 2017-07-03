@@ -1,0 +1,14 @@
+{
+  "name" : "peglacislow",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "frostslow.lua"
+  ],
+
+  "animationConfig" : "frostslow.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/cold.png"
+}

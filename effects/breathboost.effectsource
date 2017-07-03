@@ -1,0 +1,29 @@
+{
+  "kind" : "breathboost",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "breathboostmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+     "particles" : [
+      [ "poisonsicknessdust" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "poisonsicknessdust", "poisonsicknessdust2", "poisonsicknessdust", "poisonsicknessdust2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

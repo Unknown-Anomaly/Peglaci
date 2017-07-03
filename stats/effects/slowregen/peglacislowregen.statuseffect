@@ -1,0 +1,17 @@
+{
+  "name" : "peglacislowregen",
+  "effectConfig" : {
+    "healAmount" : 1,
+    "emissionRate" : 3
+  },
+  "defaultDuration" : 600,
+
+  "scripts" : [
+    "bandage.lua"
+  ],
+
+  "animationConfig" : "bandage.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

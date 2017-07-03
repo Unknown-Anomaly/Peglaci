@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "peglacitier5schest", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacitier6schest", "count" : 1 },
+  "groups" : [ "craftingseperator", "armors", "all" ]
+}

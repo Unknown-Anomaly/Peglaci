@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglacitier6smg", "count" : 1 },
+    { "item" : "refinedferozium", "count" : 16}
+  ],
+ "output" : { "item" : "peglacitier10asmg", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

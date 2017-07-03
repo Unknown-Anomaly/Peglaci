@@ -1,0 +1,12 @@
+{
+  "name" : "peglacibreathboost",
+  "effectConfig" : {},
+  "defaultDuration" : 180,
+
+  "scripts" : [
+    "waterbreathing.lua"
+  ],
+  
+  "label" : "Breath Boost",
+  "icon" : "/interface/statuses/breathboost.png"
+}

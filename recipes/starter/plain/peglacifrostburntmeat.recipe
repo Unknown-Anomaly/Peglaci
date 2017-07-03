@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "snow", "count" : 1 },
+    { "item" : "alienmeat", "count" : 1 }
+  ],
+ "output" : { "item" : "peglacifrostburntmeat", "count" : 1 },
+  "groups" : [ "plain", "consumables", "all" ]
+}

@@ -1,0 +1,29 @@
+{
+  "kind" : "stop",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stopmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "slow" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

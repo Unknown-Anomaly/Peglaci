@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 6 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacitier5shead", "count" : 1 },
+  "groups" : [ "craftingseperator", "armors", "all" ]
+}

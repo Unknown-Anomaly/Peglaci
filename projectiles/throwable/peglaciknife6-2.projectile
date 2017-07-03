@@ -1,0 +1,16 @@
+{
+  "projectileName" : "peglacitier6knife-2",
+  "frames" : "peglaciicecloud.png",
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 3,
+    "lightColor" : [0, 255, 255],
+  "speed" : 5,
+   "statusEffects" : [
+    {"effect" : "peglacislow"}
+  ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

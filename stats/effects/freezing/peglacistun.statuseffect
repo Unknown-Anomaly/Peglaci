@@ -1,0 +1,14 @@
+{
+  "name" : "peglacistun",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "freeze.lua"
+  ],
+
+  "animationConfig" : "freeze.animation",
+
+  "label" : "Flash Freeze",
+  "icon" : "/interface/statuses/frozen.png"
+}

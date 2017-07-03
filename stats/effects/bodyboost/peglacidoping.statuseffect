@@ -1,0 +1,14 @@
+{
+  "name" : "peglacidoping",
+  "effectConfig" : {},
+  "defaultDuration" : 30,
+
+  "scripts" : [
+    "bodyboost.lua"
+  ],
+
+  "animationConfig" : "runboost.animation",
+
+  "label" : "Enhanced Reflexes",
+  "icon" : "/interface/statuses/haste25.png"
+}

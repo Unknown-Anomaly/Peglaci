@@ -1,0 +1,7 @@
+{
+  "input" : [
+   
+  ],
+  "output" : { "item" : "peglacimetalpanel", "count" : 300 },
+  "groups" : [ "peglacitesterbox", "materials", "all" ]
+}

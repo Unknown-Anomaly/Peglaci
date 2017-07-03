@@ -1,0 +1,29 @@
+{
+  "kind" : "stun",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stunmessage" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "slow" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}
