@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglaciferoziumminelayer", "count" : 1 },
+    { "item" : "solariumstar", "count" : 8}
+  ],
+ "output" : { "item" : "peglacisolariumminelayer", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier9shocklance", "count" : 1 },
-    { "item" : "refinedferozium", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10shocklance", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
-}

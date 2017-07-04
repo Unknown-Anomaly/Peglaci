@@ -10,8 +10,8 @@
 				{"item" : "peglacitier1chest"},
 				{"item" : "peglacitier1pants"},
 				{"item" : "peglacitier1head"},
-				{"item" : "peglaciemergpistol"},
-				{"item" : [ "peglacitier1knife", 10]},
+				{"item" : "peglaciemergencypistol"},
+				{"item" : [ "peglaciironknife", 10]},
 				{"item" : [ "peglacitorch", 10]}
 				]
 			}]

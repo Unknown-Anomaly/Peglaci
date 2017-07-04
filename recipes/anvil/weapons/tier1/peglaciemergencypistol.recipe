@@ -1,0 +1,6 @@
+{
+  "input" : [
+  ],
+ "output" : { "item" : "peglaciemergencypistol", "count" : 1 },
+  "groups" : [ "peglacitesterbox", "weapons", "all" ]
+}

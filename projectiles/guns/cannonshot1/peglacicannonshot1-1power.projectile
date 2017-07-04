@@ -1,0 +1,25 @@
+{
+  "projectileName" : "peglacicannonshot1-1power",
+  "image" : "peglacicannonshot1power.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 0,
+  "frameNumber" : 1,  
+  "pointLight" : false,
+  "speed" :30,
+  "timeToLive" : 0.2,
+  "lightColor" : [255, 40, 190],
+  "actionOnReap" : [
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    },
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrailpurple" ]
+}

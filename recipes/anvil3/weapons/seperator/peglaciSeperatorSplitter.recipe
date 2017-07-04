@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier8splitter", "count" : 1 },
-    { "item" : "refinedviolium", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10splitter", "count" : 1 },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
-}

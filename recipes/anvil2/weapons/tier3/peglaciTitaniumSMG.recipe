@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "peglacitier5smg", "count" : 1 },
-    { "item" : "titaniumbar", "count" : 16}
+    { "item" : "peglacitungstensmg", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 3}
   ],
- "output" : { "item" : "peglacitier6smg", "count" : 1 },
+ "output" : { "item" : "peglacititaniumsmg", "count" : 1 },
   "groups" : [ "craftinganvil2", "weapons", "all" ]
 }

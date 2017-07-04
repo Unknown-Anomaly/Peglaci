@@ -3,6 +3,6 @@
     { "item" : "peglaciemergpistol", "count" : 1 },
     { "item" : "ironbar", "count" : 8}
   ],
- "output" : { "item" : "peglacitier4pistol", "count" : 1 },
+ "output" : { "item" : "peglaciironpistol", "count" : 1 },
   "groups" : [ "craftinganvil", "weapons", "all" ]
 }

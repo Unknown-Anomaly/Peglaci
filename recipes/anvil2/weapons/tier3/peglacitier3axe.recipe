@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "titaniumbar", "count" : 16 }
-  ],
-  "output" : { "item" : "peglacitier3axe", "count" : 1 },
-  "groups" : [ "craftinganvil2", "weapons", "all" ]
-}

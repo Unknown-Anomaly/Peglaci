@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier4pistol", "count" : 1 },
-    { "item" : "refinedaegisalt", "count" : 16}
-  ],
- "output" : { "item" : "peglacitier10bpistol", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "weapons", "all" ]
-}
