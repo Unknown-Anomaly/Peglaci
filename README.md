@@ -20,3 +20,4 @@ Have not tested:
 The eventual TODO:
  - Balance weapon damage
  - Balance object prices
+ - Graphic updates of duplicated assets.
