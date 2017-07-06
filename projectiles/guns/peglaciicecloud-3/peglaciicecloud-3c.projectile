@@ -1,0 +1,34 @@
+{
+  "projectileName" : "peglaciicecloud-3c",
+  "image" : "peglaciicecloud-3.png",
+  "animationCycle" : 1.2,
+  "frameNumber" : 8,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 3,
+  "pointLight" : false,
+  "speed" :15,
+  "lightColor" : [255, 150, 0],
+  "timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
+    },
+    {
+    "action" : "projectile",
+    "type" : "molotovflame",
+    "fuzzAngle" : 0,
+    "inheritDamageFactor" : 0.2,
+    "angleAdjust" : 0
+    }
+  ],
+  "statusEffects" : [
+    {
+    "effect" : "burning",
+    "amount" : 8
+    }
+	 ],
+  "damageKind" : "default",
+  "emitters" : [ "cloudtrail" ]
+}

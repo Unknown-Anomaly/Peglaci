@@ -1,0 +1,39 @@
+{
+  "itemName" : "peglacitier10minelayer",
+  "price" : 1500,
+  "inventoryIcon" : "peglacitier10minelayericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Disperses powerful Impervium mines - charge to launch a devastating adhesive charge.",
+  "shortdescription" : "Tremor Minelayer X",
+  "image" : "peglacitier10minelayer.png:<frame>",
+  "imageFrameSelector" : "peglacitier10minelayerImageSelector",
+  "handPosition" : [-5, -1],
+  "firePosition" : [12, 0],
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+  "recoilTime" : 0.2,
+  "hands" : [2, 2],
+  "rateOfFire" : [2, 7],
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/electromuzzle/electromuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_shotgun3.wav" } ]
+  },
+
+  "fireOnRelease" : true,
+  
+   "projectileType" : "peglacitier10minelayershot1",
+   "powerProjectileType" : "peglacitier10minelayershotpower",
+  "powerProjectileTime" : [0.3, 50],
+  "projectile" : {
+    "power" : 6,
+    "powerCurve" : "peglacitier10minelayerTimeMultiplier",
+    "color" : [10, 255, 10]
+	}
+
+
+}

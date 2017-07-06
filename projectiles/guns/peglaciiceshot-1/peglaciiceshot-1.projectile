@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglaciiceshot-1",
+  "image" : "peglaciiceshot-1.png",
+  "animationCycle" : 2.2,
+  "frameNumber" : 4,
+  "armorPenetration" : 1,
+  "physics" : "gas",
+  "bounces" : 1,
+  "lightColor" : [0, 100, 200],
+  "speed" : 20,
+  "timeToLive" : 2.2,
+  "actionOnReap" : [
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/peglacicoldsplosion/peglacicoldsplosion.config"
+    }
+  ],
+   "statusEffects" : [
+    {"effect" : "frostslow"}
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "defaultwhite" ]
+}

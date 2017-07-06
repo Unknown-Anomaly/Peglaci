@@ -1,0 +1,51 @@
+{
+  "projectileName" : "peglaciicecloud-2",
+  "image" : "peglaciicecloud-2.png",
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "armorPenetration" : 1,
+  "physics" : "laser",
+  "bounces" : 3,
+  "lightColor" : [0, 100, 200],
+  "speed" : 15,
+  "timeToLive" : 0.01,
+  "statusEffects" : [
+    {"effect" : "frostslow"}
+  ],
+  "actionOnReap" : [
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciiceshot-1",
+    "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 0
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecloud-2-1",
+    "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 5,
+    "angleAdjust" : -5
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecloud-2-1",
+    "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 5,
+    "angleAdjust" : 5
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciiceblade-1",
+    "inheritDamageFactor" : 0.25,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 0
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "defaultwhite" ]
+}

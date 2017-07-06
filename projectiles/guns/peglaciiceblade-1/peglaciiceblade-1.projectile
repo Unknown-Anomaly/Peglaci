@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglaciiceblade-1",
+  "image" : "peglaciiceblade-1.png",
+  "animationCycle" : 2.2,
+  "frameNumber" : 1,
+  "armorPenetration" : 1,
+  "physics" : "stickybullet",
+  "lightColor" : [0, 100, 200],
+  "speed" : 25,
+  "piercing" : true,
+  "timeToLive" : 2,
+  "actionOnReap" : [
+    {
+    "action" : "config",
+    "file" : "/projectiles/explosions/peglacicoldsplosion/peglacicoldsplosion.config"
+    }
+  ],
+   "statusEffects" : [
+    {"effect" : "frostslow"}
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "defaultwhite" ]
+}
