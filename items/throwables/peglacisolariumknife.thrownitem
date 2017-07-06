@@ -1,12 +1,12 @@
 {
-  "itemName" : "peglaciiceball",
-  "price" : 1,
+  "itemName" : "peglacisolariumknife",
+  "price" : 100,
   "rarity" : "Common",
   "category" : "throwableItem",
-  "inventoryIcon" : "peglaciiceball.png",
-  "image" : "peglaciiceball.png",
-  "shortdescription" : "Ice Knife",
-  "description" : "Cold and fragile, but very sharp!",
+  "inventoryIcon" : "peglacisolariumknife.png",
+  "image" : "peglacisolariumknife.png",
+  "shortdescription" : "Disabler",
+  "description" : "Freezes the target's skin, stopping them in their tracks and sapping their heat.",
 
   "ammoUsage" : 1,
 
@@ -14,10 +14,10 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "peglaciiceball",
+  "projectileType" : "peglacisolariumknife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 2,
+    "power" : 250,
     "knockback" : 10,
     "periodicActions" : [
       {

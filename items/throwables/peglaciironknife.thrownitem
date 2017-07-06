@@ -1,12 +1,12 @@
 {
-  "itemName" : "peglaciiceball",
-  "price" : 1,
+  "itemName" : "peglaciironknife",
+  "price" : 10,
   "rarity" : "Common",
   "category" : "throwableItem",
-  "inventoryIcon" : "peglaciiceball.png",
-  "image" : "peglaciiceball.png",
-  "shortdescription" : "Ice Knife",
-  "description" : "Cold and fragile, but very sharp!",
+  "inventoryIcon" : "peglaciironknife.png",
+  "image" : "peglaciironknife.png",
+  "shortdescription" : "Farclaw",
+  "description" : "The traditional Peglaci throwing knife for sports and hunting.",
 
   "ammoUsage" : 1,
 
@@ -14,10 +14,10 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "peglaciiceball",
+  "projectileType" : "peglaciironknife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 2,
+    "power" : 30,
     "knockback" : 10,
     "periodicActions" : [
       {

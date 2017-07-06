@@ -1,9 +1,9 @@
 {
-  "itemName" : "peglacititaniumsmg",
+  "itemName" : "peglacidurasteelsmg",
   "price" : 800,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Titanium slugs weaken armor - stay on target to deal increased damage.",
+  "description" : "Durasteel slugs weaken armor - stay on target to deal increased damage.",
   "shortdescription" : "Peeler Submachinegun III",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon", "ranged", "machinepistol"],
   "level" : 3,
 
-  "inventoryIcon" : "peglacititaniumsmgicon.png",
+  "inventoryIcon" : "peglacidurasteelsmgicon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "peglacitier3smg.png",
+    "middle" : "peglacidurasteelsmg.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },

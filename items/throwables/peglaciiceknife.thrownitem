@@ -1,10 +1,10 @@
 {
-  "itemName" : "peglaciiceball",
-  "price" : 1,
+  "itemName" : "peglaciiceknife",
+  "price" : 5,
   "rarity" : "Common",
   "category" : "throwableItem",
-  "inventoryIcon" : "peglaciiceball.png",
-  "image" : "peglaciiceball.png",
+  "inventoryIcon" : "peglaciiceknife.png",
+  "image" : "peglaciiceknife.png",
   "shortdescription" : "Ice Knife",
   "description" : "Cold and fragile, but very sharp!",
 
@@ -14,10 +14,10 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "peglaciiceball",
+  "projectileType" : "peglaciiceknife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 2,
+    "power" : 4,
     "knockback" : 10,
     "periodicActions" : [
       {

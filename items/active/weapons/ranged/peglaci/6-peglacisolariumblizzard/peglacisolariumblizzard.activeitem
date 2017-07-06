@@ -23,7 +23,8 @@
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
-    },
+    }
+  },
 
   "baseOffset" : [1.0, 0.120],
   "muzzleOffset" : [1.645, 0.125],

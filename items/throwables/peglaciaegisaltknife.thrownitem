@@ -1,12 +1,12 @@
 {
-  "itemName" : "peglaciiceball",
-  "price" : 1,
+  "itemName" : "peglaciaegisaltknife",
+  "price" : 90,
   "rarity" : "Common",
   "category" : "throwableItem",
-  "inventoryIcon" : "peglaciiceball.png",
-  "image" : "peglaciiceball.png",
-  "shortdescription" : "Ice Knife",
-  "description" : "Cold and fragile, but very sharp!",
+  "inventoryIcon" : "peglaciaegisaltknife.png",
+  "image" : "peglaciaegisaltknife.png",
+  "shortdescription" : "Witherblade",
+  "description" : "Pierces through foes while draining their very energy!",
 
   "ammoUsage" : 1,
 
@@ -14,10 +14,10 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "peglaciiceball",
+  "projectileType" : "peglaciaegisaltknife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 2,
+    "power" : 200,
     "knockback" : 10,
     "periodicActions" : [
       {
