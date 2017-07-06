@@ -1,22 +1,22 @@
 {
-  "itemName" : "peglacivioliumrailgun",
+  "itemName" : "peglacisolariumrailgun",
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Fires a quick and devastating round - charge to fire through walls.",
-  "shortdescription" : "Eclair Railgun",
+  "shortdescription" : "Eclair Railgun X",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "sniperrifle"],
   "level" : 5,
 
-  "inventoryIcon" : "peglacivioliumrailgunicon.png",
+  "inventoryIcon" : "peglacisolariumrailgunicon.png",
 
-  "animation" : "peglacivioliumrailgun.animation",
+  "animation" : "peglacisolariumrailgun.animation",
   "animationParts" : {
-    "gun" : "peglacivioliumrailgun.png",
-    "gunfullbright" : "peglacivioliumrailgunfullbright.png",
+    "gun" : "peglacisolariumrailgun.png",
+    "gunfullbright" : "peglacisolariumrailgunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {
@@ -39,7 +39,7 @@
         "time" : 1,
         "energyCost" : 32,
         "cooldown" : 0.1,
-        "projectileType" : "peglacivioliumrailgundart-1",
+        "projectileType" : "peglacisolariumrailgundart-1",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90,
@@ -53,7 +53,7 @@
         "time" : 2,
         "energyCost" : 52,
         "cooldown" : 0.5,
-        "projectileType" : "peglacivioliumrailgunpower-1",
+        "projectileType" : "peglacisolariumrailgunpower-1",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110,

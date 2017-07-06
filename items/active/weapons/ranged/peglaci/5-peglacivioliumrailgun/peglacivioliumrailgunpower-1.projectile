@@ -1,22 +1,22 @@
 {
-  "projectileName" : "peglacitier10railgunshotpower",
-  "frames" : "shotgundartpower.png",
+  "projectileName" : "peglacivioliumrailgunpower-1",
+  "frames" : "peglacivioliumrailgunpower-1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",
   "bounces" : 0,
-  "frameNumber" : 1,  
+  "frameNumber" : 1,
   "pointLight" : false,
-  "speed" :60,  
+  "speed" :60,
    "lightColor" : [40, 40, 190],
   "actionOnReap" : [
   	{
       "action" : "config",
-      "file" : "/projectiles/explosions/tinyboom/tinyboom.config"
+      "file" : "/projectiles/explosions/peglacitinyboom/peglacitinyboom.config"
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier10railgunshotpowerwait1",
+      "type" : "peglacivioliumrailgunpowerwait-1",
       "inheritDamageFactor" : 1,
       "angleAdjust" : 0
     }
@@ -24,5 +24,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-
