@@ -1,0 +1,7 @@
+{
+  "input" : [
+
+  ],
+  "output" : { "item" : "peglacipykretedecor", "count" : 300 },
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

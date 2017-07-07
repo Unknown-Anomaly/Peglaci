@@ -1,7 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "output" : { "item" : "peglacihorcable", "count" : 300 },
-  "groups" : [ "peglacitesterbox", "materials", "all" ]
-}

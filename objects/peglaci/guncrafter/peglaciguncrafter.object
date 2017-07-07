@@ -8,16 +8,16 @@
   "race" : "generic",
   "printable" : false,
   "price" : 100,
-  
+
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/craftinganvil.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : " Iron Anvil",
-        "subtitle" : " ^#b9b5b2;Armour and Weapons",
+        "title" : "Gun Crafter",
+        "subtitle" : "Handguns",
         "icon" : {
-          "file" : "/interface/crafting/craftingguncrafter.png"
+          "file" : "objects/peglaci/guncrafter/peglaciguncraftericon.png"
         }
       }
     },
@@ -40,7 +40,7 @@
   "flickerMaxIntensity" : 1,
   "flickerPeriodVariance" : 0.0,
   "flickerIntensityVariance" : 0,
-  
+
   "inventoryIcon" : "peglaciguncraftericon.png",
   "orientations" : [
     {

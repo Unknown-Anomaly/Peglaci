@@ -4,5 +4,5 @@
     { "item" : "titaniumbar", "count" : 3}
   ],
  "output" : { "item" : "peglacititaniumsmg", "count" : 1 },
-  "groups" : [ "craftinganvil2", "weapons", "all" ]
+  "groups" : [ "craftinganvil2", "craftingguncrafter", "weapons", "all" ]
 }

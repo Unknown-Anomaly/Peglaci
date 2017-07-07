@@ -12,7 +12,7 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "peglacitungstencestus.png:front",
-  "animation" : "fistweapon.animation",
+  "animation" : "/items/active/weapons/fist.animation",
   "animationParts" : {
     "weapon" : "peglacitungstencestus.png",
     "swoosh" : "swoosh/clawswoosh.png"

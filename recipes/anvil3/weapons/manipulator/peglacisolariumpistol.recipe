@@ -4,5 +4,5 @@
     { "item" : "solariumstar", "count" : 8}
   ],
  "output" : { "item" : "peglacisolariumpistol", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "craftingguncrafter", "weapons", "all" ]
 }

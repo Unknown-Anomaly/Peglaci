@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "peglacispongeweed", "count" : 1 },
+    { "item" : "peglacisnowberry", "count" : 1 },
+    { "item" : "bluestim", "count" : 3 }
+  ],
+ "output" : { "item" : "peglacioxymax", "count" : 1 },
+  "groups" : [ "craftingfood", "consumables", "snacks" ]
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglacisolariumknife-1a",
+  "frames" : "peglaciknife4-2.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "bouncy",
+  "bounces" : 1,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 10,
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "peglacisolariumknife-1b",
+      "inheritDamageFactor" : 0,
+      "angleAdjust" : 0
+    }
+  ],
+  "statusEffects" : [
+  ],
+  "damageKind" : "dagger",
+  "emitters" : [ "peglacitrail" ]
+}

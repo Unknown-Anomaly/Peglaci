@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "bread", "count" : 1 },
-    { "item" : "peglacifrostburntmeat", "count" : 1 },
-    { "item" : "boneboo", "count" : 2 }
-  ],
- "output" : { "item" : "peglacicoldmarrowpanini", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "entree" ]
-}

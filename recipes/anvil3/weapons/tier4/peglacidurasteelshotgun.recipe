@@ -4,5 +4,5 @@
     { "item" : "durasteelbar", "count" : 3}
   ],
  "output" : { "item" : "peglacidurasteelshotgun", "count" : 1 },
-  "groups" : [ "craftinganvil3", "weapons", "all" ]
+  "groups" : [ "craftinganvil3", "craftingguncrafter", "weapons", "all" ]
 }

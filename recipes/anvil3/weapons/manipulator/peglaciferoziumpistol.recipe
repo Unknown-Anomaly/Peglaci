@@ -4,5 +4,5 @@
     { "item" : "refinedaegisalt", "count" : 8}
   ],
  "output" : { "item" : "peglaciferoziumpistol", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "craftingguncrafter", "weapons", "all" ]
 }

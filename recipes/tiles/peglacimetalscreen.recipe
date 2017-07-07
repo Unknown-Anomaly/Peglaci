@@ -1,7 +1,0 @@
-{
-  "input" : [
-   
-  ],
-  "output" : { "item" : "peglacimetalscreen", "count" : 300 },
-  "groups" : [ "peglacitesterbox", "materials", "all" ]
-}
