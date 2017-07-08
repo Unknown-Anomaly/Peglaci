@@ -1,3 +1,4 @@
 [
+  { "op" : "add" ,"path" : "/species/-" ,"value" : "peglaci" },
 	{ "op" : "add", "path" : "/defaultCodexes/peglaci", "value" : [ "peglacicannibals", "peglacigiants", "peglaciorigins", "peglacidreadwing" ] }
 ]

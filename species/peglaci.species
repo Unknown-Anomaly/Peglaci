@@ -3,7 +3,7 @@
 	"charCreationTooltip" : {
 		"title" : "Peglaci",
 		"subTitle" : "P",
-		"description" : "..."
+		"description" : "Peglaci are a race of hardy goatfolk. Formerly Apex predators their inteliect grew, more so when touched by the ones they dub the Giants."
 	},
 	"nameGen" : [ "/species/peglacinamegen.config:names", "/species/peglacinamegen.config:names" ],
 	"ouchNoises" : [ "/sfx/humanoid/peglacihurt_male1.ogg", "/sfx/humanoid/peglacihurt_female1.ogg" ],
