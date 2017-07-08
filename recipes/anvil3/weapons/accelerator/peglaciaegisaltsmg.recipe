@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacidurasteelsmg", "count" : 1 },
-    { "item" : "refinedaegisalt", "count" : 16}
-  ],
- "output" : { "item" : "peglaciaegisaltsmg", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "craftingguncrafter", "weapons", "all" ]
-}

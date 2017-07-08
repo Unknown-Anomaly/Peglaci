@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacititaniumsmg", "count" : 1 },
-    { "item" : "durasteelbar", "count" : 3}
-  ],
- "output" : { "item" : "peglacidurasteelsmg", "count" : 1 },
-  "groups" : [ "craftinganvil3", "craftingguncrafter", "weapons", "all" ]
-}

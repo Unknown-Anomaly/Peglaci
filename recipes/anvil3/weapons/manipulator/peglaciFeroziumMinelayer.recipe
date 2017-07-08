@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacidurasteelsplitter", "count" : 1 },
-    { "item" : "refinedferozium", "count" : 16}
-  ],
- "output" : { "item" : "peglaciferoziumminelayer", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
-}

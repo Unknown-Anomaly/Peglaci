@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglacitier5blizzard", "count" : 1 },
+    { "item" : "solariumstar", "count" : 8}
+  ],
+ "output" : { "item" : "peglacitier6blizzard", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

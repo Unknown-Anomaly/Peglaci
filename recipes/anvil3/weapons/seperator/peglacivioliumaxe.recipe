@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedviolium", "count" : 16 }
-  ],
-  "output" : { "item" : "peglacivioliumaxe", "count" : 1 },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
-}

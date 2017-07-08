@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 4 }
-  ],
-  "output" : { "item" : "peglaciironcestus", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}

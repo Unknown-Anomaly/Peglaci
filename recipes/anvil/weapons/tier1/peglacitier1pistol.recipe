@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglacitier0pistol", "count" : 1 },
+    { "item" : "ironbar", "count" : 8}
+  ],
+ "output" : { "item" : "peglacitier1pistol", "count" : 1 },
+  "groups" : [ "craftinganvil", "craftingguncrafter", "weapons", "all" ]
+}

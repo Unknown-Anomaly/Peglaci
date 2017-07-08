@@ -1,12 +1,12 @@
 {
   "itemName" : "peglacitier4knife",
-  "price" : 40,
+  "price" : 70,
   "rarity" : "Common",
   "category" : "throwableItem",
   "inventoryIcon" : "peglacitier4knife.png",
   "image" : "peglacitier4knife.png",
-  "shortdescription" : "Spiker",
-  "description" : "A flat discus that sticks to objects momentarily before emitting frozen blades.",
+  "shortdescription" : "Typhoon Harpoon",
+  "description" : "Flies straight for a moment before exploding into motion under its own power.",
 
   "ammoUsage" : 1,
 
@@ -17,7 +17,7 @@
   "projectileType" : "peglacitier4knife",
   "projectileConfig" : {
     "speed" : 45,
-    "power" : 150,
+    "power" : 250,
     "knockback" : 10,
     "periodicActions" : [
       {

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ice", "count" : 2 }
-  ],
-  "output" : { "item" : "peglaciiceknife", "count" : 5 },
-  "groups" : [ "plain", "craftinganvil", "weapons", "all" ]
-}

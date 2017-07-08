@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacivioliumcannon", "count" : 1 },
+    { "item" : "peglacitier5cannon", "count" : 1 },
     { "item" : "solariumstar", "count" : 8}
   ],
  "output" : { "item" : "peglacisolariumcannon", "count" : 1 },
