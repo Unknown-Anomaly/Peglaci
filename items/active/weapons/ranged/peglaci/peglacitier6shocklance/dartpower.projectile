@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglacitier10shocklanceshotpower",
+  "frames" : "shockwavepower.png",
+  "animationCycle" : 1.9,
+  "armorPenetration" : 3,
+  "physics" : "laser",
+  "bounces" : 2,
+  "frameNumber" : 8,  
+  "timeToLive" : 2,
+  "piercing" : true,
+  "pointLight" : false,
+  "speed" :45,    
+   "lightColor" : [40, 40, 190],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "damageKind" : "slash",
+  "emitters" : [ "peglacitraillong" ]
+}
+

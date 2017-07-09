@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "peglacitier5cannon", "count" : 1 },
+    { "item" : "peglacitier5shocklance", "count" : 1 },
     { "item" : "solariumstar", "count" : 8}
   ],
- "output" : { "item" : "peglacitier6cannon", "count" : 1 },
+ "output" : { "item" : "peglacitier6shocklance", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]
 }

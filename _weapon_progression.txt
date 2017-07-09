@@ -25,7 +25,7 @@ T3 peglacitier3axe, peglacitier3spear
 T4 peglacitier4axe, peglacitier4spear
 T5 peglacitier5axe, peglacitier5spear - Seperator
 T6 peglacitier6axe, peglacitier6spear - Seperator
- 
+
 Fist: (fabricated)
 T1 peglacitier1cestus
 T2 peglacitier2cestus
@@ -44,7 +44,7 @@ T5 peglacitier5knife - Accelerator
 T6 peglacitier6knife - Accelerator
 
 Ranged: (upgraded)
-T0 peglacitier0pistol 
+T0 peglacitier0pistol
 T1 peglacitier1pistol
 T2 peglacitier2shotgun, peglacitier2smg, peglacitier2pistol
 T3 peglacitier3shotgun, peglacitier3smg, peglacitier3pistol
@@ -52,11 +52,11 @@ T4 peglacitier4shotgun, peglacitier4smg, peglacitier4pistol, peglacitier4cannon,
 
 T5 A peglacitier5minigun, peglacitier5blizzard, peglacitier5smg
 T5 M peglacitier5avalauncher, peglacitier5minelayer, peglacitier5pistol
-T5 S peglacitier5railgun, peglacitier5shotgun, peglacitier5cannon
+T5 S peglacitier5railgun, peglacitier5shotgun, peglacitier5shocklance
 
 T6 A peglacitier6minigun, peglacitier6blizzard, peglacitier6smg
 T6 M peglacitier6avalauncher, peglacitier6minelayer, peglacitier6pistol
-T6 S peglacitier6railgun, peglacitier6shotgun, peglacitier6cannon
+T6 S peglacitier6railgun, peglacitier6shotgun, peglacitier6shocklance
 
 T0 -> T1
 peglacitier0pistol > peglacitier1pistol
@@ -75,7 +75,7 @@ peglacitier4icethrower > peglacitier5blizzard, peglacitier5avalauncher
 peglacitier4smg > peglacitier5smg
 peglacitier4splitter > peglacitier5minelayer
 peglacitier4pistol > peglacitier5pistol
-peglacitier4cannon > peglacitier5cannon, peglacitier5railgun
+peglacitier4cannon > peglacitier5shocklance, peglacitier5railgun
 peglacitier4shotgun > peglacitier5shotgun
 peglacitier4machinegun> peglacitier5minigun
 T5 -> T6
@@ -84,7 +84,7 @@ peglacitier5avalauncher > peglacitier6avalauncher
 peglacitier5smg >         peglacitier6smg
 peglacitier5minelayer >   peglacitier6minelayer
 peglacitier5pistol >      peglacitier6pistol
-peglacitier5cannon >      peglacitier6cannon
+peglacitier5shocklance >  peglacitier6shocklance
 peglacitier5railgun >     peglacitier6railgun
 peglacitier5shotgun >     peglacitier6shotgun
 peglacitier5minigun >     peglacitier6minigun
