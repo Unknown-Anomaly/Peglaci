@@ -8,16 +8,16 @@
 
   "backgroundOverlays" : [
     {
-      "image" : "peglaciT6.png",
+      "image" : "peglacit6.png",
        "position" : [22, -3],
       "fullbright" : true
     },
     {
-      "image" : "peglaciT6lit.png",
+      "image" : "peglacit6lit.png",
      "position" : [22, -3]
     }
   ],
 
   "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "peglaciT6blocks.png"
+  "blockImage" : "peglacit6blocks.png"
 }

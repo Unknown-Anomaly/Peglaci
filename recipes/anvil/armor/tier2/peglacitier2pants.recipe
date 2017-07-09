@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 4 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier2pants", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "craftinganvil", "armors", "all" ]
 }

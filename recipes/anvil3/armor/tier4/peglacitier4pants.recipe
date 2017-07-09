@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "durasteelbar", "count" : 4 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier4pants", "count" : 1 },
-  "groups" : [ "scifianvil", "armors", "all" ]
+  "groups" : [ "craftinganvil3", "armors", "all" ]
 }

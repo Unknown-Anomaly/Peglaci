@@ -3,6 +3,7 @@
     { "item" : "refinedferozium", "count" : 4 },
     { "item" : "silk", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier5mpants", "count" : 1 },
   "groups" : [ "craftingmanipulator", "armors", "all" ]
 }

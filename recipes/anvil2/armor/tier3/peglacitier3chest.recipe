@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 10 }   
+    { "item" : "titaniumbar", "count" : 10 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier3chest", "count" : 1 },
-  "groups" : [ "metalworkstation", "armors", "all" ]
+  "groups" : [ "craftinganvil2", "armors", "all" ]
 }

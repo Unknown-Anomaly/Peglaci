@@ -3,6 +3,7 @@
     { "item" : "solariumstar", "count" : 12 },
     { "item" : "peglacitier5mhead", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier6mhead", "count" : 1 },
   "groups" : [ "craftingmanipulator", "armors", "all" ]
 }

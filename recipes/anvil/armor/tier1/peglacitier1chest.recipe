@@ -2,6 +2,7 @@
   "input" : [
     { "item" : "ironbar", "count" : 5 }
   ],
+  "duration" : 5,
   "output" : { "item" : "peglacitier1chest", "count" : 1 },
-  "groups" : [ "anvil", "armors", "all" ]
+  "groups" : [ "craftinganvil", "armors", "all" ]
 }
