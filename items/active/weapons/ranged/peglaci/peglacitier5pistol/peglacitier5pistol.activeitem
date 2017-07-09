@@ -2,7 +2,7 @@
   "itemName" : "peglacitier5pistol",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Rare",
   "description" : "Ferozium components allow for greater power. Alternate fire stuns the target momentarily.",
   "shortdescription" : "Peacekeeper Pistol V",
   "tooltipKind" : "gun",

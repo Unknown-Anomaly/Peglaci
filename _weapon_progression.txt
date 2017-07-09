@@ -1,16 +1,16 @@
 Tier 1
-craftinganvil (ironbar) - common - 200
+craftinganvil (ironbar) - Common - 200
 Tier 2
-craftinganvil (tungstenbar) - common - 300
+craftinganvil (tungstenbar) - Common - 300
 Tier 3
-craftinganvil2 (titaniumbar) - uncommon - 400
+craftinganvil2 (titaniumbar) - Uncommon - 400
 Tier 4
-craftinganvil3 (durasteelbar)  - rare - 500
-Tier 5* - legendary - 600
+craftinganvil3 (durasteelbar)  - Uncommon - 500
+Tier 5* - Rare - 600
 craftingaccelerator (refinedaegisalt) - Aegisalt, Ferozium (5,6) Energy (Ranged)
 craftingmanipulator (refinedferozium) - Rubium, Cerulium (9,7) Damage (Mage)
 craftingseperator (refinedviolium) - Violium, Impervium (8,10) Health (Melee)
-Tier 6 (solariumstar) - legendary - 700
+Tier 6 (solariumstar) - Legendary - 700
 
 accelerator: high fire-rate, med damage, med energy
 manipulator: high damage, high energy cost

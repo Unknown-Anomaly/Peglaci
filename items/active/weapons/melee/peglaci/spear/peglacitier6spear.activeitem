@@ -3,7 +3,7 @@
   "price" : 1500,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Legendary",
   "description" : "Born of cold and winter air and mountain rain combining.",
   "shortdescription" : "Frozen-Heart",
   "tooltipKind" : "sword",

@@ -3,7 +3,7 @@
   "level" : 6,
   "price" : 1500,
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "description" : "A cold, reaping blade of Cerulium.",
   "shortdescription" : "Snowscythe",
   "tooltipKind" : "sword",

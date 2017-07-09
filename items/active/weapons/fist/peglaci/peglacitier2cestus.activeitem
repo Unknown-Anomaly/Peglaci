@@ -3,7 +3,7 @@
   "price" : 300,
   "level" : 4,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "Common",
   "description" : "Heavy and sharp to smash through armor!",
   "shortdescription" : "Handaxe",
   "tooltipKind" : "fistweapon",
@@ -12,10 +12,10 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "peglacitier2cestus.png:front",
-  "animation" : "/items/active/weapons/fist.animation",
+  "animation" : "/items/active/weapons/fist/fistweapon.animation",
   "animationParts" : {
     "weapon" : "peglacitier2cestus.png",
-    "swoosh" : "swoosh/clawswoosh.png"
+    "swoosh" : "/items/active/weapons/fist/swoosh/slash.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "partStates" : { "attack" : { "fire" : { "properties" : {
@@ -25,7 +25,7 @@
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
   },
-  "scripts" : [ "fistweapon.lua" ],
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.1,

@@ -3,7 +3,7 @@
   "level" : 6,
   "price" : 1500,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Legendary",
   "description" : "The edge burns like a shard of ice in the dead of coldest night.",
   "shortdescription" : "Dark-Of-Night",
   "tooltipKind" : "sword",

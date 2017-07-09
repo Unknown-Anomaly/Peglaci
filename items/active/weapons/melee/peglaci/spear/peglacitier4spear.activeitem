@@ -3,7 +3,7 @@
   "prphysical" : 1500,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "description" : "Sharp on the inside edge to hook guts.",
   "shortdescription" : "Hookedge",
   "tooltipKind" : "sword",

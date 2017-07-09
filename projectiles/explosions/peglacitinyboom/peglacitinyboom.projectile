@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitinyboom",
-  "frames" : "peglacitinyboom.png",
+  "image" : "peglacitinyboom.png",
   "animationCycle" : 0.2,
   "level" : 3,
   "frameNumber" : 6,

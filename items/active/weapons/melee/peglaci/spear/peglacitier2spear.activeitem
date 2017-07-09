@@ -3,7 +3,7 @@
   "prphysical" : 800,
   "level" : 3,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "Common",
   "description" : "Two teeth to pierce thick hides.",
   "shortdescription" : "Bident",
   "tooltipKind" : "sword",

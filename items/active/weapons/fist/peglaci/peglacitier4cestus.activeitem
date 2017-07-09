@@ -3,7 +3,7 @@
   "price" : 600,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "rare",
+  "rarity" : "Uncommon",
   "description" : "Shaped to draw entrails out of prey.",
   "shortdescription" : "Guthook",
   "tooltipKind" : "fistweapon",
@@ -12,10 +12,10 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "peglacitier4cestus.png:front",
-  "animation" : "/items/active/weapons/fist.animation",
+  "animation" : "/items/active/weapons/fist/fistweapon.animation",
   "animationParts" : {
     "weapon" : "peglacitier4cestus.png",
-    "swoosh" : "swoosh/clawswoosh.png"
+    "swoosh" : "/items/active/weapons/fist/swoosh/uppercutswoosh.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "partStates" : { "attack" : { "fire" : { "properties" : {
@@ -25,7 +25,7 @@
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
   },
-  "scripts" : [ "fistweapon.lua" ],
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.1,

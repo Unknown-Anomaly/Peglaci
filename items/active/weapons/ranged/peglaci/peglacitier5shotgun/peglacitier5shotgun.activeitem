@@ -2,7 +2,7 @@
   "itemName" : "peglacitier5shotgun",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "Improved materials increase damage capacity - charge to fire an incediary grenade.",
   "shortdescription" : "Geyser Shotgun IV",
   "tooltipKind" : "gun",

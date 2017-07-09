@@ -3,7 +3,7 @@
   "price" : 600,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Rare",
   "description" : "The Frosteel edge tears through armor and flesh with equal grace.",
   "shortdescription" : "Crescent-Fang",
   "tooltipKind" : "fistweapon",
@@ -12,10 +12,10 @@
   "itemTags" : ["weapon"],
 
   "inventoryIcon" : "peglacitier5cestus.png:front",
-  "animation" : "/items/active/weapons/fist.animation",
+  "animation" : "/items/active/weapons/fist/fistweapon.animation",
   "animationParts" : {
     "weapon" : "peglacitier5cestus.png",
-    "swoosh" : "swoosh/clawswoosh.png"
+    "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "partStates" : { "attack" : { "fire" : { "properties" : {
@@ -25,7 +25,7 @@
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
   },
-  "scripts" : [ "fistweapon.lua" ],
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.1,

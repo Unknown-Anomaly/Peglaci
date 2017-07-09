@@ -2,7 +2,7 @@
   "itemName" : "peglacitier6pistol",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Legendary",
   "description" : "Solarium components allow for greater power. Alternate fire stuns the target momentarily.",
   "shortdescription" : "Peacekeeper Pistol VI",
   "tooltipKind" : "gun",

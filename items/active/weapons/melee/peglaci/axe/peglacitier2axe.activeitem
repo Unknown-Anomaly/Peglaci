@@ -3,7 +3,7 @@
   "level" : 3,
   "price" : 800,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "Common",
   "description" : "Bites like a freezing wind.",
   "shortdescription" : "Frostbite",
   "tooltipKind" : "sword",

@@ -3,7 +3,7 @@
   "price" : 200,
   "level" : 1,
   "maxStack" : 1,
-  "rarity" : "common",
+  "rarity" : "Common",
   "description" : "Spear used to hunt small game.",
   "shortdescription" : "Hunting Spear",
   "tooltipKind" : "sword",

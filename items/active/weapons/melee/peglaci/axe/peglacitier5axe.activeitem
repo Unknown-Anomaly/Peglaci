@@ -3,7 +3,7 @@
   "level" : 5,
   "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Rare",
   "description" : "A Rubium handle and a Frosteel blade make this axe beyond compare.",
   "shortdescription" : "Glaciercleave",
   "tooltipKind" : "sword",

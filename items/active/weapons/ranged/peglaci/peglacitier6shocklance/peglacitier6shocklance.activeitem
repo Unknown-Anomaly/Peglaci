@@ -1,22 +1,23 @@
 {
-  "itemName" : "peglacitier5minelayer",
+  "itemName" : "peglacitier6shocklance",
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Disperses powerful Ferozium mines - charge to launch a devastating adhesive charge.",
-  "shortdescription" : "Tremor Minelayer",
+  "description" : "Solarium compressor fires a dense pulse of sound - charge to fire a ricocheting blast.",
+  "shortdescription" : "Abbatoir Shocklance X",
   "tooltipKind" : "gun",
-  "category" : "shotgun",
+  "category" : "Rifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","shotgun"],
-  "level" : 4,
+  "itemTags" : ["weapon", "ranged", "rifle"],
+  "level" : 5,
 
-  "inventoryIcon" : "peglacitier5minelayericon.png",
+  "inventoryIcon" : "peglacitier6shocklanceicon.png",
 
-  "animation" : "peglacitier5minelayer.animation",
+  "animation" : "peglacitier6shocklance.animation",
   "animationParts" : {
-    "gun" : "peglacitier5minelayer.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+    "gun" : "peglacitier6shocklance.png",
+    "gunfullbright" : "",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {
     "sounds" : {
@@ -24,7 +25,6 @@
     }
   },
 
-  "baseOffset" : [1.2, 0.26],
   "muzzleOffset" : [1.4, 0.5],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -38,7 +38,7 @@
         "time" : 0,
         "energyCost" : 5,
         "cooldown" : 0.1,
-        "projectileType" : "peglaciferoziumminelayershot-1",
+        "projectileType" : "peglacitier6shocklanceshot",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
         "baseDamage" : 1.5,
@@ -48,7 +48,7 @@
         "time" : 1.0,
         "energyCost" : 40,
         "cooldown" : 0.5,
-        "projectileType" : "peglaciferoziumminelayershotpower-1",
+        "projectileType" : "peglacitier6shocklanceshotpower",
         "projectileParameters" : {},
         "inaccuracy" : 0,
         "baseDamage" : 7,
