@@ -1,0 +1,90 @@
+Tier 1
+craftinganvil (ironbar) - common - 200
+Tier 2
+craftinganvil (tungstenbar) - common - 300
+Tier 3
+craftinganvil2 (titaniumbar) - uncommon - 400
+Tier 4
+craftinganvil3 (durasteelbar)  - rare - 500
+Tier 5* - legendary - 600
+craftingaccelerator (refinedaegisalt) - Aegisalt, Ferozium (5,6) Energy (Ranged)
+craftingmanipulator (refinedferozium) - Rubium, Cerulium (9,7) Damage (Mage)
+craftingseperator (refinedviolium) - Violium, Impervium (8,10) Health (Melee)
+Tier 6 (solariumstar) - legendary - 700
+
+accelerator: high fire-rate, med damage, med energy
+manipulator: high damage, high energy cost
+separator: very high damage, low fire rate
+
+Melee: (fabricated)
+ - axe, spear 			{"item":"peglacispear"}
+
+T1 peglacitier1axe, peglacitier1spear
+T2 peglacitier2axe, peglacitier2spear
+T3 peglacitier3axe, peglacitier3spear
+T4 peglacitier4axe, peglacitier4spear
+T5 peglacitier5axe, peglacitier5spear - Seperator
+T6 peglacitier6axe, peglacitier6spear - Seperator
+ 
+Fist: (fabricated)
+T1 peglacitier1cestus
+T2 peglacitier2cestus
+T3 peglacitier3cestus
+T4 peglacitier4cestus
+T5 peglacitier5cestus - Manipulator
+T6 peglacitier6cestus - Manipulator
+
+Thrown: (fabricated)
+T0 peglacitier0knife - Hand
+T1 peglacitier1knife
+T2 peglacitier2knife
+T3 peglacitier3knife
+T4 peglacitier4knife
+T5 peglacitier5knife - Accelerator
+T6 peglacitier6knife - Accelerator
+
+Ranged: (upgraded)
+T0 peglacitier0pistol 
+T1 peglacitier1pistol
+T2 peglacitier2shotgun, peglacitier2smg, peglacitier2pistol
+T3 peglacitier3shotgun, peglacitier3smg, peglacitier3pistol
+T4 peglacitier4shotgun, peglacitier4smg, peglacitier4pistol, peglacitier4cannon, peglacitier4splitter, peglacitier4icethrower, peglacitier4machinegun
+
+T5 A peglacitier5minigun, peglacitier5blizzard, peglacitier5smg
+T5 M peglacitier5avalauncher, peglacitier5minelayer, peglacitier5pistol
+T5 S peglacitier5railgun, peglacitier5shotgun, peglacitier5cannon
+
+T6 A peglacitier6minigun, peglacitier6blizzard, peglacitier6smg
+T6 M peglacitier6avalauncher, peglacitier6minelayer, peglacitier6pistol
+T6 S peglacitier6railgun, peglacitier6shotgun, peglacitier6cannon
+
+T0 -> T1
+peglacitier0pistol > peglacitier1pistol
+T1 -> T2
+peglacitier1pistol > peglacitier2pistol, peglacitier2shotgun, peglacitier2smg
+T2 -> T3
+peglacitier2pistol > peglacitier3pistol
+peglacitier2shotgun > peglacitier3shotgun
+peglacitier2smg > peglacitier3smg
+T3 -> T4
+peglacitier3shotgun > peglacitier4cannon, peglacitier4shotgun, peglacitier4splitter
+peglacitier3smg > peglacitier4icethrower, peglacitier4machinegun, peglacitier4smg
+peglacitier3pistol > peglacitier4pistol
+T4 -> T5
+peglacitier4icethrower > peglacitier5blizzard, peglacitier5avalauncher
+peglacitier4smg > peglacitier5smg
+peglacitier4splitter > peglacitier5minelayer
+peglacitier4pistol > peglacitier5pistol
+peglacitier4cannon > peglacitier5cannon, peglacitier5railgun
+peglacitier4shotgun > peglacitier5shotgun
+peglacitier4machinegun> peglacitier5minigun
+T5 -> T6
+peglacitier5blizzard >    peglacitier6blizzard
+peglacitier5avalauncher > peglacitier6avalauncher
+peglacitier5smg >         peglacitier6smg
+peglacitier5minelayer >   peglacitier6minelayer
+peglacitier5pistol >      peglacitier6pistol
+peglacitier5cannon >      peglacitier6cannon
+peglacitier5railgun >     peglacitier6railgun
+peglacitier5shotgun >     peglacitier6shotgun
+peglacitier5minigun >     peglacitier6minigun

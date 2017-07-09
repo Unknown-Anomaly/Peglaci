@@ -18,6 +18,6 @@ Have not tested:
  - Projectile effects
 
 The eventual TODO:
+ - https://github.com/Unknown-Anomaly/Peglaci/blob/master/_gfx_assets_to_update.txt
  - Balance weapon damage
  - Balance object prices
- - Graphic updates of duplicated assets.
