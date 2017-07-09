@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier6achest", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armors", "all" ]
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
 }

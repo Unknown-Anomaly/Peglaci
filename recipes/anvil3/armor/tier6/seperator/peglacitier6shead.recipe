@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "solariumstar", "count" : 12 },
-    { "item" : "peglacitier6shead", "count" : 1 }
+    { "item" : "peglacitier5shead", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier6shead", "count" : 1 },
-  "groups" : [ "craftingseperator", "armors", "all" ]
+  "groups" : [ "craftingseparator", "armours", "all" ]
 }

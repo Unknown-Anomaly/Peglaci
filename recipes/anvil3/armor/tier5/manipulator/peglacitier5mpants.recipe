@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier5mpants", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "armors", "all" ]
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
 }

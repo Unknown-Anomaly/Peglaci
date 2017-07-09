@@ -4,5 +4,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier4head", "count" : 1 },
-  "groups" : [ "craftinganvil3", "armors", "all" ]
+  "groups" : [ "craftinganvil3", "armours", "all" ]
 }
