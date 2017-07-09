@@ -7,9 +7,9 @@ Currently working:
  - Ship
  - Racial selection
  - Clothing
+ - Armours
 
 Currently NOT working:
- - Armors
  - Weapons
 
 Have not tested:
