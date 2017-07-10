@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier5shocklanceshot",
-  "frames" : "shockwave.png",
+  "frames" : "peglacitier5shocklanceshot.png",
   "animationCycle" : 0.1,
   "armorPenetration" : 3,
   "physics" : "bullet",

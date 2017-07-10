@@ -9,7 +9,7 @@
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
-  "level" : 5,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6minigunicon.png",
 

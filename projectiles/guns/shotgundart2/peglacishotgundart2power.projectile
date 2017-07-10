@@ -1,11 +1,11 @@
 {
-  "projectileName" : "shotgundart2power",
-  "image" : "shotgundart2power.png",
+  "projectileName" : "peglacishotgundart2power",
+  "image" : "peglacishotgundart2power.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",
   "bounces" : 0,
-  "frameNumber" : 1,  
+  "frameNumber" : 1,
   "pointLight" : false,
   "speed" :10,
   "lightColor" : [255, 190, 40],
@@ -41,10 +41,8 @@
       "effect" : "burning",
       "amount" : 4
     }
-	
+
   ],
   "damageKind" : "default",
   "emitters" : [ "peglacitrailorange" ]
 }
-
-

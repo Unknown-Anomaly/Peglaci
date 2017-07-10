@@ -9,7 +9,7 @@
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "pistol"],
-  "level" : 1,
+  "level" : 5,
 
   "inventoryIcon" : "peglacitier5pistolicon.png",
 

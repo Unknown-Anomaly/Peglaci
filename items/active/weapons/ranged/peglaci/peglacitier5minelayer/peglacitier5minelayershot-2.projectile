@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglaciminelayershot-2",
-  "frames" : "peglaciminelayershot-1.png",
+  "projectileName" : "peglacitier5minelayershot-2",
+  "frames" : "peglacitier5minelayershot-1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "stickybomb",
@@ -17,31 +17,31 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 180
     },
 	{
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 200
     },
     {
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 160
     },
 	{
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 170
     },
 	{
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 150
     }

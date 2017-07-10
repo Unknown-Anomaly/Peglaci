@@ -9,7 +9,7 @@
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "machinepistol"],
-  "level" : 3,
+  "level" : 4,
 
   "inventoryIcon" : "peglacitier4smgicon.png",
 

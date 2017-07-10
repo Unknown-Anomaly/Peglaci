@@ -9,7 +9,7 @@
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "sniperrifle"],
-  "level" : 5,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6railgunicon.png",
 
@@ -39,7 +39,7 @@
         "time" : 1,
         "energyCost" : 32,
         "cooldown" : 0.1,
-        "projectileType" : "peglacisolariumrailgundart-1",
+        "projectileType" : "peglacirailgundart-1",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90,
@@ -53,7 +53,7 @@
         "time" : 2,
         "energyCost" : 52,
         "cooldown" : 0.5,
-        "projectileType" : "peglacisolariumrailgunpower-1",
+        "projectileType" : "peglacirailgundartpower-1",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110,

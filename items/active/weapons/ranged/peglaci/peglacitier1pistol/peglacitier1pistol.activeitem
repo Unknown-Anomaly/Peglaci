@@ -2,7 +2,7 @@
   "itemName" : "peglacitier1pistol",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Common",
   "description" : "Iron components allow for greater power. Alternate fire stuns the target momentarily.",
   "shortdescription" : "Peacekeeper Pistol I",
   "tooltipKind" : "gun",

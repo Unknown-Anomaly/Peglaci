@@ -9,7 +9,7 @@
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
-  "level" : 4,
+  "level" : 5,
 
   "inventoryIcon" : "peglacitier5minelayericon.png",
 
@@ -38,7 +38,7 @@
         "time" : 0,
         "energyCost" : 5,
         "cooldown" : 0.1,
-        "projectileType" : "peglaciferoziumminelayershot-1",
+        "projectileType" : "peglacitier5minelayershot-1",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
         "baseDamage" : 1.5,
@@ -48,7 +48,7 @@
         "time" : 1.0,
         "energyCost" : 40,
         "cooldown" : 0.5,
-        "projectileType" : "peglaciferoziumminelayershotpower-1",
+        "projectileType" : "peglacitier5minelayershotpower-1",
         "projectileParameters" : {},
         "inaccuracy" : 0,
         "baseDamage" : 7,

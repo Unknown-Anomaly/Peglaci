@@ -25,7 +25,6 @@
     }
   },
 
-  "baseOffset" : [0.87, 0.35],
   "muzzleOffset" : [1.5, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -39,7 +38,7 @@
         "time" : 1,
         "energyCost" : 32,
         "cooldown" : 0.1,
-        "projectileType" : "peglacivioliumrailgundart-1",
+        "projectileType" : "peglacirailgundart-1",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90,
@@ -53,7 +52,7 @@
         "time" : 2,
         "energyCost" : 52,
         "cooldown" : 0.5,
-        "projectileType" : "peglacivioliumrailgunpower-1",
+        "projectileType" : "peglacirailgundartpower-1",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110,

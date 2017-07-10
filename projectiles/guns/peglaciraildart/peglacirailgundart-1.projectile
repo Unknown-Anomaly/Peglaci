@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacisolariumrailgundart-1",
-  "frames" : "peglacisolariumrailgundart-1.png",
+  "projectileName" : "peglacirailgundart-1",
+  "frames" : "peglacirailgundart-1.png",
   "animationCycle" : 0.1,
   "armorPenetration" : 3,
   "physics" : "stickybullet",

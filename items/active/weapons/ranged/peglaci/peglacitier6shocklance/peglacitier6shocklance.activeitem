@@ -9,7 +9,7 @@
   "category" : "Rifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "rifle"],
-  "level" : 5,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6shocklanceicon.png",
 
