@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacitier1shotgun", "count" : 1 },
+    { "item" : "peglacitier1pistol", "count" : 1 },
     { "item" : "tungstenbar", "count" : 8}
   ],
  "output" : { "item" : "peglacitier2shotgun", "count" : 1 },
