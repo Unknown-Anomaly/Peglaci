@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacititaniumknife",
-  "frames" : "peglacititaniumknife.png",
+  "projectileName" : "peglacitier3knife",
+  "frames" : "peglacitier3knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 5,
   "physics" : "stickybullet",
@@ -16,19 +16,19 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacititaniumknife-2",
+      "type" : "peglacitier3knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 0
     },
 	{
       "action" : "projectile",
-      "type" : "peglacititaniumknife-2",
+      "type" : "peglacitier3knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : 10
     },
 	{
       "action" : "projectile",
-      "type" : "peglacititaniumknife-2",
+      "type" : "peglacitier3knife-2",
       "inheritDamageFactor" : 0.5,
       "angleAdjust" : -10
     }

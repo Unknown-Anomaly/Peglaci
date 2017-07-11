@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacitungstenknife",
-  "frames" : "peglacitungstenknife.png",
+  "projectileName" : "peglacitier2knife",
+  "frames" : "peglacitier2knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bouncy",

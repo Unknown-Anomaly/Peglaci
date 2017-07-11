@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacititaniumknife-2",
-  "frames" : "peglacititaniumknife-2.png",
+  "projectileName" : "peglacitier3knife-2",
+  "frames" : "peglacitier3knife-2.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",

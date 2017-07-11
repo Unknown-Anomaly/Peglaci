@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacidurasteelknifeburst",
-  "frames" : "peglacidurasteelknifeburst.png",
+  "projectileName" : "peglacitier4knifeburst",
+  "frames" : "peglacitier4knifeburst.png",
   "animationCycle" : 0.2,
   "level" : 3,
   "frameNumber" : 6,

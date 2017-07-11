@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglaciiceknife",
-  "frames" : "peglaciiceknife.png",
+  "projectileName" : "peglacitier1knife",
+  "frames" : "peglacitier1knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "arrow",
@@ -8,12 +8,12 @@
   "frameNumber" : 1,
   "pointLight" : false,
   "speed" : 18,
-  "actionOnReap": [
-       {
-         "action" : "config",
+  "actionOnReap" : [
+    {
+      "action" : "config",
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-         }
-       ],
-  "damageKind" : "dagger",
-  "emitters" : [ "defaultwhite" ]
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "daggerblue" ]
 }

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacisolariumknife-1a",
-  "frames" : "peglaciknife4-2.png",
+  "projectileName" : "peglacitier6knife-1a",
+  "frames" : "peglacitier4knife-2.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bouncy",
@@ -11,7 +11,7 @@
   "actionOnReap" : [
 	{
       "action" : "projectile",
-      "type" : "peglacisolariumknife-1b",
+      "type" : "peglacitier6knife-1b",
       "inheritDamageFactor" : 0,
       "angleAdjust" : 0
     }

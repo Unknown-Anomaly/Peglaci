@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacidurasteelknife-2",
-  "frames" : "peglacidurasteelknife-2.png",
+  "projectileName" : "peglacitier4knife-2",
+  "frames" : "peglacitier4knife-2.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 10,
   "physics" : "stickybullet",

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacidurasteelknife",
-  "frames" : "peglacidurasteelknife.png",
+  "projectileName" : "peglacitier4knife",
+  "frames" : "peglacitier4knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",
@@ -12,7 +12,7 @@
   "actionOnReap" : [
 	{
       "action" : "config",
-      "file" : "/projectiles/throwable/peglacidurasteelknifeburst.config"
+      "file" : "/projectiles/throwable/peglacitier4knifeburst.config"
     },
 	{
       "action" : "projectile",
@@ -64,25 +64,25 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacidurasteelknife-2",
+      "type" : "peglacitier4knife-2",
       "inheritDamageFactor" : 1.5,
       "angleAdjust" : 0
     },
 	{
       "action" : "projectile",
-      "type" : "peglacidurasteelknife-3",
+      "type" : "peglacitier4knife-3",
       "inheritDamageFactor" : 0.1,
       "angleAdjust" : 0
     },
 	{
       "action" : "projectile",
-      "type" : "peglacidurasteelknife-3",
+      "type" : "peglacitier4knife-3",
       "inheritDamageFactor" : 0.1,
       "angleAdjust" : 15
     },
 	{
       "action" : "projectile",
-      "type" : "peglacidurasteelknife-3",
+      "type" : "peglacitier4knife-3",
       "inheritDamageFactor" : 0.1,
       "angleAdjust" : -15
     }
