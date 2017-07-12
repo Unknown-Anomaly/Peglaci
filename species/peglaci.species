@@ -17,18 +17,21 @@
 // Empty Hands
 			{ "item" : "flagpeglaci" },
 			{ "item" : "peglacitier0pistol" },
-			{ "item" : "peglacitier0knife" },
+			//{ "item" : "peglacitier0knife" },
 
 // Anvil 1
 			{ "item" : "peglacitier1chest" },
 			{ "item" : "peglacitier1head" },
 			{ "item" : "peglacitier1pants" },
 
-			{ "item" : "peglacitier1pistol" },
 			{ "item" : "peglacitier1axe" },
 			{ "item" : "peglacitier1cestus" },
-			{ "item" : "peglacitier1knife" },
+			//{ "item" : "peglacitier1knife" },
 			{ "item" : "peglacitier1spear" },
+
+			{ "item" : "peglacitier1pistol" },
+			{ "item" : "peglacitier1smg" },
+			{ "item" : "peglacitier1shotgun" },
 
 			{ "item" : "peglacitier2chest" },
 			{ "item" : "peglacitier2head" },
@@ -36,11 +39,12 @@
 
 			{ "item" : "peglacitier2axe" },
 			{ "item" : "peglacitier2cestus" },
-			{ "item" : "peglacitier2knife" },
-			{ "item" : "peglacitier2pistol" },
-			{ "item" : "peglacitier2shotgun" },
-			{ "item" : "peglacitier2smg" },
+			//{ "item" : "peglacitier2knife" },
 			{ "item" : "peglacitier2spear" },
+
+			{ "item" : "peglacitier2pistol" },
+			{ "item" : "peglacitier2smg" },
+			{ "item" : "peglacitier2shotgun" },
 
 // Anvil 2
 			{ "item" : "peglacitier3chest" },
@@ -49,26 +53,26 @@
 
 			{ "item" : "peglacitier3axe" },
 			{ "item" : "peglacitier3cestus" },
-			{ "item" : "peglacitier3knife" },
-			{ "item" : "peglacitier3pistol" },
-			{ "item" : "peglacitier3shotgun" },
-			{ "item" : "peglacitier3smg" },
+			//{ "item" : "peglacitier3knife" },
 			{ "item" : "peglacitier3spear" },
+
+			{ "item" : "peglacitier3icethrower" },
+			{ "item" : "peglacitier3machinegun" },
+			{ "item" : "peglacitier3cannon" },
+			{ "item" : "peglacitier3splitter" },
 
 			{ "item" : "peglacitier4chest" },
 			{ "item" : "peglacitier4head" },
 			{ "item" : "peglacitier4pants" },
 
 			{ "item" : "peglacitier4axe" },
-			{ "item" : "peglacitier4cannon" },
 			{ "item" : "peglacitier4cestus" },
-			{ "item" : "peglacitier4icethrower" },
-			{ "item" : "peglacitier4knife" },
-			{ "item" : "peglacitier4machinegun" },
-			{ "item" : "peglacitier4pistol" },
-			{ "item" : "peglacitier4shotgun" },
-			{ "item" : "peglacitier4smg" },
+			//{ "item" : "peglacitier4knife" },
 			{ "item" : "peglacitier4spear" },
+
+			{ "item" : "peglacitier4icethrower" },
+			{ "item" : "peglacitier4machinegun" },
+			{ "item" : "peglacitier4cannon" },
 			{ "item" : "peglacitier4splitter" },
 
 //Anvil 3
@@ -82,19 +86,19 @@
 			{ "item" : "peglacitier5shead" },
 			{ "item" : "peglacitier5spants" },
 
-			{ "item" : "peglacitier5blizzard" },
-			{ "item" : "peglacitier5knife" },
-			{ "item" : "peglacitier5minigun" },
-			{ "item" : "peglacitier5smg" },
-			{ "item" : "peglacitier5avalauncher" },
-			{ "item" : "peglacitier5cestus" },
-			{ "item" : "peglacitier5minelayer" },
-			{ "item" : "peglacitier5pistol" },
 			{ "item" : "peglacitier5axe" },
+			{ "item" : "peglacitier5cestus" },
+			//{ "item" : "peglacitier5knife" },
+			{ "item" : "peglacitier5spear" },
+
+			{ "item" : "peglacitier5minigun" },
+			{ "item" : "peglacitier5laser" },
+			{ "item" : "peglacitier5avalauncher" },
+			{ "item" : "peglacitier5blizzard" },
+			{ "item" : "peglacitier5fuelairgun" },
+			{ "item" : "peglacitier5minelayer" },
 			{ "item" : "peglacitier5shocklance" },
 			{ "item" : "peglacitier5railgun" },
-			{ "item" : "peglacitier5shotgun" },
-			{ "item" : "peglacitier5spear" },
 
 		 	{ "item" : "peglacitier6achest" },
 			{ "item" : "peglacitier6ahead" },
@@ -106,19 +110,33 @@
 			{ "item" : "peglacitier6shead" },
 			{ "item" : "peglacitier6spants" },
 
-			{ "item" : "peglacitier6blizzard" },
-			{ "item" : "peglacitier6knife" },
-			{ "item" : "peglacitier6minigun" },
-			{ "item" : "peglacitier6smg" },
-			{ "item" : "peglacitier6avalauncher" },
-			{ "item" : "peglacitier6cestus" },
-			{ "item" : "peglacitier6minelayer" },
-			{ "item" : "peglacitier6pistol" },
 			{ "item" : "peglacitier6axe" },
+			{ "item" : "peglacitier6axe" },
+			//{ "item" : "peglacitier6knife" },
+			{ "item" : "peglacitier6spear" },
+
+			{ "item" : "peglacitier6pistol" },
+			{ "item" : "peglacitier6smg" },
+			{ "item" : "peglacitier6shotgun" },
+
+
+
+			{ "item" : "peglacitier6minigun" },
+			{ "item" : "peglacitier6laser" },
+			{ "item" : "peglacitier6avalauncher" },
+			{ "item" : "peglacitier6blizzard" },
+
+
+			{ "item" : "peglacitier6fuelairgun" },
+			{ "item" : "peglacitier6minelayer" },
 			{ "item" : "peglacitier6shocklance" },
 			{ "item" : "peglacitier6railgun" },
-			{ "item" : "peglacitier6shotgun" },
-			{ "item" : "peglacitier6spear" },
+
+
+			{ "item" : "peglacitier6machinegun" },
+			{ "item" : "peglacitier6icethrower" },
+			{ "item" : "peglacitier6splitter" },
+			{ "item" : "peglacitier6cannon" },
 
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },

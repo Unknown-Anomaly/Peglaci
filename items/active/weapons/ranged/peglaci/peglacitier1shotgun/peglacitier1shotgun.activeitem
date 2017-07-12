@@ -1,22 +1,22 @@
 {
-  "itemName" : "peglacitier4cannon",
+  "itemName" : "peglacitier1shotgun",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "Fires a heavy round to deal focused damage - charge to launch an explosive round.",
-  "shortdescription" : "Crevasse Grenade Rifle",
+  "rarity" : "Common",
+  "description" : "Fires superheated ceramic fragments - charge to fire an incediary grenade.",
+  "shortdescription" : "Geyser Shotgun I",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
-  "level" : 4,
+  "level" : 2,
 
-  "inventoryIcon" : "peglacitier4cannonicon.png",
+  "inventoryIcon" : "peglacitier1shotgunicon.png",
 
-  "animation" : "peglacitier4cannon.animation",
+  "animation" : "peglacitier1shotgun.animation",
   "animationParts" : {
-    "gun" : "peglacitier4cannon.png",
-    "gunfullbright" : "peglacitier4cannonfullbright.png",
+    "gun" : "peglacitier1shotgun.png",
+    "gunfullbright" : "peglacitier1shotgunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {
@@ -36,22 +36,26 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 5,
+        "energyCost" : 30,
         "cooldown" : 0.1,
-        "projectileType" : "peglacicannonshot1",
-        "projectileParameters" : {},
+        "projectileType" : "peglacishotgundart1-1",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+      },
         "inaccuracy" : 0.008,
-        "baseDamage" : 1.5,
+        "baseDamage" : 10,
         "fireSound" : "fire"
       },
       {
         "time" : 1.0,
-        "energyCost" : 40,
+        "energyCost" : 60,
         "cooldown" : 0.5,
-        "projectileType" : "peglacicannonshot1power",
-        "projectileParameters" : {},
+        "projectileType" : "peglacishotgundart1power",
+        "projectileParameters" : {
+          "knockbackRange" : 10
+      },
         "inaccuracy" : 0,
-        "baseDamage" : 7,
+        "baseDamage" : 20,
         "fireSound" : "fire2"
       }
     ]

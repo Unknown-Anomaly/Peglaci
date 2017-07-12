@@ -1,5 +1,5 @@
 {
-  "itemName" : "peglacitier4cannon",
+  "itemName" : "peglacitier3cannon",
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Uncommon",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon", "ranged", "shotgun"],
   "level" : 4,
 
-  "inventoryIcon" : "peglacitier4cannonicon.png",
+  "inventoryIcon" : "peglacitier3cannonicon.png",
 
-  "animation" : "peglacitier4cannon.animation",
+  "animation" : "peglacitier3cannon.animation",
   "animationParts" : {
-    "gun" : "peglacitier4cannon.png",
-    "gunfullbright" : "peglacitier4cannonfullbright.png",
+    "gun" : "peglacitier3cannon.png",
+    "gunfullbright" : "peglacitier3cannonfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

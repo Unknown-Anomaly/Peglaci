@@ -1,23 +1,23 @@
 {
-  "itemName" : "peglacitier4cannon",
+  "itemName" : "peglacitier3splitter",
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Fires a heavy round to deal focused damage - charge to launch an explosive round.",
-  "shortdescription" : "Crevasse Grenade Rifle",
+  "description" : "Durasteel rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.",
+  "shortdescription" : "Fissure Splitrifle",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "itemTags" : ["weapon","ranged","shotgun"],
   "level" : 4,
 
-  "inventoryIcon" : "peglacitier4cannonicon.png",
+  "inventoryIcon" : "peglacitier3splittericon.png",
 
-  "animation" : "peglacitier4cannon.animation",
+  "animation" : "peglacitier3splitter.animation",
   "animationParts" : {
-    "gun" : "peglacitier4cannon.png",
-    "gunfullbright" : "peglacitier4cannonfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "gun" : "peglacitier3splitter.png",
+    "gunfullbright" : "peglacitier3splitterfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -25,6 +25,7 @@
     }
   },
 
+  "baseOffset" : [1.2, 0.26],
   "muzzleOffset" : [1.4, 0.5],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -38,7 +39,7 @@
         "time" : 0,
         "energyCost" : 5,
         "cooldown" : 0.1,
-        "projectileType" : "peglacicannonshot1",
+        "projectileType" : "peglacisplitterdart1-1",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
         "baseDamage" : 1.5,
@@ -48,7 +49,7 @@
         "time" : 1.0,
         "energyCost" : 40,
         "cooldown" : 0.5,
-        "projectileType" : "peglacicannonshot1power",
+        "projectileType" : "peglacisplitterdart1power",
         "projectileParameters" : {},
         "inaccuracy" : 0,
         "baseDamage" : 7,

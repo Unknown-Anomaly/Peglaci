@@ -17,8 +17,6 @@ manipulator: high damage, high energy cost
 separator: very high damage, low fire rate
 
 Melee: (fabricated)
- - axe, spear 			{"item":"peglacispear"}
-
 T1 peglacitier1axe, peglacitier1spear
 T2 peglacitier2axe, peglacitier2spear
 T3 peglacitier3axe, peglacitier3spear
@@ -45,46 +43,16 @@ T6 peglacitier6knife - Accelerator
 
 Ranged: (upgraded)
 T0 peglacitier0pistol
-T1 peglacitier1pistol
-T2 peglacitier2shotgun, peglacitier2smg, peglacitier2pistol
-T3 peglacitier3shotgun, peglacitier3smg, peglacitier3pistol
-T4 peglacitier4shotgun, peglacitier4smg, peglacitier4pistol, peglacitier4cannon, peglacitier4splitter, peglacitier4icethrower, peglacitier4machinegun
+T1 peglacitier1pistol, peglacitier1smg, peglacitier1shotgun
+T2 peglacitier2pistol, peglacitier2smg, peglacitier2shotgun
+T3 peglacitier3icethrower, peglacitier3machinegun, peglacitier3cannon, peglacitier3splitter
+T4 peglacitier4icethrower, peglacitier4machinegun, peglacitier4cannon, peglacitier4splitter
 
-T5 A peglacitier5minigun, peglacitier5blizzard, peglacitier5smg
-T5 M peglacitier5avalauncher, peglacitier5minelayer, peglacitier5pistol
-T5 S peglacitier5railgun, peglacitier5shotgun, peglacitier5shocklance
+T5 M peglacitier5minigun, peglacitier5laser, peglacitier5avalauncher, peglacitier5blizzard
+T5 S peglacitier5fuelairgun, peglacitier5minelayer, peglacitier5shocklance, peglacitier5railgun
 
-T6 A peglacitier6minigun, peglacitier6blizzard, peglacitier6smg
-T6 M peglacitier6avalauncher, peglacitier6minelayer, peglacitier6pistol
-T6 S peglacitier6railgun, peglacitier6shotgun, peglacitier6shocklance
+T6 A peglacitier6pistol, peglacitier6smg, peglacitier6shotgun,
+T6 M peglacitier6minigun, peglacitier6laser, peglacitier6avalauncher, peglacitier6blizzard,
+T6 S peglacitier6fuelairgun, peglacitier6minelayer, peglacitier6shocklance, peglacitier6railgun,
 
-T0 -> T1
-peglacitier0pistol > peglacitier1pistol
-T1 -> T2
-peglacitier1pistol > peglacitier2pistol, peglacitier2shotgun, peglacitier2smg
-T2 -> T3
-peglacitier2pistol > peglacitier3pistol
-peglacitier2shotgun > peglacitier3shotgun
-peglacitier2smg > peglacitier3smg
-T3 -> T4
-peglacitier3shotgun > peglacitier4cannon, peglacitier4shotgun, peglacitier4splitter
-peglacitier3smg > peglacitier4icethrower, peglacitier4machinegun, peglacitier4smg
-peglacitier3pistol > peglacitier4pistol
-T4 -> T5
-peglacitier4icethrower > peglacitier5blizzard, peglacitier5avalauncher
-peglacitier4smg > peglacitier5smg
-peglacitier4splitter > peglacitier5minelayer
-peglacitier4pistol > peglacitier5pistol
-peglacitier4cannon > peglacitier5shocklance, peglacitier5railgun
-peglacitier4shotgun > peglacitier5shotgun
-peglacitier4machinegun> peglacitier5minigun
-T5 -> T6
-peglacitier5blizzard >    peglacitier6blizzard
-peglacitier5avalauncher > peglacitier6avalauncher
-peglacitier5smg >         peglacitier6smg
-peglacitier5minelayer >   peglacitier6minelayer
-peglacitier5pistol >      peglacitier6pistol
-peglacitier5shocklance >  peglacitier6shocklance
-peglacitier5railgun >     peglacitier6railgun
-peglacitier5shotgun >     peglacitier6shotgun
-peglacitier5minigun >     peglacitier6minigun
+T6 ? peglacitier6machinegun, peglacitier6icethrower, peglacitier6splitter, peglacitier6cannon

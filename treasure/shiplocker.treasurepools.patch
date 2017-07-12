@@ -11,7 +11,7 @@
 				{"item" : "peglacitier1pants"},
 				{"item" : "peglacitier1head"},
 				{"item" : "peglacitier0pistol"},
-				{"item" : [ "peglacitier1knife", 10]},
+				//{"item" : [ "peglacitier1knife", 10]},
 				{"item" : [ "peglacitorch", 10]}
 				]
 			}]
