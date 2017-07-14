@@ -1,13 +1,12 @@
 {
-  "projectileName" : "peglacitier10cannonshotpower2b",
-  "frames" : "shotgundartpowernull.png",
+  "projectileName" : "peglacitier6cannonpowershot-2b",
+  "frames" : "peglacitier6cannonpowershotnull.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "gas",
-  "bounces" : 0,
-  "frameNumber" : 1,  
+  "frameNumber" : 1,
   "pointLight" : false,
-  "speed" :20,
+  "speed" : 20,
   "timeToLive" : 0.25,
 
   "lightColor" : [200, 200, 255],
@@ -24,5 +23,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

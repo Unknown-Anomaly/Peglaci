@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglaciminigundart",
-  "frames" : "peglaciminigundart.png",
+  "image" : "peglaciminigundart.png",
   "animationCycle" : 0.2,
   "armorPenetration" : 3,
   "physics" : "bullet",

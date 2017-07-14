@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
-  "shortdescription" : "Mistral Icethrower",
+  "shortdescription" : "Mistral Icethrower II",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
@@ -15,10 +15,8 @@
 
   "animation" : "peglacitier4icethrower.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier4icethrower.png",
-    "middlefullbright" : "peglacitier4icethrowerfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier4icethrower.png",
+    "gunfullbright" : "peglacitier4icethrowerfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {

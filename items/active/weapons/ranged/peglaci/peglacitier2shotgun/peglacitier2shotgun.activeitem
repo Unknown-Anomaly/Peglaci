@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Fires superheated ceramic fragments - charge to fire an incediary grenade.",
-  "shortdescription" : "Geyser Shotgun I",
+  "shortdescription" : "Geyser Shotgun II",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
@@ -16,6 +16,7 @@
   "animation" : "peglacitier2shotgun.animation",
   "animationParts" : {
     "gun" : "peglacitier2shotgun.png",
+    "gunfullbright" : "peglacitier2shotgunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

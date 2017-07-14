@@ -1,15 +1,15 @@
 {
   "projectileName" : "peglacitier6minelayershot-3",
-  "frames" : "poof.png",
+  "image" : "poof.png",
   "animationCycle" : 0.1,
   "armorPenetration" : 3,
   "physics" : "gas",
   "bounces" : 1,
   "frameNumber" : 4,
   "pointLight" : false,
-  "speed" :20,
-    "lightColor" : [40, 40, 190],
-	 "timeToLive" : 0.2,
+  "speed" : 20,
+  "lightColor" : [40, 40, 190],
+  "timeToLive" : 0.2,
   "actionOnReap" : [
     {
       "action" : "config",

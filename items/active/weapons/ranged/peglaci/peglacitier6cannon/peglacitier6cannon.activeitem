@@ -1,22 +1,22 @@
 {
-  "itemName" : "peglacitier4cannon",
+  "itemName" : "peglacitier6cannon",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Legendary",
   "description" : "Fires a heavy round to deal focused damage - charge to launch an explosive round.",
-  "shortdescription" : "Crevasse Grenade Rifle",
+  "shortdescription" : "Crevasse Grenade Rifle II +",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
   "level" : 4,
 
-  "inventoryIcon" : "peglacitier4cannonicon.png",
+  "inventoryIcon" : "peglacitier6cannonicon.png",
 
-  "animation" : "peglacitier4cannon.animation",
+  "animation" : "peglacitier6cannon.animation",
   "animationParts" : {
-    "gun" : "peglacitier4cannon.png",
-    "gunfullbright" : "peglacitier4cannonfullbright.png",
+    "gun" : "peglacitier6cannon.png",
+    "gunfullbright" : "peglacitier6cannonfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {
@@ -38,7 +38,7 @@
         "time" : 0,
         "energyCost" : 5,
         "cooldown" : 0.1,
-        "projectileType" : "peglacicannonshot1",
+        "projectileType" : "peglacitier6cannonshot",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
         "baseDamage" : 1.5,
@@ -48,7 +48,7 @@
         "time" : 1.0,
         "energyCost" : 40,
         "cooldown" : 0.5,
-        "projectileType" : "peglacicannonshot1power",
+        "projectileType" : "peglacitier6cannonpowershot",
         "projectileParameters" : {},
         "inaccuracy" : 0,
         "baseDamage" : 7,

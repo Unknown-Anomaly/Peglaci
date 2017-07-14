@@ -1,14 +1,14 @@
 {
   "projectileName" : "peglacipowerdarttier10",
-  "frames" : "powerdart.png",
+  "image" : "powerdart.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 5,
   "physics" : "bullet",
   "bounces" : 0,
   "frameNumber" : 4,
-  "piercing" : false,  
+  "piercing" : false,
   "power" : 40,
-  
+
   "lightColor" : [200, 200, 255],
   "speed" :22,
 "timeToLive" : 0.5,
@@ -20,9 +20,7 @@
   ],
     "statusEffects" : [
     {"effect" : "peglacistun"}
-  ],  
+  ],
   "damageKind" : "default",
   "emitters" : [ "peglacitraillong" ]
 }
-
-

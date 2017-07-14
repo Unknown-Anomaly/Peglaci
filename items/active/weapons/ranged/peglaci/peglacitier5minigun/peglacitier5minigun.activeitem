@@ -3,8 +3,8 @@
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A storm of aegisalt shards rend armor with ease and reflect off walls.",
-  "shortdescription" : "Imperius Minigun",
+  "description" : "A storm of Ferozium shards rend armor with ease and reflect off walls.",
+  "shortdescription" : "Imperius Minigun I",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
@@ -15,10 +15,7 @@
 
   "animation" : "peglacitier5minigun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier5minigun.png",
-    "middlefullbright" : "peglacitier5minigunfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier5minigun.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
@@ -54,7 +51,7 @@
     },
 
     "stances" : {
-      "idle" : {
+      "empty" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
@@ -62,17 +59,8 @@
         "allowRotate" : true,
         "allowFlip" : true
       },
-      "fire" : {
+      "charge" : {
         "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.11,
         "armRotation" : 5,
         "weaponRotation" : 5,
         "twoHanded" : true,

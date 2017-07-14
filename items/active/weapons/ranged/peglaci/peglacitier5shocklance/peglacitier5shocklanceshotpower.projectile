@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier5shocklanceshotpower",
-  "frames" : "peglacitier5shocklanceshotpower.png",
+  "image" : "peglacitier5shocklanceshotpower.png",
   "animationCycle" : 1.9,
   "armorPenetration" : 3,
   "physics" : "laser",
@@ -9,7 +9,7 @@
   "timeToLive" : 2,
   "piercing" : true,
   "pointLight" : false,
-  "speed" :45,
+  "speed" : 45,
    "lightColor" : [40, 40, 190],
   "actionOnReap" : [
     {

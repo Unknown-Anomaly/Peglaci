@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacilaserblob",
-  "frames" : "pow.png",
+  "image" : "pow.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "gas",
@@ -18,5 +18,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

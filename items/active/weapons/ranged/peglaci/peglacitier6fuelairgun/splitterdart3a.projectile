@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier9cloudgunshot3a",
-  "frames" : "icecloud.png",
+  "image" : "icecloud.png",
   "animationCycle" : 1.2,
   "frameNumber" : 8,
   "armorPenetration" : 3,
@@ -22,7 +22,7 @@
       "inheritDamageFactor" : 0.2,
       "angleAdjust" : 0
     }
-  ],  
+  ],
   "statusEffects" : [
 	{
       "effect" : "burning",
@@ -32,5 +32,3 @@
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]
 }
-
-

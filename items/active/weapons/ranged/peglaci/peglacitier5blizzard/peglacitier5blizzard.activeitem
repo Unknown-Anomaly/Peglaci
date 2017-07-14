@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Blasts a cloud of ice that hangs in the air, freezing and damaging foes.",
-  "shortdescription" : "Coldsnap Blizzard",
+  "shortdescription" : "Coldsnap Blizzard I",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
@@ -15,9 +15,8 @@
 
   "animation" : "peglacitier5blizzard.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier5blizzard.png",
-    "barrel" : "",
+    "gun" : "peglacitier5blizzard.png",
+    "gunfullbright" : "peglacitier5blizzardfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
@@ -30,50 +29,20 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "fireTime" : [2,7],
-    "baseDps" : 15,
-    "energyUsage" : 25.0,
-    "inaccuracy" : 0,
-
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "peglaciicecrystal",
-    "projectileParameters" : {
-      "speed" : 30,
-      "knockback" : 3
-    },
-	  "stances" : {
-	    "idle" : {
-	      "armRotation" : 0,
-	      "weaponRotation" : 0,
-	      "twoHanded" : true,
-
-	      "allowRotate" : true,
-	      "allowFlip" : true
-	    },
-	    "fire" : {
-	      "duration" : 0,
-	      "armRotation" : 5,
-	      "weaponRotation" : 5,
-	      "twoHanded" : true,
-
-	      "allowRotate" : false,
-	      "allowFlip" : false
-	    },
-	    "cooldown" : {
-	      "duration" : 0.25,
-	      "armRotation" : 5,
-	      "weaponRotation" : 5,
-	      "twoHanded" : true,
-
-	      "allowRotate" : false,
-	      "allowFlip" : false
-	    }
-	  }
+    "chargeLevels" : [
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.4,
+        "projectileType" : "peglaciicecrystal",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 15,
+        "fireSound" : "fire"
+      }
+    ]
   },
 
   "particleEmitters" : {

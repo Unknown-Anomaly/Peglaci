@@ -18,7 +18,7 @@
 			{ "item" : "flagpeglaci" },
 			{ "item" : "peglacitier0pistol" },
 			{ "item" : "peglacitier0knife" },
-/*
+
 // Anvil 1
 			{ "item" : "peglacitier1chest" },
 			{ "item" : "peglacitier1head" },
@@ -99,7 +99,7 @@
 			{ "item" : "peglacitier5minelayer" },
 			{ "item" : "peglacitier5shocklance" },
 			{ "item" : "peglacitier5railgun" },
-
+/*
 		 	{ "item" : "peglacitier6achest" },
 			{ "item" : "peglacitier6ahead" },
 			{ "item" : "peglacitier6apants" },

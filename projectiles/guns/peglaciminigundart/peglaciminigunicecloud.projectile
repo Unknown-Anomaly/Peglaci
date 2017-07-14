@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglaciminigunicecloud",
-  "frames" : "peglaciminigunicecloud.png",
+  "image" : "peglaciminigunicecloud.png",
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "armorPenetration" : 1,

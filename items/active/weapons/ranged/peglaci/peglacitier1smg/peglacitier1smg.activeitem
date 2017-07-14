@@ -3,7 +3,7 @@
   "price" : 600,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Tungsten slugs weaken armor - stay on target to deal increased damage.",
+  "description" : "Iron slugs weaken armor - stay on target to deal increased damage.",
   "shortdescription" : "Peeler Submachinegun I",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
@@ -15,9 +15,7 @@
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier1smg.png",
-    "barrel" : "",
+    "gun" : "peglacitier1smg.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

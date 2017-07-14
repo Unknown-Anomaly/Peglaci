@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
-  "shortdescription" : "Coldsnap Avalauncher",
+  "shortdescription" : "Coldsnap Avalauncher I",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
@@ -15,10 +15,8 @@
 
   "animation" : "peglacitier5avalauncher.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier5avalauncher.png",
-    "middlefullbright" : "peglacitier5avalauncherfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier5avalauncher.png",
+    "gunfullbright" : "peglacitier5avalauncherfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
@@ -34,52 +32,22 @@
 
   "elementalType" : "ice",
 
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
-    "fireTime" : 1.5,
-    "baseDps" : 8.0,
-    "energyUsage" : 24,
-    "inaccuracy" : 0.008,
-    "fireType" : "auto",
-
-    "projectileType" : "peglaciicecloud-2",
-    "projectileParameters" : {
-      "knockback" : 5,
-      "speed" : 50,
-      "statusEffects" : [ "frostslow" ]
-    },
-    "projectileCount" : 1,
-
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.11,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+    "chargeLevels" : [
+      {
+        "time" : 1.5,
+        "energyCost" : 30,
+        "cooldown" : 0.5,
+        "projectileType" : "peglaciicecloud-2",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 8,
+        "fireSound" : "fire"
       }
-    }
+    ]
   },
 
   "particleEmitters" : {

@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier9cloudgunshot3",
-  "frames" : "icecloud.png",
+  "image" : "icecloud.png",
   "animationCycle" : 1.2,
   "frameNumber" : 8,
   "armorPenetration" : 3,
@@ -16,7 +16,7 @@
       "action" : "config",
       "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
     }
-  ],  
+  ],
   "statusEffects" : [
 	{
       "effect" : "testburning",
@@ -26,5 +26,3 @@
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]
 }
-
-

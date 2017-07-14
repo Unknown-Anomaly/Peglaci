@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier9cloudgunshot1",
- "frames" : "icecloud.png",
+  "image" : "icecloud.png",
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "armorPenetration" : 3,
@@ -12,7 +12,7 @@
    "timeToLive" : 0.01,
     "lightColor" : [255, 150, 0],
   "actionOnReap" : [
-	
+
 	{
       "action" : "projectile",
       "type" : "peglacitier9cloudgunshot2",
@@ -47,8 +47,8 @@
       "inheritDamageFactor" : 0.2,
 	  "fuzzAngle" : 10,
       "angleAdjust" : 45
-    }	
-  ],  
+    }
+  ],
   "statusEffects" : [
 	{
       "effect" : "burning",
@@ -58,5 +58,3 @@
   "damageKind" : "default",
   "emitters" : [ "cloudtrail" ]
 }
-
-

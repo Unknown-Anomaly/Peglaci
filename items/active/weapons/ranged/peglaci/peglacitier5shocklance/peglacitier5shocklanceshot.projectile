@@ -1,13 +1,12 @@
 {
   "projectileName" : "peglacitier5shocklanceshot",
-  "frames" : "peglacitier5shocklanceshot.png",
+  "image" : "peglacitier5shocklanceshot.png",
   "animationCycle" : 0.1,
   "armorPenetration" : 3,
   "physics" : "bullet",
-  "bounces" : 0,
   "frameNumber" : 8,
   "pointLight" : false,
-  "speed" :35,
+  "speed" : 35,
    "lightColor" : [40, 40, 190],
   "actionOnReap" : [
    {

@@ -1,11 +1,11 @@
 {
   "projectileName" : "peglacitier10splittershotpower",
-  "frames" : "splitterdartpower.png",
+  "image" : "splitterdartpower.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "grenade",
   "bounces" : 0,
-  "frameNumber" : 1,  
+  "frameNumber" : 1,
   "pointLight" : false,
   "speed" :60,
   "timeToLive" : 1,
@@ -76,5 +76,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

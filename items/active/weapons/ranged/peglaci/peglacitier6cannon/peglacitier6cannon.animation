@@ -9,12 +9,7 @@
             "frames" : 4,
             "cycle" : 1.0,
             "mode" : "transition",
-            "transition" : "fullcharge"
-          },
-          "fullcharge" : {
-            "frames" : 3,
-            "cycle" : 0.2,
-            "mode" : "loop"
+            "transition" : "off"
           },
           "fire" : {
             "frames" : 1,
@@ -46,11 +41,6 @@
                 "image" : "<partImage>:charge.<frame>"
               }
             },
-            "fullcharge" : {
-              "properties" : {
-                "image" : "<partImage>:fullcharge.<frame>"
-              }
-            },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire"
@@ -78,11 +68,6 @@
             "charge" : {
               "properties" : {
                 "image" : "<partImage>:charge.<frame>"
-              }
-            },
-            "fullcharge" : {
-              "properties" : {
-                "image" : "<partImage>:fullcharge.<frame>"
               }
             },
             "fire" : {

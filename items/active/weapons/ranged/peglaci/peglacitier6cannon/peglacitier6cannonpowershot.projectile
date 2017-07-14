@@ -1,14 +1,11 @@
 {
-  "projectileName" : "peglacitier10cannonshotpower",
-  "frames" : "shotgundartpower.png",
+  "projectileName" : "peglacitier6cannonpowershot",
+  "frames" : "peglacitier6cannonpowershot.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",
-  "bounces" : 0,
-  "frameNumber" : 1,  
-  "pointLight" : false,
-  "speed" :35,  
-  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "speed" : 35,
 
   "lightColor" : [200, 200, 255],
   "actionOnReap" : [
@@ -18,7 +15,7 @@
     },
 	 {
       "action" : "config",
-      "file" : "/projectiles/explosions/zapsplosion/zapsplosion.config"
+      "file" : "/projectiles/explosions/peglacizapsplosion/peglacizapsplosion.config"
     },
 	{
       "action" : "config",
@@ -26,37 +23,37 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2a",
+      "type" : "peglacitier6cannonpowershot-2a",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     },
     {
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2b",
+      "type" : "peglacitier6cannonpowershot-2b",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2a",
+      "type" : "peglacitier6cannonpowershot-2a",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     },
     {
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2b",
+      "type" : "peglacitier6cannonpowershot-2b",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2b",
+      "type" : "peglacitier6cannonpowershot-2b",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     },
     {
       "action" : "projectile",
-      "type" : "peglacitier10cannonshotpower2a",
+      "type" : "peglacitier6cannonpowershot-2a",
       "fuzzAngle" : 360,
       "inheritDamageFactor" : 0.4
     }
@@ -66,10 +63,8 @@
       "effect" : "burning",
       "amount" : 4
     }
-	
+
   ],
   "damageKind" : "default",
   "emitters" : [ "peglacitraillong" ]
 }
-
-

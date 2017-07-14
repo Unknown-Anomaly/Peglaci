@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Fires a dense pulse of sound - charge to fire a ricocheting blast.",
-  "shortdescription" : "Abbatoir Shocklance",
+  "shortdescription" : "Abbatoir Shocklance I",
   "tooltipKind" : "gun",
   "category" : "Rifle",
   "twoHanded" : true,

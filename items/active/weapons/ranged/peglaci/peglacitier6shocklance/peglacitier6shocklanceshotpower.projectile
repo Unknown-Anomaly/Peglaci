@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier6shocklanceshotpower",
-  "frames" : "peglacitier6shocklanceshotpower.png",
+  "image" : "peglacitier6shocklanceshotpower.png",
   "animationCycle" : 1.9,
   "armorPenetration" : 3,
   "physics" : "laser",
