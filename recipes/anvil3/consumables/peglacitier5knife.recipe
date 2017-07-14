@@ -3,5 +3,5 @@
     { "item" : "refinedaegisalt", "count" : 4 }
   ],
   "output" : { "item" : "peglacitier5knife", "count" : 3 },
-  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+  "groups" : [ "craftingaccelerator", "consumables", "all" ]
 }

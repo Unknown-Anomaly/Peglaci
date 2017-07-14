@@ -3,5 +3,5 @@
     { "item" : "tungstenbar", "count" : 4 }
   ],
   "output" : { "item" : "peglacitier2knife", "count" : 3 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "consumables", "all" ]
 }
