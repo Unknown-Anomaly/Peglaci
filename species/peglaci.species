@@ -18,7 +18,7 @@
 			{ "item" : "flagpeglaci" },
 			{ "item" : "peglacitier0pistol" },
 			{ "item" : "peglacitier0knife" },
-
+/*
 // Anvil 1
 			{ "item" : "peglacitier1chest" },
 			{ "item" : "peglacitier1head" },
@@ -137,7 +137,7 @@
 			{ "item" : "peglacitier6icethrower" },
 			{ "item" : "peglacitier6splitter" },
 			{ "item" : "peglacitier6cannon" },
-
+*/
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },
       { "item" : "feroziumwand" },
