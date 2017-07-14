@@ -1,13 +1,12 @@
 {
   "projectileName" : "peglacitier6knife",
-  "frames" : "peglacitier6knife.png",
+  "image" : "peglacitier6knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
-  "physics" : "grenadezbomb",
-  "bounces" : 0,
+  "physics" : "arrow",
   "frameNumber" : 3,
   "pointLight" : false,
-  "speed" : 50,
+  "speed" : 20,
   "timeToLive" : 0.8,
   "actionOnReap" : [
     {
@@ -87,6 +86,8 @@
       "angleAdjust" : 225
     }
   ],
+  "power" : 60.0,
   "damageKind" : "dagger",
-  "emitters" : [ "peglacitrail" ]
+  "emitters" : [ "peglacitrail" ],
+  "damagePoly" : [ [6, -3], [10, 0], [6, 3] ]
 }

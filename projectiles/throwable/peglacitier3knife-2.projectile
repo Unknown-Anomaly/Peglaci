@@ -1,14 +1,12 @@
 {
   "projectileName" : "peglacitier3knife-2",
-  "frames" : "peglacitier3knife-2.png",
-  "animationCycle" : 0.5,
-  "armorPenetration" : 3,
+  "image" : "peglacitier3knife-2.png",
+  "animationCycle" : 0.25,
   "physics" : "bullet",
-  "bounces" : 0,
   "frameNumber" : 4,
   "pointLight" : false,
    "lightColor" : [0, 255, 200],
-  "speed" : 30,
+  "speed" : 20,
   "actionOnReap" : [
     {
       "action" : "config",
@@ -16,5 +14,6 @@
     }
   ],
   "damageKind" : "default",
-  "emitters" : [ "peglacitrail" ]
+  "emitters" : [ "peglacitrail" ],
+  "damagePoly" : [ [-3, -4], [7, -1], [-3, 3] ]
 }

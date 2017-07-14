@@ -16,7 +16,6 @@
   "animation" : "peglacitier5railgun.animation",
   "animationParts" : {
     "gun" : "peglacitier5railgun.png",
-    "gunfullbright" : "peglacitier5railgunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {
@@ -35,10 +34,10 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 1,
+        "time" : 0,
         "energyCost" : 32,
         "cooldown" : 0.1,
-        "projectileType" : "peglacirailgundart-1",
+        "projectileType" : "peglacitier5railgundart-1",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90,
@@ -49,10 +48,10 @@
         "fireSound" : "fire"
       },
       {
-        "time" : 2,
+        "time" : 1,
         "energyCost" : 52,
         "cooldown" : 0.5,
-        "projectileType" : "peglacirailgundartpower-1",
+        "projectileType" : "peglacitier5railgundartpower-1",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110,

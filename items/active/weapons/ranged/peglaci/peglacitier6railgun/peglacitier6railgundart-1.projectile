@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacirailgundart-1",
-  "frames" : "peglacirailgundart-1.png",
+  "projectileName" : "peglacitier6railgundart-1",
+  "image" : "peglacitier6railgundart-1.png",
   "animationCycle" : 0.1,
   "armorPenetration" : 3,
   "physics" : "stickybullet",
@@ -8,7 +8,7 @@
   "frameNumber" : 3,
   "pointLight" : false,
   "speed" :60,
-   "lightColor" : [40, 40, 190],
+  "lightColor" : [40, 40, 190],
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }

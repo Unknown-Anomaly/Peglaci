@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier6knife-2",
-  "frames" : "peglaciicecloud.png",
+  "image" : "peglaciiceball.png",
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "armorPenetration" : 3,

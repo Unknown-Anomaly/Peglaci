@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier6knife-1a",
-  "frames" : "peglacitier4knife-2.png",
+  "image" : "peglacitier4knife-3",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bouncy",
@@ -19,5 +19,6 @@
   "statusEffects" : [
   ],
   "damageKind" : "dagger",
-  "emitters" : [ "peglacitrail" ]
+  "emitters" : [ "peglacitrail" ],
+  "damagePoly" : [ [2, -3], [10, -3], [14, -3], [18, 1], [14, 4], [10, 4], [2, 4] ]
 }

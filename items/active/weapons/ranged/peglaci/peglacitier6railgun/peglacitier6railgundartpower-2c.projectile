@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacirailgundartpower-2c",
-  "frames" : "peglacirailgundartpower-1.png",
+  "projectileName" : "peglacitier6railgundartpower-2c",
+  "image" : "peglacitier6railgundartpower-1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "stickybullet",

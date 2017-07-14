@@ -1,11 +1,11 @@
 {
   "projectileName" : "peglacitier6knife-1",
-  "frames" : "peglaciiceshot.png",
+  "image" : "peglaciiceball.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "laser",
   "bounces" : 3,
-  "frameNumber" : 3,
+  "frameNumber" : 4,
   "pointLight" : false,
   "speed" : 30,
   "timeToLive" : 0.3,

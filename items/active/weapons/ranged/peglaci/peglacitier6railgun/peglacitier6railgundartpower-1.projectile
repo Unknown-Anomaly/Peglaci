@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacirailgundartpower-1",
-  "frames" : "peglacirailgundartpower-1.png",
+  "projectileName" : "peglacitier6railgundartpower-1",
+  "image" : "peglacitier6railgundartpower-1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "bullet",
@@ -16,7 +16,7 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacirailgundartpowerwait-1",
+      "type" : "peglacitier6railgundartpowerwait-1",
       "inheritDamageFactor" : 1,
       "angleAdjust" : 0
     }

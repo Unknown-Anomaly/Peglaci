@@ -17,7 +17,7 @@
 // Empty Hands
 			{ "item" : "flagpeglaci" },
 			{ "item" : "peglacitier0pistol" },
-			//{ "item" : "peglacitier0knife" },
+			{ "item" : "peglacitier0knife" },
 
 // Anvil 1
 			{ "item" : "peglacitier1chest" },
@@ -26,7 +26,7 @@
 
 			{ "item" : "peglacitier1axe" },
 			{ "item" : "peglacitier1cestus" },
-			//{ "item" : "peglacitier1knife" },
+			{ "item" : "peglacitier1knife" },
 			{ "item" : "peglacitier1spear" },
 
 			{ "item" : "peglacitier1pistol" },
@@ -39,7 +39,7 @@
 
 			{ "item" : "peglacitier2axe" },
 			{ "item" : "peglacitier2cestus" },
-			//{ "item" : "peglacitier2knife" },
+			{ "item" : "peglacitier2knife" },
 			{ "item" : "peglacitier2spear" },
 
 			{ "item" : "peglacitier2pistol" },
@@ -53,7 +53,7 @@
 
 			{ "item" : "peglacitier3axe" },
 			{ "item" : "peglacitier3cestus" },
-			//{ "item" : "peglacitier3knife" },
+			{ "item" : "peglacitier3knife" },
 			{ "item" : "peglacitier3spear" },
 
 			{ "item" : "peglacitier3icethrower" },
@@ -67,7 +67,7 @@
 
 			{ "item" : "peglacitier4axe" },
 			{ "item" : "peglacitier4cestus" },
-			//{ "item" : "peglacitier4knife" },
+			{ "item" : "peglacitier4knife" },
 			{ "item" : "peglacitier4spear" },
 
 			{ "item" : "peglacitier4icethrower" },
@@ -88,7 +88,7 @@
 
 			{ "item" : "peglacitier5axe" },
 			{ "item" : "peglacitier5cestus" },
-			//{ "item" : "peglacitier5knife" },
+			{ "item" : "peglacitier5knife" },
 			{ "item" : "peglacitier5spear" },
 
 			{ "item" : "peglacitier5minigun" },
@@ -112,7 +112,7 @@
 
 			{ "item" : "peglacitier6axe" },
 			{ "item" : "peglacitier6axe" },
-			//{ "item" : "peglacitier6knife" },
+			{ "item" : "peglacitier6knife" },
 			{ "item" : "peglacitier6spear" },
 
 			{ "item" : "peglacitier6pistol" },

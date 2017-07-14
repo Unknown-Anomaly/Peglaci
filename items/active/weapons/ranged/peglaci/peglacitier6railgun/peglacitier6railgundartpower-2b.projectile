@@ -1,26 +1,27 @@
 {
-  "projectileName" : "peglacirailgundartpowerwait-3",
-  "frames" : "peglacirailgundartpower-1.png",
+  "projectileName" : "peglacitier6railgundartpower-2b",
+  "image" : "peglacitier6railgundartpower-1.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
-  "physics" : "gas",
+  "physics" : "bullet",
   "bounces" : 0,
   "frameNumber" : 1,
   "pointLight" : false,
   "timeToLive" : 0.1,
-  "speed" :1,
+  "speed" :60,
    "lightColor" : [40, 40, 190],
-  "actionOnReap" : [
-  {
+   "actionOnReap" : [
+	{
       "action" : "config",
       "file" : "/projectiles/explosions/peglacitinyboom/peglacitinyboom.config"
     },
 	{
       "action" : "projectile",
-      "type" : "peglacirailgundartpower-2c",
+      "type" : "peglacitier6railgundartpowerwait-3",
       "inheritDamageFactor" : 1,
       "angleAdjust" : 0
     }
   ],
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
 }

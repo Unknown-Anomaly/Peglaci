@@ -1,10 +1,8 @@
 {
   "projectileName" : "peglacitier4knife",
-  "frames" : "peglacitier4knife.png",
+  "image" : "peglacitier4knife.png",
   "animationCycle" : 0.5,
-  "armorPenetration" : 3,
   "physics" : "bullet",
-  "bounces" : 0,
   "frameNumber" : 4,
     "lightColor" : [0, 255, 255],
   "speed" : 20,
@@ -87,6 +85,8 @@
       "angleAdjust" : -15
     }
   ],
-  "damageKind" : "default",
-  "emitters" : [ "peglacitrail" ]
+  "power" : 60.0,
+  "damageKind" : "dagger",
+  "emitters" : [ "peglacitrail" ],
+  "damagePoly" : [ [2, -3], [10, -3], [14, -3], [18, 1], [14, 4], [10, 4], [2, 4] ]
 }
