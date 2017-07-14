@@ -12,5 +12,6 @@
     {"effect" : "peglacistop", "range" : 8}
   ],
   "damageType" : "ignoresdef",
-  "damageKind" : "default"
+  "damageKind" : "default",
+  "damagePoly" : [ [-4, 0], [-3, -3], [0, -4], [3, -3], [4, 0], [3, 3], [0, 4], [-3, 3] ]
 }

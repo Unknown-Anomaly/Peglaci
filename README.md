@@ -10,7 +10,7 @@ Currently working:
  - Armours
 
 Currently NOT working:
- - Weapons ( Working on getting most up and running. Refer to this outline http://imgur.com/wG5vt2s )
+ - Weapons ( Working on getting most up and running. Weapon outline http://imgur.com/wG5vt2s )
 
 Have not tested:
  - Ship upgrades

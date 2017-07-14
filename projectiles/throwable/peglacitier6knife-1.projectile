@@ -50,5 +50,6 @@
   "statusEffects" : [
   ],
   "damageKind" : "dagger",
-  "emitters" : [ "peglacitrail" ]
+  "emitters" : [ "peglacitrail" ],
+  "damagePoly" : [ [-4, 0], [-3, -3], [0, -4], [3, -3], [4, 0], [3, 3], [0, 4], [-3, 3] ]
 }
