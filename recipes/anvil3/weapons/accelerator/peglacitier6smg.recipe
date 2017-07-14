@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacitier5smg", "count" : 1 },
+    { "item" : "peglacitier2smg", "count" : 1 },
     { "item" : "solariumstar", "count" : 8}
   ],
  "output" : { "item" : "peglacitier6smg", "count" : 1 },

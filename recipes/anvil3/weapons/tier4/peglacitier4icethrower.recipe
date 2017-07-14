@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacitier3smg", "count" : 1 },
+    { "item" : "peglacitier3icethrower", "count" : 1 },
     { "item" : "durasteelbar", "count" : 16}
   ],
  "output" : { "item" : "peglacitier4icethrower", "count" : 1 },

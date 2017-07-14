@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacitier3shotgun", "count" : 1 },
+    { "item" : "peglacitier3splitter", "count" : 1 },
     { "item" : "durasteelbar", "count" : 16}
   ],
  "output" : { "item" : "peglacitier4splitter", "count" : 1 },
