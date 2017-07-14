@@ -6,11 +6,11 @@
   "armorPenetration" : 3,
   "physics" : "grenadezbomb",
   "bounces" : 0,
-  "frameNumber" : 1,
+  "frameNumber" : 4,
   "pointLight" : false,
   "speed" : 10,
   "actionOnReap" : [
   ],
   "damageKind" : "dagger",
-  "damagePoly" : [ [-6, -1], [-5, -2], [-3, -3], [3, -3], [5, -2] [6, -1], [6, 1], [5, 2], [3, 3], [-3, 3], [-5, 2], [-6, 1] ]
+  "damagePoly" : [ [-6, -1], [-5, -2], [-3, -3], [3, -3], [5, -2], [6, -1], [6, 1], [5, 2], [3, 3], [-3, 3], [-5, 2], [-6, 1] ]
 }

@@ -3,10 +3,10 @@
   "image" : "peglacitier6knife.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
-  "physics" : "arrow",
+  "physics" : "bullet",
   "frameNumber" : 3,
   "pointLight" : false,
-  "speed" : 20,
+  "speed" : 10,
   "timeToLive" : 0.8,
   "actionOnReap" : [
     {

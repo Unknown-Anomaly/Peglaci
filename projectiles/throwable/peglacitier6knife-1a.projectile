@@ -20,5 +20,5 @@
   ],
   "damageKind" : "dagger",
   "emitters" : [ "peglacitrail" ],
-  "damagePoly" : [ [2, -3], [10, -3], [14, -3], [18, 1], [14, 4], [10, 4], [2, 4] ]
+  "damagePoly" : [ [-1, -2], [5, -2], [7, -1], [5, 1], [-1, 1] ]
 }
