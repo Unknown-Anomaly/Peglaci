@@ -8,14 +8,17 @@ Currently working:
  - Racial selection
  - Clothing
  - Armours
+ - Weapons
 
 Currently NOT working:
- - Weapons ( Working on getting most up and running. Weapon outline http://imgur.com/wG5vt2s )
+ - Objects
+ - Tiles
 
 Have not tested:
  - Ship upgrades
  - Status effects
  - Projectile effects
+ - Weapons - http://imgur.com/wG5vt2s
 
 The eventual TODO:
  - https://github.com/Unknown-Anomaly/Peglaci/blob/master/_gfx_assets_to_update.txt
