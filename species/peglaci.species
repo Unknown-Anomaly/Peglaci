@@ -99,7 +99,7 @@
 			{ "item" : "peglacitier5minelayer" },
 			{ "item" : "peglacitier5shocklance" },
 			{ "item" : "peglacitier5railgun" },
-/*
+
 		 	{ "item" : "peglacitier6achest" },
 			{ "item" : "peglacitier6ahead" },
 			{ "item" : "peglacitier6apants" },
@@ -118,26 +118,21 @@
 			{ "item" : "peglacitier6pistol" },
 			{ "item" : "peglacitier6smg" },
 			{ "item" : "peglacitier6shotgun" },
-
-
+			{ "item" : "peglacitier6machinegun" },
+			{ "item" : "peglacitier6splitter" },
 
 			{ "item" : "peglacitier6minigun" },
 			{ "item" : "peglacitier6laser" },
 			{ "item" : "peglacitier6avalauncher" },
 			{ "item" : "peglacitier6blizzard" },
-
+			{ "item" : "peglacitier6icethrower" },
 
 			{ "item" : "peglacitier6fuelairgun" },
 			{ "item" : "peglacitier6minelayer" },
 			{ "item" : "peglacitier6shocklance" },
 			{ "item" : "peglacitier6railgun" },
-
-
-			{ "item" : "peglacitier6machinegun" },
-			{ "item" : "peglacitier6icethrower" },
-			{ "item" : "peglacitier6splitter" },
 			{ "item" : "peglacitier6cannon" },
-*/
+
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },
       { "item" : "feroziumwand" },

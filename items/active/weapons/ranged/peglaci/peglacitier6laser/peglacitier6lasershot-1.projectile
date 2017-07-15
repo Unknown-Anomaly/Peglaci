@@ -1,0 +1,23 @@
+{
+  "projectileName" : "peglacitier6lasershot-1",
+  "image" : "peglacitier6lasershot-1.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "laser",
+  "frameNumber" : 1,
+  "pointLight" : true,
+  "speed" : 60,
+  "lightColor" : [40, 40, 200],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier6laserhit-1",
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "damageKind" : "default"
+}

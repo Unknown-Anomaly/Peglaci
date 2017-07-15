@@ -16,7 +16,7 @@
   "animation" : "peglacitier5shocklance.animation",
   "animationParts" : {
     "gun" : "peglacitier5shocklance.png",
-    "gunfullbright" : "",
+    "gunfullbright" : "peglacitier5shocklancefullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

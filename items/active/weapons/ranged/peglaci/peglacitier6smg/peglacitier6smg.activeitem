@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "Solarium slugs weaken armor - stay on target to deal increased damage.",
-  "shortdescription" : "Peeler Submachinegun V",
+  "shortdescription" : "Peeler Submachinegun II +",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,
@@ -15,9 +15,7 @@
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier6smg.png",
-    "barrel" : "",
+    "gun" : "peglacitier6smg.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

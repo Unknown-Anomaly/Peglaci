@@ -1,0 +1,60 @@
+{
+  "projectileName" : "peglacitier6fuelairgunshot-1",
+  "image" : "peglacitier6fuelairgunshot-1.png",
+  "animationCycle" : 1.4,
+  "frameNumber" : 8,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 3,
+  "pointLight" : false,
+  "piercing" : true,
+  "speed" : 15,
+  "timeToLive" : 0.01,
+  "lightColor" : [255, 150, 0],
+  "actionOnReap" : [
+
+	{
+      "action" : "projectile",
+      "type" : "peglacitier6fuelairgunshot-2",
+      "inheritDamageFactor" : 0.2,
+	    "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier6fuelairgunshot-2",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -10
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier6fuelairgunshot-2",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 10
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier6fuelairgunshot-2",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -45
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier6fuelairgunshot-2",
+      "inheritDamageFactor" : 0.2,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 45
+    }
+  ],
+  "statusEffects" : [
+	{
+      "effect" : "burning",
+      "amount" : 8
+    }
+	 ],
+  "damageKind" : "default",
+  "emitters" : [ "cloudtrail" ]
+}

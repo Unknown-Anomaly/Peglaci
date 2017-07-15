@@ -1,0 +1,20 @@
+{
+  "projectileName" : "peglacitier6laserhit-1",
+  "image" : "peglacitier6laserhit-1.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 0,
+  "frameNumber" : 4,
+  "lightColor" : [100, 100, 255],
+  "speed" : 0,
+  "timeToLive" : 1,
+  "actionOnReap" : [
+     {
+      "action" : "config",
+      "file" : "/projectiles/explosions/peglacilaserexplosion/peglacilaserexplosion.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}

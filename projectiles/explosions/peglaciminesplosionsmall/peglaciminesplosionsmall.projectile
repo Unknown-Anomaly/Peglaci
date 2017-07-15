@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglaciminesplosionsmall",
-  "frames" : "peglaciminesplosionsmall.png",
+  "image" : "peglaciminesplosionsmall.png",
   "animationCycle" : 0.2,
   "level" : 3,
   "frameNumber" : 6,

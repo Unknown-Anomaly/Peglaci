@@ -1,0 +1,81 @@
+{
+  "projectileName" : "peglacitier5fuelairgunshot-2",
+  "image" : "peglacitier5fuelairgunshot-1.png",
+  "animationCycle" : 1.2,
+  "frameNumber" : 8,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 3,
+  "pointLight" : false,
+  "piercing" : true,
+  "speed" : 15,
+  "lightColor" : [255, 150, 0],
+	"timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3a",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -180
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 90
+    },
+	{
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -90
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -45
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "peglacitier5fuelairgunshot-3",
+      "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+      "angleAdjust" : -135
+    }
+
+  ],
+  "statusEffects" : [
+	{
+      "effect" : "burning",
+      "amount" : 8
+    }
+	 ],
+  "damageKind" : "default",
+  "emitters" : [ "cloudtrail" ]
+}

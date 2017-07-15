@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Solarium compressor fires a dense pulse of sound - charge to fire a ricocheting blast.",
-  "shortdescription" : "Abbatoir Shocklance X",
+  "shortdescription" : "Abbatoir Shocklance I +",
   "tooltipKind" : "gun",
   "category" : "Rifle",
   "twoHanded" : true,
@@ -16,7 +16,7 @@
   "animation" : "peglacitier6shocklance.animation",
   "animationParts" : {
     "gun" : "peglacitier6shocklance.png",
-    "gunfullbright" : "",
+    "gunfullbright" : "peglacitier6shocklancefullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

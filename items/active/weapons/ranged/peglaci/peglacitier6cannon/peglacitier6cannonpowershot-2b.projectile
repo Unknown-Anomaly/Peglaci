@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglacitier6cannonpowershot-2b",
-  "frames" : "peglacitier6cannonpowershotnull.png",
+  "image" : "peglacitier6cannonpowershotnull.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "gas",

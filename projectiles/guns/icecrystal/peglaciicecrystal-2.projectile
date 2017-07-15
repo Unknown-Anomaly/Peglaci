@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglaciicecrystal-2",
-  "frames" : "peglaciicecrystal-2.png",
+  "image" : "peglaciicecrystal-2.png",
   "animationCycle" : 5.1,
   "frameNumber" : 8,
   "armorPenetration" : 1,
