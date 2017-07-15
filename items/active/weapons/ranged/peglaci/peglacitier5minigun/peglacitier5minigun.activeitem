@@ -31,44 +31,22 @@
 
   "elementalType" : "physical",
 
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
-    "fireTime" : 0.25,
-    "baseDps" : 5,
-    "energyUsage" : 33,
-    "inaccuracy" : 0.016,
-
-    "projectileCount" : 2,
-    "fireType" : "auto",
-
-    "projectileType" : "peglaciminigundart",
-    "projectileParameters" : {
-      "knockback" : 4,
-      "speed" : 50,
-      "statusEffects" : [ "" ]
-    },
-
-    "stances" : {
-      "empty" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "charge" : {
-        "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+    "chargeLevels" : [
+      {
+        "time" : 0.25,
+        "energyCost" : 30,
+        "cooldown" : 0.0,
+        "projectileType" : "peglaciminigundart",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 5,
+        "fireSound" : "fire"
       }
-    }
+    ]
   },
 
   "altAbilityType" : "spray",

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "peglacitier5avalauncher", "count" : 1 },
-    { "item" : "solariumstar", "count" : 8}
+    { "item" : "solariumstar", "count" : 3 }
   ],
  "output" : { "item" : "peglacitier6avalauncher", "count" : 1 },
   "groups" : [ "craftingmanipulator", "weapons", "all" ]

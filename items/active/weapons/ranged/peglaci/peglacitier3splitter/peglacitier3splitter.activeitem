@@ -9,7 +9,7 @@
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
-  "level" : 4,
+  "level" : 3,
 
   "inventoryIcon" : "peglacitier3splittericon.png",
 

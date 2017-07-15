@@ -15,10 +15,8 @@
 
   "animation" : "peglacitier6avalauncher.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier6avalauncher.png",
-    "middlefullbright" : "peglacitier6avalauncherfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier6avalauncher.png",
+    "gunfullbright" : "peglacitier6avalauncherfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
@@ -34,54 +32,25 @@
 
   "elementalType" : "ice",
 
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
-    "fireTime" : 1.5,
-    "baseDps" : 8.0,
-    "energyUsage" : 24,
-    "inaccuracy" : 0.008,
-    "fireType" : "auto",
-
-    "projectileType" : "peglaciicecloud-3",
-    "projectileParameters" : {
-      "knockback" : 5,
-      "speed" : 50,
-      "statusEffects" : [ "frostslow" ]
-    },
-    "projectileCount" : 1,
-
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.11,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
+    "chargeLevels" : [
+      {
+        "time" : 1.5,
+        "energyCost" : 30,
+        "cooldown" : 0.5,
+        "projectileType" : "peglaciicecloud-3",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 8,
+        "fireSound" : "fire"
       }
-    }
+    ]
   },
 
+/*
   "particleEmitters" : {
     "muzzleFlash" : {
       "particles" : [
@@ -91,7 +60,7 @@
       ]
     }
   },
-
+*/
   "altAbilityType" : "",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 4 }
+    { "item" : "titaniumbar", "count" : 3 }
   ],
-  "output" : { "item" : "peglacitier3knife", "count" : 3 },
+  "output" : { "item" : "peglacitier3knife", "count" : 4 },
   "groups" : [ "craftinganvil2", "consumables", "all" ]
 }

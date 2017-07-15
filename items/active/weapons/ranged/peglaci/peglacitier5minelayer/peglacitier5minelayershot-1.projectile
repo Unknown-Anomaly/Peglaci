@@ -7,8 +7,8 @@
   "frameNumber" : 8,
   "pointLight" : false,
   "speed" : 20,
-   "timeToLive" : 0.001,
-    "lightColor" : [40, 40, 190],
+  "timeToLive" : 0.001,
+  "lightColor" : [40, 40, 190],
   "actionOnReap" : [
 	{
       "action" : "projectile",

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 4 }
+    { "item" : "refinedaegisalt", "count" : 3 }
   ],
-  "output" : { "item" : "peglacitier5knife", "count" : 3 },
+  "output" : { "item" : "peglacitier5knife", "count" : 4 },
   "groups" : [ "craftingaccelerator", "consumables", "all" ]
 }

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "peglacitier3cannon", "count" : 1 },
-    { "item" : "durasteelbar", "count" : 8}
+    { "item" : "durasteelbar", "count" : 3 }
   ],
  "output" : { "item" : "peglacitier4cannon", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 16 }
+    { "item" : "tungstenbar", "count" : 8 }
   ],
   "output" : { "item" : "peglacitier2axe", "count" : 1 },
   "groups" : [ "craftinganvil", "weapons", "all" ]

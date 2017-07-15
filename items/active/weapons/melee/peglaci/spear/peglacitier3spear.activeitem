@@ -1,7 +1,7 @@
 {
   "itemName" : "peglacitier3spear",
-  "prphysical" : 1200,
-  "level" : 5,
+  "price" : 1200,
+  "level" : 3,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Brave whalers use this to hunt fierce whales.",

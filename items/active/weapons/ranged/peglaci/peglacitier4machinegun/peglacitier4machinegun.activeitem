@@ -8,12 +8,12 @@
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
+  "frameNumber" : 1,
   "itemTags" : ["weapon", "ranged", "assaultrifle"],
   "level" : 4,
 
   "inventoryIcon" : "peglacitier4machinegunicon.png",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "gun" : "peglacitier4machinegun.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"

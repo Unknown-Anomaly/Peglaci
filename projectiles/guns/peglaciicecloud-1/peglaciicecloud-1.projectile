@@ -10,7 +10,7 @@
   "speed" : 15,
   "timeToLive" : 0.01,
    "statusEffects" : [
-    "frostslow"
+    "frozenslow"
   ],
   "actionOnReap" : [
     {

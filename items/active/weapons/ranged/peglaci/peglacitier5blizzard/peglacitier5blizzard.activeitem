@@ -44,7 +44,7 @@
       }
     ]
   },
-
+/*
   "particleEmitters" : {
     "muzzleFlash" : {
       "particles" : [
@@ -54,7 +54,7 @@
       ]
     }
   },
-
+*/
   "altAbilityType" : "",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

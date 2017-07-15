@@ -1,6 +1,6 @@
 {
   "itemName" : "peglacitier2spear",
-  "prphysical" : 800,
+  "price" : 800,
   "level" : 3,
   "maxStack" : 1,
   "rarity" : "Common",

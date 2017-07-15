@@ -15,10 +15,8 @@
 
   "animation" : "peglacitier6minigun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier6minigun.png",
-    "middlefullbright" : "peglacitier6minigunfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier6minigun.png",
+    "gunfullbright" : "peglacitier6minigunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {

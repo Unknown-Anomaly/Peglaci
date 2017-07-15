@@ -6,10 +6,10 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 3,
+            "frames" : 4,
             "cycle" : 1.0,
             "mode" : "transition",
-            "transition" : "loop"
+            "transition" : "off"
           },
           "fire" : {
             "frames" : 1,

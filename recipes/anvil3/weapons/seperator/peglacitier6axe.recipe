@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "solariumstar", "count" : 16 }
+    { "item" : "solariumstar", "count" : 8 }
   ],
   "output" : { "item" : "peglacitier6axe", "count" : 1 },
   "groups" : [ "craftingseparator", "weapons", "all" ]

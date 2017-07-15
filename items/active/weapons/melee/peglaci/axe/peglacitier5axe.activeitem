@@ -4,7 +4,7 @@
   "price" : 1200,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A Rubium handle and a Frosteel blade make this axe beyond compare.",
+  "description" : "A Violium handle and a Frosteel blade make this axe beyond compare.",
   "shortdescription" : "Glaciercleave",
   "tooltipKind" : "sword",
   "category" : "axe",

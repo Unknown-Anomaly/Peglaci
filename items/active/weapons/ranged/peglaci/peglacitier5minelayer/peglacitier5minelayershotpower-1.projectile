@@ -64,7 +64,7 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglaciferoziumminelayershot-3",
+      "type" : "peglacitier5minelayershot-3",
       "inheritDamageFactor" : 0.125,
       "angleAdjust" : 180
     }

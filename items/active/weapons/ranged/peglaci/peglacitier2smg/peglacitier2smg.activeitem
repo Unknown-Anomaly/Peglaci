@@ -8,6 +8,7 @@
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,
+  "frameNumber" : 1,
   "itemTags" : ["weapon", "ranged", "machinepistol"],
   "level" : 2,
 
@@ -15,9 +16,7 @@
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier2smg.png",
-    "barrel" : "",
+    "gun" : "peglacitier2smg.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

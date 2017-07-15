@@ -1,0 +1,511 @@
+-----------------------------------------------------------
+--------------------- RANGED WEAPONS ----------------------
+-----------------------------------------------------------
+itemName: peglacitier0pistol
+shortdescription: Emergency Pistol
+level: 1
+rarity: Common
+price: 200
+description: Standard with every Peacekeeper ship.
+recipe: ironbar 3, ironore 2, darkwoodmaterial 2
+-----------------------------------------------------------
+itemName: peglacitier1pistol
+shortdescription: Peacekeeper Pistol I
+level: 1
+rarity: Common
+price: 200
+description: Iron components allow for greater power. Alternate fire stuns the target momentarily.
+recipe: peglacitier0pistol, ironbar 3
+-----------------------------------------------------------
+itemName: peglacitier2pistol
+shortdescription: Peacekeeper Pistol II
+level: 2
+rarity: Common
+price: 200
+description: Improved components allow for greater power. Alternate fire stuns the target momentarily.
+recipe: peglacitier1pistol, tungstenbar 3
+-----------------------------------------------------------
+itemName: peglacitier6pistol
+shortdescription: Peacekeeper Pistol II +
+level: 6
+rarity: Legendary
+price: 200
+description: Tougher components allow for greater power. Alternate fire stuns the target momentarily.
+recipe: peglacitier2pistol, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier1shotgun
+shortdescription: Geyser Shotgun I
+level: 1
+rarity: Common
+price: 200
+description: Fires superheated ceramic fragments - charge to fire an incediary grenade.
+recipe: peglacitier0pistol, ironbar 5
+-----------------------------------------------------------
+itemName: peglacitier2shotgun
+shortdescription: Geyser Shotgun II
+level: 2
+rarity: Common
+price: 200
+description: Improved materials increase damage capacity - charge to fire an incediary grenade.
+recipe: peglacitier1shotgun, tungstenbar 5
+-----------------------------------------------------------
+itemName: peglacitier6shotgun
+shortdescription: Geyser Shotgun II +
+level: 6
+rarity: Legendary
+price: 200
+description: Tougher materials increase damage capacity - charge to fire an incediary grenade.
+recipe: peglacitier2shotgun, solariumstar 5
+-----------------------------------------------------------
+itemName: peglacitier1smg
+shortdescription: Peeler Submachinegun I
+level: 1
+rarity: Common
+price: 200
+description: Iron slugs weaken armor - stay on target to deal increased damage.
+recipe: peglacitier0pistol, ironbar 3
+-----------------------------------------------------------
+itemName: peglacitier2smg
+shortdescription: Peeler Submachinegun II
+level: 2
+rarity: Common
+price: 200
+description: Tungsten slugs weaken armor - stay on target to deal increased damage.
+recipe: peglacitier1smg, tungstenbar 3
+-----------------------------------------------------------
+itemName: peglacitier6smg
+shortdescription: Peeler Submachinegun II +
+level: 6
+rarity: Legendary
+price: 200
+description: Solarium tipped slugs weaken armor - stay on target to deal increased damage.
+recipe: peglacitier2smg, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier3cannon
+shortdescription: Crevasse Grenade Rifle I
+level: 3
+rarity: Common
+price: 200
+description: Fires a heavy round to deal focused damage - charge to launch an explosive round.
+recipe: peglacitier2shotgun, titaniumbar 3
+-----------------------------------------------------------
+itemName: peglacitier4cannon
+shortdescription: Crevasse Grenade Rifle II
+level: 4
+rarity: Uncommon
+price: 200
+description: Fires a heavy round to deal focused damage - charge to launch an explosive round.
+recipe: peglacitier3cannon, durasteelbar 3
+-----------------------------------------------------------
+itemName: peglacitier6cannon
+shortdescription: Crevasse Grenade Rifle II +
+level: 6
+rarity: Legendary
+price: 200
+description: Fires a heavy round to deal focused damage - charge to launch an explosive round.
+recipe: peglacitier4cannon, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier3icethrower
+shortdescription: Mistral Icethrower I
+level: 3
+rarity: Uncommon
+price: 200
+description: Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.
+recipe: peglacitier2smg, titaniumbar 3
+-----------------------------------------------------------
+itemName: peglacitier4icethrower
+shortdescription: Mistral Icethrower II
+level: 4
+rarity: Uncommon
+price: 200
+description: Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.
+recipe: peglacitier3icethrower, durasteelbar 3
+-----------------------------------------------------------
+itemName: peglacitier6icethrower
+shortdescription: Mistral Icethrower II +
+level: 6
+rarity: Legendary
+price: 200
+description: Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.
+recipe: peglacitier4icethrower, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier3machinegun
+shortdescription: Thresher Machinegun I
+level: 3
+rarity: Uncommon
+price: 200
+description: Titanium needles abrade armor plating - stay on target to strip enemy protection.
+recipe: peglacitier2smg, titaniumbar 4
+-----------------------------------------------------------
+itemName: peglacitier4machinegun
+shortdescription: Thresher Machinegun II
+level: 4
+rarity: Uncommon
+price: 200
+description: Durasteel needles abrade armor plating - stay on target to strip enemy protection.
+recipe: peglacitier3machinegun, durasteelbar 4
+-----------------------------------------------------------
+itemName: peglacitier6machinegun
+shortdescription: Thresher Machinegun II +
+level: 6
+rarity: Legendary
+price: 200
+description: Solarium tipped needles abrade armor plating - stay on target to strip enemy protection.
+recipe: peglacitier4machinegun, solariumstar 4
+-----------------------------------------------------------
+itemName: peglacitier3spliter
+shortdescription: Fissure Splitrifle I
+level: 3
+rarity: Uncommon
+price: 200
+description: Titanium rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.
+recipe: peglacitier2shotgun, titaniumbar 3
+-----------------------------------------------------------
+itemName: peglacitier4spliter
+shortdescription: Fissure Splitrifle II
+level: 4
+rarity: Uncommon
+price: 200
+description: Durasteel rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.
+recipe: peglacitier3spliter, durasteelbar 3
+-----------------------------------------------------------
+itemName: peglacitier6spliter
+shortdescription: Fissure Splitrifle II +
+level: 6
+rarity: Legendary
+price: 200
+description: Solarium tipped rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.
+recipe: peglacitier4spliter, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5avalauncher
+shortdescription: Coldsnap Avalauncher I
+level: 5
+rarity: Rare
+price: 200
+description: Blasts freezing wind at opponents, slowing and piercing their flesh.
+recipe: peglacitier4icethrower, refinedferozium 6
+-----------------------------------------------------------
+itemName: peglacitier6avalauncher
+shortdescription: Coldsnap Avalauncher I +
+level: 6
+rarity: Legendary
+price: 200
+description: Blasts freezing wind at opponents, slowing and piercing their flesh.
+recipe: peglacitier5avalauncher, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5blizzard
+shortdescription: Coldsnap Blizzard I 
+level: 5
+rarity: Rare
+price: 200
+description: Blasts a cloud of ice that hangs in the air, freezing and damaging foes.
+recipe: peglacitier4icethrower, refinedferozium 6
+-----------------------------------------------------------
+itemName: peglacitier6blizzard
+shortdescription: Coldsnap Blizzard I +
+level: 6
+rarity: Legendary
+price: 200
+description: Blasts a cloud of ice that hangs in the air, freezing and damaging foes.
+recipe: peglacitier5blizzard, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5fuelairgun
+shortdescription: Tonerre Cloudgun I
+level: 5
+rarity: Rare
+price: 200
+description: Launches a cloud of incandescent gas that erupts - charge to launch as a grenade.
+recipe: peglacitier4splitter, refinedviolium 6
+-----------------------------------------------------------
+itemName: peglacitier6fuelairgun
+shortdescription: Tonerre Cloudgun I +
+level: 6
+rarity: Legendary
+price: 200
+description: Launches a cloud of incandescent gas that erupts - charge to launch as a grenade.
+recipe: peglacitier5fuelairgun, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5laser
+shortdescription: Apollo Maser I
+level: 5
+rarity: Rare
+price: 200
+description: Powerful ray of microwave radiation that causes the ground to erupt in it's wake.
+recipe: peglacitier4machinegun, refinedferozium 6
+-----------------------------------------------------------
+itemName: peglacitier6laser
+shortdescription: Apollo Maser I +
+level: 6
+rarity: Legendary
+price: 200
+description: Upgraded Components allow for more devastation.
+recipe: peglacitier5laser, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5minelayer
+shortdescription: Tremor Minelayer I
+level: 5
+rarity: Rare
+price: 200
+description: Disperses powerful Violium coated mines - charge to launch a devastating adhesive charge.
+recipe: peglacitier4splitter, refinedviolium 6
+-----------------------------------------------------------
+itemName: peglacitier6minelayer
+shortdescription: Tremor Minelayer I +
+level: 6
+rarity: Legendary
+price: 200
+description: Disperses powerful Solarium coated mines - charge to launch a devastating adhesive charge.
+recipe: peglacitier5minelayer, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5minigun
+shortdescription: Imperius Minigun I
+level: 5
+rarity: Rare
+price: 200
+description: A storm of Ferozium tipped shards rend armor with ease and reflect off walls.
+recipe: peglacitier4machinegun, refinedferozium 6
+-----------------------------------------------------------
+itemName: peglacitier6minigun
+shortdescription: Imperius Minigun I +
+level: 6
+rarity: Legendary
+price: 200
+description: A storm of Solarium tipped slugs rend armor with ease and reflect off walls.
+recipe: peglacitier5minigun, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5railgun
+shortdescription: Eclair Railgun I
+level: 5
+rarity: Rare
+price: 200
+description: Fires a quick and devastating round - charge to fire through walls.
+recipe: peglacitier4cannon, refinedviolium 6
+-----------------------------------------------------------
+itemName: peglacitier6railgun
+shortdescription: Eclair Railgun I +
+level: 6
+rarity: Legendary
+price: 200
+description: Upgraded Components allow for more devastation - charge to fire through walls.
+recipe: peglacitier5railgun, solariumstar 3
+-----------------------------------------------------------
+itemName: peglacitier5shocklance
+shortdescription: Abbatoir Shocklance I
+level: 5
+rarity: Rare
+price: 200
+description: Fires a dense pulse of sound - charge to fire a ricocheting blast.
+recipe: peglacitier4cannon, refinedviolium 6
+-----------------------------------------------------------
+itemName: peglacitier6shocklance
+shortdescription: Abbatoir Shocklance I +
+level: 6
+rarity: Legendary
+price: 200
+description: Solarium compressor fires a dense pulse of sound - charge to fire a ricocheting blast.
+recipe: peglacitier5shocklance, solariumstar 3
+-----------------------------------------------------------
+--------------------- MELEE  WEAPONS ----------------------
+-----------------------------------------------------------
+itemName: peglacitier1axe
+shortdescription: Ice Axe
+level: 1
+rarity: Common
+price: 200
+description: For stubborn ice.
+recipe: ironbar 8
+-----------------------------------------------------------
+itemName: peglacitier2axe
+shortdescription: Frostbite
+level: 2
+rarity: Common
+price: 200
+description: Bites like a freezing wind.
+recipe: tungstenbar 8
+-----------------------------------------------------------
+itemName: peglacitier3axe
+shortdescription: Snowsplitter
+level: 3
+rarity: Uncommon
+price: 200
+description: Go on, split that snow!
+recipe: titaniumbar 8
+-----------------------------------------------------------
+itemName: peglacitier4axe
+shortdescription: Snowscythe
+level: 4
+rarity: Uncommon
+price: 200
+description: A cold, reaping blade of Durasteel.
+recipe: durasteelbar 8
+-----------------------------------------------------------
+itemName: peglacitier5axe
+shortdescription: Glaciercleave
+level: 5
+rarity: Rare
+price: 200
+description: A Violium handle and a Frosteel blade make this axe beyond compare.
+recipe: refinedviolium 8
+-----------------------------------------------------------
+itemName: peglacitier6axe
+shortdescription: Dark-Of-Night
+level: 6
+rarity: Legendary
+price: 200
+description: The edge burns like a shard of ice in the dead of coldest night.
+recipe: solariumstar 8
+-----------------------------------------------------------
+itemName: peglacitier1cestus
+shortdescription: Wristblade
+level: 1
+rarity: Common
+price: 200
+description: An iron blade firmly lashed to the wrist.
+recipe: ironbar 8
+-----------------------------------------------------------
+itemName: peglacitier2cestus
+shortdescription: Handaxe
+level: 2
+rarity: Common
+price: 200
+description: Heavy and sharp to smash through armor!
+recipe: tungstenbar 8
+-----------------------------------------------------------
+itemName: peglacitier3cestus
+shortdescription: Palmedge
+level: 3
+rarity: Uncommon
+price: 200
+description: The arrow-shaped blade slides delicately through gaps in armor.
+recipe: titaniumbar 8
+-----------------------------------------------------------
+itemName: peglacitier4cestus
+shortdescription: Guthook
+level: 4
+rarity: Uncommon
+price: 200
+description: Shaped to draw entrails out of prey.
+recipe: durasteelbar 8
+-----------------------------------------------------------
+itemName: peglacitier5cestus
+shortdescription: Crescent-Fang
+level: 5
+rarity: Rare
+price: 200
+description: The Frosteel edge tears through armor and flesh with equal grace.
+recipe: refinedferozium 8
+-----------------------------------------------------------
+itemName: peglacitier6cestus
+shortdescription: Icikill
+level: 6
+rarity: Legendary
+price: 200
+description: Saps the enemy's strength even as it tears through them.
+recipe: solariumstar 8
+-----------------------------------------------------------
+itemName: peglacitier1spear
+shortdescription: Hunting Spear
+level: 1
+rarity: Common
+price: 200
+description: Spear used to hunt small game.
+recipe: ironbar 8
+-----------------------------------------------------------
+itemName: peglacitier2spear
+shortdescription: Bident
+level: 2
+rarity: Common
+price: 200
+description: Two teeth to pierce thick hides.
+recipe: tungstenbar 8
+-----------------------------------------------------------
+itemName: peglacitier3spear
+shortdescription: Whaler Harpoon
+level: 3
+rarity: Uncommon
+price: 200
+description: Brave whalers use this to hunt fierce whales.
+recipe: titaniumbar 8
+-----------------------------------------------------------
+itemName: peglacitier4spear
+shortdescription: Hookedge
+level: 4
+rarity: Uncommon
+price: 200
+description: Sharp on the inside edge to hook guts.
+recipe: durasteelbar 8
+-----------------------------------------------------------
+itemName: peglacitier5spear
+shortdescription: Absolute Spear-o
+level: 5
+rarity: Rare
+price: 200
+description: The cold Frosteel blade tears at skin even as it passes through it.
+recipe: refinedaegisalt 8
+-----------------------------------------------------------
+itemName: peglacitier6spear
+shortdescription: Frozen-Heart
+level: 6
+rarity: Legendary
+price: 200
+description: Born of cold and winter air and mountain rain combining.
+recipe: solariumstar 8
+-----------------------------------------------------------
+----------------------- CONSUMABLES -----------------------
+-----------------------------------------------------------
+itemName: peglacitier0knife
+shortdescription: Ice Knife
+rarity: Common
+price: 0
+count: 5
+description: Cold and fragile, but very sharp!
+recipe: ice 2
+-----------------------------------------------------------
+itemName: peglacitier1knife
+shortdescription: Farclaw
+rarity: Common
+price: 200
+count: 3
+description: The traditional Peglaci throwing knife for sports and hunting.
+recipe: ironbar 2
+-----------------------------------------------------------
+itemName: peglacitier2knife
+shortdescription: Ricoshave
+rarity: Common
+price: 200
+count: 4
+description: The gyroscopically stable blade can be banked off walls to hit another.
+recipe: tungstenbar 3
+-----------------------------------------------------------
+itemName: peglacitier3knife
+shortdescription: Fanblade
+rarity: Uncommon
+price: 200
+count: 4
+description: Throws a spread of deadly razor-sharp darts.
+recipe: titaniumbar 3
+-----------------------------------------------------------
+itemName: peglacitier4knife
+shortdescription: Typhoon Harpoon
+rarity: Uncommon
+price: 200
+count: 4
+description: Flies straight for a moment before exploding into motion under its own power.
+recipe: durasteelbar 3
+-----------------------------------------------------------
+itemName: peglacitier5knife
+shortdescription: Witherblade
+rarity: Rare
+price: 200
+count: 4
+description: Pierces through foes while draining their very energy!
+recipe: refinedaegisalt 3
+-----------------------------------------------------------
+itemName: peglacitier6knife
+shortdescription: Disabler
+rarity: Legendary
+price: 200
+count: 4
+description: Freezes the target's skin, stopping them in their tracks and sapping their heat.
+recipe: solariumstar 3
+-----------------------------------------------------------

@@ -1,7 +1,7 @@
 {
   "itemName" : "peglacitier4spear",
   "prphysical" : 1500,
-  "level" : 6,
+  "level" : 4,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Sharp on the inside edge to hook guts.",

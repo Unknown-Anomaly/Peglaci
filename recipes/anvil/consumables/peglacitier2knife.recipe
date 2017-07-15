@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 4 }
+    { "item" : "tungstenbar", "count" : 3 }
   ],
-  "output" : { "item" : "peglacitier2knife", "count" : 3 },
+  "output" : { "item" : "peglacitier2knife", "count" : 4 },
   "groups" : [ "craftinganvil", "consumables", "all" ]
 }

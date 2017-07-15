@@ -2,9 +2,11 @@
   "frameGrid" : {
     "size" : [24, 16],
     "dimensions" : [4, 1],
-
     "names" : [
-      [ "idle.1", "idle.2", "idle.3", "idle.4" ]
+      [ "empty", "charge.1", "charge.2", "charge.3" ]
     ]
-  }  
+  },
+  "aliases" : {
+    "charge.3" : "fire"
+  }
 }
