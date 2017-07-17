@@ -16,6 +16,7 @@
   "animation" : "peglacitier5railgun.animation",
   "animationParts" : {
     "gun" : "peglacitier5railgun.png",
+    "gunfullbright" : "peglacitier5railgunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
   },
   "animationCustom" : {

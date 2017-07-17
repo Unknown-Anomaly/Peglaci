@@ -26,7 +26,8 @@
         "properties" : {
           "centered" : true,
           "offset" : [1.0, 0.25],
-          "transformationGroups" : ["weapon"]
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 0
         },
 
         "partStates" : {

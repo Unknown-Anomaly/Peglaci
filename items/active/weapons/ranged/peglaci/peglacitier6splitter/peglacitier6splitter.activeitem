@@ -4,19 +4,19 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Durasteel rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.",
-  "shortdescription" : "Fissure Splitrifle",
+  "shortdescription" : "Fissure Splitrifle II +",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
-  "level" : 4,
+  "level" : 6,
 
-  "inventoryIcon" : "peglacitier4splittericon.png",
+  "inventoryIcon" : "peglacitier6splittericon.png",
 
-  "animation" : "peglacitier4splitter.animation",
+  "animation" : "peglacitier6splitter.animation",
   "animationParts" : {
-    "gun" : "peglacitier4splitter.png",
-    "gunfullbright" : "peglacitier4splitterfullbright.png",
+    "gun" : "peglacitier6splitter.png",
+    "gunfullbright" : "peglacitier6splitterfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {

@@ -15,10 +15,8 @@
 
   "animation" : "peglacitier6icethrower.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "peglacitier6icethrower.png",
-    "middlefullbright" : "peglacitier6icethrowerfullbright.png",
-    "barrel" : "",
+    "gun" : "peglacitier6icethrower.png",
+    "gunfullbright" : "peglacitier6icethrowerfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {

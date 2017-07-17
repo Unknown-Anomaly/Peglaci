@@ -16,6 +16,7 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "gun" : "peglacitier6machinegun.png",
+    "gunfullbright" : "peglacitier6machinegunfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
