@@ -8,7 +8,6 @@
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
-  "frameNumber" : 1,
   "itemTags" : ["weapon", "ranged", "assaultrifle"],
   "level" : 3,
 

@@ -6,7 +6,7 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 4,
+            "frames" : 3,
             "cycle" : 1.0,
             "mode" : "transition",
             "transition" : "off"

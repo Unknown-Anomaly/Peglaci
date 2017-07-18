@@ -7,6 +7,6 @@
     ]
   },
   "aliases" : {
-    "charge.1" : "empty"
+    "empty" : "charge.1"
   }
 }

@@ -7,6 +7,6 @@
     ]
   },
   "aliases" : {
-    "charge.4" : "fire"
+    "fire" : "charge.4"
   }
 }
