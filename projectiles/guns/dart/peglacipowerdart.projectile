@@ -9,8 +9,8 @@
   "piercing" : false,
   "power" : 40,
   "lightColor" : [0, 100, 100],
-  "speed" :22,
-  "timeToLive" : 0.5,
+  "speed" : 15,
+  "timeToLive" : 1,
   "actionOnReap" : [
     {
     "action" : "config",

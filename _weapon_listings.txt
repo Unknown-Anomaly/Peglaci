@@ -194,7 +194,7 @@ description: Blasts freezing wind at opponents, slowing and piercing their flesh
 recipe: peglacitier5avalauncher, solariumstar 3
 -----------------------------------------------------------
 itemName: peglacitier5blizzard
-shortdescription: Coldsnap Blizzard I 
+shortdescription: Coldsnap Blizzard I
 level: 5
 rarity: Rare
 price: 200

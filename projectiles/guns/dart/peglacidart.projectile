@@ -4,10 +4,9 @@
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "stickybullet",
-  "bounces" : 0,
-  "frameNumber" : 1,  
+  "frameNumber" : 1,
   "pointLight" : false,
-  "speed" :40,
+  "speed" : 40,
   "lightColor" : [0, 100, 100],
   "actionOnReap" : [
     {
@@ -18,5 +17,3 @@
   "damageKind" : "default",
   "emitters" : [ "peglacitrail" ]
 }
-
-

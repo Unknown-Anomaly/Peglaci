@@ -42,7 +42,7 @@
         "time" : 0,
         "energyCost" : 20,
         "cooldown" : 0.1,
-        "projectileType" : "peglacidart",
+        "projectileType" : "peglaciflechette",
         "projectileParameters" : {
           "knockbackRange" : 5
       },
@@ -54,7 +54,7 @@
         "time" : 1.0,
         "energyCost" : 50,
         "cooldown" : 0.5,
-        "projectileType" : "peglacipowerdart",
+        "projectileType" : "peglacipowerflechette",
         "projectileParameters" : {
           "knockbackRange" : 10
       },

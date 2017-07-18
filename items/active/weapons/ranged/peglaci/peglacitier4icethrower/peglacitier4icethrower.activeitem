@@ -32,60 +32,22 @@
 
   "elementalType" : "ice",
 
+  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "fireTime" : 1,
-    "baseDps" : 9.7,
-    "energyUsage" : 27.0,
-    "inaccuracy" : 0,
-
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "peglaciicecloud-1",
-    "projectileParameters" : {
-      "speed" : 30,
-      "knockback" : 3
-    },
-	  "stances" : {
-	    "idle" : {
-	      "armRotation" : 0,
-	      "weaponRotation" : 0,
-	      "twoHanded" : true,
-
-	      "allowRotate" : true,
-	      "allowFlip" : true
-	    },
-	    "fire" : {
-	      "duration" : 0,
-	      "armRotation" : 5,
-	      "weaponRotation" : 5,
-	      "twoHanded" : true,
-
-	      "allowRotate" : false,
-	      "allowFlip" : false
-	    },
-	    "cooldown" : {
-	      "duration" : 0.25,
-	      "armRotation" : 5,
-	      "weaponRotation" : 5,
-	      "twoHanded" : true,
-
-	      "allowRotate" : false,
-	      "allowFlip" : false
-	    }
-	  }
-  },
-
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "particles" : [
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] }
-      ]
-    }
+    "chargeLevels" : [
+      {
+        "time" : 0.5,
+        "energyCost" : 27,
+        "cooldown" : 0.1,
+        "projectileType" : "peglaciicecloud-1",
+        "projectileParameters" : {
+          "knockbackRange" : 3
+        },
+        "inaccuracy" : 0.001,
+        "baseDamage" : 9.7,
+        "fireSound" : "fire"
+      }
+    ]
   },
 
   "altAbilityType" : "",

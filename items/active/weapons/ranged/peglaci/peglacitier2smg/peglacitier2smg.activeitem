@@ -13,6 +13,7 @@
 
   "inventoryIcon" : "peglacitier2smgicon.png",
 
+  "animation" : "peglacitier2smg.animation",
   "animationParts" : {
     "gun" : "peglacitier2smg.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
@@ -23,7 +24,7 @@
   },
 
   "baseOffset" : [0.8, 0.34],
-  "muzzleOffset" : [1.1, 0.175],
+  "muzzleOffset" : [0.8, 0.175],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -32,15 +33,12 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-
     "fireTime" : 0.11,
     "baseDps" : 7,
     "energyUsage" : 22,
     "inaccuracy" : 0.02,
-
     "fireType" : "auto",
     "projectileCount" : 1,
-
     "projectileType" : "peglacismgdart",
     "projectileParameters" : {
       "speed" : 52,
@@ -51,23 +49,21 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : true,
         "allowFlip" : true
       },
       "fire" : {
         "duration" : 0.01,
-        "armRotation" : 2,
-        "weaponRotation" : 2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
         "twoHanded" : false,
-
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
         "duration" : 0.01,
-        "armRotation" : 2,
-        "weaponRotation" : 2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
         "twoHanded" : false,
 
         "allowRotate" : false,
