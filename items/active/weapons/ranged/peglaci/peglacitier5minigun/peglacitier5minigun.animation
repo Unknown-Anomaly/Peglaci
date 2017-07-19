@@ -8,8 +8,7 @@
           "charge" : {
             "frames" : 6,
             "cycle" : 1.0,
-            "mode" : "transition",
-            "transition" : "loop"
+            "mode" : "loop"
           }
         }
       }

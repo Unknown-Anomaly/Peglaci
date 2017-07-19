@@ -37,24 +37,13 @@
         "energyCost" : 40,
         "cooldown" : 0.4,
         "projectileType" : "peglaciicecrystal",
-        "projectileParameters" : {},
         "inaccuracy" : 0,
         "baseDamage" : 15,
         "fireSound" : "fire"
       }
     ]
   },
-/*
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "particles" : [
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] }
-      ]
-    }
-  },
-*/
+
   "altAbilityType" : "",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

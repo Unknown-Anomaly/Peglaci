@@ -50,17 +50,6 @@
     ]
   },
   
-/*
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "particles" : [
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] }
-      ]
-    }
-  },
-*/
   "altAbilityType" : "",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

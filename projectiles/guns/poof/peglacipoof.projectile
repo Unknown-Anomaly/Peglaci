@@ -1,0 +1,15 @@
+{
+  "projectileName" : "peglacipoof",
+  "image" : "peglacipoof.png",
+  "animationCycle" : 0.1,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 1,
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 1,
+	"timeToLive" : 0.01,
+  "actionOnReap" : [ ],
+  "damageKind" : "default",
+  "emitters" : [ ]
+}
