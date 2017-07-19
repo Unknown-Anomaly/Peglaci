@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+      "fire" : [ "/sfx/gun/pulsecannon2.ogg" ]
     }
   },
 
@@ -32,56 +32,35 @@
 
   "elementalType" : "physical",
 
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "fireTime" : 1.0,
-    "baseDps" : 12,
-    "energyUsage" : 22,
-    "inaccuracy" : 0.002,
-    "fireType" : "auto",
-    "projectileCount" : 1,
-    "projectileType" : "peglacitier5lasershot-1",
-    "projectileParameters" : {
-      "speed" : 52,
-      "knockbackRange" : 1
-    },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0.01,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.00,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : true
-      }
-    }
-  },
-
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "particles" : [
-        { "particle" : "bluegas", "offset" : [0.0, 0.0] },
-        { "particle" : "bluegas", "offset" : [0.0, 0.0] },
-        { "particle" : "bluegas", "offset" : [0.0, 0.0] }
+  "primaryAbilityType" : "chargefire",
+    "primaryAbility" : {
+      "chargeLevels" : [
+        {
+          "time" : 0,
+          "energyCost" : 0,
+          "cooldown" : 0.1,
+          "projectileType" : "peglacipoof",
+          "projectileParameters" : {
+            "knockbackRange" : 1
+          },
+          "inaccuracy" : 0.001,
+          "baseDamage" : 1,
+          "fireSound" : null
+        },
+        {
+          "time" : 1.0,
+          "energyCost" : 22,
+          "cooldown" : 0.1,
+          "projectileType" : "peglacitier5lasershot-1",
+          "projectileParameters" : {
+            "knockbackRange" : 1
+          },
+          "inaccuracy" : 0.001,
+          "baseDamage" : 9.7,
+          "fireSound" : "fire"
+        }
       ]
-    }
-  },
+    },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -6,14 +6,14 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 4,
-            "cycle" : 0.5,
+            "frames" : 6,
+            "cycle" : 0.8,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
           "fullcharge" : {
             "frames" : 1,
-            "cycle" : 0.5,
+            "cycle" : 0.2,
             "mode" : "loop"
           },
           "fire" : {
@@ -48,7 +48,7 @@
             },
             "fullcharge" : {
               "properties" : {
-                "image" : "<partImage>:charge.5"
+                "image" : "<partImage>:charge.6"
               }
             },
             "fire" : {
@@ -62,7 +62,7 @@
       "gunfullbright" : {
         "properties" : {
           "centered" : true,
-          "offset" : [1.0, 0.0],
+          "offset" : [1.0, 0.25],
           "transformationGroups" : ["weapon"],
           "zLevel" : 1,
           "fullbright" : true
@@ -82,7 +82,7 @@
             },
             "fullcharge" : {
               "properties" : {
-                "image" : "<partImage>:charge.5"
+                "image" : "<partImage>:charge.6"
               }
             },
             "fire" : {
@@ -96,31 +96,9 @@
     }
   },
 
-  "rotationGroups" : {
-    "weapon" : {
-      "angularVelocity" : 0
-    }
-  },
-
   "transformationGroups" : {
     "weapon" : {},
     "muzzle" : {}
-  },
-
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "transformationGroups" : ["muzzle"],
-      "offsetRegion" : [0, 0, 0, 0],
-      "particles" : [ ]
-    }
-  },
-
-  "lights" : {
-    "muzzleFlash" : {
-      "active" : false,
-      "position" : [0, 0],
-      "color" : [90, 90, 0]
-    }
   },
 
   "sounds" : {
