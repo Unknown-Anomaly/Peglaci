@@ -37,18 +37,6 @@
       "chargeLevels" : [
         {
           "time" : 0,
-          "energyCost" : 0,
-          "cooldown" : 0.1,
-          "projectileType" : "peglacipoof",
-          "projectileParameters" : {
-            "knockbackRange" : 1
-          },
-          "inaccuracy" : 0.001,
-          "baseDamage" : 1,
-          "fireSound" : null
-        },
-        {
-          "time" : 1.0,
           "energyCost" : 22,
           "cooldown" : 0.1,
           "projectileType" : "peglacitier5lasershot-1",

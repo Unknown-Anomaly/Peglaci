@@ -25,8 +25,8 @@
     }
   },
 
-  "baseOffset" : [1.0, 0.120],
-  "muzzleOffset" : [1.645, 0.125],
+  "baseOffset" : [-0.125, 0.0],
+  "muzzleOffset" : [1.875, 0.0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -36,7 +36,7 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 1.5,
+        "time" : 0.0,
         "energyCost" : 30,
         "cooldown" : 0.5,
         "projectileType" : "peglaciicecloud-2",
@@ -49,7 +49,7 @@
       }
     ]
   },
-  
+
   "altAbilityType" : "",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

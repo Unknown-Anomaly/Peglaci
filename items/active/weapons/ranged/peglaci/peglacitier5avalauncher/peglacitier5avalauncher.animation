@@ -7,13 +7,13 @@
           "off" : {},
           "charge" : {
             "frames" : 6,
-            "cycle" : 1.0,
+            "cycle" : 0.5,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
           "fullcharge" : {
             "frames" : 6,
-            "cycle" : 0.5,
+            "cycle" : 0.2,
             "mode" : "loop"
           },
           "fire" : {
@@ -30,7 +30,7 @@
       "gun" : {
         "properties" : {
           "centered" : true,
-          "offset" : [1.0, 0.25],
+          "offset" : [-0.125, 0.0],
           "transformationGroups" : ["weapon"]
         },
 
@@ -62,7 +62,7 @@
       "gunfullbright" : {
         "properties" : {
           "centered" : true,
-          "offset" : [1.0, 0.25],
+          "offset" : [-0.125, 0.0],
           "transformationGroups" : ["weapon"],
           "zLevel" : 1,
           "fullbright" : true

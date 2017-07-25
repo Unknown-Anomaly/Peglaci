@@ -24,18 +24,21 @@
       "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
     }
   },
+
   "baseOffset" : [1.0, 0.120],
   "muzzleOffset" : [1.645, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
+  "elementalType" : "ice",
+
   "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 0.5,
+        "time" : 0.0,
         "energyCost" : 40,
-        "cooldown" : 0.4,
+        "cooldown" : 0.2,
         "projectileType" : "peglaciicecrystal",
         "inaccuracy" : 0,
         "baseDamage" : 15,
