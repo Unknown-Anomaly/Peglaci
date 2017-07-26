@@ -19,9 +19,7 @@
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
-    "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
-    }
+    "sounds" : { "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ] }
   },
 
   "baseOffset" : [0.5, -0.72],
@@ -31,22 +29,45 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
-    "chargeLevels" : [
-      {
-        "time" : 0.25,
-        "energyCost" : 30,
-        "cooldown" : 0.0,
-        "projectileType" : "peglaciminigundart",
-        "projectileParameters" : {
-          "knockbackRange" : 5
-          },
-        "inaccuracy" : 0.008,
-        "baseDamage" : 5,
-        "fireSound" : "fire"
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.25,
+    "baseDps" : 10,
+    "energyUsage" : 15,
+    "inaccuracy" : 0.02,
+    "fireType" : "auto",
+    "projectileCount" : 1,
+    "projectileType" : "peglaciminigundart",
+    "projectileParameters" : {
+      "knockbackRange" : 1,
+      "speed" : 50
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.01,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.00,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : true
       }
-    ]
+    }
   },
 
   "altAbilityType" : "spray",
