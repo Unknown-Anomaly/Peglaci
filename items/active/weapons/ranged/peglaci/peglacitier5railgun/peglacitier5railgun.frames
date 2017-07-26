@@ -3,12 +3,9 @@
     "size" : [ 39, 13 ],
     "dimensions" : [5, 3],
     "names" : [
-      [ "empty", null, null, null, null ],
+      [ "empty", null, null, null, "fire" ],
       [ "charge.1", "charge.2", "charge.3", "charge.4", "charge.5" ],
-      [ "fullcharge.1", "fullcharge.2", "fullcharge.3", null, null ]
+      [ "fullcharge.1", "fullcharge.2", null, null, null ]
     ]
-  },
-  "aliases" : {
-    "fire" : "fullcharge.3"
   }
 }

@@ -49,7 +49,7 @@
         "fireSound" : "fire"
       },
       {
-        "time" : 1,
+        "time" : 0.5,
         "energyCost" : 52,
         "cooldown" : 0.5,
         "projectileType" : "peglacitier5railgundartpower-1",

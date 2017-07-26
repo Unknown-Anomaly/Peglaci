@@ -6,10 +6,15 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 5,
-            "cycle" : 1.0,
+            "frames" : 4,
+            "cycle" : 0.5,
             "mode" : "transition",
-            "transition" : "off"
+            "transition" : "fullcharge"
+          },
+          "fullcharge" : {
+            "frames" : 1,
+            "cycle" : 0.07,
+            "mode" : "loop"
           },
           "fire" : {
             "frames" : 1,
@@ -41,6 +46,11 @@
                 "image" : "<partImage>:charge.<frame>"
               }
             },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.4"
+              }
+            },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire"
@@ -68,6 +78,11 @@
             "charge" : {
               "properties" : {
                 "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.4"
               }
             },
             "fire" : {
