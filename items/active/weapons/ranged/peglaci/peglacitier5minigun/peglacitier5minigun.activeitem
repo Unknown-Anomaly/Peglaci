@@ -22,8 +22,8 @@
     "sounds" : { "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ] }
   },
 
-  "baseOffset" : [0.5, -0.72],
-  "muzzleOffset" : [1, 0.125],
+  "baseOffset" : [0.5, 0],
+  "muzzleOffset" : [1.75, 0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 

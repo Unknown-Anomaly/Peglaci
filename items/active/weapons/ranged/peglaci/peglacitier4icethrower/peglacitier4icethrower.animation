@@ -7,13 +7,13 @@
           "off" : {},
           "charge" : {
             "frames" : 4,
-            "cycle" : 0.5,
+            "cycle" : 0.25,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
           "fullcharge" : {
             "frames" : 4,
-            "cycle" : 0.5,
+            "cycle" : 0.2,
             "mode" : "loop"
           },
           "fire" : {

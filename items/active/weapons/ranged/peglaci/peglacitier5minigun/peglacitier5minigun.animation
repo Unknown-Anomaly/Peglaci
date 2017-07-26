@@ -8,11 +8,16 @@
       "firing" : {
         "default" : "off",
         "states" : {
-          "off" : {},
+          "off" : {
+            "frames" : 6,
+            "cycle" : 0.6,
+            "mode" : "loop"
+          },
           "fire" : {
             "frames" : 6,
             "cycle" : 0.25,
-            "mode" : "loop"
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -23,8 +28,23 @@
         "properties" : {
           "centered" : true,
           "image" : "<partImage>:empty",
-          "offset" : [0, 0],
+          "offset" : [0.5, 0],
           "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            }
+          }
         }
       },
       "muzzleFlash" : {
@@ -34,15 +54,6 @@
           "offset" : [0.75, 0],
           "fullbright" : true,
           "transformationGroups" : ["muzzle"]
-        },
-        "partStates" : {
-          "firing" : {
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:charge.<frame>"
-              }
-            }
-          }
         }
       }
     }
