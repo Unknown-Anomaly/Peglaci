@@ -9,7 +9,7 @@
 
 
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
-  "health" : 35,
+  "health" : 4,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",

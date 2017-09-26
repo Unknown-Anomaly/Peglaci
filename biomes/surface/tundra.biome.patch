@@ -1,0 +1,21 @@
+[{
+	"op": "add",
+	"path": "/surfacePlaceables/items/-",
+	"value": {
+		"mode": "floor",
+		"priority": 1.0,
+		"variants": 1,
+		"distribution": "/biomes/distributions.config:surfaceCrops",
+
+		"type": "object",
+		"objectSets": [{
+			"pool": [
+				[0.35, "peglaciwildsnowberryseed"],
+				[0.35, "peglaciwildspongeweedseed"]
+			],
+			"parameters": {
+				"startingStage": 3
+			}
+		}]
+	}
+}]

@@ -2,22 +2,23 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "maxFuel" : 1000
+      "maxFuel" : 1000,
+      "crewSize" : 6
     }
   },
 
   "backgroundOverlays" : [
     {
-      "image" : "peglacit5.png",
+      "image" : "peglaciT5.png",
        "position" : [14, 17],
       "fullbright" : true
     },
     {
-      "image" : "peglacit5lit.png",
+      "image" : "peglaciT5lit.png",
        "position" : [14, 17]
     }
   ],
 
   "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "peglacit5blocks.png"
+  "blockImage" : "peglaciT5blocks.png"
 }

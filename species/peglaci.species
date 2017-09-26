@@ -1,13 +1,13 @@
 {
-	"kind" : "peglaci",
+  "kind" : "peglaci",
 	"charCreationTooltip" : {
 		"title" : "Peglaci",
-		"subTitle" : "P",
-		"description" : "Peglaci are a race of hardy goatfolk. Formerly Apex predators their inteliect grew, more so when touched by the ones they dub the Giants."
+		"subTitle" : "Peacekeepers of Pegla",
+		"description" : "A race of peaceful, peace-keeping humanoids from an icy world."
 	},
 	"nameGen" : [ "/species/peglacinamegen.config:names", "/species/peglacinamegen.config:names" ],
 	"ouchNoises" : [ "/sfx/humanoid/peglacihurt_male1.ogg", "/sfx/humanoid/peglacihurt_female1.ogg" ],
-	"charGenTextLabels" : [ "Fur color", "Hair style", "Shirt", "Legwear", "Hide color", "Ears", "Shirt color", "Legwear color", "PEGLACI", "Personality" ],
+	"charGenTextLabels" : [ "Fur Color", "Hairstyle", "Shirt", "Legwear", "Hide Color", "Ears", "Shirt Color", "Legwear Color", "PEGLACI", "Personality" ],
 	"statusEffects" : [],
 	"skull" : "/humanoid/peglaci/dead.png",
 	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
@@ -142,9 +142,9 @@
 
 // Furniture Table
 /*
-			{ "item" : "peglacipurifier" },
+			{ "item" : "peglaciwaterpurifier" },
 			{ "item" : "peglacitesterbox" },
-			{ "item" : "peglacigiantek" },
+			{ "item" : "peglacigiantekblock" },
 			{ "item" : "peglaciicecolumn" },
 			{ "item" : "peglacihexpane" },
 			{ "item" : "peglaciinscribedpykreteblock" },
@@ -161,7 +161,7 @@
 			{ "item" : "peglacimetalpanel" },
 			{ "item" : "peglacimetalscreen" },
 			{ "item" : "peglacipykretestrip" },
-			{ "item" : "peglacialloydoor" },
+			{ "item" : "peglacihorizontalalloydoor" },
 			{ "item" : "peglacialloydoor2" },
 			{ "item" : "peglacibed" },
 			{ "item" : "peglacibed2" },
@@ -199,7 +199,6 @@
 			{ "item" : "peglacibookcaseend1" },
 			{ "item" : "peglacibookcaseconsole" },
 			{ "item" : "spawnerpeglaci" },
-			{ "item" : "spawnerpeglaciguard" },
 */
 // Spinning Wheel
 			{ "item" : "peglacigreatcoatjacket" },

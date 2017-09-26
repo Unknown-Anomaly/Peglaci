@@ -1,5 +1,5 @@
 {
-  "type" : "petjuvenilepeglaci",
+  "type" : "juvpeg",
 
   "categories" : [ "juvpeg" ],
   "parts" : [ "body" ],
@@ -29,7 +29,8 @@
       "/monsters/pets/actions/inspectAction.lua",
       "/monsters/pets/actions/eatAction.lua",
       "/monsters/pets/actions/sleepAction.lua",
-      "/monsters/pets/actions/begAction.lua"
+      "/monsters/pets/actions/begAction.lua",
+      "/monsters/pets/actions/pounceAction.lua"
     ],
 
     "petBehavior" : "petBehavior",
@@ -49,6 +50,7 @@
     },
 
     "actionParams" : {
+      "hungerStarvingLevel" : 80,
       "beg" : {
         "minScore" : 50,
         "cooldown" : 5,
@@ -148,7 +150,7 @@
       "primaryScriptSources" : [
         "/stats/monster_primary.lua"
       ],
-      "primaryScriptDelta" : 0,
+      "primaryScriptDelta" : 5,
 
       "stats" : {
         "knockbackStunTime" : {
@@ -161,7 +163,7 @@
           "baseValue" : 72
         },
         "protection" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "healthRegen" : {
           "baseValue" : 0.0

@@ -1,16 +1,17 @@
 {
   "materialId" : 3497,
+  "printable" : true,
+  "price" : 10,
   "materialName" : "peglacigiantek",
   "particleColor" : [150, 50, 50, 255],
-  "itemDrop" : "peglacigiantek",
+  "itemDrop" : "peglacigiantekblock",
   "description" : "A panel of ancient Giantek. It makes me feel dizzy.",
   "shortdescription" : "Giantek Panel",
 
 
-
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 10000,
-  "category" : "materials",
+  "health" : 4,
+  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
@@ -18,7 +19,7 @@
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 0
   }
 }

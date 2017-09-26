@@ -4,12 +4,9 @@
   "collisionKind" : "platform",
   "itemDrop" : "peglacipykreteplatform",
   "shortdescription" : "Pykrete Platform",
-  "description" : "A chilly - but sturdy - plaform made of Pykrete.",
-
-
-
+  "description" : "A chilly - but sturdy - platform made of Pykrete.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "category" : "Supports",
+  "category": "supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {
@@ -18,6 +15,7 @@
     "lightTransparent" : true,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 0,
+    "platform" : true
   }
 }

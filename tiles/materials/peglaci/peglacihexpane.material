@@ -1,11 +1,11 @@
 {
   "materialId" : 3498,
   "materialName" : "peglacihexpane",
+  "transparent" : true,
   "particleColor" : [100, 100, 255, 255],
   "itemDrop" : "peglacihexpane",
   "description" : "A panel of crystal with hexagonal tiles.",
   "shortdescription" : "Hexpane Panel",
-
 
 
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
