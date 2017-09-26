@@ -2,6 +2,6 @@
   "input" : [
 
   ],
-  "output" : { "item" : "peglacialloydoor", "count" :2 },
+  "output" : { "item" : "peglacihorizontalalloydoor", "count" :2 },
   "groups" : [ "peglacitesterbox", "objects", "all" ]
 }

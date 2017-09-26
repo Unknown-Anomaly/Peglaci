@@ -7,9 +7,8 @@
   "description" : "Pykrete panelling laid upon dense glacier ice.",
 
 
-
   "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
-  "health" : 35,
+  "health" : 5,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
@@ -18,7 +17,7 @@
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 0
   }
 }

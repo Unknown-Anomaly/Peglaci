@@ -1,15 +1,12 @@
 {
   "itemName" : "peglacicableconnector",
-  "price" : 0,
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "peglacicableconnector.png",
   "particleColor" : [200, 200, 200, 255],
-  "description" : "A block that connects to many cables.",
+   "description" : "A block that connects to many cables.",
   "shortdescription" : "Cable Connector",
-  
   "glitchDescription" : "Analysis. A block that connects to many cables. Tightly packed.",
   "floranDescription" : "They look like vinesss.",
-  
   "materialId" : 3501
 }
