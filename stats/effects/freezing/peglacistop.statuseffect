@@ -1,7 +1,7 @@
 {
   "name" : "peglacistop",
   "effectConfig" : {},
-  "defaultDuration" : 10,
+  "defaultDuration" : 2,
 
   "scripts" : [
     "freeze.lua"

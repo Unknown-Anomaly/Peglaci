@@ -38,7 +38,7 @@
       {
         "time" : 0.0,
         "energyCost" : 30,
-        "cooldown" : 0.5,
+        "cooldown" : 1.5,
         "projectileType" : "peglaciicecloud-2",
         "projectileParameters" : {
           "knockbackRange" : 5

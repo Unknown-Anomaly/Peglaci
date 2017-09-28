@@ -10,13 +10,9 @@
   "speed" : 15,
   "timeToLive" : 0.01,
   "statusEffects" : [
-    {"effect" : "frozenslow"}
+    {"effect" : "peglacistop"}
   ],
   "actionOnReap" : [
-    {
-    "action" : "config",
-    "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    },
     {
     "action" : "projectile",
     "type" : "peglaciiceshot-1",

@@ -10,13 +10,9 @@
   "speed" : 20,
   "timeToLive" : 2.2,
   "actionOnReap" : [
-    {
-    "action" : "config",
-    "file" : "/projectiles/explosions/peglacicoldsplosion/peglacicoldsplosion.config"
-    }
   ],
    "statusEffects" : [
-    {"effect" : "frozenslow"}
+    {"effect" : "peglacistop"}
   ],
   "damageKind" : "default"
 }

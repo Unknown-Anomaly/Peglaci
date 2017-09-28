@@ -1,7 +1,7 @@
 function init()
   animator.setParticleEmitterOffsetRegion("icetrail", mcontroller.boundBox())
   animator.setParticleEmitterActive("icetrail", true)
-  effect.setParentDirectives("fade=00BBFF=0.15")
+  effect.setParentDirectives("fade=00BBFF=0.05")
 
   script.setUpdateDelta(5)
 
@@ -12,9 +12,8 @@ end
 
 function update(dt)
   mcontroller.controlModifiers({
-      groundMovementModifier = -0.7,
-      runModifier = -0.25,
-      jumpModifier = -0.25
+      jumpModifier = 0.25,
+      speedModifier = 0.7
     })
 end
 
