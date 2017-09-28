@@ -36,9 +36,21 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
+        "time" : 0,
+        "energyCost" : 10,
+        "cooldown" : 1.5,
+        "projectileType" : "peglaciicecloud-3c",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 8,
+        "fireSound" : "fire"
+      },
+      {
         "time" : 1.5,
         "energyCost" : 30,
-        "cooldown" : 0.5,
+        "cooldown" : 1.5,
         "projectileType" : "peglaciicecloud-3",
         "projectileParameters" : {
           "knockbackRange" : 5
