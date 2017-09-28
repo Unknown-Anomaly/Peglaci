@@ -16,7 +16,7 @@
     }
   ],
    "statusEffects" : [
-    {"effect" : "frostslow"}
+    {"effect" : "peglacislow"}
   ],
   "damageKind" : "default",
   "emitters" : [ "defaultwhite" ]
