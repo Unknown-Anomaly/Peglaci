@@ -9,7 +9,18 @@
             "frames" : 6,
             "cycle" : 1.0,
             "mode" : "transition",
-            "transition" : "loop"
+            "transition" : "fullcharge"
+          },
+          "fullcharge" : {
+            "frames" : 6,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "fire" : {
+            "frames" : 1,
+            "cycle" : 0.07,
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -33,6 +44,16 @@
             "charge" : {
               "properties" : {
                 "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
               }
             }
           }

@@ -33,6 +33,16 @@
   "primaryAbility" : {
     "chargeLevels" : [
       {
+        "time" : 0,
+        "energyCost" : 15,
+        "cooldown" : 0.4,
+        "projectileType" : "peglaciicecrystal-1",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 15,
+        "fireSound" : "fire"
+      },
+      {
         "time" : 0.5,
         "energyCost" : 40,
         "cooldown" : 0.4,
