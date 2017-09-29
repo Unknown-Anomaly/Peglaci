@@ -9,7 +9,7 @@
   "pointLight" : false,
   "speed" : 60,
     "lightColor" : [40, 40, 190],
-	 "timeToLive" : 12,
+	"timeToLive" : 2,
   "actionOnReap" : [
    {
       "action" : "config",

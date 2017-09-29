@@ -38,7 +38,7 @@
         {
           "time" : 0,
           "energyCost" : 22,
-          "cooldown" : 0.1,
+          "cooldown" : 0.2,
           "projectileType" : "peglacitier5lasershot-1",
           "projectileParameters" : {
             "knockbackRange" : 1

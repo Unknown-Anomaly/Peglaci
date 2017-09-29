@@ -1,8 +1,4 @@
 {
-  "globalTagDefaults" : {
-    "paletteSwaps" : ""
-  },
-
   "animatedParts" : {
     "stateTypes" : {
       "firing" : {
@@ -12,7 +8,8 @@
           "fire" : {
             "frames" : 6,
             "cycle" : 0.2,
-            "mode" : "loop"
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -22,9 +19,45 @@
       "gun" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage>:empty",
           "offset" : [0, 0],
           "transformationGroups" : ["weapon"]
+        },
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "gunfullbright" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0, 0],
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            }
+          }
         }
       },
       "muzzleFlash" : {
@@ -74,7 +107,7 @@
       "color" : [90, 90, 0]
     }
   },
-
+  
   "sounds" : {
     "fire" : [ ]
   }

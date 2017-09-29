@@ -45,7 +45,7 @@
         "fireSound" : "fire"
       },
       {
-        "time" : 1.0,
+        "time" : 0.5,
         "energyCost" : 40,
         "cooldown" : 0.5,
         "projectileType" : "peglacitier5shocklanceshotpower",
