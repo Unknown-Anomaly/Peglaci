@@ -1,0 +1,103 @@
+{
+  "objectName" : "dev-weapontest",
+  "colonyTags" : ["outpost","commerce"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "Extra! Extra! Buy some newspapers here!",
+  "shortdescription" : "Newspaper Stand",
+  "race" : "generic",
+  "printable" : false,
+  
+  "apexDescription" : "A Novachild selling some newspapers.",
+  "avianDescription" : "A kid selling newspapers.",
+  "floranDescription" : "A little kid yelling about thingss.",
+  "glitchDescription" : "Intrigued. A lot of things are happening in the universe.",
+  "humanDescription" : "A newspapers stand! Maybe there are some notice about the humans that escaped earth.",
+  "hylotlDescription" : "A child shouldn't be working here.",
+  "novakidDescription" : "Oh, a lil boy! Work hard gain hard, kido.",
+  
+  "lightColor" : [46, 66, 77],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "newsstand.png:<color>.<frame>", "fullbright" : true }, { "image" : "newsstandlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+
+      "lightPosition" : [2, 3],
+      "imagePosition" : [-24, 0],
+      "frames" : 9,
+      "animationCycle" : 2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+   "scripts" : [ "newsstand.lua" ],
+   "scriptDelta" : 0,
+   
+   "interactData" : {
+    "config" : "/objects/dev-weapontest/bookstore.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Newspaper Stand",
+        "subtitle" : "Extra! Extra! Learn all about everything!",
+        "icon" : {
+          "file" : "/objects/dev-weapontest/icon.png"
+        }
+      }
+    },
+    "filter" : []
+  },
+
+  "modTab" : [{
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier1",
+      "filter": [ "t1" ]
+    },
+	{
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier2",
+      "filter": [ "t2" ]
+    },
+    {
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier3",
+      "filter": [ "t3" ]
+    },
+    {
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier4",
+      "filter": [ "t4" ]
+    },
+    {
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier5",
+      "filter": [ "t5" ]
+    },
+    {
+      "file": "/interface/crafting/tabicon_weapons.png",
+	  "label": "Tier6",
+      "filter": [ "t6" ]
+    }],
+  
+  "storeInventory" : {
+    "t1" : [ "peglacitier1pistol", "peglacitier1shotgun", "peglacitier1smg" ],
+    "t2" : [ "peglacitier2pistol", "peglacitier2shotgun", "peglacitier2smg" ],
+    "t3" : [ "peglacitier3cannon", "peglacitier3icethrower", "peglacitier3machinegun", "peglacitier3splitter" ],
+    "t4" : [ "peglacitier4cannon", "peglacitier4icethrower", "peglacitier4machinegun", "peglacitier4splitter" ],
+    "t5" : [ "peglacitier5avalauncher", "peglacitier5blizzard", "peglacitier5fuelairgun", "peglacitier5laser", "peglacitier5minelayer", "peglacitier5minigun", "peglacitier5railgun", "peglacitier5shocklance" ],
+    "t6" : [ "peglacitier6avalauncher", "peglacitier6blizzard", "peglacitier6cannon", "peglacitier6fuelairgun", "peglacitier6icethrower", "peglacitier6laser", "peglacitier6machinegun", "peglacitier6minelayer", "peglacitier6minigun", "peglacitier6pistol", "peglacitier6railgun", "peglacitier6shocklance", "peglacitier6shotgun", "peglacitier6smg", "peglacitier6splitter" ]
+  },
+  "storeRandomPool" : {
+    "t1" : [ ],
+    "t2" : [ ],
+    "t3" : [ ],
+    "t4" : [ ],
+    "t5" : [ ],
+    "t6" : [ ]
+  },
+  "rotationTime" : 86400, // time of feature set availability in seconds
+  "poolAmount" : 3 // number of items to get obtained from the random pool
+}
