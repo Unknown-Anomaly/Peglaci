@@ -21,7 +21,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "nothing" : []
     }
   },
 
@@ -35,6 +36,14 @@
   "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
     "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 0,
+        "cooldown" : 0,
+        "projectileType" : "peglacinothing",
+        "baseDamage" : 0,
+        "fireSound" : "nothing"
+      },
       {
         "time" : 0.5,
         "energyCost" : 27,
