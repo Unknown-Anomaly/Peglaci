@@ -11,13 +11,13 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftinganvil.config",
+    "config" : "/interface/windowconfig/craftingguncrafter.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Gun Crafter",
         "subtitle" : "Handguns",
         "icon" : {
-          "file" : "objects/peglaci/guncrafter/peglaciguncraftericon.png"
+          "file" : "/objects/peglaci/guncrafter/peglaciguncraftericon.png"
         }
       }
     },
@@ -51,7 +51,7 @@
       "flipImages" : true,
 
       "frames" : 41,
-      "animationCycle" : 1.8,
+      "animationCycle" : 2.3,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -64,7 +64,7 @@
       "direction" : "right",
 
       "frames" : 41,
-      "animationCycle" : 1.8,
+      "animationCycle" : 2.3,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
