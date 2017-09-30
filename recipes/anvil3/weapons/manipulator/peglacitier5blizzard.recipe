@@ -4,5 +4,5 @@
     { "item" : "refinedferozium", "count" : 6 }
   ],
  "output" : { "item" : "peglacitier5blizzard", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "all", "craftingguncrafter", "guntier5" ]
 }

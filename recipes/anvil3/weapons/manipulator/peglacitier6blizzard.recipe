@@ -4,5 +4,5 @@
     { "item" : "solariumstar", "count" : 3 }
   ],
  "output" : { "item" : "peglacitier6blizzard", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "all", "craftingguncrafter", "guntier6" ]
 }
