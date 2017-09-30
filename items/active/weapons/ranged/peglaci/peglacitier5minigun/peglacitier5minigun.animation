@@ -47,6 +47,31 @@
           }
         }
       },
+      "gunfullbright" : {
+        "properties" : {
+          "centered" : true,
+          "image" : "<partImage>:empty",
+          "offset" : [0.5, 0],
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            }
+          }
+        }
+      },
       "muzzleFlash" : {
         "properties" : {
           "zLevel" : -1,

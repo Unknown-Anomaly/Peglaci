@@ -10,74 +10,62 @@
         "states" : {
           "off" : {},
           "fire" : {
-            "frames" : 1,
-            "cycle" : 0.07,
+            "frames" : 3,
+            "cycle" : 0.25,
             "mode" : "transition",
             "transition" : "off"
-          }
-        }
-      },
-      "middle" : {
-        "default" : "idle",
-        "states" : {
-          "idle" : {
-            "frames" : 4,
-            "cycle" : 0.3,
-            "mode" : "loop"
           }
         }
       }
     },
 
     "parts" : {
-      "butt" : {
+      "gun" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
-          "transformationGroups" : ["weapon"]
-        }
-      },
-      "middle" : {
-        "properties" : {
-          "centered" : true,
-          "offset" : [0, 0], // x offset is set dynamically
+          "image" : "<partImage>:empty",
+          "offset" : [0.5, 0],
           "transformationGroups" : ["weapon"]
         },
+
         "partStates" : {
-          "middle" : {
-            "idle" : {
+          "firing" : {
+            "off" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame><paletteSwaps>"
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
               }
             }
           }
         }
       },
-      "middlefullbright" : {
+      "gunfullbright" : {
         "properties" : {
           "centered" : true,
-          "offset" : [0, 0],
-          "zLevel" : 1,
+          "image" : "<partImage>:empty",
+          "offset" : [0.5, 0],
           "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
           "fullbright" : true
         },
+
         "partStates" : {
-          "middle" : {
-            "idle" : {
+          "firing" : {
+            "off" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame><paletteSwaps>"
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
               }
             }
           }
-        }
-      },
-      "barrel" : {
-        "properties" : {
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
-          "transformationGroups" : ["weapon"]
         }
       },
       "muzzleFlash" : {
@@ -87,16 +75,6 @@
           "offset" : [0.75, 0],
           "fullbright" : true,
           "transformationGroups" : ["muzzle"]
-        },
-
-        "partStates" : {
-          "firing" : {
-            "fire" : {
-              "properties" : {
-                "image" : "<partImage>:<variant>.<frame>"
-              }
-            }
-          }
         }
       }
     }

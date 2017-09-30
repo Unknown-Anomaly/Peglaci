@@ -9,8 +9,9 @@
             "frames" : 4,
             "cycle" : 1.0,
             "mode" : "transition",
-            "transition" : "off"
+            "transition" : "fullcharge"
           },
+          "fullcharge" : {},
           "fire" : {
             "frames" : 1,
             "cycle" : 0.07,
@@ -41,9 +42,67 @@
                 "image" : "<partImage>:charge.<frame>"
               }
             },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.4"
+              }
+            },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire"
+              }
+            }
+          }
+        }
+      },
+      "gunfullbright" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [1.0, 0.25],
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.4"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire"
+              }
+            }
+          }
+        }
+      },
+      "muzzleFlash" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.75, 0],
+          "fullbright" : true,
+          "transformationGroups" : ["muzzle"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:<variant>.<frame>"
               }
             }
           }
@@ -55,6 +114,22 @@
   "transformationGroups" : {
     "weapon" : {},
     "muzzle" : {}
+  },
+  
+  "particleEmitters" : {
+    "muzzleFlash" : {
+      "transformationGroups" : ["muzzle"],
+      "offsetRegion" : [0, 0, 0, 0],
+      "particles" : [ ]
+    }
+  },
+
+  "lights" : {
+    "muzzleFlash" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [90, 90, 0]
+    }
   },
 
   "sounds" : {

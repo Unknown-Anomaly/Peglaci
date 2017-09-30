@@ -16,7 +16,7 @@
   "animation" : "peglacitier1smg.animation",
   "animationParts" : {
     "gun" : "peglacitier1smg.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : { "fire" : [ "/sfx/gun/plasma_ar4.ogg" ] },

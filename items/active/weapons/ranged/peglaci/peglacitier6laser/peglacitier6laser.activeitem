@@ -21,7 +21,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ],
+      "nothing" : []
     }
   },
 
@@ -34,6 +35,14 @@
   "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
     "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 0,
+        "cooldown" : 0,
+        "projectileType" : "peglacinothing",
+        "baseDamage" : 0,
+        "fireSound" : "nothing"
+      },
       {
         "time" : 1.0,
         "energyCost" : 30,

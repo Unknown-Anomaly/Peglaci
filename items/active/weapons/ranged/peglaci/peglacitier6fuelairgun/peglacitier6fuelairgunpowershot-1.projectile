@@ -20,7 +20,7 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier9cloudgunshot2",
+      "type" : "peglacitier6fuelairgunshot-2",
       "inheritDamageFactor" : 0.125,
       "angleAdjust" : 0
     },

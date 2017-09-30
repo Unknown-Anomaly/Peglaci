@@ -17,7 +17,7 @@
   "animationParts" : {
     "gun" : "peglacitier6shotgun.png",
     "gunfullbright" : "peglacitier6shotgunfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
