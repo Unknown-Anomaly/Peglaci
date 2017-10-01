@@ -41,8 +41,7 @@
         "projectileType" : "peglacitier6railgundart-1",
         "projectileParameters" : {
           "knockback" : 10,
-          "speed" : 90,
-          "statusEffects" : [ "" ]
+          "speed" : 90
       },
         "inaccuracy" : 0,
         "baseDamage" : 8.2,
@@ -55,8 +54,7 @@
         "projectileType" : "peglacitier6railgundartpower-1",
         "projectileParameters" : {
           "knockback" : 20,
-          "speed" : 110,
-          "statusEffects" : [ "" ]
+          "speed" : 110
       },
         "inaccuracy" : 0,
         "baseDamage" : 10.2,

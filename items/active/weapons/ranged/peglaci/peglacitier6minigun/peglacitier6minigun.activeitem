@@ -47,8 +47,7 @@
     "projectileType" : "peglaciminigundart",
     "projectileParameters" : {
       "knockback" : 4,
-      "speed" : 50,
-      "statusEffects" : [ "" ]
+      "speed" : 50
     },
 
     "stances" : {

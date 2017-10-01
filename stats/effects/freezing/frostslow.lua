@@ -5,9 +5,9 @@ function init()
 
   script.setUpdateDelta(5)
 
-  local slows = status.statusProperty("slows", {})
-  slows["frostslow"] = 0.75
-  status.setStatusProperty("slows", slows)
+  -- local slows = status.statusProperty("slows", {})
+  -- slows["frostslow"] = 0.75
+  -- status.setStatusProperty("slows", slows)
 end
 
 function update(dt)
@@ -18,7 +18,7 @@ function update(dt)
 end
 
 function uninit()
-  local slows = status.statusProperty("slows", {})
-  slows["frostslow"] = nil
-  status.setStatusProperty("slows", slows)
+  -- local slows = status.statusProperty("slows", {})
+  -- slows["frostslow"] = nil
+  -- status.setStatusProperty("slows", slows)
 end

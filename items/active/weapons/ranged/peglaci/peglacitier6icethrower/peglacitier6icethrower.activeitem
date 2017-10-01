@@ -43,7 +43,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "peglaciicecloud-1",
+    "projectileType" : "peglacitier10icethrowershot",
     "projectileParameters" : {
       "speed" : 30,
       "knockback" : 3

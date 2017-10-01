@@ -19,7 +19,7 @@
   ],
   "statusEffects" : [
 	{
-      "effect" : "slow",
+      "effect" : "staffslow",
       "amount" : 8
     }
 	 ],

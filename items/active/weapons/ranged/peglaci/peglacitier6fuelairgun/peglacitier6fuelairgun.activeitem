@@ -37,7 +37,7 @@
       {
         "time" : 0,
         "energyCost" : 30,
-        "cooldown" : 0.1,
+        "cooldown" : 0.7,
         "projectileType" : "peglacitier6fuelairgunshot-1",
         "projectileParameters" : {
           "knockbackRange" : 0
