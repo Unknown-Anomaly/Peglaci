@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/peglacibeam",
+    "value" : "/items/active/weapons/ranged/abilities/beam/peglacibeam.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/peglacicharge",
+    "value" : "/items/active/weapons/ranged/abilities/charge/peglacicharge.weaponability"
+  }
+]

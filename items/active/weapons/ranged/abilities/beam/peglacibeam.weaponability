@@ -1,0 +1,48 @@
+{
+  "ability" : {
+    "name" : "Peglaci Beam",
+    "type" : "peglacibeam",
+    "scripts" : ["/items/active/weapons/ranged/abilities/beam/peglacibeam.lua"],
+    "class" : "BeamFire",
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "firing" : "off"
+        }
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "firing" : "charge"
+        }
+      },
+      "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "animationStates" : {
+          "firing" : "off"
+        }
+      }
+    }
+  }
+}
