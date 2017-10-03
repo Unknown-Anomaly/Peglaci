@@ -23,14 +23,14 @@
     "sounds" : {
       "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ],
       "nothing" : [],
-      "fireStart" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ],
-      "fireLoop" : [ "/sfx/gun/erchiuseyebeam_loop.ogg" ],
-      "fireEnd" : [],
-      "beamImpact" : [ "/sfx/gun/erchiuseyebeam_stop.ogg" ]
+      "fireStart" : [ "/sfx/gun/frozenbeam_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/frozenbeam_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/frozenbeam_end.ogg" ],
+      "beamImpact" : [ "/sfx/gun/frozenbeam_stop.ogg" ]
     }
   },
 
-  "muzzleOffset" : [2.6, 0.5],
+  "muzzleOffset" : [2.6, 0.4],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
   "animationScripts" : ["/items/active/effects/chain.lua"],
@@ -70,8 +70,8 @@
     "energyUsage" : 35,
 
     "damageConfig" : {
-      "statusEffects" : [ ],
-      "damageSourceKind" : "plasma",
+      "statusEffects" : [ "peglacibeamslow" ],
+      "damageSourceKind" : "ice",
       "knockback" : 8
     },
 
@@ -85,12 +85,12 @@
       "startSegmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beamstart.png:<beamFrame>",
       "segmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beam.png:<beamFrame>",
       "endSegmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beamend.png:<beamFrame>",
-      "segmentSize" : 0.48,
+      "segmentSize" : 0.32,
       "overdrawLength" : 0.2,
       "taper" : 0,
       "waveform" : {
-        "frequency" : 11.0,
-        "amplitude" : 0.05,
+        "frequency" : 3,
+        "amplitude" : 0.15,
         "movement" : 12.0
       },
       "fullbright" : true

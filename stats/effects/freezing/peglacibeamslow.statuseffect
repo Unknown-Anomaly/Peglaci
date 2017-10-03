@@ -1,0 +1,15 @@
+{
+  "name" : "peglacibeamslow",
+  "blockingStat" : "peglacislowImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "peglacibeamslow.lua"
+  ],
+
+  "animationConfig" : "frostslow.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/cold.png"
+}

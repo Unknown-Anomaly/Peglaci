@@ -1,0 +1,14 @@
+{
+  "name" : "peglacibeamstop",
+  "effectConfig" : {},
+  "defaultDuration" : 4,
+
+  "scripts" : [
+    "peglacibeamstop.lua"
+  ],
+
+  "animationConfig" : "freeze.animation",
+
+  "label" : "Frozen",
+  "icon" : "/interface/statuses/frozen.png"
+}

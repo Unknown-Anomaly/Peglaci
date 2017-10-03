@@ -40,7 +40,7 @@
         "allowFlip" : true,
 
         "animationStates" : {
-          "firing" : "off"
+          "firing" : "uncharge"
         }
       }
     }
