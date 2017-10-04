@@ -14,7 +14,7 @@
         "bodyFullbright" : "body/peglaciproto_fullbright.png"
       },
       "defaultPrimaryColors" : ["a1afb1", "839594", "4a585a", "2d3332"],
-      "defaultSecondaryColors" : ["80a79a", "608a77", "557067", "415d50"],
+      "defaultSecondaryColors" : ["838383", "555555", "383838", "151515"],
       "animationCustom" : {}
     }
   }
