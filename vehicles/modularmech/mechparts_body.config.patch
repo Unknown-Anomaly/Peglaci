@@ -1,0 +1,21 @@
+[
+  {
+    "op" : "add",
+    "path" : "/peglaciproto",
+    "value" : {
+      "stats" : {
+        "energy" : 3,
+        "protection" : 3
+      },
+      "partParameters" : {},
+      "partImages" : {
+        "bodyBack" : "body/peglaciproto_back.png",
+        "bodyFront" : "body/peglaciproto_front.png",
+        "bodyFullbright" : "body/peglaciproto_fullbright.png"
+      },
+      "defaultPrimaryColors" : ["a1afb1", "839594", "4a585a", "2d3332"],
+      "defaultSecondaryColors" : ["80a79a", "608a77", "557067", "415d50"],
+      "animationCustom" : {}
+    }
+  }
+]
