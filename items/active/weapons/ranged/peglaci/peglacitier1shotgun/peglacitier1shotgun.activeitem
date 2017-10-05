@@ -36,7 +36,7 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 15,
+        "energyCost" : 17,
         "cooldown" : 1,
         "projectileType" : "peglacishotgundart1-1",
         "projectileParameters" : {
