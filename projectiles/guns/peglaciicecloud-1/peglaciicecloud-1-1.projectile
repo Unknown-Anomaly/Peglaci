@@ -10,7 +10,7 @@
   "speed" : 10,
   "timeToLive" : 2.2,
    "statusEffects" : [
-    "frozenslow"
+    "peglacislow"
   ],
   "damageKind" : "ice"
 }

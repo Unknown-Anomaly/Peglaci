@@ -37,10 +37,10 @@
       {
         "time" : 0,
         "energyCost" : 5,
-        "cooldown" : 0.1,
+        "cooldown" : 0.3,
         "projectileType" : "peglacicannonshot1",
         "inaccuracy" : 0.008,
-        "baseDamage" : 1.5,
+        "baseDamage" : 2.5,
         "fireSound" : "fire"
       },
       {
