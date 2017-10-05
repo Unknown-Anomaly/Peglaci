@@ -37,7 +37,7 @@
       {
         "time" : 0,
         "energyCost" : 30,
-        "cooldown" : 0.1,
+        "cooldown" : 1,
         "projectileType" : "peglacishotgundart1-1",
         "projectileParameters" : {
           "knockbackRange" : 5

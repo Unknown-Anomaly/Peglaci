@@ -41,13 +41,13 @@
       {
         "time" : 0,
         "energyCost" : 20,
-        "cooldown" : 0.1,
+        "cooldown" : 0.3,
         "projectileType" : "peglaciflechette",
         "projectileParameters" : {
           "knockbackRange" : 5
       },
         "inaccuracy" : 0.008,
-        "baseDamage" : 7,
+        "baseDamage" : 3,
         "fireSound" : "fire"
       },
       {
