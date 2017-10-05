@@ -36,14 +36,14 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 30,
-        "cooldown" : 0.1,
+        "energyCost" : 25,
+        "cooldown" : 1,
         "projectileType" : "peglacishotgundart1-1",
         "projectileParameters" : {
           "knockbackRange" : 5
         },
         "inaccuracy" : 0.008,
-        "baseDamage" : 10,
+        "baseDamage" : 18,
         "fireSound" : "fire"
       },
       {
@@ -55,7 +55,7 @@
           "knockbackRange" : 10
         },
         "inaccuracy" : 0,
-        "baseDamage" : 20,
+        "baseDamage" : 25,
         "fireSound" : "fire2"
       }
     ]

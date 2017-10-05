@@ -40,14 +40,14 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 20,
-        "cooldown" : 0.1,
+        "energyCost" : 15,
+        "cooldown" : 0.3,
         "projectileType" : "peglaciflechette",
         "projectileParameters" : {
           "knockbackRange" : 5
       },
         "inaccuracy" : 0.008,
-        "baseDamage" : 7,
+        "baseDamage" : 5,
         "fireSound" : "fire"
       },
       {
@@ -59,7 +59,7 @@
           "knockbackRange" : 10
       },
         "inaccuracy" : 0,
-        "baseDamage" : 14,
+        "baseDamage" : 16,
         "fireSound" : "fire2"
       }
     ]

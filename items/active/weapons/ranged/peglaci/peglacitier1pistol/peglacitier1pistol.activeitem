@@ -40,7 +40,7 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 20,
+        "energyCost" : 10,
         "cooldown" : 0.3,
         "projectileType" : "peglaciflechette",
         "projectileParameters" : {
