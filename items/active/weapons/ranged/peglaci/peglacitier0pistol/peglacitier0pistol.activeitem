@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "Standard with every Peacekeeper ship.",
   "shortdescription" : "Emergency Pistol",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "pistol"],
@@ -61,5 +61,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

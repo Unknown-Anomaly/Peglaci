@@ -1,6 +1,6 @@
 {
   "ability" : {
-    "name" : "Peglaci Beam",
+    "name" : "Frozt Beam",
     "type" : "peglacibeam",
     "scripts" : ["/items/active/weapons/ranged/abilities/beam/peglacibeam.lua"],
     "class" : "BeamFire",
