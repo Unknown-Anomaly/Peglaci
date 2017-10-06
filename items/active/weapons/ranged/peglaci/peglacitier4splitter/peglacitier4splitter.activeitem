@@ -32,7 +32,7 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "chargefire",
+  "primaryAbilityType" : "peglacicharge",
   "primaryAbility" : {
     "chargeLevels" : [
       {

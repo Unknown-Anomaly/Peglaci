@@ -32,7 +32,7 @@
 
   "elementalType" : "ice",
 
-  "primaryAbilityType" : "chargefire",
+  "primaryAbilityType" : "peglacicharge",
   "primaryAbility" : {
     "chargeLevels" : [
       {
