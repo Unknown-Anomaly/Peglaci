@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "description" : "Solarium components allow for greater power. Alternate fire stuns the target momentarily.",
   "shortdescription" : "Peacekeeper Pistol VI",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "pistol"],
@@ -65,5 +65,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

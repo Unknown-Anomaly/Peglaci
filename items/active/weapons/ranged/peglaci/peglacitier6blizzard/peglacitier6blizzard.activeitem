@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "description" : "Blasts a cloud of ice that hangs in the air, freezing and damaging foes.",
   "shortdescription" : "Coldsnap Blizzard I +",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
@@ -67,5 +67,5 @@
 
   "altAbilityType" : "",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

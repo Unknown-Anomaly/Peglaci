@@ -5,7 +5,7 @@
   "rarity" : "Uncommon",
   "description" : "Titanium rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.",
   "shortdescription" : "Fissure Splitrifle I",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","shotgun"],
@@ -56,5 +56,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

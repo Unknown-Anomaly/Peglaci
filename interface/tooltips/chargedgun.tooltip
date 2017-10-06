@@ -7,7 +7,7 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [67, 109],
+    "position" : [67, 119],
     "file" : "",
     "centered" : true,
     "maxSize" : [38, 38],
@@ -15,43 +15,43 @@
   },
   "damagePerShotLabel" : {
     "type" : "label",
-    "position" : [127, 82],
+    "position" : [127, 92],
     "hAnchor" : "right",
     "value" : ""
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
-    "position" : [12, 82],
+    "position" : [12, 92],
     "hAnchor" : "left",
     "value" : "Basic Damage:"
   },
   "chargeLevelsLabel" : {
     "type" : "label",
-    "position" : [127, 73],
+    "position" : [127, 83],
     "hAnchor" : "right",
     "value" : ""
   },
   "chargeLevelsTitleLabel" : {
     "type" : "label",
-    "position" : [12, 73],
+    "position" : [12, 83],
     "hAnchor" : "left",
     "value" : "Charge Levels:"
   },
   "altAbilityLabel" : {
     "type" : "label",
-    "position" : [127, 64],
+    "position" : [127, 74],
     "hAnchor" : "right",
     "value" : ""
   },
   "altAbilityTitleLabel" : {
     "type" : "label",
-    "position" : [12, 64],
+    "position" : [12, 74],
     "hAnchor" : "left",
     "value" : ""
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 60],
+    "position" : [12, 70],
     "hAnchor" : "left",
     "vAnchor" : "top",
     "wrapWidth" : 124,

@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
   "shortdescription" : "Apollo Maser I",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "sniperrifle"],
@@ -50,5 +50,5 @@
       ]
     },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

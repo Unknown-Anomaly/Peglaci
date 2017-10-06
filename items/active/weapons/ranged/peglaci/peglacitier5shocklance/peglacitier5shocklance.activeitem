@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "description" : "Fires a dense pulse of sound - charge to fire a ricocheting blast.",
   "shortdescription" : "Abbatoir Shocklance I",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "Rifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "rifle"],
@@ -57,5 +57,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }

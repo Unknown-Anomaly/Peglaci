@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "description" : "Fires a quick and devastating round - charge to fire through walls.",
   "shortdescription" : "Eclair Railgun II",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "chargedgun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "sniperrifle"],
@@ -63,5 +63,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildchargedweapon.lua"
 }
