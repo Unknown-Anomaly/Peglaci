@@ -1,4 +1,5 @@
 require "/scripts/util.lua"
+require "/scripts/vec2.lua"
 require "/scripts/interp.lua"
 
 PeglaciCharge = WeaponAbility:new()
@@ -6,7 +7,7 @@ PeglaciCharge = WeaponAbility:new()
 function PeglaciCharge:init()
   self.weapon:setStance(self.stances.idle)
 
-  self.cooldownTimer = self.PeglaciChargeTime
+  self.cooldownTimer = 0
   self.chargeTimer = 0
 
   self.weapon.onLeaveAbility = function()
@@ -42,13 +43,27 @@ function PeglaciCharge:charge()
     coroutine.yield()
   end
 
-  self:setState(self.fire)
+  self.chargeLevel = self:currentChargeLevel()
+  local energyCost = (self.chargeLevel and self.chargeLevel.energyCost) or 0
+  if self.chargeLevel and (energyCost == 0 or status.overConsumeResource("energy", energyCost)) then
+    self:setState(self.fire)
+  else
+    animator.setAnimationState("firing", "off")
+  end
 end
 
 function PeglaciCharge:fire()
+  if world.lineTileCollision(mcontroller.position(), self:firePosition()) then
+    animator.setAnimationState("firing", "off")
+    self.cooldownTimer = self.chargeLevel.cooldown or 0
+    self:setState(self.cooldown, self.cooldownTimer)
+    return
+  end
+
   self.weapon:setStance(self.stances.fire)
 
-  animator.setAnimationState("firing", "fire")
+  animator.setAnimationState("firing", self.chargeLevel.fireAnimationState or "fire")
+  animator.playSound(self.chargeLevel.fireSound or "fire")
 
   self:fireProjectile()
 
@@ -56,11 +71,7 @@ function PeglaciCharge:fire()
     util.wait(self.stances.fire.duration)
   end
 
-  if self.chargeTimer >= self.chargeTime then
-    self.cooldownTimer = self.PeglaciChargeTime
-  else
-    self.cooldownTimer = self.fireTime
-  end
+  self.cooldownTimer = self.chargeLevel.cooldown or 0
 
   self:setState(self.cooldown, self.cooldownTimer)
 end
@@ -83,24 +94,30 @@ function PeglaciCharge:cooldown(duration)
 end
 
 function PeglaciCharge:fireProjectile()
-  local pConfig = self.chargeTimer >= self.chargeTime and self.chargedProjectile or self.projectile
+  local projectileCount = self.chargeLevel.projectileCount or 1
 
-  local params = copy(pConfig.parameters)
+  local params = copy(self.chargeLevel.projectileParameters or {})
+  params.power = (self.chargeLevel.baseDamage * config.getParameter("damageLevelMultiplier")) / projectileCount
   params.powerMultiplier = activeItem.ownerPowerMultiplier()
 
-  for i = 1, pConfig.count or 1 do
+  local spreadAngle = util.toRadians(self.chargeLevel.spreadAngle or 0)
+  local totalSpread = spreadAngle * (projectileCount - 1)
+  local currentAngle = totalSpread * -0.5
+  for i = 1, projectileCount do
     if params.timeToLive then
       params.timeToLive = util.randomInRange(params.timeToLive)
     end
 
-    projectileId = world.spawnProjectile(
-        pConfig.type,
+    world.spawnProjectile(
+        self.chargeLevel.projectileType,
         self:firePosition(),
         activeItem.ownerEntityId(),
-        self:aimVector(self.inaccuracy),
+        self:aimVector(currentAngle, self.chargeLevel.inaccuracy or 0),
         false,
         params
       )
+
+    currentAngle = currentAngle + spreadAngle
   end
 end
 
@@ -108,19 +125,24 @@ function PeglaciCharge:firePosition()
   return vec2.add(mcontroller.position(), activeItem.handPosition(self.weapon.muzzleOffset))
 end
 
-function PeglaciCharge:aimVector(inaccuracy)
-  local aimVector = vec2.rotate({1, 0}, self.weapon.aimAngle + sb.nrand(inaccuracy, 0))
-  aimVector[1] = aimVector[1] * self.weapon.aimDirection
+function PeglaciCharge:aimVector(angleAdjust, inaccuracy)
+  local aimVector = vec2.rotate({1, 0}, self.weapon.aimAngle + angleAdjust + sb.nrand(inaccuracy, 0))
+  aimVector[1] = aimVector[1] * mcontroller.facingDirection()
   return aimVector
 end
 
--- function PeglaciCharge:energyPerShot()
---   return self.energyUsage * self.fireTime * (self.energyUsageMultiplier or 1.0)
--- end
-
--- function PeglaciCharge:damagePerShot()
---   return (self.baseDamage or (self.baseDps * self.fireTime)) * config.getParameter("damageLevelMultiplier") / self.projectileCount
--- end
+function PeglaciCharge:currentChargeLevel()
+  local bestChargeTime = 0
+  local bestChargeLevel
+  for _, chargeLevel in pairs(self.chargeLevels) do
+    if self.chargeTimer >= chargeLevel.time and self.chargeTimer >= bestChargeTime then
+      bestChargeTime = chargeLevel.time
+      bestChargeLevel = chargeLevel
+    end
+  end
+  return bestChargeLevel
+end
 
 function PeglaciCharge:uninit()
+
 end

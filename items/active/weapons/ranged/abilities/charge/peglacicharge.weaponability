@@ -2,16 +2,16 @@
   "ability" : {
     "type" : "peglacicharge",
     "name" : "Peglaci Charge",
-    "scripts" : ["/items/guns/charge/charge.lua"],	
+    "scripts" : ["/items/active/weapons/ranged/abilities/charge/charge.lua"],	
     "class" : "PeglaciCharge",
 
-    "baseDps" : 11, // TODO: apply damage calculation in script
+    "baseDps" : 11,
 
     "fireTime" : 0.3,
     "PeglaciChargeTime" : 0.5,
     "chargeTime" : 1.0,
 
-    "energyUsage" : 21, // TODO: use energy
+    "energyUsage" : 21,
     "inaccuracy" : 0.008,
 
     "projectile" : {
