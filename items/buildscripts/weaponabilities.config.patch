@@ -8,5 +8,10 @@
     "op" : "add",
     "path" : "/peglacicharge",
     "value" : "/items/active/weapons/ranged/abilities/charge/peglacicharge.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/peglaciicethrower",
+    "value" : "/items/active/weapons/ranged/abilities/icethrower/peglaciicethrower.weaponability"
   }
 ]

@@ -5,10 +5,10 @@
   "rarity" : "Uncommon",
   "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
   "shortdescription" : "Mistral Icethrower I",
-  "tooltipKind" : "chargedgun",
-  "category" : "shotgun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "itemTags" : ["weapon", "ranged"],
   "level" : 3,
 
   "inventoryIcon" : "peglacitier3icethrowericon.png",
@@ -17,11 +17,14 @@
   "animationParts" : {
     "gun" : "peglacitier3icethrower.png",
     "gunfullbright" : "peglacitier3icethrowerfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "fireStart" : [ "/sfx/gun/icechucker_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/icechucker_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/icechucker_end.ogg" ]
     }
   },
 
@@ -31,13 +34,19 @@
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "ice",
-
-  "primaryAbilityType" : "peglacicharge",
+  
+  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
+    "baseDps" : 20,
+    "energyUsage" : 30
+  },
+
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 27,
+        "energyCost" : 40,
         "cooldown" : 0.5,
         "projectileType" : "peglaciicecloud-1",
         "projectileParameters" : {
@@ -50,7 +59,5 @@
     ]
   },
 
-  "altAbilityType" : "",
-
-  "builder" : "/items/buildscripts/buildchargedweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

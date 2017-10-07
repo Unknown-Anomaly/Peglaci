@@ -7,10 +7,11 @@
   "physics" : "laser",
   "bounces" : 3,
     "lightColor" : [0, 100, 200],
-  "speed" : 10,
+  "speed" : 3,
+  "emitters" : [ "largeicecloud" ],
   "timeToLive" : 2.2,
    "statusEffects" : [
-    "peglacislow"
+    "peglacibeamstop"
   ],
   "damageKind" : "ice"
 }

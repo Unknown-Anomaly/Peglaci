@@ -7,7 +7,7 @@
   "physics" : "laser",
   "bounces" : 3,
   "lightColor" : [0, 100, 200],
-  "speed" : 15,
+  "speed" : 1,
   "timeToLive" : 0.01,
    "statusEffects" : [
     "peglacislow"
