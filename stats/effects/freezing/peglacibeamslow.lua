@@ -2,7 +2,7 @@ function init()
   animator.setParticleEmitterOffsetRegion("icetrail", mcontroller.boundBox())
   animator.setParticleEmitterActive("icetrail", true)
   effect.setParentDirectives("fade=00BBFF=0.05")
-  self.timer = 4
+  self.timer = 2.5
   script.setUpdateDelta(3)
 
   -- local slows = status.statusProperty("slows", {})

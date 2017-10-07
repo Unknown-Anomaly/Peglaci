@@ -43,6 +43,7 @@
   
   "altAbilityType" : "peglacicharge",
   "altAbility" : {
+    "name" : "Insta-Freeze",
     "chargeLevels" : [
       {
         "time" : 0,
