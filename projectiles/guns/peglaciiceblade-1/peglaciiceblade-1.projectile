@@ -12,7 +12,7 @@
   "actionOnReap" : [
     {
     "action" : "config",
-    "file" : "/projectiles/explosions/peglacicoldsplosion/peglacicoldsplosion.config"
+    "file" : "/projectiles/explosions/peglaciiceshatter/peglaciiceshatter.config"
     }
   ],
    "statusEffects" : [

@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
   "shortdescription" : "Coldsnap Avalauncher I",
-  "tooltipKind" : "chargedgun",
-  "category" : "shotgun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "shotgun"],
+  "itemTags" : ["weapon", "ranged"],
   "level" : 5,
 
   "inventoryIcon" : "peglacitier5avalaunchericon.png",
@@ -21,7 +21,10 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "fireStart" : [ "/sfx/gun/icechucker_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/icechucker_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/icechucker_end.ogg" ]
     }
   },
 
@@ -32,25 +35,31 @@
 
   "elementalType" : "ice",
 
-  "primaryAbilityType" : "peglacicharge",
+  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
+    "baseDps" : 32,
+    "energyUsage" : 30,
+    "projectileType" : "peglacilargecloud-2"
+  },
+  
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
+    "name" : "Icicle",
     "chargeLevels" : [
       {
-        "time" : 0.0,
+        "time" : 0.3,
         "energyCost" : 30,
-        "cooldown" : 1.5,
+        "cooldown" : 0.5,
         "projectileType" : "peglaciicecloud-2",
         "projectileParameters" : {
           "knockbackRange" : 5
           },
         "inaccuracy" : 0.008,
-        "baseDamage" : 8,
+        "baseDamage" : 30,
         "fireSound" : "fire"
       }
     ]
   },
 
-  "altAbilityType" : "",
-
-  "builder" : "/items/buildscripts/buildchargedweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,5 +1,5 @@
 {
-  "projectileName" : "peglacilargecloud",
+  "projectileName" : "peglacilargecloud-2",
   "image" : "/projectiles/guns/clouds/largecloud/largeicecloud.png",
   "physics" : "gas",
   "frameNumber" : 13,
@@ -14,5 +14,5 @@
   "piercing" : true,
   "emitters" : [ "largeicecloud" ],
   "damageKind" : "ice",
-  "statusEffects" : [ "peglacislow" ]
+  "statusEffects" : [ "peglacibeamslow" ]
 }

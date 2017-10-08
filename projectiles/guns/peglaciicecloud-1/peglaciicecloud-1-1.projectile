@@ -4,7 +4,7 @@
   "animationCycle" : 2.2,
   "frameNumber" : 8,
   "armorPenetration" : 1,
-  "physics" : "laser",
+  "physics" : "gas",
   "bounces" : 3,
     "lightColor" : [0, 100, 200],
   "speed" : 3,

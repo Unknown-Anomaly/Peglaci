@@ -5,8 +5,8 @@
   "rarity" : "Legendary",
   "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
   "shortdescription" : "Coldsnap Avalauncher II",
-  "tooltipKind" : "chargedgun",
-  "category" : "shotgun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
   "level" : 6,
@@ -21,7 +21,10 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/icechucker.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "fireStart" : [ "/sfx/gun/icechucker_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/icechucker_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/icechucker_end.ogg" ]
     }
   },
 
@@ -32,48 +35,31 @@
 
   "elementalType" : "ice",
 
-  "primaryAbilityType" : "peglacicharge",
+  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
+    "baseDps" : 36,
+    "energyUsage" : 30,
+    "projectileType" : "peglacilargecloud-2"
+  },
+  
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
+    "name" : "Icicle plus",
     "chargeLevels" : [
       {
-        "time" : 0,
-        "energyCost" : 10,
-        "cooldown" : 1.5,
-        "projectileType" : "peglaciicecloud-3c",
-        "projectileParameters" : {
-          "knockbackRange" : 5
-          },
-        "inaccuracy" : 0.008,
-        "baseDamage" : 8,
-        "fireSound" : "fire"
-      },
-      {
-        "time" : 1.5,
+        "time" : 0.3,
         "energyCost" : 30,
-        "cooldown" : 1.5,
-        "projectileType" : "peglaciicecloud-3",
+        "cooldown" : 0.5,
+        "projectileType" : "peglaciicecloud-shatter",
         "projectileParameters" : {
           "knockbackRange" : 5
           },
         "inaccuracy" : 0.008,
-        "baseDamage" : 8,
+        "baseDamage" : 34,
         "fireSound" : "fire"
       }
     ]
   },
 
-/*
-  "particleEmitters" : {
-    "muzzleFlash" : {
-      "particles" : [
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] },
-        { "particle" : "iceshockwave", "offset" : [0.0, 0.0] }
-      ]
-    }
-  },
-*/
-  "altAbilityType" : "",
-
-  "builder" : "/items/buildscripts/buildchargedweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

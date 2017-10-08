@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglaciicecloud-2",
-  "image" : "peglaciicecloud-2.png",
+  "projectileName" : "peglaciicecloud-shatter",
+  "image" : "/projectiles/guns/peglaciicecloud-2/peglaciicecloud-2.png",
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "armorPenetration" : 1,
@@ -32,7 +32,21 @@
     "type" : "peglaciiceblade-1",
     "inheritDamageFactor" : 1,
 	  "fuzzAngle" : 10,
+    "angleAdjust" : -10
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciiceblade-1",
+    "inheritDamageFactor" : 1,
+	  "fuzzAngle" : 10,
     "angleAdjust" : 0
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciiceblade-1",
+    "inheritDamageFactor" : 1,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 10
     }
   ],
   "damageKind" : "default",

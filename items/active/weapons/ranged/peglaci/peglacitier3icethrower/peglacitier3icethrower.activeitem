@@ -46,7 +46,7 @@
     "name" : "Insta-Freeze",
     "chargeLevels" : [
       {
-        "time" : 0,
+        "time" : 0.3,
         "energyCost" : 40,
         "cooldown" : 0.5,
         "projectileType" : "peglaciicecloud-1",
