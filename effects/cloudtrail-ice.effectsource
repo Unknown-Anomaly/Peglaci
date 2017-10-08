@@ -1,0 +1,29 @@
+{
+  "kind" : "cloudtrail-ice",
+  "definition" : {
+    "duration" : 0.6,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "cloudtrail-ice" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "cloudtrail-ice" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "cloudtrail-ice", "cloudtrail-ice", "cloudtrail-ice", "cloudtrail-ice" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

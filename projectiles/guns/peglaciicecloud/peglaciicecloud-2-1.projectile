@@ -1,17 +1,19 @@
 {
-  "projectileName" : "peglaciicecloud-1-1",
-  "image" : "peglaciicecloud-1.png",
+  "projectileName" : "peglaciicecloud-2-1",
+  "image" : "peglaciicecloud.png",
   "animationCycle" : 2.2,
   "frameNumber" : 8,
   "armorPenetration" : 1,
   "physics" : "gas",
-  "bounces" : 3,
-    "lightColor" : [0, 100, 200],
+  "bounces" : 1,
+  "lightColor" : [0, 100, 200],
   "speed" : 3,
   "emitters" : [ "largeicecloud" ],
   "timeToLive" : 2.2,
+  "actionOnReap" : [
+  ],
    "statusEffects" : [
-    "peglacibeamstop"
+    {"effect" : "peglacistop"}
   ],
   "damageKind" : "ice"
 }

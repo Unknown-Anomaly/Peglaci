@@ -1,7 +1,7 @@
 {
   "projectileName" : "peglaciicecrystal-2",
   "image" : "peglaciicecrystal-2.png",
-  "animationCycle" : 5.1,
+  "animationCycle" : 1.6,
   "frameNumber" : 8,
   "armorPenetration" : 1,
   "physics" : "hover",
@@ -9,15 +9,12 @@
     "lightColor" : [0, 100, 200],
   "speed" : 5,
   "piercing" : true,
-  "timeToLive" : 5,
+  "timeToLive" : 1.5,
   "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    }
+    
   ],
    "statusEffects" : [
-   {"effect" : "peglacislow"}
+   {"effect" : "peglacibeamslow"}
   ],
   "damageKind" : "default"
 }

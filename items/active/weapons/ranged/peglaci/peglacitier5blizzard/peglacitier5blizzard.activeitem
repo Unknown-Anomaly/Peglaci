@@ -16,10 +16,16 @@
   "animation" : "peglacitier5blizzard.animation",
   "animationParts" : {
     "gun" : "peglacitier5blizzard.png",
-    "gunfullbright" : "peglacitier5blizzardfullbright.png"
+    "gunfullbright" : "peglacitier5blizzardfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
-    "sounds" : { "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ] }
+    "sounds" : {
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "fireStart" : [ "/sfx/gun/frozenbeam_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/frozenbeam_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/frozenbeam_end.ogg" ]
+    }
   },
 
   "baseOffset" : [1.0, 0.120],
@@ -28,49 +34,33 @@
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "ice",
-
+  
+  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "fireTime" : 0.2,
-    "baseDps" : 10,
-    "energyUsage" : 15,
-    "inaccuracy" : 0.1,
-    "fireType" : "auto",
-    "projectileCount" : 1,
-    "projectileType" : "peglaciicecrystal",
-    "projectileParameters" : {
-      "knockbackRange" : 1,
-      "speed" : 20
-    },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0.01,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.00,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : true
-      }
-    }
+    "baseDps" : 30,
+    "energyUsage" : 28,
+    "fireTime" : 0.05,
+    "projectileType" : "peglaciicecrystal"
   },
 
-  "altAbilityType" : "",
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
+    "name" : "Iceplosion",
+    "chargeLevels" : [
+      {
+        "time" : 0.3,
+        "energyCost" : 50,
+        "cooldown" : 0.5,
+        "projectileType" : "peglaciicecrystalexplosion",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 30,
+        "fireSound" : "fire"
+      }
+    ]
+  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

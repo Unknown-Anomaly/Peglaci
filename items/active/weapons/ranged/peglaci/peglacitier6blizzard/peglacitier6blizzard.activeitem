@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "description" : "Blasts a cloud of ice that hangs in the air, freezing and damaging foes.",
   "shortdescription" : "Coldsnap Blizzard I +",
-  "tooltipKind" : "chargedgun",
+  "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
@@ -16,11 +16,15 @@
   "animation" : "peglacitier6blizzard.animation",
   "animationParts" : {
     "gun" : "peglacitier6blizzard.png",
+    "gunfullbright" : "peglacitier6blizzardfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ],
+      "fireStart" : [ "/sfx/gun/frozenbeam_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/frozenbeam_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/frozenbeam_end.ogg" ]
     }
   },
 
@@ -29,32 +33,33 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "primaryAbilityType" : "peglacicharge",
+  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
+    "baseDps" : 35,
+    "energyUsage" : 28,
+    "fireTime" : 0.05,
+    "projectileType" : "peglaciicecrystal"
+  },
+
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
+    "name" : "Iceplosion",
     "chargeLevels" : [
       {
-        "time" : 0,
-        "energyCost" : 15,
-        "cooldown" : 0.4,
-        "projectileType" : "peglaciicecrystal-1",
-        "projectileParameters" : {},
-        "inaccuracy" : 0,
-        "baseDamage" : 15,
-        "fireSound" : "fire"
-      },
-      {
-        "time" : 0.5,
-        "energyCost" : 40,
-        "cooldown" : 0.4,
-        "projectileType" : "peglaciicecrystal",
-        "projectileParameters" : {},
-        "inaccuracy" : 0,
-        "baseDamage" : 15,
+        "time" : 0.3,
+        "energyCost" : 50,
+        "cooldown" : 0.5,
+        "projectileType" : "peglaciicecrystalexplosion",
+        "projectileParameters" : {
+          "knockbackRange" : 5
+          },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 40,
         "fireSound" : "fire"
       }
     ]
   },
-
+  
   "particleEmitters" : {
     "muzzleFlash" : {
       "particles" : [
@@ -65,7 +70,5 @@
     }
   },
 
-  "altAbilityType" : "",
-
-  "builder" : "/items/buildscripts/buildchargedweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,6 +1,6 @@
 {
   "projectileName" : "peglaciicecloud-1",
-  "image" : "peglaciicecloud-1.png",
+  "image" : "peglaciicecloud.png",
   "animationCycle" : 1.4,
   "frameNumber" : 8,
   "armorPenetration" : 1,

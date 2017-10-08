@@ -1,0 +1,81 @@
+{
+  "projectileName" : "peglaciicecrystalexplosion-a",
+  "image" : "/projectiles/guns/icecrystal/peglaciicecrystal.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 8,
+  "armorPenetration" : 3,
+  "physics" : "gas",
+  "bounces" : 3,
+  "pointLight" : false,
+  "piercing" : true,
+  "speed" : 25,
+  "lightColor" : [0, 100, 200],
+  "timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 0
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : -180
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 90
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : -90
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 45
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : -45
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : 135
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglaciicecrystal-1",
+    "inheritDamageFactor" : 0.125,
+	  "fuzzAngle" : 10,
+    "angleAdjust" : -135
+    }
+
+  ],
+  "statusEffects" : [
+    {
+    "effect" : "peglacibeamstop",
+    "amount" : 8
+    }
+	 ],
+  "damageKind" : "default",
+  "emitters" : [ "cloudtrail-ice" ]
+}
