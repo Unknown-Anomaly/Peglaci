@@ -6,14 +6,14 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 5,
-            "cycle" : 2.0,
+            "frames" : 10,
+            "cycle" : 2,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
           "fullcharge" : {
-            "frames" : 3,
-            "cycle" : 0.2,
+            "frames" : 5,
+            "cycle" : 0.3,
             "mode" : "loop"
           },
           "fire" : {
@@ -32,6 +32,40 @@
           "centered" : true,
           "offset" : [0.9, 0.35],
           "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "firing" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:empty"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>"
+              }
+            },
+            "fullcharge" : {
+              "properties" : {
+                "image" : "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire"
+              }
+            }
+          }
+        }
+      },
+      "gunfullbright" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.9, 0.35],
+          "transformationGroups" : ["weapon"],
+          "zLevel" : 1,
+          "fullbright" : true
         },
 
         "partStates" : {
