@@ -25,7 +25,7 @@
     }
   },
 
-  "muzzleOffset" : [1.5, 0.125],
+  "muzzleOffset" : [4, 0.7],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -37,30 +37,43 @@
       {
         "time" : 0,
         "energyCost" : 32,
-        "cooldown" : 0.1,
-        "projectileType" : "peglacitier5railgundart-1",
+        "cooldown" : 1,
+        "projectileType" : "peglacirailgundart",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90,
-          "statusEffects" : [ "" ]
+          "statusEffects" : [  ]
       },
         "inaccuracy" : 0,
-        "baseDamage" : 8.2,
+        "baseDamage" : 8,
         "fireSound" : "fire"
       },
       {
-        "time" : 0.5,
+        "time" : 1,
         "energyCost" : 52,
-        "cooldown" : 0.5,
-        "projectileType" : "peglacitier5railgundartpower-1",
+        "cooldown" : 1,
+        "projectileType" : "peglacirailgundartpower",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110,
-          "statusEffects" : [ "" ]
+          "statusEffects" : [  ]
       },
         "inaccuracy" : 0,
-        "baseDamage" : 10.2,
-        "fireSound" : "fire2"
+        "baseDamage" : 10,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 2,
+        "energyCost" : 92,
+        "cooldown" : 1,
+        "projectileType" : "peglacirailgunenergetic0",
+        "projectileParameters" : {
+          "knockback" : 0,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 15,
+        "fireSound" : "fire"
       }
     ]
   },

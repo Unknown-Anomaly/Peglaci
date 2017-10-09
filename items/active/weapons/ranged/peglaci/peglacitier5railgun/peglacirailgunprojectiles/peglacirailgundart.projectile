@@ -1,8 +1,8 @@
 {
-  "projectileName" : "peglacitier5railgundart-1",
-  "image" : "peglacitier5railgundart-1.png",
+  "projectileName" : "peglacirailgundart",
+  "image" : "peglacirailgundart.png",
   "animationCycle" : 0.1,
-  "armorPenetration" : 3,
+  "armorPenetration" : 1,
   "physics" : "stickybullet",
   "frameNumber" : 3,
   "pointLight" : false,

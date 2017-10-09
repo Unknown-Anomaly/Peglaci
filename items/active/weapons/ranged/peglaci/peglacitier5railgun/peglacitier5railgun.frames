@@ -7,5 +7,16 @@
       [ "charge.1", "charge.2", "charge.3", "charge.4", "charge.5" ],
       [ "fullcharge.1", "fullcharge.2", null, null, null ]
     ]
+  },
+  
+  "aliases" : {
+    "charge.6" : "fire",
+    "charge.7" : "fire",
+    "charge.8" : "fire",
+    "charge.9" : "fire",
+    "charge.10" : "fire",
+    "fullcharge.3" : "fire",
+    "fullcharge.4" : "fire",
+    "fullcharge.5" : "fire"
   }
 }

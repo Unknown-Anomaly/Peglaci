@@ -1,0 +1,15 @@
+{
+  "projectileName" : "peglacitrail",
+  "physics" : "energeticLaser",
+  "bounces" : 0,
+  "image" : "peglacitrail.png",
+  "animationCycle" : 0.41,
+  "frameNumber" : 4,
+  "power" : 1,
+  "speed" : 0,
+  "fullbright" : true,
+  "supportsProcessing" : true,
+  "timeToLive" : 0.4,
+  "lightColor" : [0, 100, 200],
+  "damageKind" : "ice"
+}

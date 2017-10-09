@@ -6,14 +6,14 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 5,
-            "cycle" : 0.4,
+            "frames" : 10,
+            "cycle" : 2,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
           "fullcharge" : {
-            "frames" : 2,
-            "cycle" : 0.1,
+            "frames" : 5,
+            "cycle" : 0.3,
             "mode" : "loop"
           },
           "fire" : {

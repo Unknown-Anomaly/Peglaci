@@ -1,0 +1,24 @@
+{
+  "projectileName" : "peglacirailgunenergetic",
+  "image" : "peglacirailgundart.png",
+  "animationCycle" : 0.1,
+  "armorPenetration" : 3,
+  "physics" : "energeticLaser",
+  "piercing" : true,
+  "frameNumber" : 3,
+  "pointLight" : false,
+  "speed" : 150,
+  "lightColor" : [40, 40, 190],
+  "periodicActions":[  
+    {
+      "time" : 0.02,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "peglacitrail",
+      "inheritDamageFactor" :0.015,
+      "timeToLive" : 0.5,
+      "fuzzAngle" : 0
+   }
+    ],
+  "damageKind" : "default"
+}

@@ -1,0 +1,29 @@
+{
+  "projectileName" : "peglacirailgunenergetic0",
+  "image" : "peglacirailgundart.png",
+  "animationCycle" : 0.1,
+  "armorPenetration" : 3,
+  "physics" : "energeticLaser",
+  "frameNumber" : 3,
+  "pointLight" : false,
+  "speed" : 1,
+  "lightColor" : [40, 40, 190],
+  "timeToLive" : 0.01,
+  "actionOnReap":[  
+    {
+      "action" : "projectile",
+      "type" : "peglacitrail",
+      "inheritDamageFactor" :0.015,
+      "timeToLive" : 0.5,
+      "fuzzAngle" : 0
+   },
+   {
+      "action" : "projectile",
+      "type" : "peglacirailgunenergetic",
+      "inheritDamageFactor" :1,
+      "timeToLive" : 3,
+      "fuzzAngle" : 0
+   }
+    ],
+  "damageKind" : "default"
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName" : "peglacirailgundartpower",
+  "image" : "peglacirailgundartpower.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 1,
+  "physics" : "bullet",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 80,
+  "lightColor" : [40, 40, 190],
+  "actionOnReap" : [
+  	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/grenadeexplosion/grenadeexplosion.config"
+    }
+  ],
+  "damageKind" : "default",
+  "emitters" : [ "peglacitrail" ]
+}
