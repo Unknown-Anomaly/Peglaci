@@ -1,5 +1,5 @@
 {
-  "projectileName" : "peglaciicecloud-1-1",
+  "projectileName" : "peglaciicecloud-grenade",
   "image" : "peglaciicecloud.png",
   "animationCycle" : 2.2,
   "frameNumber" : 8,
@@ -7,10 +7,10 @@
   "physics" : "gas",
   "bounces" : 3,
   "lightColor" : [0, 100, 200],
-  "speed" : 30,
+  "speed" : 7,
   "knockback" : 3,
   "emitters" : [ "largeicecloud" ],
-  "timeToLive" : 2.2,
+  "timeToLive" : 1.8,
   "statusEffects" : [
     "peglacislow"
   ],

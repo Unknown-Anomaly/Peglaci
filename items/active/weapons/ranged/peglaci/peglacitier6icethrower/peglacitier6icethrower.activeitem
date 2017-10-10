@@ -2,14 +2,14 @@
   "itemName" : "peglacitier6icethrower",
   "price" : 200,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Legendary",
   "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
   "shortdescription" : "Mistral Icethrower +",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
-  "level" : 4,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6icethrowericon.png",
 
@@ -17,7 +17,7 @@
   "animationParts" : {
     "gun" : "peglacitier6icethrower.png",
     "gunfullbright" : "peglacitier6icethrowerfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
@@ -36,16 +36,15 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
     "fireTime" : 1,
-    "baseDps" : 9.7,
+    "baseDps" : 27,
     "energyUsage" : 27.0,
     "inaccuracy" : 0,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "peglacitier10icethrowershot",
+    "projectileType" : "peglaciicecloud-1",
     "projectileParameters" : {
-      "speed" : 30,
       "knockback" : 3
     },
 	  "stances" : {
@@ -88,7 +87,110 @@
     }
   },
 
-  "altAbilityType" : "",
+  "altAbilityType" : "peglacicharge",
+  "altAbility" : {
+    "name" : "Frozen Grenade",
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 5,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.3,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 15,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.6,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 25,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 35,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.3,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 45,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.6,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 55,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 2,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 65,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 22,
+        "fireSound" : "fire"
+      }
+    ]
+  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

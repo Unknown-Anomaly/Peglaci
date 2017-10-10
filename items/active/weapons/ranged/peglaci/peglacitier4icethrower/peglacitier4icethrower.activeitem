@@ -6,9 +6,9 @@
   "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
   "shortdescription" : "Mistral Icethrower II",
   "tooltipKind" : "gun",
-  "category" : "uniqueWeapon",
+  "category" : "shotgun",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged"],
+  "itemTags" : ["weapon", "ranged", "shotgun"],
   "level" : 4,
 
   "inventoryIcon" : "peglacitier4icethrowericon.png",
@@ -21,10 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/icechucker.ogg" ],
-      "fireStart" : [ "/sfx/gun/icechucker_start.ogg" ],
-      "fireLoop" : [ "/sfx/gun/icechucker_loop.ogg" ],
-      "fireEnd" : [ "/sfx/gun/icechucker_end.ogg" ]
+      "fire" : [ "/sfx/gun/icechucker.ogg" ]
     }
   },
 
@@ -35,26 +32,151 @@
 
   "elementalType" : "ice",
 
-  "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
-    "baseDps" : 26,
-    "energyUsage" : 30
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1,
+    "baseDps" : 15,
+    "energyUsage" : 27.0,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "peglaciicecloud-1",
+    "projectileParameters" : {
+      "knockback" : 3
+    },
+	  "stances" : {
+	    "idle" : {
+	      "armRotation" : 0,
+	      "weaponRotation" : 0,
+	      "twoHanded" : true,
+
+	      "allowRotate" : true,
+	      "allowFlip" : true
+	    },
+	    "fire" : {
+	      "duration" : 0,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    },
+	    "cooldown" : {
+	      "duration" : 0.25,
+	      "armRotation" : 5,
+	      "weaponRotation" : 5,
+	      "twoHanded" : true,
+
+	      "allowRotate" : false,
+	      "allowFlip" : false
+	    }
+	  }
   },
   
   "altAbilityType" : "peglacicharge",
   "altAbility" : {
-    "name" : "Insta-Freeze",
+    "name" : "Frozen Grenade",
     "chargeLevels" : [
       {
-        "time" : 0.3,
-        "energyCost" : 40,
-        "cooldown" : 0.5,
-        "projectileType" : "peglaciicecloud-1",
+        "time" : 0,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
         "projectileParameters" : {
-          "knockbackRange" : 3
-        },
-        "inaccuracy" : 0.001,
-        "baseDamage" : 15,
+          "knockback" : 10,
+          "speed" : 5,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.3,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 15,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.6,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 25,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 35,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.3,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 45,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.6,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 55,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 2,
+        "energyCost" : 32,
+        "cooldown" : 1,
+        "projectileType" : "peglacicryogrenade",
+        "projectileParameters" : {
+          "knockback" : 10,
+          "speed" : 65,
+          "statusEffects" : [  ]
+      },
+        "inaccuracy" : 0,
+        "baseDamage" : 13,
         "fireSound" : "fire"
       }
     ]
