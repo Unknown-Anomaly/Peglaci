@@ -9,6 +9,7 @@
   "pointLight" : false,
   "piercing" : true,
   "speed" : 15,
+  "power" : 0,
   "timeToLive" : 0.01,
   "lightColor" : [0, 100, 200],
   "actionOnReap" : [
@@ -54,6 +55,6 @@
     "amount" : 8
     }
 	 ],
-  "damageKind" : "default",
+  "damageKind" : "ice",
   "emitters" : [ "cloudtrail-ice" ]
 }

@@ -7,22 +7,19 @@
   "physics" : "gas",
   "piercing" : true,
   "bounces" : 3,
-    "lightColor" : [0, 100, 200],
+  "lightColor" : [0, 100, 200],
+  "power" : 0,
   "speed" : 20,
   "timeToLive" : 0.5,
   "actionOnReap" : [
-    {
-      "action" : "config",
-      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
-    },
-	{
+	  {
       "action" : "projectile",
       "type" : "peglaciicecrystal-2",
       "inheritDamageFactor" : 0.5,
 	  "fuzzAngle" : 280,
       "angleAdjust" : 0
     },
-	{
+	  {
       "action" : "projectile",
       "type" : "peglaciicecrystal-2",
       "inheritDamageFactor" : 0.5,
@@ -33,6 +30,6 @@
    "statusEffects" : [
     {"effect" : "peglacibeamslow"}
   ],
-  "damageKind" : "default",
+  "damageKind" : "ice",
   "emitters" : [ "defaultwhite" ]
 }

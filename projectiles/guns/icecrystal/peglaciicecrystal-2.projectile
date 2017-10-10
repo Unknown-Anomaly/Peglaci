@@ -6,7 +6,8 @@
   "armorPenetration" : 1,
   "physics" : "hover",
   "bounces" : 3,
-    "lightColor" : [0, 100, 200],
+  "lightColor" : [0, 100, 200],
+  "power" : 0,
   "speed" : 5,
   "piercing" : true,
   "timeToLive" : 1.5,
@@ -16,5 +17,5 @@
    "statusEffects" : [
    {"effect" : "peglacibeamslow"}
   ],
-  "damageKind" : "default"
+  "damageKind" : "ice"
 }
