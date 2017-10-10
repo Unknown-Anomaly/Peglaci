@@ -46,9 +46,9 @@
         "fireSound" : "fire"
       },
       {
-        "time" : 0.8,
+        "time" : 1,
         "energyCost" : 40,
-        "cooldown" : 0.5,
+        "cooldown" : 1,
         "projectileType" : "peglacitier5minelayershotpower-1",
         "projectileParameters" : {},
         "inaccuracy" : 0,

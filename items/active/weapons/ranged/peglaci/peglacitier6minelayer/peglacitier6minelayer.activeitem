@@ -38,7 +38,7 @@
       {
         "time" : 0,
         "energyCost" : 5,
-        "cooldown" : 0.1,
+        "cooldown" : 1,
         "projectileType" : "peglacitier6minelayershot-1",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
@@ -48,7 +48,7 @@
       {
         "time" : 1.0,
         "energyCost" : 40,
-        "cooldown" : 0.5,
+        "cooldown" : 1,
         "projectileType" : "peglacitier6minelayershotpower-1",
         "projectileParameters" : {},
         "inaccuracy" : 0,

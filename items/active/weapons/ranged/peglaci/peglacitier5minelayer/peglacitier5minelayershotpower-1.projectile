@@ -3,10 +3,10 @@
   "image" : "peglacitier5minelayershotpower-1.png",
   "animationCycle" : 0.25,
   "armorPenetration" : 3,
-  "physics" : "stickybullet",
+  "physics" : "stickybomb",
   "frameNumber" : 8,
   "pointLight" : false,
-  "speed" : 60,
+  "speed" : 80,
   "lightColor" : [255, 40, 190],
   "timeToLive" : 3,
   "actionOnReap" : [
