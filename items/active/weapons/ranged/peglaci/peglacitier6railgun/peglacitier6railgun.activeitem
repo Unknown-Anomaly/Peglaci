@@ -17,7 +17,7 @@
   "animationParts" : {
     "gun" : "peglacitier6railgun.png",
     "gunfullbright" : "peglacitier6railgunfullbright.png",
-    "muzzleFlash" : "/animations/muzzleflash/electromuzzle.animation"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
@@ -76,6 +76,15 @@
         "fireSound" : "fire"
       }
     ]
+  },
+  
+  "altAbilityType" : "markedshot",
+  "altAbility" : {
+    "name" : "Marked Shot",
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua", "/items/active/weapons/ranged/abilities/markedshot/markedshot.lua"],
+    "baseDamage" : 45,
+    "energyUsage" : 37.5,
+    "cooldownTime" : 1.0
   },
 
   "builder" : "/items/buildscripts/buildchargedweapon.lua"
