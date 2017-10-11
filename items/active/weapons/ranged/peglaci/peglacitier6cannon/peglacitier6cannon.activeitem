@@ -41,7 +41,7 @@
         "projectileType" : "peglacitier6cannonshot",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
-        "baseDamage" : 1.5,
+        "baseDamage" : 20,
         "fireSound" : "fire"
       },
       {
@@ -51,7 +51,7 @@
         "projectileType" : "peglacitier6cannonpowershot",
         "projectileParameters" : {},
         "inaccuracy" : 0,
-        "baseDamage" : 7,
+        "baseDamage" : 25,
         "fireSound" : "fire2"
       }
     ]
