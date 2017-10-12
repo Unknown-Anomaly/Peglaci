@@ -43,7 +43,7 @@
           "knockbackRange" : 5
         },
         "inaccuracy" : 0.008,
-        "baseDamage" : 18,
+        "baseDamage" : 10,
         "fireSound" : "fire"
       },
       {
@@ -55,7 +55,7 @@
           "knockbackRange" : 10
         },
         "inaccuracy" : 0,
-        "baseDamage" : 25,
+        "baseDamage" : 20,
         "fireSound" : "fire2"
       }
     ]

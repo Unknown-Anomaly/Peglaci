@@ -6,9 +6,9 @@
   "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
   "shortdescription" : "Apollo Maser +",
   "tooltipKind" : "chargedgun",
-  "category" : "assault rifle",
+  "category" : "sniperRifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "rifle"],
+  "itemTags" : ["weapon", "ranged", "sniperRifle"],
   "level" : 5,
 
   "inventoryIcon" : "peglacitier6lasericon.png",
@@ -48,7 +48,7 @@
           "knockbackRange" : 0
       },
         "inaccuracy" : 0.008,
-        "baseDamage" : 10,
+        "baseDamage" : 9.7,
         "fireSound" : "fire"
       }
     ]

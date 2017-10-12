@@ -40,7 +40,7 @@
         "cooldown" : 0.3,
         "projectileType" : "peglacicannonshot1",
         "inaccuracy" : 0.008,
-        "baseDamage" : 2.5,
+        "baseDamage" : 3,
         "fireSound" : "fire"
       },
       {

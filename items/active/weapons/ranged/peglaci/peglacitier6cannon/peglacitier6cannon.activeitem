@@ -9,7 +9,7 @@
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "shotgun"],
-  "level" : 4,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6cannonicon.png",
 
@@ -37,11 +37,11 @@
       {
         "time" : 0,
         "energyCost" : 5,
-        "cooldown" : 0.1,
+        "cooldown" : 0.3,
         "projectileType" : "peglacitier6cannonshot",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
-        "baseDamage" : 20,
+        "baseDamage" : 3,
         "fireSound" : "fire"
       },
       {
@@ -51,7 +51,7 @@
         "projectileType" : "peglacitier6cannonpowershot",
         "projectileParameters" : {},
         "inaccuracy" : 0,
-        "baseDamage" : 25,
+        "baseDamage" : 7,
         "fireSound" : "fire2"
       }
     ]

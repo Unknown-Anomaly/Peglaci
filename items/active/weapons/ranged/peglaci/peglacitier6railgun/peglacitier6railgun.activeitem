@@ -9,7 +9,7 @@
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "sniperrifle"],
-  "level" : 5,
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6railgunicon.png",
 
@@ -39,13 +39,12 @@
         "energyCost" : 32,
         "cooldown" : 1,
         "projectileType" : "peglacirailgundart",
-        "image" : "peglacirailgundart-2.png",
         "projectileParameters" : {
           "knockback" : 10,
           "speed" : 90
       },
         "inaccuracy" : 0,
-        "baseDamage" : 15,
+        "baseDamage" : 10,
         "fireSound" : "fire"
       },
       {
@@ -53,13 +52,12 @@
         "energyCost" : 52,
         "cooldown" : 1,
         "projectileType" : "peglacirailgundartpower",
-        "image" : "peglacirailgundartpower-2.png",
         "projectileParameters" : {
           "knockback" : 20,
           "speed" : 110
       },
         "inaccuracy" : 0,
-        "baseDamage" : 17,
+        "baseDamage" : 13,
         "fireSound" : "fire"
       },
       {
@@ -68,11 +66,10 @@
         "cooldown" : 1,
         "projectileType" : "peglacirailgunenergetic0",
         "projectileParameters" : {
-          "knockback" : 0,
-          "statusEffects" : [  ]
+          "knockback" : 0
       },
         "inaccuracy" : 0,
-        "baseDamage" : 20,
+        "baseDamage" : 15,
         "fireSound" : "fire"
       }
     ]

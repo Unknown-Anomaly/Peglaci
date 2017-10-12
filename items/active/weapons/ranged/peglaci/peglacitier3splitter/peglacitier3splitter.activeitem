@@ -41,7 +41,7 @@
         "cooldown" : 0.4,
         "projectileType" : "peglacisplitterdart1-1",
         "inaccuracy" : 0.008,
-        "baseDamage" : 1.7,
+        "baseDamage" : 2,
         "fireSound" : "fire"
       },
       {

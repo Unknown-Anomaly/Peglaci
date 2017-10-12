@@ -61,7 +61,7 @@ function build(directory, config, parameters, level, seed)
   if config.tooltipKind ~= "base" then
     config.tooltipFields = {}
     config.tooltipFields.levelLabel = util.round(configParameter("level", 1), 1)
-    config.tooltipFields.damagePerShotLabel = (config.primaryAbility.chargeLevels[1].baseDamage or 0)
+    config.tooltipFields.damagePerShotLabel = ((config.primaryAbility.chargeLevels[1].baseDamage * root.evalFunction("weaponDamageLevelMultiplier", config.level or 1)) or 0)
     config.tooltipFields.energyPerShotLabel = (config.primaryAbility.chargeLevels[1].energyCost or 0)
     
     config.tooltipFields.chargeLevelsLabel = ""

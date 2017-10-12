@@ -41,11 +41,10 @@
         "projectileType" : "peglacirailgundart",
         "projectileParameters" : {
           "knockback" : 10,
-          "speed" : 90,
-          "statusEffects" : [  ]
+          "speed" : 90
       },
         "inaccuracy" : 0,
-        "baseDamage" : 8,
+        "baseDamage" : 10,
         "fireSound" : "fire"
       },
       {
@@ -55,11 +54,10 @@
         "projectileType" : "peglacirailgundartpower",
         "projectileParameters" : {
           "knockback" : 20,
-          "speed" : 110,
-          "statusEffects" : [  ]
+          "speed" : 110
       },
         "inaccuracy" : 0,
-        "baseDamage" : 10,
+        "baseDamage" : 13,
         "fireSound" : "fire"
       },
       {
@@ -68,8 +66,7 @@
         "cooldown" : 1,
         "projectileType" : "peglacirailgunenergetic0",
         "projectileParameters" : {
-          "knockback" : 0,
-          "statusEffects" : [  ]
+          "knockback" : 0
       },
         "inaccuracy" : 0,
         "baseDamage" : 15,

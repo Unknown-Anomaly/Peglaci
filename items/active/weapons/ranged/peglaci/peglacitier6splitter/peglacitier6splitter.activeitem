@@ -42,7 +42,7 @@
         "projectileType" : "peglacisplitterdart1-1",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
-        "baseDamage" : 1.5,
+        "baseDamage" : 2,
         "fireSound" : "fire"
       },
       {

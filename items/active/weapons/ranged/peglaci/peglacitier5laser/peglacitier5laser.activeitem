@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
-  "shortdescription" : "Apollo Maser I",
+  "shortdescription" : "Apollo Maser",
   "tooltipKind" : "chargedgun",
   "category" : "sniperRifle",
   "twoHanded" : true,

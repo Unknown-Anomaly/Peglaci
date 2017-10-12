@@ -37,7 +37,7 @@
       {
         "time" : 0,
         "energyCost" : 5,
-        "cooldown" : 0.0,
+        "cooldown" : 0.1,
         "projectileType" : "peglacitier5shocklanceshot",
         "projectileParameters" : {},
         "inaccuracy" : 0.008,
