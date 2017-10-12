@@ -17,7 +17,7 @@
   },
 
   "aliases" : {
-    "default.default" : "default.off",
+    "default.default" : "default.1",
     "default.on" : "default.1",
     "red.default" : "red.off",
     "blue.default" : "blue.off",

@@ -48,6 +48,9 @@
       "flipImages" : true,
       "animationPosition" : [-8, 0],
 
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
       "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "background" ]
     },
@@ -58,6 +61,9 @@
       "direction" : "right",
       "animationPosition" : [-8, 0],
 
+      "frames" : 4,
+      "animationCycle" : 0.3,
+      
       "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "background" ]
     }
