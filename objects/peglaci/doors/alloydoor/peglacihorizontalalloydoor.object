@@ -21,8 +21,8 @@
   "inventoryIcon" : "peglacihorizontalalloydooricon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacihorizontalalloydoor.png:default",
-      "imagePosition" : [-16, -20],
+      "dualImage" : "peglacihorizontalalloydoor.png:<key>",
+      "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
 
       "spaces" : [ 
@@ -52,7 +52,7 @@
   "animationParts" : {
     "door" : "peglacihorizontalalloydoor.png"
   },
-  "animationPosition" : [-16, -20],
+  "animationPosition" : [-16, -8],
 
   "inputNodes" : [ [-1, 4] ],
   "outputNodes" : [ [0, 0] ]
