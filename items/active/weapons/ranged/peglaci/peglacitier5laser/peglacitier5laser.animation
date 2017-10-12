@@ -6,15 +6,17 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 6,
-            "cycle" : 0.6,
+            "frames" : 5,
+            "cycle" : 1.0,
             "mode" : "transition",
             "transition" : "fullcharge"
           },
-          "fullcharge" : {
-            "frames" : 1,
-            "cycle" : 0.2,
-            "mode" : "loop"
+          "fullcharge" : {},
+          "uncharge" : {
+            "frames" : 5,
+            "cycle" : 1.0,
+            "mode" : "transition",
+            "transition" : "off"
           },
           "fire" : {
             "frames" : 1,
@@ -46,9 +48,14 @@
                 "image" : "<partImage>:charge.<frame>"
               }
             },
+            "uncharge" : {
+              "properties" : {
+                "image" : "<partImage>:uncharge.<frame>"
+              }
+            },
             "fullcharge" : {
               "properties" : {
-                "image" : "<partImage>:charge.6"
+                "image" : "<partImage>:charge.5"
               }
             },
             "fire" : {
@@ -80,9 +87,14 @@
                 "image" : "<partImage>:charge.<frame>"
               }
             },
+            "uncharge" : {
+              "properties" : {
+                "image" : "<partImage>:uncharge.<frame>"
+              }
+            },
             "fullcharge" : {
               "properties" : {
-                "image" : "<partImage>:charge.6"
+                "image" : "<partImage>:charge.5"
               }
             },
             "fire" : {
@@ -95,9 +107,42 @@
       }
     }
   },
+  
+  "particleEmitters" : {
+    "beamCollision" : {
+      "active" : false,
+      "transformationGroups" : ["muzzle", "beamEnd"],
+      "emissionRate" : 30,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/frozenpuff/frozenpuff.animation",
+            "position" : [0, 0],
+            "initialVelocity" : [0, 2.0],
+            "finalVelocity" : [0, -4.0],
+            "approach" : [0, 10],
+            "fade" : 0.3,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "size" : 1.2,
+            "timeToLive" : 0.5,
+            "fullbright" : true,
+            "layer" : "front",
+            "collidesForeground" : false,
+            "variance" : {
+              "position" : [0.5, 0.5],
+              "initialVelocity" : [2, 2]
+            }
+          }
+        }
+      ]
+    }
+  },
 
   "transformationGroups" : {
     "weapon" : {},
+    "beamEnd" : {},
     "muzzle" : {}
   },
 

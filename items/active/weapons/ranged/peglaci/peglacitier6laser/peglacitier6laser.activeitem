@@ -6,10 +6,10 @@
   "description" : "Powerful ray of microwave radiation that causes the ground to erupt in it's wake.",
   "shortdescription" : "Apollo Maser +",
   "tooltipKind" : "chargedgun",
-  "category" : "sniperRifle",
+  "category" : "pistol",
   "twoHanded" : true,
-  "itemTags" : ["weapon", "ranged", "sniperRifle"],
-  "level" : 5,
+  "itemTags" : ["weapon", "ranged", "pistol"],
+  "level" : 6,
 
   "inventoryIcon" : "peglacitier6lasericon.png",
 
@@ -22,9 +22,9 @@
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/gun/plasma_shotgun3.ogg" ],
-      "fireStart" : [ "/sfx/gun/frozenbeam_start.ogg" ],
-      "fireLoop" : [ "/sfx/gun/frozenbeam_loop.ogg" ],
-      "fireEnd" : [ "/sfx/gun/frozenbeam_end.ogg" ],
+      "fireStart" : [ "/sfx/gun/icechucker_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/icechucker_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/icechucker_end.ogg" ],
       "beamImpact" : [ "/sfx/gun/frozenbeam_stop.ogg" ]
     }
   },
@@ -34,21 +34,33 @@
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
   "animationScripts" : ["/items/active/effects/chain.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "ice",
 
   "primaryAbilityType" : "peglacicharge",
   "primaryAbility" : {
     "chargeLevels" : [
       {
-        "time" : 1.0,
-        "energyCost" : 30,
-        "cooldown" : 0.1,
-        "projectileType" : "peglacitier6lasershot-1",
+        "time" : 0,
+        "energyCost" : 25,
+        "cooldown" : 0.3,
+        "projectileType" : "peglacilasershot",
         "projectileParameters" : {
           "knockbackRange" : 0
-      },
+        },
         "inaccuracy" : 0.008,
         "baseDamage" : 9.7,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1,
+        "energyCost" : 30,
+        "cooldown" : 0.3,
+        "projectileType" : "peglacilasershotpower",
+        "projectileParameters" : {
+          "knockbackRange" : 0
+        },
+        "inaccuracy" : 0.008,
+        "baseDamage" : 13,
         "fireSound" : "fire"
       }
     ]
@@ -76,7 +88,7 @@
       "startSegmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beamstart.png:<beamFrame>",
       "segmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beam.png:<beamFrame>",
       "endSegmentImage" : "/items/active/weapons/ranged/peglaci/peglacitier6laser/beamend.png:<beamFrame>",
-      "segmentSize" : 0.32,
+      "segmentSize" : 0.4,
       "overdrawLength" : 0.2,
       "taper" : 0,
       "waveform" : {

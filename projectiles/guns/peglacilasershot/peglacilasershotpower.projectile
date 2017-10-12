@@ -1,0 +1,36 @@
+{
+  "projectileName" : "peglacilasershotpower",
+  "image" : "peglacilasershotpower.png",
+  "animationCycle" : 0.5,
+  "armorPenetration" : 3,
+  "physics" : "laser",
+  "frameNumber" : 1,
+  "pointLight" : true,
+  "speed" : 60,
+  "lightColor" : [40, 40, 200],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglacilaserhit",
+    "inheritDamageFactor" : 0.3,
+    "angleAdjust" : 0
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglacilaserhit-2",
+    "inheritDamageFactor" : 0.3,
+    "angleAdjust" : -20
+    },
+    {
+    "action" : "projectile",
+    "type" : "peglacilaserhit-2",
+    "inheritDamageFactor" : 0.3,
+    "angleAdjust" : 20
+    }
+  ],
+  "damageKind" : "default"
+}

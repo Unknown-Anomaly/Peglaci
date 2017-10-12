@@ -1,13 +1,13 @@
 {
-  "projectileName" : "peglacitier6laserhit-1",
-  "image" : "peglacitier6laserhit-1.png",
+  "projectileName" : "peglacilaserhit-2",
+  "image" : "peglacilaserhit.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "gas",
-  "bounces" : 0,
+  "bounces" : 1,
   "frameNumber" : 4,
   "lightColor" : [100, 100, 255],
-  "speed" : 0,
+  "speed" : 1,
   "timeToLive" : 1,
   "actionOnReap" : [
      {

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "peglacitier6lasershot-1",
-  "image" : "peglacitier6lasershot-1.png",
+  "projectileName" : "peglacilasershot",
+  "image" : "peglacilasershot.png",
   "animationCycle" : 0.5,
   "armorPenetration" : 3,
   "physics" : "laser",
@@ -15,7 +15,7 @@
     },
 	{
       "action" : "projectile",
-      "type" : "peglacitier6laserhit-1",
+      "type" : "peglacilaserhit",
       "inheritDamageFactor" : 1
     }
   ],

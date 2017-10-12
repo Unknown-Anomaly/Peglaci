@@ -3,11 +3,15 @@
     "size" : [30, 16],
     "dimensions" : [6, 1],
     "names" : [
-      [ "charge.1", "charge.2", "charge.3", "charge.4", "charge.5", "charge.6" ]
+      [ "empty", "charge.1", "charge.2", "charge.3", "charge.4", "charge.5" ]
     ]
   },
   "aliases" : {
-    "fire" : "charge.6",
-    "empty" : "charge.1"
+    "fire" : "charge.5",
+    "uncharge.1" : "charge.5",
+    "uncharge.2" : "charge.4",
+    "uncharge.3" : "charge.3",
+    "uncharge.4" : "charge.2",
+    "uncharge.5" : "charge.1"
   }
 }
