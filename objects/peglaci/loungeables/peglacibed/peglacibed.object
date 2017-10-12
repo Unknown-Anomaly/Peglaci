@@ -24,7 +24,7 @@
   "sitPosition" : [-10, 10],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/peglaci/loungeables/peglacibed/peglacibedcover.png",
+  "sitCoverImage" : "/objects/peglaci/loungeables/peglacibed/peglacibedcover.png:default",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     "regeneration1",
