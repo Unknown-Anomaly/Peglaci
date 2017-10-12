@@ -22,29 +22,35 @@
   "orientations" : [
     {
       "dualImage" : "hatch.png:default",
-      "imagePosition" : [-16, 0],
-
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
       "spaceScan" : 0.1,
-      "anchors" : [ "right", "left" ]
+      "anchors" : [ "left", "right" ]
     }
   ],
 
-  "scripts" : [ "/objects/peglaci/doors/airlock1/airlock.lua" ],
+  "scripts" : [ "/objects/peglaci/doors/airlock1/airlockhatch.lua" ],
   "scriptDelta" : 5,
-
+  
   "animation" : "/objects/wired/door/door.animation",
   "animationParts" : {
     "door" : "hatch.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-16, -8],
 
-  "inboundNodes" : [ [0, 2] ],
-  "outboundNodes" : [ [0, -1] ],
+  "inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, -1] ],
 
     "animationCustom" : {
     "sounds" : {
-      "openSounds" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
-      "closeSounds" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
     }
   }
 }
