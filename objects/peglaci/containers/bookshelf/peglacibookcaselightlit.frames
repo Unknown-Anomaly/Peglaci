@@ -24,6 +24,15 @@
     "orange.default" : "orange.off",
     "pink.default" : "pink.off",
     "black.default" : "black.off",
-    "white.default" : "white.off"
+    "white.default" : "white.off",
+    "default.on" : "default.off",
+    "red.on" : "red.0",
+    "blue.on" : "blue.0",
+    "green.on" : "green.0",
+    "yellow.on" : "yellow.0",
+    "orange.on" : "orange.0",
+    "pink.on" : "pink.0",
+    "black.on" : "black.0",
+    "white.on" : "white.0"
   }
 }

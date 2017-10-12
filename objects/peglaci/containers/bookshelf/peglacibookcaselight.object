@@ -24,7 +24,7 @@
   "orientations" : [
     {
       "image" : "peglacibookcaselight.png:<color>.<frame>",
-      "imagePosition" : [0, -8],
+      "imagePosition" : [0, 0],
       "direction" : "right",
 
       "spaceScan" : 0.1,
@@ -37,11 +37,11 @@
     "bg" : "peglacibookcaselight.png",
     "fg" : "peglacibookcaselightlit.png"
   },
-  "animationPosition" : [0, -8],
+  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
   "inputNodes" : [ [0, 0] ],
-  "interactive" : false
+  "interactive" : true
 }
