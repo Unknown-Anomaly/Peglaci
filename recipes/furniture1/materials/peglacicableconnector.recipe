@@ -1,7 +1,8 @@
 {
   "input" : [
-
+      { "item" : "peglacimetalblock", "count" : 1 },
+      { "item" : "peglacipykreteblock", "count" : 10 }
   ],
-  "output" : { "item" : "peglacicableconnector", "count" : 600 },
+  "output" : { "item" : "peglacicableconnector", "count" : 100 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

@@ -1,7 +1,8 @@
 {
   "input" : [
-
+      { "item" : "tungstenbar", "count" : 1 },
+      { "item" : "peglacipykreteblock", "count" : 5 }
   ],
-  "output" : { "item" : "peglacimetalblock", "count" : 300 },
+  "output" : { "item" : "peglacimetalblock", "count" : 50 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }
