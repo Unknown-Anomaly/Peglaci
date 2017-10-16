@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 1 }
+  ],
+  "output" : { "item" : "ice", "count" : 2 },
+  "groups" : [ "peglacicryocondenser" ]
+}

@@ -140,6 +140,10 @@
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
 
+// Inventors Table
+      { "item" : "peglacicryocondenser" },
+      { "item" : "peglaciguncrafter" },
+
 // Furniture Table
 			{ "item" : "peglaciwaterpurifier" },
 			//{ "item" : "peglacigiantekblock" },

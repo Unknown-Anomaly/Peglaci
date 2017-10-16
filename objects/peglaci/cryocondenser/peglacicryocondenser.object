@@ -1,15 +1,23 @@
 {
   "objectName" : "peglacicryocondenser",
-  "colonyTags" : [ "commerce" ],
+  "colonyTags" : [ "peglaci" ],
   "printable" : false,
   "rarity" : "Uncommon",
   "description" : "This machine can reorganize solid matter into snow and ice.",
   "shortdescription" : "^orange;Cryocondenser^white;",
-  "subtitle" : "Keep your cool.",
   "race" : "generic",
   "category" : "crafting",
   "price" : 100,
+  "health" : 1.5,
+  
   "objectType" : "container",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/peglacicryocondenser.config",
+  "subtitle" : "Keep your cool.",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "recipeGroup" : "peglacicryocondenser",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
 
   "apexDescription" : "Some sort of advanced matter printer... cold to the touch.",
   "avianDescription" : "Ice printing... This technology could be devastating in the wrong hands.",
@@ -53,12 +61,5 @@
       "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
       "anchors" : [ "bottom" ]
     }
-  ],
-
-  "recipeGroup" : "peglacicryocondenser",
-  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
-  "slotCount" : 2,
-  "uiConfig" : "/interface/objectcrafting/peglacicryocondenser.config",
-  "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  ]
 }
