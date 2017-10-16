@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglacimetalblock", "count" : 20 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacifoodstorage2", "count" :1 },
+  "groups" : [ "craftingfurniture2", "storage", "peglacitesterbox", "objects", "all" ] 
+}
