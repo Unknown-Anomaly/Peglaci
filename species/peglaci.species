@@ -160,6 +160,7 @@
 			{ "item" : "peglacimetalscreen" },
 			{ "item" : "peglacipykretestrip" },
 			{ "item" : "peglacihorizontalalloydoor" },
+      { "item" : "peglaciverticalalloydoor" },
 			{ "item" : "peglacialloydoor2" },
 			{ "item" : "peglacibed" },
 			{ "item" : "peglacibed2" },
