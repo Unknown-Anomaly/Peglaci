@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peglacimetalblock", "count" : 5 },
+    { "item" : "leather", "count" : 3 }
+  ],
+  "output" : { "item" : "peglacibed", "count" :1 },
+  "groups" : [ "craftingfurniture", "beds", "peglacitesterbox", "objects", "all" ] 
+}
