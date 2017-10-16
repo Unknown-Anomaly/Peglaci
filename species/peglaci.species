@@ -197,6 +197,7 @@
 			//{ "item" : "peglacibookcaseend1" },
 			//{ "item" : "peglacibookcaseconsole" },
 			//{ "item" : "spawnerpeglaci" },
+      {"item" : "peglacibookshelf" },
 // Spinning Wheel
 			{ "item" : "peglacigreatcoatjacket" },
 			{ "item" : "peglacigreatcoatpants" },
