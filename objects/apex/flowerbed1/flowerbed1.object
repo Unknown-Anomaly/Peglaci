@@ -1,0 +1,46 @@
+{
+  "objectName" : "flowerbed1",
+  "tags" : ["apex","apexmansion","nature","pretty"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 550,
+  "description" : "A beautiful flower bed. Watch out for bees!",
+  "shortdescription" : "Flower Bed",
+  "race" : "apex",
+
+  "apexDescription" : "A well-tended flowerbed. One of the few Apex pleasures.",
+  "avianDescription" : "A sickly-sweet smell wafts in the air.",
+  "floranDescription" : "Floran hide in flowers. Jump out, sssurprise monkey! Monkey not happy.",
+  "glitchDescription" : "Admiration. A remarkably well-cultivated flowerbed.",
+  "humanDescription" : "I've never had green fingers.",
+  "hylotlDescription" : "A crude, childish flowerbed.",
+
+  "inventoryIcon" : "flowerbed1icon.png",
+  "orientations" : [
+    {
+      "image" : "flowerbed1.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flowerbed1.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/apex/flowerbed1/flowerbed1.png",
+  "sitFlipDirection" : false
+}
