@@ -1,0 +1,28 @@
+{
+  "name": "guardT2_peglaci",
+  "priority": 7,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "peglaci": 8,
+    "combat": 8,
+    "tier2": 12
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "peglaci",
+      "level": 2,
+      "type": "friendlyguardtenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"op":"add",
+		"path": "/scriptConfig/chatSounds/peglaci",
+		"value": {
+			"male" : [
+			  "/sfx/humanoid/peglacigrunt1.ogg",
+			  "/sfx/humanoid/peglacigrunt2.ogg",
+			  "/sfx/humanoid/peglacihurt_male1.ogg"
+			],
+			"female" : [
+			  "/sfx/humanoid/peglacihurt_female1.ogg",
+			  "/sfx/humanoid/peglacihurt_female2.ogg",
+			  "/sfx/humanoid/peglacihurt_female3.ogg"
+			]
+		}
+	}
+]
