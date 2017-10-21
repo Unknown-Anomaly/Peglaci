@@ -1,0 +1,37 @@
+[
+  { "op" : "add", 
+    "path" : "/scriptConfig/merchant/categories/peglaci", 
+    "value" : [ "basicmerchant", "randomguns", "randomswords", "peglaciguns", "peglaciingredients", "musicalinstruments" ] 
+  },
+  { "op" : "add",
+    "path" : "/items/peglaci",
+    "value" : 
+    [ [0, [ {
+        "chest" : [
+          { "name" : "peglacitier1chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacitier2chest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacigreatcoatjacket", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglaciskijacketjacket", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacisnowrobejacket", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacisnowsuitjacket", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } }
+        ],
+        "legs" : [
+          { "name" : "peglacitier1pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacitier2pants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacigreatcoatpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglaciskijacketpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacisnowrobepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacisnowsuitpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } }
+        ],
+        "head" : [
+          { "name" : "peglacisunglasses", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacimask", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacieyepatch", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacibandana", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } },
+          { "name" : "peglacitier1head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8] } }
+        ]
+        } ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+[  
+  {  
+    "op":"add",
+    "path":"/hail/peglaci",
+    "value":{  
+      "default":[  
+        "Nothing to see here.",
+	      "*Looks at you*",
+	      "Today is a good day.",
+	      "I'm used to be an adventurer like you."
+        "Welcome to our city. Please, behave."
+      ],
+      "human":[  
+        "TODO: human placeholder"
+      ],
+      "hylotl":[  
+        "TODO: hylotl placeholder"
+      ],
+      "apex":[  
+        "TODO: apex placeholder"
+      ],
+      "avian":[  
+        "TODO: avian placeholder"
+      ],
+      "glitch":[  
+        "TODO: glitch placeholder"
+      ],
+      "peglaci":[  
+        "TODO: peglaci placeholder"
+      ],
+      "floran":[  
+        "TODO: floran placeholder"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning1/peglaci",
+    "value":{  
+      "default":[  
+        "TODO: first warning, traveler"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning2/peglaci",
+    "value":{  
+      "default":[  
+        "TODO: second warning, traveler"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponwarning3/peglaci",
+    "value":{  
+      "default":[  
+        "TODO: last warning, traveler."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/weaponSheathed/peglaci",
+    "value":{  
+      "default":[  
+        "TODO: thanks for not kill me, traveler."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/comeBack/peglaci",
+    "value":{  
+      "default":[  
+        "TODO: Come back here, I was talking."
+      ]
+    }
+  }
+]

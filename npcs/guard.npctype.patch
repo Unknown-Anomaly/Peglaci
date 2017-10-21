@@ -1,0 +1,36 @@
+[
+  { "op" : "add",
+    "path" : "/items/peglaci",
+    "value" : 
+    [ [0, [ {
+        "head" : [ 
+          { "name" : "peglacitier1head", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier2head", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier3head", "data" : { "colorIndex" : [2] } }
+        ],
+        "chest" : [
+          { "name" : "peglacitier1chest", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier2chest", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier3chest", "data" : { "colorIndex" : [2] } }
+        ],
+        "legs" : [
+          { "name" : "peglacitier1pants", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier2pants", "data" : { "colorIndex" : [2] } },
+          { "name" : "peglacitier3pants", "data" : { "colorIndex" : [2] } }
+        ],
+        "primary" : [
+          { "name" : "peglacitier4icethrower", "data" : { "level" : 4 } },
+          { "name" : "peglacitier4machinegun", "data" : { "level" : 4 } },
+          { "name" : "peglacitier2smg", "data" : { "level" : 4 } }
+        ],
+        "sheathedprimary" : [
+          { "name" : "peglacitier4spear" },
+          { "name" : "peglacitier4axe" }
+        ],
+        "alt" : [
+          { "name" : "peglacitier2pistol", "data" : { "level" : 4 } }
+        ]
+      } ] ]
+    ]
+  }
+]

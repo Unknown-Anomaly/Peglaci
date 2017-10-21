@@ -1,0 +1,50 @@
+[
+  {
+    "op": "add",
+    "path": "/items/peglaci",
+    "value": [
+      [ 0, [ {
+	    "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier4icethrower", "data" : { "level" : 1} } ],
+        "sheathedprimary": [ { "name": "peglacitier1axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier5minigun", "data" : { "level" : 1} } ],
+        "sheathedprimary": [ { "name": "peglacitier1spear" } ]
+      } ] ],
+      [2, [ {
+        "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier4icethrower", "data" : { "level" : 2} } ],
+        "sheathedprimary": [ { "name": "peglacitier2axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier5minigun", "data" : { "level" : 2} } ],
+        "sheathedprimary": [ { "name": "peglacitier2spear" } ]
+      } ] ],
+      [3, [ {
+        "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier4icethrower", "data" : { "level" : 3} } ],
+        "sheathedprimary": [ { "name": "peglacitier3axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier5mhead", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier5achest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier5spants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier5minigun", "data" : { "level" : 3} } ],
+        "sheathedprimary": [ { "name": "peglacitier3spear" } ]
+      } ] ]
+    ]
+  }
+]

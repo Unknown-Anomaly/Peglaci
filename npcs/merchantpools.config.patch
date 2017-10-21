@@ -1,0 +1,46 @@
+[
+  { "op" : "add",
+    "path" : "/peglaciguns",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "peglacitier1pistol" }, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier1shotgun" }, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier1smg" }, "rarity" : 0.1 }
+      ] ],
+      [ 2, [
+        { "item": { "name": "peglacitier2pistol"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier2shotgun"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier2smg"}, "rarity" : 0.1 }
+      ] ],
+      [ 3, [
+        { "item": { "name": "peglacitier3cannon"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier3icethrower"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier3machinegun"}, "rarity" : 0.1 }
+      ] ],  
+      [ 4, [
+        { "item": { "name": "peglacitier4cannon"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier4icethrower"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier4machinegun"}, "rarity" : 0.1 }
+      ] ],  
+      [ 5, [
+        { "item": { "name": "peglacitier5avalauncher"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier5laser"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier5railgun"}, "rarity" : 0.1 }
+      ] ],  
+      [ 6, [
+        { "item": { "name": "peglacitier6avalauncher"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier6laser"}, "rarity" : 0.1 },
+        { "item": { "name": "peglacitier6railgun"}, "rarity" : 0.1 }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/peglaciingredients",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "peglacispongeweed" } },
+        { "item": { "name": "peglacisnowberry" } }
+      ] ]
+    ]
+  }
+]

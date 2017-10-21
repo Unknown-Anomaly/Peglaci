@@ -1,0 +1,67 @@
+[
+  { "op": "add",
+    "path": "/items/peglaci",
+    "value": [
+      [ 0, [ {
+        "head" : [ 
+          { "name" : "peglacitier1head", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2head", "data" : { "colorIndex" : [3] } }
+        ],
+        "chest": [ { "name": "peglacitier1chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [
+          { "name" : "peglacitier1pants", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2pants", "data" : { "colorIndex" : [3] } }
+        ],
+        "primary": [ { "name": "peglacitier1pistol", "data" : { "level" : 1 } } ],
+        "sheathedprimary": [ { "name": "peglacitier1axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier3head", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier1chest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier1smg", "data" : { "level" : 1 } } ],
+        "sheathedprimary": [ { "name": "peglacitier1spear" } ]
+      } ] ],
+      [ 2, [ {
+        "head" : [ 
+          { "name" : "peglacitier1head", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2head", "data" : { "colorIndex" : [3] } }
+        ],
+        "chest": [ { "name": "peglacitier2chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [
+          { "name" : "peglacitier1pants", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2pants", "data" : { "colorIndex" : [3] } }
+        ],
+        "primary": [ { "name": "peglacitier1pistol", "data" : { "level" : 2 } } ],
+        "sheathedprimary": [ { "name": "peglacitier2axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier3head", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier2chest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier1smg", "data" : { "level" : 2 } } ],
+        "sheathedprimary": [ { "name": "peglacitier2spear" } ]
+      } ] ],
+      [3, [ {
+        "head" : [ 
+          { "name" : "peglacitier1head", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2head", "data" : { "colorIndex" : [3] } }
+        ],
+        "chest": [ { "name": "peglacitier3chest", "data" : { "colorIndex" : [3] } } ],
+        "legs" : [
+          { "name" : "peglacitier1pants", "data" : { "colorIndex" : [3] } },
+          { "name" : "peglacitier2pants", "data" : { "colorIndex" : [3] } }
+        ],
+        "primary": [ { "name": "peglacitier1pistol", "data" : { "level" : 3 } } ],
+        "sheathedprimary": [ { "name": "peglacitier3axe" } ]
+      },
+      {
+        "head": [ { "name": "peglacitier3head", "data" : { "colorIndex" : [3] } } ],
+        "chest": [ { "name": "peglacitier3chest", "data" : { "colorIndex" : [3] } } ],
+        "legs": [  { "name": "peglacitier3pants", "data" : { "colorIndex" : [3] } } ],
+        "primary": [ { "name": "peglacitier1smg", "data" : { "level" : 3 } } ],
+        "sheathedprimary": [ { "name": "peglacitier3spear" } ]
+      } ] ]
+    ]
+  }
+]

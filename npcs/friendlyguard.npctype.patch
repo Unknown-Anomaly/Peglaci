@@ -1,0 +1,12 @@
+[
+  { "op" : "add", "path" : "/scriptConfig/dialog/hail/peglaci",
+    "value" : {
+      "default" : [
+	    "Nothing to see here.",
+	    "*Looks at you*",
+	    "This place isn't cold enough.",
+	    "I'm used to be an adventurer like you."
+	  ]
+	}
+  }
+]

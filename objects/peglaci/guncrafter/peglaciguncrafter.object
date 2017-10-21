@@ -1,6 +1,6 @@
 {
   "objectName" : "peglaciguncrafter",
-  "colonyTags" : [ "crafting" ],
+  "colonyTags" : [ "crafting", "peglaci", "combat" ],
   "category" : "crafting",
   "rarity" : "Uncommon",
   "description" : "A pocket assembler that fabricates a variety of firearms.",
