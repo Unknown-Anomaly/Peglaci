@@ -20,7 +20,7 @@
 
   "inventoryIcon" : "peglaciverticalairlockicon.png",
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/peglaci/doors/airlock/airlockhatch.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/door/door.animation",
@@ -54,9 +54,9 @@
     },
     {
       "image" : "peglaciverticalairlock.png:default",
-      "imagePosition" : [-16, -6],
+      "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
-      "animationPosition" : [-16, -6],
+      "animationPosition" : [-16, -8],
       "direction" : "right",
 
       "spaceScan" : 0.1,
