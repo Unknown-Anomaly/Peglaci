@@ -5,7 +5,6 @@
   "category" : "light",
   "price" : 60,
   "printable" : false,
-  "retainObjectParametersInItem" : true, 
 
   "description" : "A small table lantern lit by a glowing crystal.",
   "shortdescription" : "Alloy Lamp",
@@ -22,17 +21,7 @@
 
   "statusEffects" : [ ],
 
-  "lightColors" : {
-    "default" :  [100, 200, 255],    
-    "red" : [200, 100, 100],    
-    "blue" : [100, 100, 200],    
-    "green" : [100, 200, 100],    
-    "yellow" : [200, 200, 100],    
-    "orange" : [200, 150, 16],    
-    "pink" : [200, 0, 200],    
-    "black" : [32, 32, 32],    
-    "white" : [200, 200, 200]  
-  },
+  "lightColor" : [100, 200, 255],
   
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : 0.95,

@@ -10,7 +10,7 @@
   "category" : "decorative",
   "price" : 100,
   "health" : 1.5,
-  "retainObjectParametersInItem" : true, 
+  "retainObjectParametersInItem" : true,
 
   "apexDescription" : "A reinforcing alloy column.",
   "avianDescription" : "A reinforcing alloy column.",
@@ -39,7 +39,7 @@
 
   "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
-  "slotCount" : 8,
+  "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
