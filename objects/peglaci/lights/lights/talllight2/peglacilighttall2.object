@@ -5,7 +5,6 @@
   "category" : "light",
   "price" : 60,
   "printable" : false,
-  "retainObjectParametersInItem" : true, 
 
   "description" : "A tall alloy lantern topped by a glowing crystal.",
   "shortdescription" : "Alloy Lantern Spire",

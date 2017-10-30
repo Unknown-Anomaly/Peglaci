@@ -5,7 +5,6 @@
   "category" : "light",
   "price" : 50,
   "printable" : false,
-  "retainObjectParametersInItem" : true, 
   
   "description" : "This glowing crystal can provide illumination under the water as well.",
   "shortdescription" : "Glowstar",

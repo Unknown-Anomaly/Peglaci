@@ -5,7 +5,6 @@
   "category" : "light",
   "price" : 60,
   "printable" : false,
-  "retainObjectParametersInItem" : true, 
 
   "description" : "An embedded crystal lantern.",
   "shortdescription" : "Embedded Alloy Lantern",
