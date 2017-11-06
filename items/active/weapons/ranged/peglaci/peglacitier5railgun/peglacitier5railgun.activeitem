@@ -79,9 +79,10 @@
   "altAbility" : {
     "name" : "Marked Shot",
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua", "/items/active/weapons/ranged/abilities/markedshot/markedshot.lua"],
-    "baseDamage" : 24,
+    "baseDamage" : 10,
     "energyUsage" : 37.5,
-    "cooldownTime" : 1.0
+    "cooldownTime" : 1.0,
+    "projectileCount" : 1
   },
 
   "builder" : "/items/buildscripts/buildchargedweapon.lua"
