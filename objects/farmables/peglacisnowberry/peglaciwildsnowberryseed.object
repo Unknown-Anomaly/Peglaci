@@ -39,15 +39,14 @@
 
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [420, 660]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [420, 660]
     },
     {
       "alts" : 5,
-      "harvestPool" : "peglacisnowberryHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "peglacisnowberryHarvest"
     }
   ],
 
@@ -55,5 +54,6 @@
 
   "maxImmersion" : 0.125,
   "breakDropOptions" : [ [ [ "peglacisnowberryseed", 1, { } ] ]
-  ]
+  ],
+  "consumeSoilMoisture" : false
 }

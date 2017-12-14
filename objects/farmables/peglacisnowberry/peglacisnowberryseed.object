@@ -47,8 +47,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "peglacisnowberryHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "peglacisnowberryHarvest"
     }
   ],
 

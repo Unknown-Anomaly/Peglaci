@@ -44,8 +44,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "peglacispongeweedHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "peglacispongeweedHarvest"
     }
   ],
 

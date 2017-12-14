@@ -4,6 +4,9 @@
 		"path" : "/peglacisnowberryHarvest",
 		"value" : [
 			[0, {
+        "fill" : [
+        {"item" : "peglacisnowberryseed"}
+        ],
 			  "pool" : [
 				{"weight" : 0.89, "item" : "peglacisnowberry"},
 				{"weight" : 0.01, "item" : "peglacisnowberryseed"},
@@ -20,6 +23,9 @@
 		"path" : "/peglacispongeweedHarvest",
 		"value" : [
 			[0, {
+        "fill" : [
+        {"item" : "peglacispongeweedseed"}
+        ],
 			  "pool" : [
 				{"weight" : 0.89, "item" : "peglacispongeweed"},
 				{"weight" : 0.01, "item" : "peglacispongeweedseed"},

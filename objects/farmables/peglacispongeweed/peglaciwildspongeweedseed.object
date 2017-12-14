@@ -36,15 +36,14 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [320, 560]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [320, 560]
     },
     {
       "alts" : 5,
-      "harvestPool" : "peglacispongeweedHarvest",
-      "resetToStage" : 2
+      "harvestPool" : "peglacispongeweedHarvest"
     }
   ],
 
@@ -52,5 +51,6 @@
 
   "maxImmersion" : 0.125,
   "breakDropOptions" : [ [ [ "peglacispongeweedseed", 1, { } ] ]
-  ]
+  ],
+  "consumeSoilMoisture" : false
 }
