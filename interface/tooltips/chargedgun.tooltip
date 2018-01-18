@@ -75,5 +75,13 @@
     "hAnchor" : "left",
     "centered" : true,
     "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [120, 110],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
   }
 }
