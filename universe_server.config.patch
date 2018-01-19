@@ -1,5 +1,5 @@
 [
-	[{ "op" : "add",
+	{ "op" : "add",
 		"path" : "/speciesShips/peglaci",
 		"value" : [ 
 			"/ships/peglaci/peglaciT0.structure",
@@ -12,14 +12,5 @@
 			"/ships/peglaci/peglaciT7.structure", 
 			"/ships/peglaci/peglaciT8.structure" 
 		]
-	}],
-  [
-    { "op":"test","path":"/speciesShips/apex/0",
-	"value": "/ships/fu_byos/fu_byos.structure" 
-    },
-    { "op":"replace",
-      "path":"/speciesShips/peglaci/0",
-      "value": "/ships/fu_byos/fu_byos.structure"
-    }
-	]
+	}
 ]
