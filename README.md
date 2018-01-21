@@ -9,6 +9,7 @@ If you want to help, please join us in our [Discord Server](https://discord.gg/Q
 
 On going work:
  - Dialogues - _We need people that writes new dialogue lines_.
+ - Lore - _We need work done on putting together a history for these wonderful space goats_.
 
 Currently working:
  - Ship
@@ -19,15 +20,15 @@ Currently working:
  - Objects
  - Tiles
 
-Currently NOT working:
-
 Needs more testing:
  - Ship upgrades
  - Status effects
  - Projectile effects
 
+Currently NOT working:
+ - Let us know if anything breaks
+
 The eventual TODO:
- - [Update Assets](https://github.com/Unknown-Anomaly/Peglaci/blob/master/_gfx_assets_to_update.txt)
  - More balanced weapon damage
  - Balance object prices
  - Better recipes
