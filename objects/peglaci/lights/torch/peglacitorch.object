@@ -52,8 +52,8 @@
         "fg" : "peglacitorchdownlit.png"
       },
 
-      "imagePosition" : [0, -4],
-      "animationPosition" : [0, -4],
+      "imagePosition" : [0, -2],
+      "animationPosition" : [0, -2],
 
       "spaces" : [ [0, 0], [0, -1] ],
       "anchors" : [ "top" ]
@@ -81,8 +81,8 @@
         "fg" : "peglacitorchrightlit.png"
       },
 
-      "imagePosition" : [0, 0],
-      "animationPosition" : [0, 0],
+      "imagePosition" : [-2, 0],
+      "animationPosition" : [-2, 0],
 
       "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "right" ]
