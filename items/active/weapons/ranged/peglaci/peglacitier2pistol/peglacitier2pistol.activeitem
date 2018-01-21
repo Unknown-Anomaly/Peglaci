@@ -62,7 +62,21 @@
         "baseDamage" : 14,
         "fireSound" : "fire2"
       }
-    ]
+    ],
+    "stances" : {
+      "idle" : {
+        "twoHanded" : false
+      },
+      "charge" : {
+        "twoHanded" : false
+      },
+      "fire" : {
+        "twoHanded" : false
+      },
+      "cooldown" : {
+        "twoHanded" : false
+      }
+    }
   },
 
   "builder" : "/items/buildscripts/buildchargedweapon.lua"
