@@ -1,4 +1,5 @@
 [
   { "op" : "add" ,"path" : "/species/-" ,"value" : "peglaci" },
-	{ "op" : "add", "path" : "/defaultCodexes/peglaci", "value" : [ "protectorate1", "protectorate2", "peglacicannibals", "peglacigiants", "peglaciorigins" ] }
+	{ "op" : "add", "path" : "/defaultCodexes/peglaci", "value" : [ "protectorate1", "protectorate2", "peglacicannibals", "peglacigiants", "peglaciorigins" ] },
+  { "op" : "add", "path" : "/deploymentConfig/speciesStarterMechBody/peglaci", "value" : "mechbodypeglaciproto" }
 ]
