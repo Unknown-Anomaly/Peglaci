@@ -37,7 +37,7 @@
       {
         "time" : 0,
         "energyCost" : 10,
-        "cooldown" : 1.5,
+        "cooldown" : 1.0,
         "projectileType" : "peglacidart",
         "projectileParameters" : {
           "knockbackRange" : 5
