@@ -1,0 +1,16 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/default/peglaci",
+		"value": [
+            "New person. Very fluffy. Quite exciting!",
+            "Odd person. Hopefully nice. Feeling cautious!",
+            "Weird person. Not Fenerox. Being polite!",
+            "Meeting stranger. Being friendly. New experience!",
+            "Odd person. Saying hello. Not Fenerox?",
+            "Friendly stranger. Feeling awkward. Cautiously optimistic!",
+            "New stranger. Not confident. Saying hello!",
+            "Unknown person. Four eyes. Very strange!"
+		]
+	}
+]
