@@ -1,9 +1,9 @@
 {
   "objectName" : "peglacihorizontalalloydoor",
+  "colonyTags" : [ "peglaci", "door" ],
   "rarity" : "Common", 
-  "printable" : false,
 
-  "category" : "wired",
+  "category" : "door",
   "price" : 125,
   "description" : "A sturdy door made of an unusual alloy.",
   "shortdescription" : "Alloy Hatch",
@@ -22,7 +22,7 @@
   "orientations" : [
     {
       "dualImage" : "peglacihorizontalalloydoor.png:<key>",
-      "imagePosition" : [-16, -8],
+      "imagePosition" : [-16, -20],
       "renderLayer" : "Object+5",
 
       "spaces" : [ 
@@ -52,8 +52,8 @@
   "animationParts" : {
     "door" : "peglacihorizontalalloydoor.png"
   },
-  "animationPosition" : [-16, -8],
+  "animationPosition" : [-16, -20],
 
-  "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
 }
