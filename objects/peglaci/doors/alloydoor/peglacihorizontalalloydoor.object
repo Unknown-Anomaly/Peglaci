@@ -2,7 +2,6 @@
   "objectName" : "peglacihorizontalalloydoor",
   "colonyTags" : [ "peglaci", "door" ],
   "rarity" : "Common", 
-  "printable" : false,
 
   "category" : "door",
   "price" : 125,
