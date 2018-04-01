@@ -236,11 +236,11 @@
 			"name" : "male",
 			"image" : "/interface/title/pmale.png",
 			"characterImage" : "/interface/title/peglacimale.png",
-			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20" ],
+			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25" ],
 			"shirt" : [ "peglaciskijacketjacket","peglacisnowrobejacket","peglacisnowsuitjacket","peglacigreatcoatjacket" ],
 			"pants" : [ "peglaciskijacketpants","peglacisnowrobepants","peglacisnowsuitpants","peglacigreatcoatpants" ],
 			"facialHairGroup" : "ears",
-			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7" ],
+			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7","ear8" ],
 			"facialMaskGroup" : "",
 			"facialMask" : []
 		},
@@ -248,11 +248,11 @@
 			"name" : "female",
 			"image" : "/interface/title/pfemale.png",
 			"characterImage" : "/interface/title/peglacifemale.png",
-			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20" ],
+			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25" ],
 			"shirt" : [ "peglaciskijacketjacket","peglacisnowrobejacket","peglacisnowsuitjacket","peglacigreatcoatjacket" ],
 			"pants" : [ "peglaciskijacketpants","peglacisnowrobepants","peglacisnowsuitpants","peglacigreatcoatpants" ],
 			"facialHairGroup" : "ears",
-			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7" ],
+			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7","ear8" ],
 			"facialMaskGroup" : "",
 			"facialMask" : []
 		}
