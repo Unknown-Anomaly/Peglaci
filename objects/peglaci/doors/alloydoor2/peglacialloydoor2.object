@@ -27,7 +27,7 @@
       "renderLayer" : "Object+5",
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
+      "anchors" : [ "left", "right" ]
     }
   ],
 

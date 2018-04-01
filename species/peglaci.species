@@ -236,11 +236,11 @@
 			"name" : "male",
 			"image" : "/interface/title/pmale.png",
 			"characterImage" : "/interface/title/peglacimale.png",
-			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20" ],
+			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25" ],
 			"shirt" : [ "peglaciskijacketjacket","peglacisnowrobejacket","peglacisnowsuitjacket","peglacigreatcoatjacket" ],
 			"pants" : [ "peglaciskijacketpants","peglacisnowrobepants","peglacisnowsuitpants","peglacigreatcoatpants" ],
 			"facialHairGroup" : "ears",
-			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7" ],
+			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7","ear8" ],
 			"facialMaskGroup" : "",
 			"facialMask" : []
 		},
@@ -248,31 +248,31 @@
 			"name" : "female",
 			"image" : "/interface/title/pfemale.png",
 			"characterImage" : "/interface/title/peglacifemale.png",
-			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20" ],
+			"hair" : [ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25" ],
 			"shirt" : [ "peglaciskijacketjacket","peglacisnowrobejacket","peglacisnowsuitjacket","peglacigreatcoatjacket" ],
 			"pants" : [ "peglaciskijacketpants","peglacisnowrobepants","peglacisnowsuitpants","peglacigreatcoatpants" ],
 			"facialHairGroup" : "ears",
-			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7" ],
+			"facialHair" : [ "ear1","ear2","ear3","ear4","ear5","ear6","ear7","ear8" ],
 			"facialMaskGroup" : "",
 			"facialMask" : []
 		}
 	],
 	"bodyColor" : [
-		{"ffca8a":"e4e4e4","e0975c":"d7d5db","a85636":"8e8e9b","6f2919":"6d6d6d"},
-		{"ffca8a":"ecdddd","e0975c":"e2cbcb","a85636":"b67979","6f2919":"9d5454"},
-		{"ffca8a":"e3ecdd","e0975c":"d5e2cb","a85636":"93b679","6f2919":"456a27"},
-		{"ffca8a":"ddebec","e0975c":"ddebec","a85636":"79b1b6","6f2919":"31767c"},
-		{"ffca8a":"e4ddec","e0975c":"d6cbe2","a85636":"9779b6","6f2919":"78549d"},
-		{"ffca8a":"ece9dd","e0975c":"e2ddcb","a85636":"b6a779","6f2919":"9d8b54"}
+		{"ffca8a":"e4e4e4","e0975c":"d7d5db","a85636":"8e8e9b","6f2919":"656571"},
+		{"ffca8a":"ecdddd","e0975c":"e2cbcb","a85636":"b67979","6f2919":"8c4646"},
+		{"ffca8a":"e3ecdd","e0975c":"d5e2cb","a85636":"84A866","6f2919":"57793b"},
+		{"ffca8a":"f1f9f9","e0975c":"ddebec","a85636":"6fadb3","6f2919":"30747a"},
+		{"ffca8a":"e4ddec","e0975c":"d6cbe2","a85636":"9677b9","6f2919":"725098"},
+		{"ffca8a":"f6f1e0","e0975c":"eae2C4","a85636":"bbaa7b","6f2919":"998651"}
 	],
 	"undyColor" : [
-		{"f32200":"9e9e9e","dc1f00":"696969","be1b00":"434343","951500":"191919"},
-		{"f32200":"c08b8b","dc1f00":"995252","be1b00":"6b3a3a","951500":"3a1f1f"},
-		{"f32200":"a2c08b","dc1f00":"719952","be1b00":"4f6b3a","951500":"2b3a1f"},
-		{"f32200":"8bbcc0","dc1f00":"529399","be1b00":"3a676b","951500":"1f383a"},
-		{"f32200":"a58bc0","dc1f00":"755299","be1b00":"523a6b","951500":"2c1f3a"},
-		{"f32200":"c0b38b","dc1f00":"998852","be1b00":"6b5f3a","951500":"3a331f"},
-		{"f32200":"546b6a","dc1f00":"374645","be1b00":"222b2b","951500":"0c0f0f"}	],
+		{"f32200":"9e9e9e","dc1f00":"5a5a5a","be1b00":"373737","951500":"1e1e1e"},
+		{"f32200":"c08b8b","dc1f00":"995252","be1b00":"6e2e2e","951500":"461e1e"},
+		{"f32200":"a2c08b","dc1f00":"6f9551","be1b00":"43622a","951500":"2b3a1f"},
+		{"f32200":"8bbcc0","dc1f00":"518f95","be1b00":"2b5e63","951500":"1b3c3f"},
+		{"f32200":"a58bc0","dc1f00":"755299","be1b00":"512f77","951500":"2b1d3d"},
+		{"f32200":"c0b38b","dc1f00":"998852","be1b00":"6c5a34","951500":"443516"},
+		{"f32200":"546b6a","dc1f00":"313d3c","be1b00":"182020","951500":"0c1212"}	],
 	"hairColor" : [
 		{ "F7E7B2" : "F7E7B2", "D9C189" : "D9C189", "A38D59" : "A38D59", "735E3A" : "735E3A" }
 	]
