@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacifrostdye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "peglacifrostdye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Frost Dye",
+
+			"dyeDirectives": {
+				"ffca8a": "96CBA7",
+				"e0975c": "55A77B",
+				"a85636": "2F8277",
+				"6f2919": "154147"
+			},
+			"dyeColorIndex": false,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

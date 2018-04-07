@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "chestwear",
   "description" : "Warm leather jacket preferred by Peglaci everywhere.",
-  "shortdescription" : "Warm Snowjacket",
+  "shortdescription" : "Tundra Jacket",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

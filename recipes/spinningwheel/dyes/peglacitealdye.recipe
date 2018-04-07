@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "petalyellow", "count" : 2 },
+    { "item" : "petalblue", "count" : 3 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "peglacitealdye",
+    "count" : 1
+  },
+  "groups" : [ "craftingwheel", "dyes", "all" ]
+}

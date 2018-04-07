@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglaciorchiddye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "peglaciorchiddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Orchid Dye",
+
+			"dyeDirectives": {
+				"ffca8a": "EAD3E4",
+				"e0975c": "D3A9C6",
+				"a85636": "97798C",
+				"6f2919": "594752"
+			},
+			"dyeColorIndex": false,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

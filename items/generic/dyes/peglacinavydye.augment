@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacinavydye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "peglacinavydye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Navy Dye",
+
+			"dyeDirectives": {
+				"ffca8a": "9B9BBA",
+				"e0975c": "6E61BA",
+				"a85636": "1D2870",
+				"6f2919": "090A30"
+			},
+			"dyeColorIndex": false,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

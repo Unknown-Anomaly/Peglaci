@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legwear",
   "description" : "Tight, cozy trousers favored by Peglaci laborers.",
-  "shortdescription" : "Warm Snowpants",
+  "shortdescription" : "Tundra Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
