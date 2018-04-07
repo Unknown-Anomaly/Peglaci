@@ -1,6 +1,6 @@
 {
   "input" : [
-   
+    { "item" : "snow", "count" : 25 }
   ],
   "output" : { "item" : "snowpersonbottomhyotl", "count" :1 },
   "groups" : [ "snowpeoplegenerator", "objects", "all" ] 

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "iceblock", "count" : 1 }
+  ],
+  "output" : { "item" : "snow", "count" : 2 },
+  "groups" : [ "peglacicryocondenser" ]
+}

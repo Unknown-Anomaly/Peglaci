@@ -1,6 +1,6 @@
 {
   "input" : [
-   
+    { "item" : "snow", "count" : 10 }
   ],
   "output" : { "item" : "snowpersonbodyfloran", "count" :1 },
   "groups" : [ "snowpeoplegenerator", "objects", "all" ] 

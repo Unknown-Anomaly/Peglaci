@@ -1,6 +1,6 @@
 {
   "input" : [
-   
+    { "item" : "snow", "count" : 5 }
   ],
   "output" : { "item" : "snowpersonheadapex", "count" :1 },
   "groups" : [ "snowpeoplegenerator", "objects", "all" ] 
