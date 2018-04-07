@@ -1,11 +1,11 @@
 {
   "objectName" : "peglacihorizontalalloydoor",
-  "rarity" : "Common", 
-  "printable" : false,
+  "colonyTags" : [ "peglaci", "door" ],
+  "rarity" : "Common",
 
-  "category" : "wired",
+  "category" : "door",
   "price" : 125,
-  "description" : "A sturdy door made of an unusual alloy.",
+  "description" : "A sturdy hatch made of an unusual alloy.",
   "shortdescription" : "Alloy Hatch",
   "race" : "peglaci",
 
@@ -21,14 +21,24 @@
   "inventoryIcon" : "peglacihorizontalalloydooricon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacihorizontalalloydoor.png:<key>",
+      "image" : "peglacihorizontalalloydoor.png:default",
+      "imagePosition" : [-16, -6],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -6],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "peglacihorizontalalloydoor.png:default",
       "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
 
-      "spaces" : [ 
-                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
-                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
-      ],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
     }
   ],
@@ -52,8 +62,7 @@
   "animationParts" : {
     "door" : "peglacihorizontalalloydoor.png"
   },
-  "animationPosition" : [-16, -8],
 
-  "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
 }
