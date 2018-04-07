@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legwear",
   "description" : "Leggings favored by Peglaci hunters - waterproof and warm.",
-  "shortdescription" : "Arctic Leggings",
+  "shortdescription" : "Taiga Leggings",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

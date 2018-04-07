@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "chestwear",
   "description" : "A loose-fitting warm coat that allows for easy movement.",
-  "shortdescription" : "Arctic Coat",
+  "shortdescription" : "Taiga Coat",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
