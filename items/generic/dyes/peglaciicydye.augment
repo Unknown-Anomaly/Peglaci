@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglaciicydye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "peglaciicydye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Icy Dye",
+
+			"dyeDirectives": {
+				"ffca8a": "D0E7DF",
+				"e0975c": "8AD4CF",
+				"a85636": "598B95",
+				"6f2919": "2E514C"
+			},
+			"dyeColorIndex": false,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

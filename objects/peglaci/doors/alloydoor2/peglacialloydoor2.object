@@ -3,7 +3,7 @@
   "colonyTags" : [ "peglaci", "peglacivillage", "door" ],
   "rarity" : "Common",
 
-  "category" : "wired",
+  "category" : "door",
   "price" : 100,
   "printable" : false,
   "description" : "This looks like it could stop a railgun slug, but probably not a stone pickaxe.",
@@ -17,7 +17,7 @@
   "humanDescription" : "Open sesame?",
   "hylotlDescription" : "Could they have made this any more of an abomination of portal technology?",
   "novakidDescription" : "An impressive doorway. These sure don't come cheap.",
-  "peglaciDescription" : "The locking mechanism is accessed via augmented reality, non-avali can't normally open a door like this.",
+  "peglaciDescription" : "The locking mechanism is accessed via augmented reality, non-peglaci can't normally open a door like this.",
 
   "inventoryIcon" : "peglacialloydoor2icon.png",
   "orientations" : [
@@ -27,7 +27,7 @@
       "renderLayer" : "Object+5",
 
       "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ]
+      "anchors" : [ "bottom", "top" ]
     }
   ],
 

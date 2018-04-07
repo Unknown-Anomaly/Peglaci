@@ -1,0 +1,21 @@
+{
+  "itemName" : "peglacibeigedye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "peglacibeigedye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Beige Dye",
+
+			"dyeDirectives": {
+				"ffca8a": "CCC17C",
+				"e0975c": "A49644",
+				"a85636": "756523",
+				"6f2919": "473F13"
+			},
+			"dyeColorIndex": false,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "frozenwater", "count" : 1 }
+  ],
+  "output" : { "item" : "snow", "count" : 1 },
+  "groups" : [ "peglacicryocondenser" ]
+}
