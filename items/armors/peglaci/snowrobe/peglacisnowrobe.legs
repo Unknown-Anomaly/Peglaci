@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legwear",
   "description" : "Heavy, fur and leather robes to keep your legs warm.",
-  "shortdescription" : "Tundra Robe",
+  "shortdescription" : "Taiga Robe",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
