@@ -5,5 +5,5 @@
     { "item" : "darkwoodmaterial", "count" : 2 }
   ],
  "output" : { "item" : "peglacitier0pistol", "count" : 1 },
-  "groups" : [ "craftingguncrafter", "plain", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "craftingguncrafter", "plain", "weapons", "guntier1", "all" ]
 }
