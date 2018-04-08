@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier4machinegun", "count" : 1 },
-    { "item" : "refinedferozium", "count" : 6 }
-  ],
- "output" : { "item" : "peglacitier5minigun", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all", "craftingguncrafter", "guntier5" ]
-}

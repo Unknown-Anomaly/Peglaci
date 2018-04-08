@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Tungsten slugs weaken armor - stay on target to deal increased damage.",
-  "shortdescription" : "Peeler Submachinegun II",
+  "shortdescription" : "Peeler Submachinegun +",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Blasts freezing wind at opponents, slowing and piercing their flesh.",
-  "shortdescription" : "Coldsnap Avalauncher I",
+  "shortdescription" : "Coldsnap Avalauncher",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : true,

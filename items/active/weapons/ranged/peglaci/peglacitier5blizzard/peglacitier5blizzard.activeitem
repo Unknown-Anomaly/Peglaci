@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Blasts a cloud of ice that hangs in the air, freezing and damaging foes.",
-  "shortdescription" : "Coldsnap Blizzard I",
+  "shortdescription" : "Coldsnap Blizzard",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,

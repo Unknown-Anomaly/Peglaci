@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Launches a cloud of incandescent gas that erupts - charge to launch as a grenade.",
-  "shortdescription" : "Tonerre Cloudgun I",
+  "shortdescription" : "Tonerre Cloudgun",
   "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,

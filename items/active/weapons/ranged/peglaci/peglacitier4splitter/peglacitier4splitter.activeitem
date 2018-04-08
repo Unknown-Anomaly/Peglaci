@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Durasteel rounds fracture and then fracture again to cover a wide area. Charge to launch in grenade form.",
-  "shortdescription" : "Fissure Splitrifle II",
+  "shortdescription" : "Fissure Splitrifle +",
   "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,
