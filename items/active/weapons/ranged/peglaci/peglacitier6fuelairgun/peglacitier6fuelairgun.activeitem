@@ -36,14 +36,14 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 35,
-        "cooldown" : 0.7,
+        "energyCost" : 30,
+        "cooldown" : 0.1,
         "projectileType" : "peglacitier6fuelairgunshot-1",
         "projectileParameters" : {
           "knockbackRange" : 0
       },
         "inaccuracy" : 0.008,
-        "baseDamage" : 13,
+        "baseDamage" : 10,
         "fireSound" : "fire"
       },
       {
@@ -55,7 +55,7 @@
           "knockbackRange" : 0
       },
         "inaccuracy" : 0,
-        "baseDamage" : 25,
+        "baseDamage" : 20,
         "fireSound" : "fire2"
       }
     ]
