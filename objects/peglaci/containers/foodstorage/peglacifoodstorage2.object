@@ -7,7 +7,7 @@
   "category" : "fridgeStorage",
   "price" : 110,
   "description" : "A food storage device, good for keeping food fresh.",
-  "shortdescription" : "Peglaci Fridge",
+  "shortdescription" : "Alloy Fridge",
   "race" : "peglaci",
   "health" : 1.5,
   "retainObjectParametersInItem" : true, 

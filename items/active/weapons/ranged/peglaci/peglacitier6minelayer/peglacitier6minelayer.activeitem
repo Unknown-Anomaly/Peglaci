@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "Disperses powerful Solarium mines - charge to launch a devastating adhesive charge.",
-  "shortdescription" : "Tremor Minelayer II",
+  "shortdescription" : "Tremor Minelayer +",
   "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "peglacitier5minigun", "count" : 1 },
-    { "item" : "solariumstar", "count" : 3 }
-  ],
- "output" : { "item" : "peglacitier6minigun", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all", "craftingguncrafter", "guntier6" ]
-}

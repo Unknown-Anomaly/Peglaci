@@ -11,7 +11,7 @@
     "filter" : [ "snowpeoplegenerator" ]
   },
   "description" : "This compact 3D printer works in the medium of snow to generate cunning replicas of a variety of races.",
-  "shortdescription" : "Snowperson Generator",
+  "shortdescription" : "^orange;Snowperson Generator^white;",
   "race" : "peglaci",
 
   "apexDescription" : "A 3D printer that... creates snowmen?",
@@ -19,7 +19,7 @@
   "floranDescription" : "Floran make ssnowpeople with fancy machine!",
   "glitchDescription" : "Amused. This machine can create snowmen.",
   "humanDescription" : "A 3d printer for making snowmen? Now I feel like a kid again!",
-  "hylotlDescription" : "With this machine, I shall master the art of snowman creation.",
+  "hylotlDescription" : "With this machine, I shall master the art of snowman crafting.",
   "novakidDescription" : "That's something y'don't see every day. I reckon I can make a snowvakid with this!",
   "peglaciDescription" : "This prototype of our own pixel printers uses snow as a printing medium. Unfortunately, this one is only good for producing snowpeople.",
 

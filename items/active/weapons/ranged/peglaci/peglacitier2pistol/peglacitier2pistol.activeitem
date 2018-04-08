@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Tungsten components allow for greater power. Alternate fire stuns the target momentarily.",
-  "shortdescription" : "Peacekeeper Pistol II",
+  "shortdescription" : "Peacekeeper Pistol +",
   "tooltipKind" : "chargedgun",
   "category" : "pistol",
   "twoHanded" : false,

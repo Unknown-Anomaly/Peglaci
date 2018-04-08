@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Blasts a freezing mist - prolonged use will slow the targets movement while lowering their temperature.",
-  "shortdescription" : "Mistral Icethrower II",
+  "shortdescription" : "Mistral Icethrower +",
   "tooltipKind" : "gun",
   "category" : "shotgun",
   "twoHanded" : true,
