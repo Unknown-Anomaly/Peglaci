@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A storm of Ferozium shards rend armor with ease and reflect off walls.",
-  "shortdescription" : "Imperius Minigun I",
+  "shortdescription" : "Imperius Minigun",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,

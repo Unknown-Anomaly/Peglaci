@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Iron slugs weaken armor - stay on target to deal increased damage.",
-  "shortdescription" : "Peeler Submachinegun I",
+  "shortdescription" : "Peeler Submachinegun",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

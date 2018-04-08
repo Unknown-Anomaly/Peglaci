@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Disperses powerful Violium mines - charge to launch a devastating adhesive charge.",
-  "shortdescription" : "Tremor Minelayer I",
+  "shortdescription" : "Tremor Minelayer",
   "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,

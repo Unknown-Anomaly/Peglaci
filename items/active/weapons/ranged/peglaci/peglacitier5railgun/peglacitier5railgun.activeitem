@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Fires a quick and devastating round - charge to fire through walls.",
-  "shortdescription" : "Eclair Railgun I",
+  "shortdescription" : "Eclair Railgun",
   "tooltipKind" : "chargedgun",
   "category" : "sniperRifle",
   "twoHanded" : true,

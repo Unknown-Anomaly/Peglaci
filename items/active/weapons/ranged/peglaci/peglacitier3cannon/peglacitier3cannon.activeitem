@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Fires a heavy round to deal focused damage - charge to launch an explosive round.",
-  "shortdescription" : "Crevasse Grenade Rifle I",
+  "shortdescription" : "Crevasse Grenade Rifle",
   "tooltipKind" : "chargedgun",
   "category" : "shotgun",
   "twoHanded" : true,
