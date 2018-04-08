@@ -7,7 +7,7 @@
   "category" : "fridgeStorage",
   "price" : 100,
   "description" : "A small food storage device, good for keeping food fresh.",
-  "shortdescription" : "Peglaci Small Fridge",
+  "shortdescription" : "Alloy Mini Fridge",
   "race" : "peglaci",
   "health" : 1.5,
   "retainObjectParametersInItem" : true, 

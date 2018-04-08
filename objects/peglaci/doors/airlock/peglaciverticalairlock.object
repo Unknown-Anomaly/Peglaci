@@ -6,17 +6,17 @@
   "category" : "door",
   "price" : 125,
   "description" : "An airlock - drains water and closes automatically after a moment.",
-  "shortdescription" : "Settlement Vertical Airlock",
+  "shortdescription" : "Alloy Airlock Door",
   "race" : "peglaci",
 
-  "apexDescription" : "This hatch looks watertight and heavy.",
+  "apexDescription" : "This door looks watertight and heavy.",
   "avianDescription" : "This looks like it could stop water from getting through.",
   "floranDescription" : "Heavy, wet door.",
-  "glitchDescription" : "Statement. A waterproof hatch with automated sealing procedures.",
-  "humanDescription" : "Nice hatch - heavy duty.",
+  "glitchDescription" : "Statement. A waterproof door with automated sealing procedures.",
+  "humanDescription" : "Nice door - heavy duty.",
   "hylotlDescription" : "We use hatches like this in our domiciles - ours are much finer, of course.",
   "novakidDescription" : "This looks like it could stop water from getting through.",
-  "peglaciDescription" : "We use these hatches in our settlements to prevent water infiltration into our homes. Water's nice, but being dry has its perks!",
+  "peglaciDescription" : "We use these doors in our settlements to prevent water infiltration into our homes. Water's nice, but being dry has its perks!",
 
   "inventoryIcon" : "peglaciverticalairlockicon.png",
 
