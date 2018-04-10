@@ -17,105 +17,150 @@
          "\/\/description":"description",
          "\/\/name":"peglacihorizontalairlock",
          "\/\/shortdescription":"Airlock Horizontal",
-         "material":"peglacihorizontalairlock"
+         "imagePositionX":"-20",
+         "imagePositionY":"0",
+         "object":"peglacihorizontalairlock",
+         "tilesetDirection":"right"
         },
      "1":
         {
          "\/\/description":"description",
          "\/\/name":"peglaciverticalairlock",
          "\/\/shortdescription":"Airlock Vertical",
-         "material":"peglaciverticalairlock"
+         "imagePositionX":"-16",
+         "imagePositionY":"-6",
+         "object":"peglaciverticalairlock",
+         "tilesetDirection":"right"
         },
      "10":
         {
          "\/\/description":"description",
          "\/\/name":"peglacicouch2",
          "\/\/shortdescription":"Couch 2",
-         "material":"peglacicouch2"
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"peglacicouch2",
+         "tilesetDirection":"right"
         },
      "11":
         {
          "\/\/description":"description",
          "\/\/name":"flagpeglaci",
          "\/\/shortdescription":"Flag",
-         "material":"flagpeglaci"
+         "imagePositionX":"-17",
+         "imagePositionY":"0",
+         "object":"flagpeglaci",
+         "tilesetDirection":"right"
         },
      "12":
         {
          "\/\/description":"description",
          "\/\/name":"peglacitable2",
          "\/\/shortdescription":"Table 2",
-         "material":"peglacitable2"
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"peglacitable2",
+         "tilesetDirection":"right"
         },
      "13":
         {
          "\/\/description":"description",
          "\/\/name":"peglacisupport",
          "\/\/shortdescription":"Support",
-         "material":"peglacisupport"
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"peglacisupport",
+         "tilesetDirection":"right"
         },
      "14":
         {
          "\/\/description":"description",
          "\/\/name":"peglacitable",
          "\/\/shortdescription":"Table",
-         "material":"peglacitable"
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"peglacitable",
+         "tilesetDirection":"right"
         },
      "2":
         {
          "\/\/description":"description",
          "\/\/name":"peglacialloydoor2",
          "\/\/shortdescription":"Alloy Door 2",
-         "material":"peglacialloydoor2"
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"peglacialloydoor2",
+         "tilesetDirection":"right"
         },
      "3":
         {
          "\/\/description":"description",
          "\/\/name":"peglacihorizontalalloydoor",
          "\/\/shortdescription":"Alloy Door Hor",
-         "material":"peglacihorizontalalloydoor"
+         "imagePositionX":"-16",
+         "imagePositionY":"-6",
+         "object":"peglacihorizontalalloydoor",
+         "tilesetDirection":"right"
         },
      "4":
         {
          "\/\/description":"description",
          "\/\/name":"peglaciverticalalloydoor",
          "\/\/shortdescription":"Alloy Door Ver",
-         "material":"peglaciverticalalloydoor"
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"peglaciverticalalloydoor",
+         "tilesetDirection":"right"
         },
      "5":
         {
          "\/\/description":"description",
          "\/\/name":"peglacibed",
          "\/\/shortdescription":"Bed",
-         "material":"peglacibed"
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"peglacibed",
+         "tilesetDirection":"right"
         },
      "6":
         {
          "\/\/description":"description",
          "\/\/name":"peglacibed2",
          "\/\/shortdescription":"Bed 2",
-         "material":"peglacibed2"
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"peglacibed2",
+         "tilesetDirection":"right"
         },
      "7":
         {
          "\/\/description":"description",
          "\/\/name":"peglacichair",
          "\/\/shortdescription":"Chair",
-         "material":"peglacichair"
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"peglacichair",
+         "tilesetDirection":"right"
         },
      "8":
         {
          "\/\/description":"description",
          "\/\/name":"peglacichair2",
          "\/\/shortdescription":"Chair 2",
-         "material":"peglacichair2"
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"peglacichair2",
+         "tilesetDirection":"right"
         },
      "9":
         {
          "\/\/description":"description",
          "\/\/name":"peglacicouch1",
          "\/\/shortdescription":"Couch 1",
-         "material":"peglacicouch1"
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"peglacicouch1",
+         "tilesetDirection":"right"
         }
     },
  "tilepropertytypes":
@@ -125,105 +170,150 @@
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "1":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "10":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "11":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "12":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "13":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "14":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "2":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "3":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "4":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "5":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "6":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "7":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "8":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "9":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":

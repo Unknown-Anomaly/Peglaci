@@ -17,21 +17,30 @@
          "\/\/description":"description",
          "\/\/name":"peglacicryocondenser",
          "\/\/shortdescription":"Cryo Condenser",
-         "material":"peglacicryocondenser"
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"peglacicryocondenser",
+         "tilesetDirection":"right"
         },
      "1":
         {
          "\/\/description":"description",
          "\/\/name":"peglaciguncrafter",
          "\/\/shortdescription":"Gun Crafter",
-         "material":"peglaciguncrafter"
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"peglaciguncrafter",
+         "tilesetDirection":"right"
         },
      "2":
         {
          "\/\/description":"description",
          "\/\/name":"peglacisnowpersongenerator",
          "\/\/shortdescription":"Snow Person Generator",
-         "material":"peglacisnowpersongenerator"
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacisnowpersongenerator",
+         "tilesetDirection":"right"
         }
     },
  "tilepropertytypes":
@@ -41,21 +50,30 @@
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "1":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         },
      "2":
         {
          "\/\/description":"string",
          "\/\/name":"string",
          "\/\/shortdescription":"string",
-         "material":"string"
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
         }
     },
  "tiles":
