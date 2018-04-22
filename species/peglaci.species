@@ -139,10 +139,6 @@
       { "item" : "feroziumstaff" },
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
-		{ "item" : "snowball" },
-		{ "item" : "snowballmedium" },
-		{ "item" : "snowballlarge" },
-		{ "item" : "snowballgigantic" },
 	  
 // Inventors Table
       { "item" : "peglacicryocondenser" },
