@@ -3,7 +3,7 @@
 	"charCreationTooltip" : {
 		"title" : "Peglaci",
 		"subTitle" : "Peacekeepers of Pegla",
-		"description" : "A race of peaceful, peace-keeping humanoids from an icy world."
+		"description" : "Native to the icy world of Pegla, this hardy race was uplifted from savagery to civilization by the mysterious Giants. The Peglaci now wander the stars beyond their home, trying to bring peace to a galaxy in conflict."
 	},
 	"nameGen" : [ "/species/peglacinamegen.config:names", "/species/peglacinamegen.config:names" ],
 	"ouchNoises" : [ "/sfx/humanoid/peglacihurt_male1.ogg", "/sfx/humanoid/peglacihurt_female1.ogg" ],
@@ -139,10 +139,15 @@
       { "item" : "feroziumstaff" },
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
-
+		{ "item" : "snowball" },
+		{ "item" : "snowballmedium" },
+		{ "item" : "snowballlarge" },
+		{ "item" : "snowballgigantic" },
+	  
 // Inventors Table
       { "item" : "peglacicryocondenser" },
       { "item" : "peglaciguncrafter" },
+      { "item" : "peglacisnowpersongenerator" },
 
 // Furniture Table
 			{ "item" : "peglaciwaterpurifier" },
@@ -218,7 +223,48 @@
 			{ "item" : "peglacisnowrobepants" },
 			{ "item" : "peglacisnowsuitjacket" },
 			{ "item" : "peglacisnowsuitpants" },
-
+			{ "item" : "peglacibeigedye" },
+			{ "item" : "peglacifrostdye" },
+			{ "item" : "peglaciicydye" },
+			{ "item" : "peglacinavydye" },
+			{ "item" : "peglaciorchiddye" },
+			{ "item" : "peglacitealdye" },
+			
+// snowpeople machine
+			{ "item" : "snowpersonbody1" },
+			{ "item" : "snowpersonbody2" },
+			{ "item" : "snowpersonbodyapex" },
+			{ "item" : "snowpersonbodyavian" },
+			{ "item" : "snowpersonbodyfloran" },
+			{ "item" : "snowpersonbodyglitch" },
+			{ "item" : "snowpersonbodyhuman" },
+			{ "item" : "snowpersonbodyhyotl" },
+			{ "item" : "snowpersonbodymantizi" },
+			{ "item" : "snowpersonbodypeglaci" },
+			{ "item" : "snowpersonbodyskellie" },
+			{ "item" : "snowpersonbottom1" },
+			{ "item" : "snowpersonbottom2" },
+			{ "item" : "snowpersonbottomapex" },
+			{ "item" : "snowpersonbottomavian" },
+			{ "item" : "snowpersonbottomfloran" },
+			{ "item" : "snowpersonbottomglitch" },
+			{ "item" : "snowpersonbottomhuman" },
+			{ "item" : "snowpersonbottomhyotl" },
+			{ "item" : "snowpersonbottommantizi" },
+			{ "item" : "snowpersonbottompeglaci" },
+			{ "item" : "snowpersonbottomskellie" },
+			{ "item" : "snowpersonhead1" },
+			{ "item" : "snowpersonhead2" },
+			{ "item" : "snowpersonheadapex" },
+			{ "item" : "snowpersonheadavian" },
+			{ "item" : "snowpersonheadfloran" },
+			{ "item" : "snowpersonheadglitch" },
+			{ "item" : "snowpersonheadhuman" },
+			{ "item" : "snowpersonheadhyotl" },
+			{ "item" : "snowpersonheadmantizi" },
+			{ "item" : "snowpersonheadpeglaci" },
+			{ "item" : "snowpersonheadskellie" },
+			
 // Cooking
 			{ "item" : "peglaciacutaque" },
 			{ "item" : "peglaciredsnow" },
