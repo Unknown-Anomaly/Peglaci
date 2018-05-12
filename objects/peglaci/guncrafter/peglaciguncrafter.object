@@ -15,7 +15,7 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Gun Crafter",
-        "subtitle" : "Handguns",
+        "subtitle" : "Build and upgrade firearms",
         "icon" : {
           "file" : "/objects/peglaci/guncrafter/peglaciguncraftericon.png"
         }
