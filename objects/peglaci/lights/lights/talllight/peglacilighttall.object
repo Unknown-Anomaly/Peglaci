@@ -67,5 +67,5 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
   
-  "inputNodes" : [ [0, 5] ]
+  "inputNodes" : [ [0, 0] ]
 }
