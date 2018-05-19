@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 15 },
-    { "item" : "ironbar", "count" : 10 },
-    { "item" : "coalore", "count" : 7}
+      { "item" : "peglacimetalblock", "count" : 25 },
+      { "item" : "corefragmentore", "count" : 5 },
   ],
   "output" : {
     "item" : "peglaciguncrafter",
