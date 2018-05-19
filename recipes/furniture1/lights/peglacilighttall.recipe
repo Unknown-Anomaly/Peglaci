@@ -1,7 +1,7 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 3 },
-      { "item" : "crystal", "count" : 5 }
+      { "item" : "peglacimetalblock", "count" : 10 },
+      { "item" : "crystal", "count" : 3 }
   ],
   "output" : { "item" : "peglacilighttall", "count" :1 },
   "groups" : [ "craftingfurniture", "lights", "peglacitesterbox", "objects", "all" ] 

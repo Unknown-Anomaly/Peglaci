@@ -1,6 +1,6 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 15 }
+      { "item" : "peglacimetalblock", "count" : 20 }
   ],
   "output" : { "item" : "peglacihorizontalairlock", "count" : 1 },
   "groups" : [ "craftingfurniture2", "doors", "peglacitesterbox", "objects", "all" ] 

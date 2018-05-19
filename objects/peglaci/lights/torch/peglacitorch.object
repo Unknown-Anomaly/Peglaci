@@ -6,7 +6,7 @@
   "price" : 50,
   "printable" : false,
   
-  "description" : "This glowing crystal can provide illumination under the water as well.",
+  "description" : "This glowing crystal torch can provide illumination above or under water.",
   "shortdescription" : "Glowstar",
   "race" : "peglaci",
 

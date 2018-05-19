@@ -4,7 +4,7 @@
   "category" : "crafting",
   "rarity" : "Uncommon",
   "description" : "A pocket assembler that fabricates a variety of firearms.",
-  "shortdescription" : "^orange;Gun Crafter^white;",
+  "shortdescription" : "^orange;Gun Crafter^reset;",
   "race" : "generic",
   "printable" : false,
   "price" : 100,
