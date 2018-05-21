@@ -16,7 +16,7 @@
     },
 	 {
       "action" : "config",
-      "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
+      "file" : "/projectiles/explosions/molotovfuelexplosion/molotovfuelexplosion.config"
     },
 	 {
       "action" : "config",

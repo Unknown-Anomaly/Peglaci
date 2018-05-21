@@ -39,7 +39,7 @@
   "primaryAbility" : {
     "baseDps" : 30,
     "energyUsage" : 28,
-    "fireTime" : 0.05,
+    "fireTime" : 0.13,
     "projectileType" : "peglaciicecrystal"
   },
 
