@@ -1,11 +1,10 @@
 {
-  "config" : {
-    "shipUpgrades" : {
-      "capabilities" : [],
-      "maxFuel" : 1000,
-      "crewSize" : 2
-    }
-  },
+	"config" : {
+		"shipUpgrades" : {
+			"capabilities" : [],
+			"crewSize" : 2
+		}
+	},
 
   "backgroundOverlays" : [
     {

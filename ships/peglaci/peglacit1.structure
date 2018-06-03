@@ -2,7 +2,6 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : [],
-      "maxFuel" : 1000,
       "crewSize" : 2
     }
   },
