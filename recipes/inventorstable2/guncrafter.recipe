@@ -1,12 +1,12 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 25 },
-      { "item" : "corefragmentore", "count" : 5 },
+    { "item" : "ironbar", "count" : 10 },
+    { "item" : "corefragmentore", "count" : 5}
   ],
   "output" : {
     "item" : "peglaciguncrafter",
     "count" : 1
   },
   "duration" : 5,
-  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
 }

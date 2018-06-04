@@ -1,7 +1,7 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 10 },
-      { "item" : "snow", "count" : 25 },
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "snow", "count" : 25 }
   ],
   "output" : { "item" : "peglacisnowpersongenerator", "count" :1 },
   "duration" : 5,

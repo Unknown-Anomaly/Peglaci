@@ -1,7 +1,7 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 10 },
-	  { "item" : "crystal", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 5 },
+    { "item" : "crystal", "count" : 1 }
   ],
   "output" : {
     "item" : "peglacicryocondenser",
