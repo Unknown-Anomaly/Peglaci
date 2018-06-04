@@ -1,10 +1,10 @@
 {
-	"config" : {
-		"shipUpgrades" : {
-			"capabilities" : [],
-			"crewSize" : 2
-		}
-	},
+  "config" : {
+    "shipUpgrades" : {
+    "capabilities" : [],
+    "crewSize" : 2
+    }
+  },
 
   "backgroundOverlays" : [
     {
