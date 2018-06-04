@@ -8,7 +8,7 @@
   "retainObjectParametersInItem" : true, 
 
   "description" : "A glowing strip of light.",
-  "shortdescription" : "Horizontal Lightstrip",
+  "shortdescription" : "Glowstrip (Horizontal)",
   "race" : "peglaci",
 
   "apexDescription" : "I suppose these are used to mark important areas.",

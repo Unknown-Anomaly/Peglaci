@@ -6,7 +6,7 @@
   "price" : 50,
   "printable" : false,
   
-  "description" : "This glowing crystal can provide illumination under the water as well.",
+  "description" : "This glowing crystal torch can provide illumination above or under water.",
   "shortdescription" : "Glowstar",
   "race" : "peglaci",
 
@@ -15,7 +15,7 @@
   "floranDescription" : "Cold light from thisss cryssstal.",
   "glitchDescription" : "Statement. Versatile waterproof lighting.",
   "humanDescription" : "Hey, these are cool! They're all glowy!",
-  "hylotlDescription" : "Hmm. Seems like the Hyotl could do better.",
+  "hylotlDescription" : "Hmm. Seems like the Hylotl could do better.",
   "novakidDescription" : "Hey, these are cool! They're all glowy!",
   "peglaciDescription" : "A simple fluorescing crystal. Lights the way, even underwater. ",
   

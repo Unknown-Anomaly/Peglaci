@@ -2,8 +2,7 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "maxFuel" : 1000,
-      "crewSize" : 1
+      "crewSize" : 10
     }
   },
 

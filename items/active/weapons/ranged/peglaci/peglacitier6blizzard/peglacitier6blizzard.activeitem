@@ -10,8 +10,6 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle"],
   "level" : 6,
-  
-  "elementalType" : "ice",
 
   "inventoryIcon" : "peglacitier6blizzardicon.png",
 
@@ -35,11 +33,13 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
+  "elementalType" : "ice",
+  
   "primaryAbilityType" : "peglaciicethrower",
   "primaryAbility" : {
     "baseDps" : 35,
     "energyUsage" : 28,
-    "fireTime" : 0.05,
+    "fireTime" : 0.13,
     "projectileType" : "peglaciicecrystal"
   },
 

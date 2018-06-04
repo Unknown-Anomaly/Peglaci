@@ -4,7 +4,7 @@
   "rarity" : "Common", 
   "category" : "light",
   "description" : "A crystalline light built into a bookcase.",
-  "shortdescription" : "Peglaci Bookcase Light",
+  "shortdescription" : "Alloy Bookcase Light",
   "race" : "peglaci",
   "price" : 100,
   "retainObjectParametersInItem" : true, 

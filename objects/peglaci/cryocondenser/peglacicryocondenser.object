@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Uncommon",
   "description" : "This machine can freeze liquid matter into ice, and shred ice into snow.",
-  "shortdescription" : "^orange;Cryocondenser^white;",
+  "shortdescription" : "^orange;Cryocondenser^reset;",
   "race" : "generic",
   "category" : "crafting",
   "price" : 100,
