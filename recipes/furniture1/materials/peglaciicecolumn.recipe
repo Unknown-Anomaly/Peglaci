@@ -1,7 +1,7 @@
 {
   "input" : [
-      { "item" : "ice", "count" : 10 }
+      { "item" : "ice", "count" : 5 }
   ],
-  "output" : { "item" : "peglaciicecolumn", "count" : 50 },
+  "output" : { "item" : "peglaciicecolumn", "count" : 10 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

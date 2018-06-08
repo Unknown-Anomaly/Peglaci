@@ -2,6 +2,6 @@
   "input" : [
       { "item" : "peglacimetalblock", "count" : 1 }
   ],
-  "output" : { "item" : "peglacialloyplatform", "count" : 50 },
+  "output" : { "item" : "peglacialloyplatform", "count" : 10 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }
