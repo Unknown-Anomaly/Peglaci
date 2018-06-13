@@ -1,10 +1,10 @@
 {
   "itemName" : "peglacifuelcell",
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "fuel",
   "inventoryIcon" : "peglacifuelcell.png",
-  "description" : "While your ship can operate using many fuels, it is designed to use this high density cell.",
-  "shortdescription" : "Peglaci Fuel Cell",
+  "description" : "A high density fuel cell, patented for use in Peacekeeper ships.",
+  "shortdescription" : "Peglanium Fuel Cell",
   "fuelAmount" : 100,
   "price" : 25
 }

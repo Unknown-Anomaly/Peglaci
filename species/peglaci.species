@@ -133,12 +133,9 @@
 			{ "item" : "peglacitier6railgun" },
 			{ "item" : "peglacitier6cannon" },
 
-      { "item" : "aegisaltpistol" },
-      { "item" : "aegisaltbow" },
-      { "item" : "feroziumwand" },
-      { "item" : "feroziumstaff" },
-      { "item" : "violiumshortsword" },
-      { "item" : "violiumbroadsword" },
+      { "item" : "peglacialloybar" },
+      { "item" : "peglaciicecrystal" },
+	  { "item" : "peglacifuelcell" },
 	  
 // Inventors Table
       { "item" : "peglacicryocondenser" },
@@ -300,12 +297,12 @@
 		}
 	],
 	"bodyColor" : [
-		{"ffca8a":"e4e4e4","e0975c":"d7d5db","a85636":"8e8e9b","6f2919":"656571"},
-		{"ffca8a":"ecdddd","e0975c":"e2cbcb","a85636":"b67979","6f2919":"8c4646"},
-		{"ffca8a":"e3ecdd","e0975c":"d5e2cb","a85636":"84A866","6f2919":"57793b"},
-		{"ffca8a":"f1f9f9","e0975c":"ddebec","a85636":"6fadb3","6f2919":"30747a"},
-		{"ffca8a":"e4ddec","e0975c":"d6cbe2","a85636":"9677b9","6f2919":"725098"},
-		{"ffca8a":"f6f1e0","e0975c":"eae2C4","a85636":"bbaa7b","6f2919":"998651"}
+		{"ffca8a":"d7d5db","e0975c":"d7d5db","a85636":"8e8e9b","6f2919":"656571"},
+		{"ffca8a":"e2cbcb","e0975c":"e2cbcb","a85636":"b67979","6f2919":"8c4646"},
+		{"ffca8a":"d5e2cb","e0975c":"d5e2cb","a85636":"84A866","6f2919":"57793b"},
+		{"ffca8a":"ddebec","e0975c":"ddebec","a85636":"6fadb3","6f2919":"30747a"},
+		{"ffca8a":"d6cbe2","e0975c":"d6cbe2","a85636":"9677b9","6f2919":"725098"},
+		{"ffca8a":"eae2C4","e0975c":"eae2C4","a85636":"bbaa7b","6f2919":"998651"}
 	],
 	"undyColor" : [
 		{"f32200":"9e9e9e","dc1f00":"5a5a5a","be1b00":"373737","951500":"1e1e1e"},
