@@ -4,5 +4,5 @@
     { "item" : "titaniumbar", "count" : 3 }
   ],
  "output" : { "item" : "peglacitier3splitter", "count" : 1 },
-  "groups" : [ "weapons", "all", "craftingguncrafter", "guntier3" ]
+  "groups" : [ "all", "craftingguncrafter", "guntier3" ]
 }

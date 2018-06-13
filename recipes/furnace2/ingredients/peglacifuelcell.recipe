@@ -1,0 +1,9 @@
+{
+  "input" : [
+      { "item" : "peglacialloybar", "count" : 1 },
+      { "item" : "solidfuel", "count" : 25 }
+  ],
+  "output" : { "item" : "peglacifuelcell", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

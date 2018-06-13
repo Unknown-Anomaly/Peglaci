@@ -3,8 +3,8 @@
   "colonyTags" : [ "peglaci", "peglacivillage", "wired" ],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "These powerful pumps drain and filter water and pump it into the purification system.",
-  "shortdescription" : "Water Drain",
+  "description" : "These powerful pumps drain water and pump it into the purification system.",
+  "shortdescription" : "Sturdy Drain",
   "race" : "peglaci",
 
   "category" : "wire",

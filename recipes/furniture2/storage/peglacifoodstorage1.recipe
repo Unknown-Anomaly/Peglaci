@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacimetalblock", "count" : 15 },
+      { "item" : "peglacialloybar", "count" : 1 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
   "output" : { "item" : "peglacifoodstorage1", "count" :1 },

@@ -3,7 +3,7 @@
   "materialName" : "peglaciinscribedpykreteblock",
   "particleColor" : [200, 200, 200, 255],
   "itemDrop" : "peglaciinscribedpykreteblock",
-  "description" : "A block made of Pykrete, inscribed with Peglaci glyphs.",
+  "description" : "A block made of pykrete. Peglaci glyphs are inscribed on it.",
   "shortdescription" : "Pykrete Glyph Block",
   "glitchDescription" : "Analysis. This inscribed panelling is made from a mixture of ice and finely ground wood pulp.",
   "floranDescription" : "Woodsnow block is covered in squiggly lines.",

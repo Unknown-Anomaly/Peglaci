@@ -1,6 +1,6 @@
 {
   "input" : [
-      { "item" : "peglacipykreteblock", "count" : 5 }
+      { "item" : "peglacipykreteblock", "count" : 20 }
   ],
   "output" : { "item" : "peglacipykretestrip", "count" : 10 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]

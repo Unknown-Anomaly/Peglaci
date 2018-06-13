@@ -1,7 +1,7 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 5 },
-      { "item" : "crystal", "count" : 1 }
+      { "item" : "peglacialloybar", "count" : 1 },
+      { "item" : "peglaciicecrystal", "count" : 1 }
   ],
   "output" : { "item" : "peglacihexpane", "count" : 20 },
   "groups"  : [ "craftingfurniture", "materials", "all" ]

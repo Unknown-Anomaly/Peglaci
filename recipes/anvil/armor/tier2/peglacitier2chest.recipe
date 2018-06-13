@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "tungstenbar", "count" : 10 }
+    { "item" : "tungstenbar", "count" : 10 },
+    { "item" : "cottonwool", "count" : 1 },
+    { "item" : "leather", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier2chest", "count" : 1 },

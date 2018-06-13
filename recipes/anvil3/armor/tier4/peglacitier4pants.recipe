@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "durasteelbar", "count" : 4 }
+    { "item" : "durasteelbar", "count" : 4 },
+    { "item" : "leather", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier4pants", "count" : 1 },

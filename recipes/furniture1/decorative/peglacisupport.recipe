@@ -1,6 +1,6 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 5 }
+      { "item" : "peglacialloybar", "count" : 1 }
   ],
   "output" : { "item" : "peglacisupport", "count" :1 },
   "groups" : [ "craftingfurniture", "decoration", "peglacitesterbox", "objects", "all" ] 

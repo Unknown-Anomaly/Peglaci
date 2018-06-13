@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "drink",
   "inventoryIcon" : "peglacioxymax.png",
-  "description" : "This concoction hyperoxygenates the blood while reducing the body's requirement for air, allowing survival in airless environments for a time.",
+  "description" : "This concoction hyperoxygenates the blood, allowing survival in airless environments for a time.",
   "shortdescription" : "Oxymax",
   "maxStack" : 1,
   "effects" : [ [

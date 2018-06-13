@@ -5,5 +5,5 @@
     { "item" : "oculemon", "count" : 3 }
   ],
  "output" : { "item" : "peglaciacutaque", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "desserts" ]
+  "groups" : [ "craftingfood", "desserts" ]
 }

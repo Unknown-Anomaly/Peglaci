@@ -8,13 +8,13 @@
   "price" : 70,
   "radioMessagesOnPickup" : [ "pickupflag" ],
   
-  "description" : "The flag of the Peglaci. Pretty fancy.",
+  "description" : "The flag of the Peglaci. Use ^green;[E]^white; to bookmark a teleportation location.",
   "shortdescription" : "Peglaci Flag",
   "race" : "peglaci",
 
   "apexDescription" : "Ah, the Peacekeeper's flag - Peglaci must be nearby.",
   "avianDescription" : "This symbol of the Peglaci seems almost religious - how curious.",
-  "floranDescription" : "Flag of the Peglacccci!",
+  "floranDescription" : "Flag of the Peglaccci!",
   "glitchDescription" : "Mild Interest. The flag of the Peglaci.",
   "humanDescription" : "The Peglaci flag. I like the blinky lights.",
   "hylotlDescription" : "The Peglaci are nearby. How... lovely.",

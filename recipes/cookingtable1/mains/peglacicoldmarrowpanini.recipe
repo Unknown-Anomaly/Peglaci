@@ -5,5 +5,5 @@
     { "item" : "boneboo", "count" : 2 }
   ],
  "output" : { "item" : "peglacicoldmarrowpanini", "count" : 1 },
-  "groups" : [ "cooking", "consumables", "mains" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 3 },
-    { "item" : "fabric", "count" : 1 }
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "fabric", "count" : 20 }
   ],
   "output" : {
     "item" : "flagpeglaci",
