@@ -13,11 +13,11 @@
 
   "apexDescription" : "Quite oddly designed, and not exactly comfortable. What are all these probes for?",
   "avianDescription" : "A Peglaci control chair. Looks very advanced, and somewhat comfortable.",
-  "floranDescription" : "Chair takesss hunger away with no foodsss!",
-  "glitchDescription" : "Observant. This chair provides nourishment and medical care for long journeys.",
+  "floranDescription" : "Chair keeps hunger away with no foodsss!",
+  "glitchDescription" : "Observant. This chair provides comfort and medical care for long journeys.",
   "humanDescription" : "Funky chair! It looks like it has some sort of life-support built in.",
   "hylotlDescription" : "A command chair with built-in life support systems. Quite elegant.",
-  "peglaciDescription" : "The utmost in comfort and efficiency of design for long journeys.",
+  "peglaciDescription" : "The captain's seat of every Peacekeeper ship comes equipped with a life support system. Very nice for those long voyages.",
 
   "inventoryIcon" : "captainschairicon.png",
   "orientations" : [
@@ -48,7 +48,9 @@
 
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/cockpit/cockpit.config",
-
+  "sitStatusEffects" : [
+    "peglacichairregen"
+  ],
   "sitFlipDirection" : false,
   "soundEffect" : "/sfx/objects/shipengine.ogg",
   "soundEffectRadius" : 1000

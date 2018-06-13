@@ -1,0 +1,15 @@
+{
+  "name" : "peglacichairregen",
+  "effectConfig" : {
+    "healTime" : 60
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "peglacichairregen.lua"
+  ],
+
+
+  "label" : "Life Support",
+  "icon" : "/interface/statuses/heal.png"
+}
