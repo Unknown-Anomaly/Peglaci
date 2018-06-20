@@ -8,7 +8,7 @@
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "mechbodypeglaciproto.png",
   "description" : "A prototype open-top mech body, designed for Peglaci pilots.",
-  "shortdescription" : "Giants-00 Mech Body",
+  "shortdescription" : "Glacier-00 Mech Body",
   "itemTags" : [],
   "mechPart" : ["body", "peglaciproto"]
 }

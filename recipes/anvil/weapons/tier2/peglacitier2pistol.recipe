@@ -4,5 +4,5 @@
     { "item" : "tungstenbar", "count" : 3 }
   ],
  "output" : { "item" : "peglacitier2pistol", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all", "craftingguncrafter", "guntier2" ]
+  "groups" : [ "all", "craftingguncrafter", "guntier2" ]
 }

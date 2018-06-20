@@ -1,6 +1,6 @@
 {
   "input" : [
-      { "item" : "peglacimetalblock", "count" : 10 },
+      { "item" : "peglacimetalblock", "count" : 2 },
       { "item" : "leather", "count" : 2 }
   ],
   "output" : { "item" : "peglacicouch1", "count" :1 },

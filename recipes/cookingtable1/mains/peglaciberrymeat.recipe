@@ -4,5 +4,5 @@
     { "item" : "peglacisnowberry", "count" : 2 }
   ],
  "output" : { "item" : "peglaciberrymeat", "count" : 1 },
-  "groups" : [ "cooking", "consumables", "mains" ]
+  "groups" : [ "craftingfood", "mains" ]
 }

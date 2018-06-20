@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "peglacimetalblock", "count" : 15 },
+    { "item" : "peglacialloybar", "count" : 3 },
     { "item" : "battery", "count" : 1 }
   ],
   "output" : { "item" : "peglacibed2", "count" :1 },

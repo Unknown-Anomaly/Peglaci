@@ -10,7 +10,7 @@
   "printable" : false,
   "retainObjectParametersInItem" : true, 
 
-  "apexDescription" : "How unusual! The sensation is not uncomfortable, but sort of unnerving.",
+  "apexDescription" : "How unusual! The sensation is not uncomfortable, but it's sort of unnerving.",
   "avianDescription" : "It's like floating in the air...",
   "floranDescription" : "How isss Floran in the air!? Like a cloud!",
   "glitchDescription" : "Analysis. Curious to see such technology put to mundane use.",
@@ -27,8 +27,7 @@
   "sitCoverImage" : "/objects/peglaci/loungeables/peglacibed2/peglacibed2cover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
-    "regeneration1",
-    "nude"
+    "bed3"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 

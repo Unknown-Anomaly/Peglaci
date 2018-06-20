@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 4 }
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "canvas", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier3pants", "count" : 1 },

@@ -4,7 +4,7 @@
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
   "inventoryIcon" : "peglaciicecrystal.png",
-  "description" : "A frigid, forged ice crystal. A secret from the very heart of Pegla.",
-  "shortdescription" : "Ice Crystal",
+  "description" : "A frigid, forged crystal. A secret from the very heart of Pegla.",
+  "shortdescription" : "Glacial Crystal",
   "itemTags" : [ "reagent" ]
 }

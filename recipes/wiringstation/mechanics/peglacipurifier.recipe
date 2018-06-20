@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "wire", "count" : 1 },
-    { "item" : "tungstenbar", "count" : 3 }
+    { "item" : "peglacialloybar", "count" : 3 },
+    { "item" : "wire", "count" : 5 }
   ],
   "output" : {
     "item" : "peglaciwaterpurifier",

@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 4 },
-    { "item" : "darkwoodmaterial", "count" : 2 }
+    { "item" : "ironbar", "count" : 4 }
   ],
  "output" : { "item" : "peglacitier0pistol", "count" : 1 },
-  "groups" : [ "craftinganvil", "craftingguncrafter", "plain", "weapons", "guntier1", "all" ]
+  "groups" : [ "all", "craftingguncrafter", "guntier1" ]
 }

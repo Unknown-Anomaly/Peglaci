@@ -6,7 +6,7 @@
   "inventoryIcon" : "peglacislushpaste.png",
   "description" : "A pureed mixture of snow and vegetable matter that can barely be termed food. It'll keep you from starving, but only just.",
   "shortdescription" : "Slushpaste",
-  "foodValue" : 20,
+  "foodValue" : 5,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,

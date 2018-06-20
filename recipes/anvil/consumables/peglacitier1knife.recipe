@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 2 }
+    { "item" : "ironbar", "count" : 1 }
   ],
   "output" : { "item" : "peglacitier1knife", "count" : 3 },
   "groups" : [ "craftinganvil", "consumables", "all" ]

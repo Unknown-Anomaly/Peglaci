@@ -1,0 +1,10 @@
+{
+  "itemName" : "peglacialloybar",
+  "price" : 15,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "peglacialloybar.png",
+  "description" : "A bar composed of a tungsten and pykrete alloy. Cold to the touch.",
+  "shortdescription" : "Peglanium Bar",
+  "itemTags" : [ "reagent" ]
+}

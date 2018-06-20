@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 10 }
+    { "item" : "titaniumbar", "count" : 10 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "silk", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "peglacitier3chest", "count" : 1 },

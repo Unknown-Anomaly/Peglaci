@@ -8,16 +8,17 @@
 
   "category" : "decorative",
 
-  "description" : "A tech station. For creating awesome tech and communicating with S.A.I.L!",
-  "shortdescription" : "Tech Console",
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription" : "S.A.I.L",
   "race" : "peglaci",
 
   "apexDescription" : "A S.A.I.L console - the display is oddly hard to see, though.",
-  "avianDescription" : "This looks like a tech console, but it gives me a headache to look at it.",
-  "floranDescription" : "Tech ssstation! Nice red ssscreen!",
+  "avianDescription" : "This looks like a S.A.I.L console, but it gives me a headache to look at it.",
+  "floranDescription" : "SSS.A.I.L ssstation! Nice red ssscreen!",
   "glitchDescription" : "Observant. This screen is outputting data in visible red light as well as near and far infrared.",
   "humanDescription" : "Classy drop down screen for a S.A.I.L station. The screen kinda reminds me of a Virtual Boy.",
   "hylotlDescription" : "While the S.A.I.L console is seemingly quite advanced, the screen is decidely quite difficult to operate.",
+  "novakidDescription" : "Woah. Seein' a lot of red on this here S.A.I.L screen.",
   "peglaciDescription" : "A tech station - S.A.I.L displays data in both 'visible' and infrared light best suited for Peglaci eyes.",
 
   "inventoryIcon" : "techstationicon.png",

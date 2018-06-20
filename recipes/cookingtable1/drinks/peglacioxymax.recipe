@@ -5,5 +5,5 @@
     { "item" : "bluestim", "count" : 3 }
   ],
  "output" : { "item" : "peglacioxymax", "count" : 1 },
-  "groups" : [ "craftingfood", "consumables", "snacks" ]
+  "groups" : [ "craftingfood", "drinks" ]
 }

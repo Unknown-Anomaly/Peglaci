@@ -1,0 +1,10 @@
+{
+  "input" : [
+  	  { "item" : "peglacialloybar", "count" : 1 },
+      { "item" : "moonstone", "count" : 25 },
+      { "item" : "ice", "count" : 50 }
+  ],
+  "output" : { "item" : "peglaciicecrystal", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}
