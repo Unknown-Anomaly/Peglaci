@@ -3,7 +3,7 @@
 	"charCreationTooltip" : {
 		"title" : "Peglaci",
 		"subTitle" : "Peacekeepers of Pegla",
-		"description" : "Native to the icy world of Pegla, this hardy race was uplifted from savagery to civilization by the mysterious Giants. The Peglaci now wander the stars beyond their home, trying to bring peace to a galaxy in conflict."
+		"description" : "Native to the icy world of Pegla, this hardy race was uplifted from savagery to civilization by the mysterious Giants. The Peglaci now wander the stars beyond their home, trying to bring peace to a universe in conflict."
 	},
 	"nameGen" : [ "/species/peglacinamegen.config:names", "/species/peglacinamegen.config:names" ],
 	"ouchNoises" : [ "/sfx/humanoid/peglacihurt_male1.ogg", "/sfx/humanoid/peglacihurt_female1.ogg" ],
@@ -299,19 +299,43 @@
 	"bodyColor" : [
 		{"ffca8a":"d7d5db","e0975c":"d7d5db","a85636":"8e8e9b","6f2919":"656571"},
 		{"ffca8a":"e2cbcb","e0975c":"e2cbcb","a85636":"b67979","6f2919":"8c4646"},
+		{"ffca8a":"fad6c5","e0975c":"fad6c5","a85636":"b7846c","6f2919":"764f3d"},
+		{"ffca8a":"ffe6cd","e0975c":"ffe6cd","a85636":"cd9a69","6f2919":"966332"},
+		{"ffca8a":"eae2c4","e0975c":"eae2c4","a85636":"bbaa7b","6f2919":"8f7c4d"},
+		{"ffca8a":"fdf0c2","e0975c":"fdf0c2","a85636":"c5ac53","6f2919":"89742d"},
+		{"ffca8a":"e6f0c4","e0975c":"e6f0c4","a85636":"a3b662","6f2919":"66782a"},
 		{"ffca8a":"d5e2cb","e0975c":"d5e2cb","a85636":"84A866","6f2919":"57793b"},
-		{"ffca8a":"ddebec","e0975c":"ddebec","a85636":"6fadb3","6f2919":"30747a"},
-		{"ffca8a":"d6cbe2","e0975c":"d6cbe2","a85636":"9677b9","6f2919":"725098"},
-		{"ffca8a":"eae2C4","e0975c":"eae2C4","a85636":"bbaa7b","6f2919":"998651"}
+		{"ffca8a":"c7e7cd","e0975c":"c7e7cd","a85636":"6fa974","6f2919":"407447"},
+		{"ffca8a":"d9f1e9","e0975c":"d9f1e9","a85636":"74ac95","6f2919":"3c725b"},
+		{"ffca8a":"cfedec","e0975c":"cfedec","a85636":"6fadb3","6f2919":"30747a"},
+		{"ffca8a":"cbe2f3","e0975c":"cbe2f3","a85636":"70a9d0","6f2919":"306d98"},
+		{"ffca8a":"dae4f8","e0975c":"dae4f8","a85636":"8192b5","6f2919":"4e6084"},
+		{"ffca8a":"d7d5fd","e0975c":"d7d5fd","a85636":"9793e5","6f2919":"615dab"},
+		{"ffca8a":"d0caea","e0975c":"d0caea","a85636":"8779cd","6f2919":"5f4dad"},
+		{"ffca8a":"cebeea","e0975c":"cebeea","a85636":"8f72c4","6f2919":"5c3c92"},
+		{"ffca8a":"d4c4e4","e0975c":"d4c4e4","a85636":"9677b9","6f2919":"725098"},
+		{"ffca8a":"f8d9ff","e0975c":"f8d9ff","a85636":"ba8fc5","6f2919":"8e6298"},
+		{"ffca8a":"fadeec","e0975c":"fadeec","a85636":"bf8da7","6f2919":"7c4c64"},
+		{"ffca8a":"f3c9db","e0975c":"f3c9db","a85636":"cc84a6","6f2919":"9e5276"},
+		{"ffca8a":"737373","e0975c":"737373","a85636":"454545","6f2919":"2b2b2b"},
+		{"ffca8a":"f9f9f9","e0975c":"f9f9f9","a85636":"c4c2ce","6f2919":"a5a1b3"}
 	],
 	"undyColor" : [
-		{"f32200":"9e9e9e","dc1f00":"5a5a5a","be1b00":"373737","951500":"1e1e1e"},
-		{"f32200":"c08b8b","dc1f00":"995252","be1b00":"6e2e2e","951500":"461e1e"},
-		{"f32200":"a2c08b","dc1f00":"6f9551","be1b00":"43622a","951500":"2b3a1f"},
-		{"f32200":"8bbcc0","dc1f00":"518f95","be1b00":"2b5e63","951500":"1b3c3f"},
-		{"f32200":"a58bc0","dc1f00":"755299","be1b00":"512f77","951500":"2b1d3d"},
-		{"f32200":"c0b38b","dc1f00":"998852","be1b00":"6c5a34","951500":"443516"},
-		{"f32200":"546b6a","dc1f00":"313d3c","be1b00":"182020","951500":"0c1212"}	],
+		{"f32200":"5a5a5a","dc1f00":"5a5a5a","be1b00":"373737","951500":"1e1e1e"},
+		{"f32200":"995252","dc1f00":"995252","be1b00":"6e2e2e","951500":"461e1e"},
+		{"f32200":"998852","dc1f00":"998852","be1b00":"705a2c","951500":"443516"},
+		{"f32200":"6f9551","dc1f00":"6f9551","be1b00":"3e5b27","951500":"283a1a"},
+		{"f32200":"518f95","dc1f00":"518f95","be1b00":"285a5e","951500":"1b3c3f"},
+		{"f32200":"755299","dc1f00":"755299","be1b00":"4C2E72","951500":"2b1d3d"},
+		{"f32200":"a55591","dc1f00":"a55591","be1b00":"783267","951500":"481e3e"},
+		{"f32200":"313d3c","dc1f00":"313d3c","be1b00":"182020","951500":"0c1212"},
+        {"f32200":"6e3e3e","dc1f00":"6e3e3e","be1b00":"4c2222","951500":"2a1212"},
+		{"f32200":"6e5b2e","dc1f00":"6e5b2e","be1b00":"45381b","951500":"271f0d"},
+		{"f32200":"43612b","dc1f00":"43612b","be1b00":"233911","951500":"151e0e"},
+		{"f32200":"2a656a","dc1f00":"2a656a","be1b00":"123336","951500":"0d1b1d"},
+		{"f32200":"4b2f71","dc1f00":"4b2f71","be1b00":"291741","951500":"170e24"},
+		{"f32200":"6d295c","dc1f00":"6d295c","be1b00":"46163a","951500":"200c1c"}
+		],
 	"hairColor" : [
 		{ "F7E7B2" : "F7E7B2", "D9C189" : "D9C189", "A38D59" : "A38D59", "735E3A" : "735E3A" }
 	]
