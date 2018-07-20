@@ -6,6 +6,7 @@
   "tooltipKind" : "container",
   "category" : "fridgeStorage",
   "price" : 100,
+  "printable" : true,
   "description" : "A small food storage device, good for keeping food fresh.",
   "shortdescription" : "Alloy Mini Fridge",
   "race" : "peglaci",

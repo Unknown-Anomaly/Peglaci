@@ -7,7 +7,7 @@
   "race" : "peglaci",
   "category" : "furniture",
   "price" : 125,
-  "printable" : false,
+  "printable" : true,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "I don't like this bed - reminds me too much of the cots in the prison camps...",

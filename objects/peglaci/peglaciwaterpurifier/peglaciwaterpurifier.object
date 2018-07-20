@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "catagory" : "decorative",
   "price" : 100,
-  
+  "printable" : false,
   "description" : "This water purification cleans and maintains a standard water level.",
   "shortdescription" : "Water Purifier",
   "race" : "peglaci",

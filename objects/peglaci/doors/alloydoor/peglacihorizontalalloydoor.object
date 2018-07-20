@@ -5,6 +5,7 @@
 
   "category" : "door",
   "price" : 125,
+  "printable" : true,
   "description" : "A sturdy door made of an unusual alloy.",
   "shortdescription" : "Alloy Hatch",
   "race" : "peglaci",
