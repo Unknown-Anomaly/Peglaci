@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 60,
-  "printable" : false,
+  "printable" : true,
 
   "description" : "A small table lantern lit by a glowing crystal.",
   "shortdescription" : "Alloy Lantern",

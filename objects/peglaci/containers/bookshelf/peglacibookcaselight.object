@@ -7,6 +7,7 @@
   "shortdescription" : "Alloy Bookcase Light",
   "race" : "peglaci",
   "price" : 100,
+  "printable" : false,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "This embedded light gives off clear, pure light.",

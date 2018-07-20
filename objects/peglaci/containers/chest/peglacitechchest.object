@@ -7,6 +7,7 @@
 
   "category" : "storage",
   "price" : 50,
+  "printable" : true,
   "description" : "An advanced-looking storage container.",
   "shortdescription" : "Alloy Chest",
   "race" : "peglaci",

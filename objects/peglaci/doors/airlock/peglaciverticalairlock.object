@@ -5,6 +5,7 @@
 
   "category" : "door",
   "price" : 125,
+  "printable" : true,
   "description" : "An airlock - drains water and closes automatically after a moment.",
   "shortdescription" : "Alloy Airlock Door",
   "race" : "peglaci",
