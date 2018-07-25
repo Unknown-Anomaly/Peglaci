@@ -207,6 +207,8 @@
       {"item" : "peglacitable2" },
       {"item" : "peglacicouch1" },
       {"item" : "peglacicouch2" },
+	  {"item" : "peglacishipdoor" },
+      {"item" : "peglacishiphatch" },
 // Spinning Wheel
 			{ "item" : "peglacigreatcoatjacket" },
 			{ "item" : "peglacigreatcoatpants" },
