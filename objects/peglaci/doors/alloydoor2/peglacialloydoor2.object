@@ -5,7 +5,7 @@
 
   "category" : "door",
   "price" : 100,
-  "printable" : false,
+  "printable" : true,
   "description" : "This looks like it could stop a railgun slug, but probably not a stone pickaxe.",
   "shortdescription" : "Alloy Sliding Door",
   "race" : "peglaci",

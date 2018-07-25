@@ -6,7 +6,7 @@
   "category" : "door",
   "price" : 125,
   "description" : "A hatch suitable for a spaceship.",
-  "shortdescription" : "Apex Ship Hatch",
+  "shortdescription" : "Peglaci Ship Hatch",
   "race" : "peglaci",
 
   "apexDescription" : "These hatches are used on all our ships.",

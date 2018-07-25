@@ -6,6 +6,7 @@
   "tooltipKind" : "container",
   "category" : "fridgeStorage",
   "price" : 110,
+  "printable" : true,
   "description" : "A food storage device, good for keeping food fresh.",
   "shortdescription" : "Alloy Fridge",
   "race" : "peglaci",

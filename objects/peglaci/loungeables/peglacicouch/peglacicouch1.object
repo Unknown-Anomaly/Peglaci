@@ -7,6 +7,7 @@
   "race" : "peglaci",
   "category" : "furniture",
   "price" : 100,
+  "printable" : true,
   "retainObjectParametersInItem" : true, 
 
   "apexDescription" : "The couch is comfortable, but hard to sit in for long periods.",

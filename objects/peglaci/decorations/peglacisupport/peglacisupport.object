@@ -1,7 +1,7 @@
 {
   "objectName" : "peglacisupport",
   "colonyTags" : [ "peglaci", "misc" ],
-  "printable" : false,
+  "printable" : true,
   "rarity" : "Common",
   
   "category" : "decorative",

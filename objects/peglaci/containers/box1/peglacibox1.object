@@ -7,6 +7,7 @@
 
   "category" : "storage",
   "price" : 50,
+  "printable" : true,
   "description" : "A plain alloy crate.",
   "shortdescription" : "Alloy Crate",
   "race" : "peglaci",

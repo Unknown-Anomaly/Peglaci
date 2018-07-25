@@ -1,7 +1,7 @@
 {
   "objectName" : "peglacitable",
   "colonyTags" : [ "peglaci", "peglacivillage", "commerce" ],
-  "printable" : false,
+  "printable" : true,
   "rarity" : "Common",
   "description" : "A sturdy table made of an advanced alloy.",
   "shortdescription" : "Alloy Table",
