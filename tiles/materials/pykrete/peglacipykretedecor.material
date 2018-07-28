@@ -16,10 +16,10 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "peglacipykretedecor.png",
-    "variants" : 5,
+    "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
-    "zLevel" : 0
+    "multiColored" : true,
+    "zLevel" : 10
   }
 }
