@@ -150,8 +150,8 @@
 			{ "item" : "peglaciinscribedpykreteblock" },
 			{ "item" : "peglacicableconnector" },
 			{ "item" : "peglacicablenexus" },
-			{ "item" : "peglacihorcable" },
-			{ "item" : "peglacivertcable" },
+			//{ "item" : "peglacihorcable" },     //Legacy Block
+			//{ "item" : "peglacivertcable" },    //Legacy Block
 			{ "item" : "peglacipykreteblock" },
 			{ "item" : "peglacipykreteplatform" },
 			{ "item" : "peglacialloyplatform" },
@@ -159,7 +159,7 @@
 			{ "item" : "peglacipykretefoundation" },
 			{ "item" : "peglacimetalblock" },
 			{ "item" : "peglacimetalpanel" },
-			{ "item" : "peglacimetalscreen" },
+			//{ "item" : "peglacimetalscreen" },  //Legacy Block
 			{ "item" : "peglacipykretestrip" },
 			{ "item" : "peglacihorizontalalloydoor" },
       { "item" : "peglaciverticalalloydoor" },
@@ -207,7 +207,7 @@
       {"item" : "peglacitable2" },
       {"item" : "peglacicouch1" },
       {"item" : "peglacicouch2" },
-	  {"item" : "peglacishipdoor" },
+      {"item" : "peglacishipdoor" },
       {"item" : "peglacishiphatch" },
 // Spinning Wheel
 			{ "item" : "peglacigreatcoatjacket" },
