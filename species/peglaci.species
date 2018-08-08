@@ -209,6 +209,11 @@
       {"item" : "peglacicouch2" },
       {"item" : "peglacishipdoor" },
       {"item" : "peglacishiphatch" },
+      {"item" : "peglacialloyscreen" },
+      {"item" : "peglacicablepipe" },
+      {"item" : "peglacidrainblock" },
+      {"item" : "peglacislopedmetal" },
+      {"item" : "peglacislopedpykrete" },
 // Spinning Wheel
 			{ "item" : "peglacigreatcoatjacket" },
 			{ "item" : "peglacigreatcoatpants" },

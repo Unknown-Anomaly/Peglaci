@@ -1,0 +1,24 @@
+{
+  "materialId" : 3515,
+  "materialName" : "peglacicablepipe",
+  "particleColor" : [111, 75, 58, 255],
+  "itemDrop" : "peglacicablepipe",
+  "shortdescription" : "Chilled Cabling",
+  "description" : "A chilled cable housing. It goes inside the walls.",
+  "glitchDescription" : "Analytic. These cables are kept at a constant temperature.",
+  "floranDescription" : "Ssshiny vines.", 
+  "novakiddescription" : "Some good chilled cables. Looks good, feels cool.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacicablepipe.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

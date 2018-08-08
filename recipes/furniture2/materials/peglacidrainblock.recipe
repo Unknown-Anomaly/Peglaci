@@ -1,0 +1,7 @@
+{
+  "input" : [
+      { "item" : "peglacialloybar", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacidrainblock", "count" : 50 },
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

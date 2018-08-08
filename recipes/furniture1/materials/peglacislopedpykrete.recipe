@@ -1,0 +1,8 @@
+{
+  "input" : [
+      { "item" : "ice", "count" : 5 },
+      { "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacislopedpykrete", "count" : 10 },
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}
