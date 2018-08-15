@@ -1,0 +1,27 @@
+{
+  "materialId" : 3518,
+  "materialName" : "peglacidrainblock",
+  "particleColor" : [77, 88, 198, 255],
+  "itemDrop" : "peglacidrainblock",
+  
+  "description" : "A metal grille made of a secret Peglaci alloy. The water can flow through it.",
+  "shortdescription" : "Alloy Metal Grille",
+  "glitchDescription" : "Analytic. It looks like part of a water system.",
+  "floranDescription" : "Thisss net made of metal feelsss cold",
+  "peglaciDescription" : "This metallic grille resist cold environments and corrosion from the water.",
+
+  "blocksLiquidFlow" : false,
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacidrainblock.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 4000
+  }
+}

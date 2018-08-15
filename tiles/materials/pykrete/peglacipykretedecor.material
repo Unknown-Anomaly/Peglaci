@@ -19,7 +19,7 @@
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
-    "zLevel" : 0
+    "multiColored" : true,
+    "zLevel" : 485
   }
 }

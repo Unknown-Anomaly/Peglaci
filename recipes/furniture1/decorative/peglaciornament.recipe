@@ -1,0 +1,7 @@
+{
+  "input" : [
+      { "item" : "peglaciicecrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "peglaciornament", "count" :1 },
+  "groups" : [ "craftingfurniture", "decoration", "peglacitesterbox", "objects", "all" ] 
+}

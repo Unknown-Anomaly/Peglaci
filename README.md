@@ -10,6 +10,8 @@ If you want to help, please join us in our [Discord Server](https://discord.gg/Q
 On going work:
  - Dialogues - _We need people that writes new dialogue lines_.
  - Lore - _We need work done on putting together a history for these wonderful space goats_.
+ - New Tiles
+ - New Objects
 
 Currently working:
  - Ship
@@ -20,11 +22,6 @@ Currently working:
  - Objects
  - Tiles
 
-Needs more testing:
- - Ship upgrades
- - Status effects
- - Projectile effects
-
 Currently NOT working:
  - Let us know if anything breaks
 
@@ -34,6 +31,7 @@ The eventual TODO:
  - Better recipes
  - Dungeons, Villages, Micro-Dungeons
  - Space Encounters
- - Missions?
- - Racial Quest-line?
+ - Missions
+ - Racial Quest-line
+ - Peglaci Outpost
  - Suggestions

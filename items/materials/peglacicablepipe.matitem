@@ -1,0 +1,15 @@
+{
+  "itemName" : "peglacicablepipe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "peglacicablepipe.png",
+  "shortdescription" : "Chilled Cabling",
+  "description" : "A chilled cable housing. It goes inside the walls.",
+  "glitchDescription" : "Analytic. These cables are kept at a constant temperature.",
+  "floranDescription" : "Ssshiny vines.", 
+  "novakiddescription" : "Some good chilled cables. Looks good, feels cool.",
+
+  "materialId" : 3515,
+  "learnBlueprintsOnPickup" : [ "peglacicablepipe" ]
+}

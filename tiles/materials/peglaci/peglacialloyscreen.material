@@ -1,0 +1,27 @@
+{
+  "materialId" : 3516,
+  "materialName" : "peglacialloyscreen",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "peglacialloyscreen", 
+
+  "description" : "A metal screen decorated with Peglaci glyphs.",
+  "shortdescription" : "Alloy Screen",
+  "glitchDescription" : "Analitic. This cold-resistant display screen seems to be displaying some sort of code.",
+  "floranDescription" : "Colors and shapes on this ssscreen.",
+  "peglaciDescription" : "We find our language beautiful - we decorate with it often.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/peglaciWallTemplate.config",
+  "renderParameters" : {
+    "texture" : "peglacialloyscreen.png",
+    "variants" : 40,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 6001,
+    "radiantLight" : [0, 50, 50]
+  }
+}

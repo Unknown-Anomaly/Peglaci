@@ -1,0 +1,7 @@
+{
+  "input" : [
+      { "item" : "peglacialloybar", "count" : 1 }
+  ],
+  "output" : { "item" : "peglacishipscreensmall", "count" :2 },
+  "groups" : [ "craftingfurniture", "decoration", "peglacitesterbox", "objects", "all" ] 
+}
