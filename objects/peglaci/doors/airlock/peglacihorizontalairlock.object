@@ -6,7 +6,7 @@
   "category" : "door",
   "price" : 125,
   "printable" : true,
-  "description" : "An airlock - drains water and closes automatically after a moment.",
+  "description" : "An airlock - protects from water and closes automatically after a moment.",
   "shortdescription" : "Alloy Airlock Hatch",
   "race" : "peglaci",
 
@@ -40,7 +40,7 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/peglaci/doors/airlock/airlockhatch.lua" ],
   "scriptDelta" : 5,
 
   "animation" : "/objects/wired/door/door.animation",

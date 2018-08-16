@@ -59,6 +59,7 @@ function onInputNodeChange(args)
     openDoor(storage.doorDirection)
   else
     self.wiredOpen = false
+    closeDoor()
   end
 end
 
