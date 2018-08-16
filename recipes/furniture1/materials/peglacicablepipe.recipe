@@ -1,8 +1,0 @@
-{
-  "input" : [
-      { "item" : "peglacipykreteblock", "count" : 5 },
-      { "item" : "wire", "count" : 5 }
-  ],
-  "output" : { "item" : "peglacicablepipe", "count" : 10 },
-  "groups"  : [ "craftingfurniture", "materials", "all" ]
-}
