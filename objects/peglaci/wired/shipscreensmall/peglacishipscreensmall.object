@@ -17,18 +17,18 @@
   "flickerPeriodVariance" : 0,
   "flickerIntensityVariance" : 0,
 
-  "description" : "A small display made of a metalic alloy.",
-  "shortdescription" : "Small Wall Screen",
+  "description" : "A small display monitor made of a metallic alloy.",
+  "shortdescription" : "Alloy Monitor",
   "race" : "peglaci",
 
-  "apexDescription" : "There's odd with this display configuration.",
+  "apexDescription" : "There's something odd with this display configuration.",
   "avianDescription" : "This display is mounted firmly on the wall.",
   "floranDescription" : "Shinny blue wordss on televission.",
   "glitchDescription" : "Informative. This display shows some information.",
-  "humanDescription" : "Man, this monitor is giant!.",
-  "hylotlDescription" : "This display is able to display some information.",
+  "humanDescription" : "Man, this monitor is huge!",
+  "hylotlDescription" : "This screen is able to display some information. Shame I can't read any of it.",
   "novakidDescription" : "This screen is just hangin' there.",
-  "peglaciDescription" : "Screens like this are very usefull on our ships.",
+  "peglaciDescription" : "Screens like this are very useful on our ships.",
 
 
   "inventoryIcon" : "peglacishipscreensmallicon.png",

@@ -7,14 +7,14 @@
   "printable" : true,
 
   "description" : "A table lantern lit by a floating and glowing crystals.",
-  "shortdescription" : "Floating Crystal Light",
+  "shortdescription" : "Crystal Desk Lamp",
   "race" : "peglaci",
 
   "apexDescription" : "Some glowing crystal is floating in this device.",
   "avianDescription" : "The light it gives off is so cold...",
   "floranDescription" : "Why those shiny stoness fly? the stoness don't fly.",
   "glitchDescription" : "Intrigued. Those glowing crystal appears to float in a strong magnetic field.",
-  "humanDescription" : "Those crystal are floating! Yes, science!",
+  "humanDescription" : "Those crystals are floating! Yes, science!",
   "hylotlDescription" : "Such beautiful technology. How did the Peglaci learn to harness it?",
   "novakidDescription" : "Those floating shiny rocks are glowin' bright, but not as bright as me!",
   "peglaciDescription" : "This little device uses the properties of our crystals to emit light.",
