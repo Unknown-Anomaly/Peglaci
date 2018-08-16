@@ -5,6 +5,11 @@ function init()
   else
     output(storage.state)
   end
+  
+  message.setHandler("receiveLiquid", function(_, _, liquidLevel)
+    filter(liquidLevel[1],liquidLevel[2])
+  end)
+  
 end
 
 -- Change Animation
@@ -19,6 +24,18 @@ function output(state)
   end
 end
 
+function filter(id, amount)
+  conversionTable = root.assetJson("/objects/peglaci/peglaciwaterpurifier/liquidconversion.config")
+  
+  convertData = conversionTable[sb.print(id)]
+  
+  if convertData ~= nil then
+    world.spawnLiquid(self.watersourcePos,convertData[2],convertData[1] * amount)
+  else  
+    world.spawnLiquid(self.watersourcePos,id,amount)
+  end
+end
+
 -- creates Liquids at current position
 function watersourcelimit(id,amount)
   local waterlevel = world.liquidAt(self.watersourcePos)
@@ -27,15 +44,10 @@ function watersourcelimit(id,amount)
   end
 end
 
-function watersource(id,amount)
-    world.spawnLiquid(self.watersourcePos,id,amount)
-end
-
 function update(dt)
   
   if object.isInputNodeConnected(0) and object.getInputNodeLevel(0)  then
     output(true)
-    watersourcelimit(1,1)
   else
     output(false)
   end

@@ -41,6 +41,7 @@
   "animationPosition" : [0, 0],
 
   "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [1, 0] ],
 
   "interval" : 5
 }
