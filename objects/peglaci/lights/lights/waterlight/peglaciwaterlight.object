@@ -15,10 +15,10 @@
   "avianDescription" : "Crystals are useful for everything. But this one feels really cold.",
   "floranDescription" : "A shining light fashioned from ssstone.",
   "glitchDescription" : "Appreciative. What a nice light.",
-  "humanDescription" : "As lamps go, this is a real gem.",
+  "humanDescription" : "As far as lamps go, this is a real gem.",
   "hylotlDescription" : "What an intriguing lamp fashioned from an exemplary gem.",
   "novakidDescription" : "This crazy light looks like it's made from rock.",
-  "peglaciDescription" : "This light is perfect to see in the cold of our flooded passages.",
+  "peglaciDescription" : "This light is perfect to see in the cold depths of our flooded passages.",
 
   "inventoryIcon" : "peglaciwaterlighticon.png",
   "orientations" : [

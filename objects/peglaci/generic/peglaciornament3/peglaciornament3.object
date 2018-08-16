@@ -6,14 +6,14 @@
   "price" : 50,
 
   "description" : "A sample of some kind of crystal.",
-  "shortdescription" : "Small crystal",
+  "shortdescription" : "Small Crystal",
   "race" : "peglaci",
 
   "apexDescription" : "This looks like a sample of some sort of crystal.",
   "avianDescription" : "A small crystal.",
   "floranDescription" : "Shiny sstone! Lookss important.",
   "glitchDescription" : "Observant. This little crystal is quite decorative.",
-  "humanDescription" : "This small crystal looks beautifull, I want one too!",
+  "humanDescription" : "This small crystal looks beautiful, I want one too!",
   "hylotlDescription" : "This kind of crystal seems to be used as a decoration.",
   "novakidDescription" : "A shiny stone, eh? Not as shiny as me!",
   "peglaciDescription" : "We use this special crystal to make and ornamentate our craftings.",
