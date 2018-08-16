@@ -8,6 +8,7 @@ function init()
   
   self.openDuration = 2
   self.timer = 0
+  self.wiredOpen = false
 
   if storage.locked == nil then
     storage.locked = config.getParameter("locked", false)
@@ -34,12 +35,12 @@ end
 
 function update(dt)
   if self.timer < 0 then
-    closeDoor()
+    if not self.wiredOpen then
+      closeDoor()
+    end
   else
     self.timer = self.timer - dt
   end
-    
-  drain()
   
 end
 
@@ -53,9 +54,11 @@ end
 
 function onInputNodeChange(args)
   if args.level then
+    self.wiredOpen = true
+    self.timer = self.openDuration
     openDoor(storage.doorDirection)
   else
-    closeDoor()
+    self.wiredOpen = false
   end
 end
 
@@ -183,23 +186,5 @@ function openDoor(direction)
     animator.setAnimationState("doorState", "open")
     updateCollisionAndWires()
     updateLight()
-  end
-end
-
-function drain()
-  objectPos = object.position()
-  for _, pos in ipairs(self.drainArea) do
-    if pos[2] >= 0 then
-      local posObj = {}
-      posObj[1] = pos[1] + objectPos[1]
-      posObj[2] = pos[2] + objectPos[2]
-      drainPos(posObj)
-    end
-  end
-end
-
-function drainPos(pos)
-  if world.liquidAt(pos)then
-    world.forceDestroyLiquid(pos)
   end
 end
