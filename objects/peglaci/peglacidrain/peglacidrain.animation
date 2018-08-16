@@ -7,8 +7,20 @@
           "off" : {
             "frames" : 1
           },
+          "opening" : {
+            "frames" : 3,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "on"
+          },
           "on" : {
             "frames" : 1
+          },
+          "closing" : {
+            "frames" : 3,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -24,13 +36,22 @@
           "drainState" : {
             "off" : {
               "properties" : {
-                "image" : "<partImage>:<color>.off"
+                "image" : "<partImage>:off"
               }
             },
-
+            "opening" : {
+              "properties" : {
+                "image" : "<partImage>:opening.<frame>"
+              }
+            },
             "on" : {
               "properties" : {
-                "image" : "<partImage>:<color>.on"
+                "image" : "<partImage>:on"
+              }
+            },
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:closing.<frame>"
               }
             }
           }

@@ -14,9 +14,9 @@ function output(state)
   if state ~= storage.state then
     storage.state = state
     if state then
-      animator.setAnimationState("drainState", "on")
+      animator.setAnimationState("drainState", "opening")
     else
-      animator.setAnimationState("drainState", "off")
+      animator.setAnimationState("drainState", "closing")
     end
   end
 end
@@ -25,13 +25,15 @@ end
 -- Removes Liquids at current position
 function drain()
   if world.liquidAt(self.drainPos) and self.conected > 0 then
-    
+    output(true)
     liquidLevel = world.destroyLiquid(self.drainPos)
     if liquidLevel == nil then
       world.forceDestroyLiquid(self.drainPos)
       liquidLevel = {1,1.0}
     end
     sendLiquid(liquidLevel)
+  else
+    output(false)
   end
 end
 
@@ -56,8 +58,7 @@ function onNodeConnectionChange(args)
 end
 
 function update(dt)
-  if not object.isInputNodeConnected(0) or object.getInputNodeLevel(0) then
-    output(true)
+  if not object.isInputNodeConnected(0) or object.getInputNodeLevel(0) then 
     drain()
   else
     output(false)

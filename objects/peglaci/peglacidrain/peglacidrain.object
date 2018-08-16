@@ -22,10 +22,11 @@
   "inventoryIcon" : "peglacidrainicon.png",
   "orientations" : [
     {
-      "image" : "peglacidrain.png:<color>.off",
-      "imagePosition" : [0, 0],
+      "image" : "peglacidrain.png:off",
+      "imagePosition" : [-1, 0],
+      "animationPosition" : [-1,0],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.5,
       "anchors" : [ "background" ]
     }
   ],
