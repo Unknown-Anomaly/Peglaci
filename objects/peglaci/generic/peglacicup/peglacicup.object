@@ -9,13 +9,13 @@
   "shortdescription" : "Crystal Cup",
   "race" : "peglaci",
 
-  "apexDescription" : "A little cristal cup.",
+  "apexDescription" : "A little crystal cup.",
   "avianDescription" : "A cup on which drinks are served.",
   "floranDescription" : "Cup needss water. Floran likes water.",
-  "glitchDescription" : "Amazed. A fancy cristal cup.",
-  "humanDescription" : "A fancy cristal cup.",
-  "hylotlDescription" : "A small cristal cup, perfect for the tea.",
-  "novakidDescription" : "A cristal cup. How anyone can drink from here?",
+  "glitchDescription" : "Amazed. A fancy crystal cup.",
+  "humanDescription" : "A fancy crystal cup.",
+  "hylotlDescription" : "A small crystal cup, perfect for the tea.",
+  "novakidDescription" : "A crystal cup. How anyone can drink from here?",
   "peglaciDescription" : "A small cup made out of crystal.",
 
   "inventoryIcon" : "peglacicupicon.png",

@@ -6,14 +6,14 @@
   "price" : 50,
 
   "description" : "A small display made out of crystal.",
-  "shortdescription" : "Crystal display",
+  "shortdescription" : "Crystal Display",
   "race" : "peglaci",
 
   "apexDescription" : "A small display to show off something.",
   "avianDescription" : "Looks like a small pedestal. It's made of crystal.",
   "floranDescription" : "Thiss small thing is shiny.",
-  "glitchDescription" : "Observant. This little display may be shinier that the thing it display.",
-  "humanDescription" : "What a cool thing! It's pretty shinny.",
+  "glitchDescription" : "Observant. This little display may be shinier that the thing it's meant to display.",
+  "humanDescription" : "What a cool thing! It's pretty shiny.",
   "hylotlDescription" : "A small display made out of crystal.",
   "novakidDescription" : "This thing is so tiny. I can't display anything on it!",
   "peglaciDescription" : "This small display is made of a special crystal.",
