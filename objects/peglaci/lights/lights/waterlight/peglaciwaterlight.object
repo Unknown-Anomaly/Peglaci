@@ -24,7 +24,7 @@
   "orientations" : [
     {
       "image" : "peglaciwaterlight.png:<color>.<frame>",
-      "imagePosition" : [-2, -2],
+      "imagePosition" : [-3, -5],
 
       "direction" : "left",
       "flipImages" : true,
@@ -33,14 +33,14 @@
         "bg" : "peglaciwaterlight.png",
         "fg" : "peglaciwaterlightlit.png"
       },
-      "animationPosition" : [-2, -2],
+      "animationPosition" : [-3, -5],
 
-      "spaces" : [ [0, 1], [-1, 0], [0, 0], [1, 0], [0, -1] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     },
     {
       "image" : "peglaciwaterlight.png:<color>.<frame>",
-      "imagePosition" : [-2, -2],
+      "imagePosition" : [-3, -5],
 
       "direction" : "right",
 
@@ -48,9 +48,9 @@
         "bg" : "peglaciwaterlight.png",
         "fg" : "peglaciwaterlightlit.png"
       },
-      "animationPosition" : [-2, -2],
+      "animationPosition" : [-3, -5],
 
-      "spaces" : [ [0, 1], [-1, 0], [0, 0], [1, 0], [0, -1] ],
+      "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }
   ],
