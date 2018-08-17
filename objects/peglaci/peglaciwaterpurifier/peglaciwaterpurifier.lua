@@ -6,7 +6,11 @@ function init()
     output(storage.state)
   end
   
+  self.timer = 0
+  self.toStop = 2
+  
   message.setHandler("receiveLiquid", function(_, _, liquidLevel)
+    self.timer = self.toStop
     filter(liquidLevel[1],liquidLevel[2])
   end)
   
@@ -46,7 +50,8 @@ end
 
 function update(dt)
   
-  if object.isInputNodeConnected(0) and object.getInputNodeLevel(0)  then
+  if self.timer > 0  then
+    self.timer = self.timer - dt
     output(true)
   else
     output(false)

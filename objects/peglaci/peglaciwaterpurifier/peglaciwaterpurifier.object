@@ -21,10 +21,8 @@
   "inventoryIcon" : "peglaciwaterpurifiericon.png",
   "orientations" : [
     {
-      "dualImage" : "peglaciwaterpurifier.png:<color>.<frame>",
-      "imagePosition" : [-8, -8],
-      "frames" : 3,
-      "animationCycle" : 1.0,
+      "dualImage" : "peglaciwaterpurifier.png:default",
+      "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
@@ -37,11 +35,12 @@
   
   "animation" : "/objects/peglaci/peglaciwaterpurifier/peglaciwaterpurifier.animation",
   "animationParts" : {
-    "purifier" : "peglaciwaterpurifier.png"
+    "purifier" : "peglaciwaterpurifier.png",
+    "turbine" : "peglaciwaterpurifier.png"
   },
-  "animationPosition" : [-8, -8],
+  "animationPosition" : [-8, 0],
   
-  "inputNodes" : [ [0, 0] ],
+  "inputNodes" : [ [0, 1] ],
   
   "soundEffect" : "/sfx/objects/bunkervent.ogg"
 }

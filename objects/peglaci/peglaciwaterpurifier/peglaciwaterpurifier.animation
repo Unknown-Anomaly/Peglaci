@@ -8,8 +8,8 @@
             "frames" : 1
           },
           "on" : {
-            "frames" : 3,
-            "cycle" : 0.3,
+            "frames" : 8,
+            "cycle" : 1,
             "mode" : "loop"
           }
         }
@@ -19,6 +19,7 @@
     "parts" : {
       "purifier" : {
         "properties" : {
+          "zLevel" : 1,
           "centered" : false
         },
 
@@ -26,17 +27,40 @@
           "purifierState" : {
             "off" : {
               "properties" : {
-                "image" : "<partImage>:default.off"
+                "image" : "<partImage>:off"
               }
             },
 
             "on" : {
               "properties" : {
-                "image" : "<partImage>:default.<frame>"
+                "image" : "<partImage>:liquid.<frame>"
               }
             }
           }
         }
+      },
+      
+      "turbine" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : false
+        },
+        
+        "partStates" : {
+          "purifierState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:turbine.<frame>"
+              }
+            }
+          }
+        }      
       }
     }
   }
