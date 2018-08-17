@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "wire", "count" : 1 },
-    { "item" : "tungstenbar", "count" : 2 }
+    { "item" : "peglacialloybar", "count" : 1 }
   ],
   "output" : { "item" : "peglacidrain", "count" : 1 },
   "groups" : [ "craftingwiring", "mechanics" ]
