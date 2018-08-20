@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "snow", "count" : 1 },
+    { "item" : "snow", "count" : 5 },
     { "item" : "alienmeat", "count" : 1 }
   ],
  "output" : { "item" : "peglacifrostburntmeat", "count" : 1 },

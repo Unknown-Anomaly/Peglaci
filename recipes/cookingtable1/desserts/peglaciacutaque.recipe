@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "snow", "count" : 1 },
+    { "item" : "snow", "count" : 5 },
     { "item" : "alienmeat", "count" : 1 },
-    { "item" : "oculemon", "count" : 3 }
+    { "item" : "oculemon", "count" : 2 }
   ],
  "output" : { "item" : "peglaciacutaque", "count" : 1 },
   "groups" : [ "craftingfood", "desserts" ]
