@@ -6,7 +6,7 @@
   "inventoryIcon" : "peglacifrostburntmeat.png",
   "description" : "A Peglaci delicacy. An accident for everyone else.",
   "shortdescription" : "Frostburnt Alien Meat",
-  "foodValue" : 20,
+  "foodValue" : 12,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,

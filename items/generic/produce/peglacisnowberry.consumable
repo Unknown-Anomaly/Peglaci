@@ -16,7 +16,7 @@
   "effects" : [ [
     {
         "effect" : "weakpoison",
-        "duration" : 10
+        "duration" : 5
     }
   ] ],
   "blockingEffects" : [

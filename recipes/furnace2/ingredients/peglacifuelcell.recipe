@@ -1,7 +1,7 @@
 {
   "input" : [
       { "item" : "peglacialloybar", "count" : 1 },
-      { "item" : "solidfuel", "count" : 25 }
+      { "item" : "solidfuel", "count" : 20 }
   ],
   "output" : { "item" : "peglacifuelcell", "count" : 1 },
   "duration" : 0.25,

@@ -5,6 +5,6 @@
   "inventoryIcon" : "peglacifuelcell.png",
   "description" : "A high density fuel cell, patented for use in Peacekeeper ships.",
   "shortdescription" : "Peglanium Fuel Cell",
-  "fuelAmount" : 100,
-  "price" : 25
+  "fuelAmount" : 150,
+  "price" : 50
 }
