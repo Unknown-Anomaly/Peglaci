@@ -10,8 +10,7 @@
 		"type": "object",
 		"objectSets": [{
 			"pool": [
-				[0.35, "peglaciwildsnowberryseed"],
-				[0.35, "peglaciwildspongeweedseed"]
+				[0.35, "peglaciwildsnowberryseed"]
 			],
 			"parameters": {
 				"startingStage": 3
