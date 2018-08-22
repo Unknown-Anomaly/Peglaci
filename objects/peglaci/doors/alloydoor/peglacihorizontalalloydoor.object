@@ -22,22 +22,10 @@
   "inventoryIcon" : "peglacihorizontalalloydooricon.png",
   "orientations" : [
     {
-      "image" : "peglacihorizontalalloydoor.png:default",
-      "imagePosition" : [-16, -6],
+      "dualImage" : "peglacihorizontalalloydoor.png:default",
+      "imagePosition" : [-16, -20],
+      "animationPosition" : [-16, -20],
       "renderLayer" : "Object+5",
-      "animationPosition" : [-16, -6],
-      "flipImages" : true,
-      "direction" : "left",
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ]
-    },
-    {
-      "image" : "peglacihorizontalalloydoor.png:default",
-      "imagePosition" : [-16, -8],
-      "renderLayer" : "Object+5",
-      "animationPosition" : [-16, -8],
-      "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
