@@ -44,7 +44,7 @@
       },
         "inaccuracy" : 0.008,
         "baseDamage" : 10,
-        "fireSound" : "fire"
+        "fireSound" : "fire2"
       },
       {
         "time" : 1.0,
@@ -56,7 +56,7 @@
       },
         "inaccuracy" : 0,
         "baseDamage" : 20,
-        "fireSound" : "fire2"
+        "fireSound" : "fire"
       }
     ]
   },
