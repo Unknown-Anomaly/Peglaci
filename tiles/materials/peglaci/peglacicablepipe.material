@@ -1,5 +1,5 @@
 {
-  "materialId" : 3515,
+  "materialId" : 2994,
   "materialName" : "peglacicablepipe",
   "particleColor" : [111, 75, 58, 255],
   "itemDrop" : "peglacicablepipe",
@@ -19,6 +19,6 @@
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 482
+    "zLevel" : 2994
   }
 }
