@@ -57,8 +57,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       
-      "lightPosition" : [0, 1],
-      "beamAngle" : 270
+      "lightPosition" : [-1, 1],
+      "beamAngle" : 315
     }
   ],
 
