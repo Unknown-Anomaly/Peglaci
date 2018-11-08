@@ -44,8 +44,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       
-      "lightPosition" : [0, 1],
-      "beamAngle" : 225
+      "lightPosition" : [-1, 1],
+      "beamAngle" : 270
     },
     {
       "image" : "peglacishipscreen2.png:<color>.<frame>",
@@ -57,7 +57,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       
-      "lightPosition" : [0, 1],
+      "lightPosition" : [-1, 1],
       "beamAngle" : 270
     }
   ],
