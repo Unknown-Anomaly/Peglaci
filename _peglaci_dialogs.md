@@ -3,50 +3,92 @@ These are the responses of different NPC (tenants, villagers, guards, etc.) when
 
 ## Peglaci Guard
 
-* "Nothing to see here."
-* "*Looks at you*"
-* "This place isn't cold enough."
-* "I'm used to be an adventurer like you."
+* "There's nothing to see there, foreigner."
+* "Move along, I am currently busy with my duty."
+* "I'm keeping an eye on you, better not cause any fuss."
+* "The cold is not for the weak, thus I'm not weak."
+* "Cause trouble? I'l smash you in."
+* "Watch yourself."
+* "I'm busy, not now."
+* "Don't even think about it."
 
 ## Tenant was called with the deed
-#### Just was called
-* "TODO: I was called with the deed."
+#### Villager just was called
+* "I'm here, what do you need?"
+* "Is something of the matter?"
+* "I <selfname> shall respond to your summon."
+* "<playername>, what is that you need?"
 
 #### Pays rent
-* "TODO: I give pixels or things as rent."
+* "This is my payment, please take it."
+* "I don't have much, but this will do!"
+* "A gift for you, from me."
+* "Take this, it's my grattitude for you."
+* "A great gift, for a big heart."
+* "My token of appreciation, to you."
 
 ## Tenant Grumble
 ### The house do not satisfy the tag criteria
-* "TODO: tag criteria."
+* "Did someone steal something from me?"
+* "I might.. need some help over here."
+* "Something doesn't feel right in here.."
 
 #### The house is not an enclosed area
-* "TODO: home needs maintaince"
+* "A little help with the repairs?"
+* "My house is in a bad state!"
+* "Could you fix my house?"
 
 #### House with more than one deed
-* "TODO: I don't want more friends"
+* "Where's your intimicy when you need it?"
+* "I thought this was my house!"
+* "Remove that deed, this instant!"
 
 #### The house has some problem for some time
-* "TODO: this house is wrong"
+* "What's going on? I thought everything was fine!"
+* "This is horrid, fix this mess please!"
+* "The cold lands were much better then this.."
+* "Are you ever gonna come to help me or what?"
 
 #### The tenant abandon the house
-* "TODO: i'm out, this place is awfull"
+* "I bid farewell to this horrid place!"
+* "Pfft, I should've known. Goodbye!"
+* "Fine, have it your way! I'm never coming back here."
+
 
 ## NPC in danger
 #### NPC being attacked
-* "TODO: HALP PLZ"
+* "Mercy! I beg mercy!"
+* "This is not justice! This is cruelty!"
+* "I beg you to spare my poor life!"
+* "Nooo, I don't want to die."
 
 #### NPC is safe now
-* "TODO: Now i'm safe, thanks"
+* "Phew, I owe it to you!"
+* "T-Thanks, you saved my life!"
+* "This was a close one... was it?"
+* "I feared that I'd never see the snow again
+
 
 ## Agresive NPC
 #### Starts it's attack
-* "TODO: Peglaci is attacking"
+* "I will rip you apart!"
+* "Once I'm done with you, I'l chop you to pieces!"
+* "Charge!"
+* "I'l kill you!"
+* "I'l smash your head in!"
 
 #### Kills it's target
-* "TODO: Peglaci is a killing machine"
+* "You should never have dared."
+* "Rest like the weakling you were."
+* "You have lost, and paid with your life."
+* "Finally, this fight is over."
+* "My justice reigns again."
 
 #### Lost it's target
-* "TODO: Peglaci got distracted and lost target"
+* "He fled like a cat, with his tails between his legs."
+* "Damn, where did he go?"
+* "Shit! Come back here!"
+* "Crap, I lost sight of them!"
 
 
 ## Normal NPC talk
