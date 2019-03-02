@@ -4,7 +4,7 @@
   "price" : 280,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "For stubborn ice.",
+  "description" : "The perfect tool for stubborn ice.",
   "shortdescription" : "Ice Axe",
   "tooltipKind" : "sword",
   "category" : "axe",
@@ -20,7 +20,7 @@
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [-1.0, 1.75]
+      "offset" : [-1.5, 1.75]
     }}}},
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_axe.ogg" ]
@@ -39,35 +39,8 @@
     "baseDps" : 9.5,
     "damageConfig" : {
       "knockback" : 25
-    },
-    "stances" : {
-      "idle" : {
-        "weaponOffset" : [0.25, 1.5]
-      },
-      "windup" : {
-        "duration" : 0.7,
-        "weaponOffset" : [0.25, 1.5],
-
-        "minWindup" : 0.6,
-
-        "weaponAngle" : [
-          [0.7, "linear", -20, 0],
-          [0.85, "linear", 0, 50],
-          [0.925, "sin", 50, 45],
-          [1.0, "cos", 50, 45]
-        ],
-
-        "armAngle" : [
-          [1.0, "sin", -90, 50]
-        ]
-      },
-      "fire" : {
-        "weaponOffset" : [0.25, 1.5]
-      }
     }
   },
-
-  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
