@@ -1,0 +1,21 @@
+[  
+  {  
+    "op":"add",
+    "path":"/hail/peglaci",
+    "value":{  
+      "default":[  
+        "Nothing to see here.",
+	      "Move along now",
+	      "Don't even think about it.",
+	      "I've got my eye on you.",
+	      "Keep to the law, or face the consequences.",
+	      "Watch yourself.",
+	      "I'm busy, not now.",
+	      "Cause trouble? I'll smash you in.",
+	      "There's nothing to see here, foreigner",
+	      "The cold is not for the weak, thus I'm not weak.",
+	      "This place isn't cold enough."
+      ]
+    }
+  }
+]
