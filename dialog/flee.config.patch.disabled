@@ -4,7 +4,10 @@
     "path": "/helpme/peglaci",
     "value": {
       "default": [
-        "TODO: HALP PLZ"
+        "I need help!",
+        "I don't want to die!",
+        "Mercy! Please!",
+        "This is not justice! This is cruelty!",
       ]
     }
   },
@@ -13,7 +16,9 @@
     "path": "/safe/peglaci",
     "value": {
       "default": [
-        "TODO: Now i'm safe"
+        "I think it's over now.",
+        "That was close...",
+        "Is... Is it safe now?",
       ]
     }
   }
