@@ -1,0 +1,58 @@
+[  
+  {  
+    "op":"add",
+    "path":"/tagCriteria/peglaci",
+    "value":{  
+      "default":[  
+        "Did someone steal something from me?.",
+        "I might... need some help over here.",
+        "Something doesn't feel right in here..."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/enclosedArea/peglaci",
+    "value":{  
+      "default":[  
+        "A little help with the repairs?",
+        "My house is in a bad state!",
+        "Could you fix my house?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/otherDeed/peglaci",
+    "value":{  
+      "default":[  
+        "Where's your intimacy when you need it?",
+        "I thought this was my house!",
+        "Remove that deed, this instant!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/severe/peglaci",
+    "value":{  
+      "default":[  
+        "What's going on? I thought everything was fine!",
+        "This is horrid, fix this mess please!",
+        "The cold lands were much better than this...",
+        "Are you ever gonna come to help me or what?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/final/peglaci",
+    "value":{  
+      "default":[  
+        "I bid farewell to this horrid place!",
+        "Pfft, I should've known. Goodbye!",
+        "Fine, have it your way! I'm never coming back here."
+      ]
+    }
+  }
+]
