@@ -1,0 +1,28 @@
+[  
+  {  
+    "op":"add",
+    "path":"/beacon/peglaci",
+    "value":{  
+      "default":[  
+        "I'm here, what do you need?",
+        "Is something of the matter?",
+        "I shall respond to your summon.",
+        "What is it that you need?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/rent/peglaci",
+    "value":{  
+      "default":[  
+        "This is my payment, please take it.",
+        "I don't have much, but this will do!",
+        "A gift for you, from me.",
+        "Take this, it's my gratitude for you.",
+        "A great gift, for a big heart.",
+        "My token of appreciation, to you."
+      ]
+    }
+  }
+]

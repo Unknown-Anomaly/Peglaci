@@ -1,0 +1,40 @@
+[  
+  {  
+    "op":"add",
+    "path":"/attack/peglaci",
+    "value":{  
+      "default":[  
+        "I'll rip you apart!",
+        "I'll kill you!",
+        "I'll smash your head in!",
+        "Charge!",
+        "Once I'm done with you, I'll chop you to pieces!"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/killedTarget/peglaci",
+    "value":{  
+      "default":[  
+        "You shouldn't have dared.",
+        "Your mistake.",
+        "Your debt has been paid.",
+        "Finally, this fight is over.",
+        "My justice reigns again."
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/lostTarget/peglaci",
+    "value":{  
+      "default":[  
+        "He fled like a cat, with his tail between his legs.",
+        "Get back here!",
+        "Damn, where did he go?",
+        "Crap, I've lost sight of them!"
+      ]
+    }
+  }
+]

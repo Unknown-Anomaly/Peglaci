@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/helpme/peglaci",
+    "value": {
+      "default": [
+        "I need help!",
+        "I don't want to die!",
+        "Mercy! Please!",
+        "This is not justice! This is cruelty!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/safe/peglaci",
+    "value": {
+      "default": [
+        "I think it's over now.",
+        "That was close...",
+        "Is... Is it safe now?"
+      ]
+    }
+  }
+]
