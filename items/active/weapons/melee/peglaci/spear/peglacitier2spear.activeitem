@@ -1,7 +1,7 @@
 {
   "itemName" : "peglacitier2spear",
-  "price" : 800,
-  "level" : 3,
+  "price" : 480,
+  "level" : 2,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Two teeth to pierce thick hides.",
@@ -33,17 +33,10 @@
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 0.95,
-    "baseDps" : 10.5,
-    "damageConfig" : {
-      "damageSourceKind" : "spear",
-      "statusEffects" : [ ],
-      "knockback" : 35
-    }
+    "baseDps" : 10.5
   },
 
-  "altAbilityType" : "spearspin",
-
-  "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
+  "altAbilityType" : "flurry",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
