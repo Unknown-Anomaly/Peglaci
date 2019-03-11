@@ -3,9 +3,10 @@
   "image" : "peglacitier2knife.png",
   "animationCycle" : 0.25,
   "physics" : "grenade",
+  "bounces" : 1,
   "frameNumber" : 1,
   "pointLight" : false,
-  "speed" : 20,
+  "speed" : 30,
   "actionOnReap" : [
     {
       "action" : "config",
