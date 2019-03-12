@@ -6,170 +6,160 @@
      "width":1
     },
  "margin":0,
- "name":"Peglaci - Furniture",
+ "name":"Peglaci - Containers",
  "spacing":0,
- "tilecount":16,
+ "tilecount":15,
  "tileheight":40,
  "tileproperties":
     {
      "0":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacihorizontalairlock",
-         "\/\/shortdescription":"Airlock Horizontal",
-         "imagePositionX":"-20",
+         "\/\/name":"peglacibookcaseconsole",
+         "\/\/shortdescription":"peglacibookcaseconsole",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"peglacihorizontalairlock",
+         "object":"peglacibookcaseconsole",
          "tilesetDirection":"right"
         },
      "1":
         {
          "\/\/description":"description",
-         "\/\/name":"peglaciverticalairlock",
-         "\/\/shortdescription":"Airlock Vertical",
-         "imagePositionX":"-16",
-         "imagePositionY":"-6",
-         "object":"peglaciverticalairlock",
+         "\/\/name":"peglacibookcaseend1",
+         "\/\/shortdescription":"peglacibookcaseend1",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacibookcaseend1",
          "tilesetDirection":"right"
         },
      "10":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacicouch2",
-         "\/\/shortdescription":"Couch 2",
-         "imagePositionX":"-16",
+         "\/\/name":"peglacibox2",
+         "\/\/shortdescription":"peglacibox2",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"peglacicouch2",
+         "object":"peglacibox2",
          "tilesetDirection":"right"
         },
      "11":
         {
          "\/\/description":"description",
-         "\/\/name":"flagpeglaci",
-         "\/\/shortdescription":"Flag",
-         "imagePositionX":"-17",
+         "\/\/name":"peglacichest",
+         "\/\/shortdescription":"peglacichest",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"flagpeglaci",
+         "object":"peglacichest",
          "tilesetDirection":"right"
         },
      "12":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacitable2",
-         "\/\/shortdescription":"Table 2",
-         "imagePositionX":"-16",
+         "\/\/name":"peglacifoodstorage1",
+         "\/\/shortdescription":"peglacifoodstorage1",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"peglacitable2",
+         "object":"peglacifoodstorage1",
          "tilesetDirection":"right"
         },
      "13":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacisupport",
-         "\/\/shortdescription":"Support",
-         "imagePositionX":"0",
+         "\/\/name":"peglacifoodstorage2",
+         "\/\/shortdescription":"peglacifoodstorage2",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"peglacisupport",
+         "object":"peglacifoodstorage2",
          "tilesetDirection":"right"
         },
      "14":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacitable",
-         "\/\/shortdescription":"Table",
-         "imagePositionX":"-16",
+         "\/\/name":"peglacibookcaselight",
+         "\/\/shortdescription":"peglacibookcaselight",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglacitable",
+         "object":"peglacibookcaselight",
          "tilesetDirection":"right"
         },
-     "15":
+     "16":
         {
-         "\/\/description":"peglacitable3",
-         "\/\/name":"peglacitable3",
-         "\/\/shortdescription":"Table",
-         "imagePositionX":"-16",
+         "\/\/description":"description",
+         "\/\/name":"peglacibookshelf",
+         "\/\/shortdescription":"peglacibookshelf",
+         "imagePositionX":"-2",
          "imagePositionY":"0",
-         "object":"peglacitable3",
+         "object":"peglacibookshelf",
          "tilesetDirection":"right"
         },
      "2":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacialloydoor2",
-         "\/\/shortdescription":"Alloy Door 2",
-         "imagePositionX":"0",
+         "\/\/name":"peglacibookcaseend2",
+         "\/\/shortdescription":"peglacibookcaseend2",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"peglacialloydoor2",
-         "tilesetDirection":"right"
-        },
-     "3":
-        {
-         "\/\/description":"description",
-         "\/\/name":"peglacihorizontalalloydoor",
-         "\/\/shortdescription":"Alloy Door Hor",
-         "imagePositionX":"-16",
-         "imagePositionY":"-6",
-         "object":"peglacihorizontalalloydoor",
+         "object":"peglacibookcaseend2",
          "tilesetDirection":"right"
         },
      "4":
         {
          "\/\/description":"description",
-         "\/\/name":"peglaciverticalalloydoor",
-         "\/\/shortdescription":"Alloy Door Ver",
+         "\/\/name":"peglacibookcasemiddlestraight1",
+         "\/\/shortdescription":"peglacibookcasemiddlestraight1",
          "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglaciverticalalloydoor",
+         "object":"peglacibookcasemiddlestraight1",
          "tilesetDirection":"right"
         },
      "5":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacibed",
-         "\/\/shortdescription":"Bed",
-         "imagePositionX":"-24",
+         "\/\/name":"peglacibookcasemiddlestraight2",
+         "\/\/shortdescription":"peglacibookcasemiddlestraight2",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglacibed",
+         "object":"peglacibookcasemiddlestraight2",
          "tilesetDirection":"right"
         },
      "6":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacibed2",
-         "\/\/shortdescription":"Bed 2",
-         "imagePositionX":"-24",
+         "\/\/name":"peglacibookcasemiddlehex1",
+         "\/\/shortdescription":"peglacibookcasemiddlehex1",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglacibed2",
+         "object":"peglacibookcasemiddlehex1",
          "tilesetDirection":"right"
         },
      "7":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacichair",
-         "\/\/shortdescription":"Chair",
-         "imagePositionX":"-12",
+         "\/\/name":"peglacibookcasemiddlehex2",
+         "\/\/shortdescription":"peglacibookcasemiddlehex2",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglacichair",
+         "object":"peglacibookcasemiddlehex2",
          "tilesetDirection":"right"
         },
      "8":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacichair2",
-         "\/\/shortdescription":"Chair 2",
-         "imagePositionX":"-12",
+         "\/\/name":"peglacibookcasepillar",
+         "\/\/shortdescription":"peglacibookcasepillar",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"peglacichair2",
+         "object":"peglacibookcasepillar",
          "tilesetDirection":"right"
         },
      "9":
         {
          "\/\/description":"description",
-         "\/\/name":"peglacicouch1",
-         "\/\/shortdescription":"Couch 1",
-         "imagePositionX":"-16",
+         "\/\/name":"peglacibox1",
+         "\/\/shortdescription":"peglacibox1",
+         "imagePositionX":"-12",
          "imagePositionY":"0",
-         "object":"peglacicouch1",
+         "object":"peglacibox1",
          "tilesetDirection":"right"
         }
     },
@@ -245,7 +235,7 @@
          "object":"string",
          "tilesetDirection":"string"
         },
-     "15":
+     "16":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -256,16 +246,6 @@
          "tilesetDirection":"string"
         },
      "2":
-        {
-         "\/\/description":"string",
-         "\/\/name":"string",
-         "\/\/shortdescription":"string",
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetDirection":"string"
-        },
-     "3":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -340,101 +320,95 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/AirlockHor.png",
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseConsole.png",
          "imageheight":40,
-         "imagewidth":40
+         "imagewidth":32
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/AirlockVer.png",
-         "imageheight":16,
-         "imagewidth":40
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseEnd1.png",
+         "imageheight":40,
+         "imagewidth":16
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/couch2.png",
-         "imageheight":18,
-         "imagewidth":40
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/box2.png",
+         "imageheight":16,
+         "imagewidth":16
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/flag.png",
-         "imageheight":32,
-         "imagewidth":24
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/chest.png",
+         "imageheight":18,
+         "imagewidth":16
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/peglacitable2.png",
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/foodstore1.png",
          "imageheight":16,
-         "imagewidth":32
+         "imagewidth":16
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/support.png",
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/foodstore2.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":16
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/table1.png",
-         "imageheight":16,
-         "imagewidth":40
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseLight.png",
+         "imageheight":40,
+         "imagewidth":16
         },
-     "15":
+     "16":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/table3.png",
-         "imageheight":16,
-         "imagewidth":40
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookshelf.png",
+         "imageheight":40,
+         "imagewidth":30
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/AloyDoor2.png",
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseEnd2.png",
          "imageheight":40,
-         "imagewidth":8
-        },
-     "3":
-        {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/AloyDoorHor.png",
-         "imageheight":40,
-         "imagewidth":39
+         "imagewidth":16
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/AloyDoorVer.png",
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseMid1.png",
          "imageheight":40,
          "imagewidth":16
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/bed.png",
-         "imageheight":24,
-         "imagewidth":48
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseMid2.png",
+         "imageheight":40,
+         "imagewidth":16
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/bed2.png",
-         "imageheight":24,
-         "imagewidth":48
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseMidHex1.png",
+         "imageheight":40,
+         "imagewidth":16
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/chair1.png",
-         "imageheight":32,
-         "imagewidth":24
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcaseMidHex2.png",
+         "imageheight":40,
+         "imagewidth":16
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/chair2.png",
-         "imageheight":32,
-         "imagewidth":24
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/bookcasePilar.png",
+         "imageheight":40,
+         "imagewidth":8
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/furniture\/couch1.png",
-         "imageheight":18,
-         "imagewidth":40
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/containers\/box1.png",
+         "imageheight":16,
+         "imagewidth":24
         }
     },
- "tilewidth":48,
+ "tilewidth":32,
  "type":"tileset"
 }

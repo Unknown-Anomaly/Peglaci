@@ -8,7 +8,7 @@
  "margin":0,
  "name":"Peglaci - Materials",
  "spacing":0,
- "tilecount":15,
+ "tilecount":20,
  "tileheight":8,
  "tileproperties":
     {
@@ -60,6 +60,41 @@
          "\/\/name":"peglacivertcable",
          "\/\/shortdescription":"Vertical Cabling",
          "material":"peglacivertcable"
+        },
+     "15":
+        {
+         "\/\/description":"A ornamentated block made of pykrete. Perfect to make walls with it.",
+         "\/\/name":"peglacislopedpykrete",
+         "\/\/shortdescription":"Pykrete Wall",
+         "material":"peglacislopedpykrete"
+        },
+     "16":
+        {
+         "\/\/description":"Strong metal panelling widely used for ships and cold environments.",
+         "\/\/name":"peglacislopedmetal",
+         "\/\/shortdescription":"Alloy Hull Panel",
+         "material":"peglacislopedmetal"
+        },
+     "17":
+        {
+         "\/\/description":"A metal screen decorated with Peglaci glyphs.",
+         "\/\/name":"peglacialloyscreen",
+         "\/\/shortdescription":"Alloy Screen",
+         "material":"peglacialloyscreen"
+        },
+     "18":
+        {
+         "\/\/description":"A metal grille made of a secret Peglaci alloy. The water can flow through it.",
+         "\/\/name":"peglacidrainblock",
+         "\/\/shortdescription":"Alloy Metal Grille",
+         "material":"peglacidrainblock"
+        },
+     "19":
+        {
+         "\/\/description":"A chilled cable housing. It goes inside the walls.",
+         "\/\/name":"peglacicablepipe",
+         "\/\/shortdescription":"Chilled Cabling",
+         "material":"peglacicablepipe"
         },
      "2":
         {
@@ -169,6 +204,41 @@
          "\/\/shortdescription":"string",
          "material":"string"
         },
+     "15":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
      "2":
         {
          "\/\/description":"string",
@@ -267,6 +337,36 @@
      "14":
         {
          "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/verticalCabling.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/pykreteSloped.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/slopedMetal.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/alloyScreenNew.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/drainBlock.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/materials\/cablePipe.png",
          "imageheight":8,
          "imagewidth":8
         },

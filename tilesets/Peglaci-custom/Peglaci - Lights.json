@@ -8,7 +8,7 @@
  "margin":0,
  "name":"Peglaci - Lights",
  "spacing":0,
- "tilecount":15,
+ "tilecount":20,
  "tileheight":48,
  "tileproperties":
     {
@@ -82,6 +82,46 @@
          "object":"peglacitorch",
          "tilesetDirection":"right"
         },
+     "16":
+        {
+         "\/\/description":"I can't describe this block.",
+         "\/\/name":"peglacidesklight",
+         "\/\/shortdescription":"peglacidesklight",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacidesklight",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"I can't describe this block.",
+         "\/\/name":"peglacidesklight2",
+         "\/\/shortdescription":"peglacidesklight2",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacidesklight2",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "\/\/description":"I can't describe this block.",
+         "\/\/name":"peglacispotlight",
+         "\/\/shortdescription":"peglacispotlight",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacispotlight",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "\/\/description":"I can't describe this block.",
+         "\/\/name":"peglacispotlight2",
+         "\/\/shortdescription":"peglacispotlight2",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"peglacispotlight2",
+         "tilesetDirection":"right"
+        },
      "2":
         {
          "\/\/description":"I can't describe this block.",
@@ -90,6 +130,16 @@
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"peglacilightstripcross1",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "\/\/description":"I can't describe this block.",
+         "\/\/name":"peglaciwaterlight",
+         "\/\/shortdescription":"peglaciwaterlight",
+         "imagePositionX":"-3",
+         "imagePositionY":"-5",
+         "object":"peglaciwaterlight",
          "tilesetDirection":"right"
         },
      "3":
@@ -235,7 +285,57 @@
          "object":"string",
          "tilesetDirection":"string"
         },
+     "16":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "17":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "18":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "19":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
+     "20":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -360,11 +460,41 @@
          "imageheight":10,
          "imagewidth":8
         },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/desklight.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/desklight2.png",
+         "imageheight":16,
+         "imagewidth":16
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/spotlight.png",
+         "imageheight":7,
+         "imagewidth":32
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/spotlight2.png",
+         "imageheight":8,
+         "imagewidth":32
+        },
      "2":
         {
          "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/lightstripCross1.png",
          "imageheight":8,
          "imagewidth":8
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/waterlight.png",
+         "imageheight":10,
+         "imagewidth":14
         },
      "3":
         {
@@ -409,6 +539,6 @@
          "imagewidth":8
         }
     },
- "tilewidth":16,
+ "tilewidth":32,
  "type":"tileset"
 }
