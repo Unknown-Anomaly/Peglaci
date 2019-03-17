@@ -108,7 +108,5 @@
     }
   },
 
-  "palette" : "/items/active/weapons/colors/tier2melee.weaponcolors",
-
   "builder" : "/items/buildscripts/buildfist.lua"
 }
