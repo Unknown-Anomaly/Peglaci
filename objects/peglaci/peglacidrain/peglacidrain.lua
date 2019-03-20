@@ -24,7 +24,7 @@ end
 
 -- Removes Liquids at current position
 function drain()
-  if world.liquidAt(self.drainPos) and self.conected > 0 then
+  if world.liquidAt(self.drainPos) then
     output(true)
     liquidLevel = world.destroyLiquid(self.drainPos)
     if liquidLevel == nil then
@@ -38,8 +38,10 @@ function drain()
 end
 
 function sendLiquid(liquidLevel)
-  selectedOutput = math.random(1,self.conected)
-  world.sendEntityMessage(self.conections[selectedOutput], "receiveLiquid", liquidLevel)
+  if self.conected > 0 then
+    selectedOutput = math.random(1,self.conected)
+    world.sendEntityMessage(self.conections[selectedOutput], "receiveLiquid", liquidLevel)
+  end
 end
 
 -- Check the connected outputs. Save any peglacypurifier on conections.
