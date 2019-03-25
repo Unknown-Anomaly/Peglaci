@@ -29,7 +29,7 @@
   "scripts" : [ "/objects/wired/logic/logic.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/peglaci/wired/logic/peglaciLogic.animation",
 
   "animationParts" : {
     "switch" : "peglaciand.png"

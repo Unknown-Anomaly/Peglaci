@@ -27,7 +27,7 @@
   "scripts" : [ "/objects/wired/logic/delay.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/logic.animation",
+  "animation" : "/objects/peglaci/wired/logic/peglaciLogic.animation",
 
   "animationParts" : {
     "switch" : "peglacidelay.png"

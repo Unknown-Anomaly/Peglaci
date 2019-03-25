@@ -28,7 +28,7 @@
   "scripts" : [ "/objects/wired/logic/countdowntimer.lua" ],
   "scriptDelta" : 1,
 
-  "animation" : "/objects/wired/logic/timer5.animation",
+  "animation" : "/objects/peglaci/wired/logic/peglaciTimer5.animation",
 
   "animationParts" : {
     "timer" : "peglacitimer5.png"
