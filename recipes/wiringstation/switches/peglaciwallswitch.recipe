@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 1 },
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "peglacialloybar", "count" : 1 }
+  ],
+  "output" : { "item" : "peglaciwallswitch", "count" : 1 },
+  "groups" : [ "craftingwiring", "switches" ]
+}
