@@ -1,0 +1,44 @@
+{
+  "objectName" : "peglaciand",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
+  "shortdescription" : "AND Switch",
+  "race" : "peglaci",
+
+  "category" : "wire",
+  "price" : 10,
+
+  "floranDescription" : "An /'AND'/ ssswitch. Requiress all inputs to be /'on'/ to work.",
+  "glitchDescription" : "Pleased. An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
+
+  "inventoryIcon" : "peglaciand.png:default.1",
+  "orientations" : [
+    {
+      "image" : "peglaciand.png:default.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "peglaciand.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [-1, -1], [-1, 0] ],
+  "outputNodes" : [ [0, -1] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, false ], [ false, true ] ]
+}
