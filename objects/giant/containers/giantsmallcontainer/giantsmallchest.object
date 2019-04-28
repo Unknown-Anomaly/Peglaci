@@ -1,0 +1,41 @@
+{
+  "objectName" : "giantsmallchest",
+  "colonyTags" : ["giant","giantek","storage"],
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "An old container of Giant origin, surprisingly, it still functions",
+  "shortdescription" : "Small Giantek Container",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "-TODO-",
+  "avianDescription" : "-TODO-",
+  "floranDescription" : "-TODO-",
+  "glitchDescription" : "-TODO-",
+  "humanDescription" : "-TODO-",
+  "hylotlDescription" : "-TODO-",
+  "novakidDescription" : "-TODO-",
+  "peglaciDescription" : "-TODO-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "giantsmallchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
