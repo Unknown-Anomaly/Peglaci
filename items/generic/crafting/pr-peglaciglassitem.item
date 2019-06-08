@@ -1,0 +1,10 @@
+{
+  "itemName" : "pr-peglaciglassitem",
+  "price" : 3,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pr-peglaciglassitem.png",
+  "description" : "A pane of crystal-based glass used for crafting.",
+  "shortdescription" : "Peglaci Glass",
+  "itemTags" : [ "reagent" ]
+}

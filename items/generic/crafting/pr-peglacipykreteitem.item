@@ -1,0 +1,10 @@
+{
+  "itemName" : "pr-peglacipykreteitem",
+  "price" : 1,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pr-peglacipykreteitem.png",
+  "description" : "A surprisingly durable frozen material.",
+  "shortdescription" : "Pykrete Composite",
+  "itemTags" : [ "reagent" ]
+}

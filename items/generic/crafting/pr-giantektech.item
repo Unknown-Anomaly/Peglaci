@@ -1,0 +1,10 @@
+{
+  "itemName" : "pr-giantektech",
+  "price" : 450,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pr-giantektech.png",
+  "description" : "Technology used by the Giants, in all of their relics.",
+  "shortdescription" : "Giantek Tech",
+  "itemTags" : [ "reagent" ]
+}

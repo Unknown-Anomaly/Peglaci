@@ -1,0 +1,10 @@
+{
+  "itemName" : "pr-giantekmetal",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pr-giantekmetal.png",
+  "description" : "A metal remnant of foregone conception.",
+  "shortdescription" : "Giantek Metal",
+  "itemTags" : [ "reagent" ]
+}
