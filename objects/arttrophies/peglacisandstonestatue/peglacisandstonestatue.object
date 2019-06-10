@@ -1,0 +1,34 @@
+{
+  "objectName" : "peglacisandstonestatue",
+  "colonyTags" : ["sandstone","pretty"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "A statue of a peglaci. Look at those horns.",
+  "shortdescription" : "Peglaci Sandstone Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 400,
+
+  "apexDescription" : "Todo",
+  "avianDescription" : "Todo",
+  "floranDescription" : "Todo",
+  "glitchDescription" : "Todo",
+  "humanDescription" : "Todo",
+  "hylotlDescription" : "Todo",
+  "novakidDescription" : "Todo",
+
+  "inventoryIcon" : "peglacisandstonestatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "peglacisandstonestatue.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
