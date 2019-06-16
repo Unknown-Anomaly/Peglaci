@@ -48,9 +48,9 @@
 
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/cockpit/cockpit.config",
-  "sitStatusEffects" : [
-    "peglacichairregen"
-  ],
+  //"sitStatusEffects" : [
+  //  "peglacichairregen"
+  //],
   "sitFlipDirection" : false,
   "soundEffect" : "/sfx/objects/shipengine.ogg",
   "soundEffectRadius" : 1000
