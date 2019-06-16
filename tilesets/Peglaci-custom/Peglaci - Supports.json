@@ -1,0 +1,64 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"Peglaci - Supports",
+ "spacing":0,
+ "tilecount":2,
+ "tileheight":8,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"A platform made of an advanced alloy.",
+         "\/\/name":"peglacialloyplatform",
+         "\/\/shortdescription":"Alloy Platform",
+         "material":"peglacialloyplatform"
+        },
+     "1":
+        {
+         "\/\/description":"A chilly - but sturdy - platform made of pykrete.",
+         "\/\/name":"peglacipykreteplatform",
+         "\/\/shortdescription":"Pykrete Platform",
+         "material":"peglacipykreteplatform"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "1":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/supports\/alloyplatform.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/supports\/pykreteplatform.png",
+         "imageheight":8,
+         "imagewidth":8
+        }
+    },
+ "tilewidth":8,
+ "type":"tileset"
+}
