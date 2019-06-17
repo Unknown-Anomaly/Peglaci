@@ -36,7 +36,7 @@
   "inventoryIcon" : "splithorupdownicon.png",
   "orientations" : [
     {
-      "dualImage" : "lightstripsplithud.png:<color>.<frame>",
+      "dualImage" : "lightstripsplithud.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 1,

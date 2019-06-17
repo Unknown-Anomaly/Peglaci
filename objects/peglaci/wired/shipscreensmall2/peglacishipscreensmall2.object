@@ -34,7 +34,7 @@
   "inventoryIcon" : "peglacishipscreensmall2icon.png",
   "orientations" : [
     {
-      "image" : "peglacishipscreensmall2.png:<color>.<frame>",
+      "image" : "peglacishipscreensmall2.png:default.<frame>",
       "imagePosition" : [-8, 0],
       
       "direction" : "left",
@@ -48,7 +48,7 @@
       "beamAngle" : 225
     },
     {
-      "image" : "peglacishipscreensmall2.png:<color>.<frame>",
+      "image" : "peglacishipscreensmall2.png:default.<frame>",
       "imagePosition" : [-8, 0],
       
       "direction" : "right",

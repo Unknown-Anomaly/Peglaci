@@ -37,7 +37,7 @@
   "orientations" : [
 	
     {
-      "image" : "lightstripcross1.png:<color>.<frame>",
+      "image" : "lightstripcross1.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 1,

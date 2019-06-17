@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglacitable3icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacitable3.png:<color>",
+      "dualImage" : "peglacitable3.png:default",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

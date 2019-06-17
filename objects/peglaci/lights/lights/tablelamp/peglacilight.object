@@ -32,7 +32,7 @@
   "inventoryIcon" : "peglacilighticon.png",
   "orientations" : [
     {
-      "image" : "peglacilight.png:<color>.<frame>",
+      "image" : "peglacilight.png:default.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
 
@@ -41,7 +41,7 @@
     },
 
     {
-      "image" : "peglacilight.png:<color>.<frame>",
+      "image" : "peglacilight.png:default.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
 
@@ -50,7 +50,7 @@
     },
 
     {
-      "image" : "peglacilight.png:<color>.<frame>",
+      "image" : "peglacilight.png:default.<frame>",
       "imagePosition" : [0, 0],
       "direction" : "right",
 

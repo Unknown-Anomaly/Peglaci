@@ -23,7 +23,7 @@
   "inventoryIcon" : "peglaciwaterlighticon.png",
   "orientations" : [
     {
-      "image" : "peglaciwaterlight.png:<color>.<frame>",
+      "image" : "peglaciwaterlight.png:default.<frame>",
       "imagePosition" : [-3, -5],
 
       "direction" : "left",
@@ -39,7 +39,7 @@
       "anchors" : [ "background" ]
     },
     {
-      "image" : "peglaciwaterlight.png:<color>.<frame>",
+      "image" : "peglaciwaterlight.png:default.<frame>",
       "imagePosition" : [-3, -5],
 
       "direction" : "right",

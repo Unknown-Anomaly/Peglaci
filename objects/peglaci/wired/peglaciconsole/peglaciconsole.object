@@ -21,7 +21,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "peglaciconsole.png:<color>.on",
+      "image" : "peglaciconsole.png:default.on",
       "flipImages" : true,
       "direction" : "left",
       "lightPosition" : [0, 1],
@@ -34,7 +34,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "peglaciconsole.png:<color>.on",
+      "image" : "peglaciconsole.png:default.on",
       "direction" : "right",
       "lightPosition" : [0, 1],
 

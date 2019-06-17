@@ -25,7 +25,7 @@
   "inventoryIcon" : "peglacifoodstorage1icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacifoodstorage1.png:<color>.<key>",
+      "dualImage" : "peglacifoodstorage1.png:default.<key>",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,

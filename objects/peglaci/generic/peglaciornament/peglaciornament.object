@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglaciornamenticon.png",
   "orientations" : [
     {
-      "image" : "peglaciornament.png:<color>",
+      "image" : "peglaciornament.png:default",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,

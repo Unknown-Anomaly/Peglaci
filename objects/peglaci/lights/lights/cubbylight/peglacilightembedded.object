@@ -30,7 +30,7 @@
   "inventoryIcon" : "peglacilightembeddedicon.png",
   "orientations" : [
     {
-      "image" : "peglacilightembedded.png:<color>.<frame>",
+      "image" : "peglacilightembedded.png:default.<frame>",
       "imagePosition" : [-8, 0],
       
       "direction" : "left",
@@ -44,7 +44,7 @@
       "anchors" : [ "background" ]
     },
     {
-      "image" : "peglacilightembedded.png:<color>.<frame>",
+      "image" : "peglacilightembedded.png:default.<frame>",
       "imagePosition" : [-8, 0],
       
       "direction" : "right",

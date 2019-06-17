@@ -25,7 +25,7 @@
   "inventoryIcon" : "peglacibookcasemiddlehex2icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacibookcasemiddlehex2.png:<color>",
+      "dualImage" : "peglacibookcasemiddlehex2.png:default",
 
       "imagePosition" : [0, 0],
       "frames" : 1,

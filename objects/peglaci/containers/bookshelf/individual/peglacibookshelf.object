@@ -25,7 +25,7 @@
   "inventoryIcon" : "peglacibookshelficon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacibookshelf.png:<color>",
+      "dualImage" : "peglacibookshelf.png:default",
 
       "imagePosition" : [-2, 0],
       "frames" : 1,

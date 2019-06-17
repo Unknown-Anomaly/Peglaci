@@ -44,7 +44,7 @@
   "inventoryIcon" : "peglaciguncraftericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "peglaciguncrafter.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "peglaciguncrafter.png:default.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:default.<frame>" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "left",
@@ -58,7 +58,7 @@
     },
 
     {
-      "imageLayers" : [ { "image" : "peglaciguncrafter.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "peglaciguncrafter.png:default.<frame>", "fullbright" : true }, { "image" : "peglaciguncrafterlit.png:default.<frame>" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "right",

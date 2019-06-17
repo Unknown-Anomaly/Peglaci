@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglaciplateicon.png",
   "orientations" : [
     {
-      "image" : "peglaciplate.png:<color>",
+      "image" : "peglaciplate.png:default",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,

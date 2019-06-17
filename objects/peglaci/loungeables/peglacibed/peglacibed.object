@@ -34,7 +34,7 @@
   "inventoryIcon" : "peglacibedicon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacibed.png:<color>",
+      "dualImage" : "peglacibed.png:default",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,

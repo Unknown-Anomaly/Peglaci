@@ -26,7 +26,7 @@
   "inventoryIcon" : "peglacibox2icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacibox2.png:<color>.<frame>",
+      "dualImage" : "peglacibox2.png:default.<frame>",
 
       "imagePosition" : [-8, 0],
       "frames" : 3,

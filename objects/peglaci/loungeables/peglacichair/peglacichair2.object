@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglacichair2icon.png",
   "orientations" : [
     {
-      "dualImage" : "peglacichair2.png:<color>",
+      "dualImage" : "peglacichair2.png:default",
 
       "imagePosition" : [-12, 0],
       "frames" : 1,

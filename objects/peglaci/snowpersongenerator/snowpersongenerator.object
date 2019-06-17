@@ -26,7 +26,7 @@
   "inventoryIcon" : "snowpersongeneratoricon.png",
   "orientations" : [
     {
-      "dualImage" : "snowpersongenerator.png:<color>.<frame>",
+      "dualImage" : "snowpersongenerator.png:default.<frame>",
 
       "imagePosition" : [-8, 0],
       "frames" : 18,

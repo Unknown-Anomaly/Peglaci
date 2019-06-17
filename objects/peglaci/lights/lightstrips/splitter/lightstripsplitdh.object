@@ -36,7 +36,7 @@
   "inventoryIcon" : "splitdownhoricon.png",
   "orientations" : [
     {
-      "image" : "lightstripsplitdh.png:<color>.<frame>",
+      "image" : "lightstripsplitdh.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 1,

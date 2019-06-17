@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglaciwallswitchicon.png",
   "orientations" : [
     {
-      "image" : "peglaciwallswitch.png:<color>.off",
+      "image" : "peglaciwallswitch.png:default.off",
       "imagePosition" : [-8, -8],
 
       "spaceScan" : 0.1,

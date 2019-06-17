@@ -33,7 +33,7 @@
   "inventoryIcon" : "peglacitesterbox.png",
   "orientations" : [
     {
-      "image" : "peglacitesterbox.png:<color>",
+      "image" : "peglacitesterbox.png:default",
       "flipImages" : true,
       "imagePosition" : [-8, 0],
       "frames" : 1,
@@ -44,7 +44,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "peglacitesterbox.png:<color>",
+      "image" : "peglacitesterbox.png:default",
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1.0,

@@ -37,7 +37,7 @@
   "orientations" : [
   
 	    {
-      "image" : "lightstriphorzleft.png:<color>.<frame>",
+      "image" : "lightstriphorzleft.png:default.<frame>",
       "imagePosition" : [1, 0],
       "frames" : 4,
       "animationCycle" : 1,
@@ -47,7 +47,7 @@
     },
 
     {
-      "image" : "lightstriphorzright.png:<color>.<frame>",
+      "image" : "lightstriphorzright.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 1,
@@ -57,7 +57,7 @@
     },
 	
     {
-      "image" : "lightstriphorz.png:<color>.<frame>",
+      "image" : "lightstriphorz.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 1,

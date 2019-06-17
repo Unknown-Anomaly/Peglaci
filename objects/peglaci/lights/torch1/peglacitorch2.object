@@ -63,7 +63,7 @@
   "inventoryIcon" : "peglacitorch2icon.png",
   "orientations" : [
     {
-      "image" : "peglacitorch2.png:<color>.<frame>",
+      "image" : "peglacitorch2.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 0.5,
@@ -73,7 +73,7 @@
     },
 
     {
-      "image" : "peglacitorch2left.png:<color>.<frame>",
+      "image" : "peglacitorch2left.png:default.<frame>",
       "imagePosition" : [1, 0],
       "frames" : 4,
       "animationCycle" : 0.5,
@@ -83,7 +83,7 @@
     },
 
     {
-      "image" : "peglacitorch2right.png:<color>.<frame>",
+      "image" : "peglacitorch2right.png:default.<frame>",
       "imagePosition" : [-2, 0],
       "frames" : 4,
       "animationCycle" : 0.5,
@@ -93,7 +93,7 @@
     },
 	
 	{
-      "image" : "peglacitorch2down.png:<color>.<frame>",
+      "image" : "peglacitorch2down.png:default.<frame>",
       "imagePosition" : [0, -1],
       "frames" : 4,
       "animationCycle" : 0.5,
@@ -103,7 +103,7 @@
     },
 
     {
-      "image" : "peglacitorch2back.png:<color>.<frame>",
+      "image" : "peglacitorch2back.png:default.<frame>",
       "imagePosition" : [0, 0],
       "frames" : 4,
       "animationCycle" : 0.5,

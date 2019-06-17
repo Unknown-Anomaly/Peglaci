@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglacismallbuttonicon.png",
   "orientations" : [
     {
-      "image" : "peglacismallbutton.png:<color>.off",
+      "image" : "peglacismallbutton.png:default.off",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,

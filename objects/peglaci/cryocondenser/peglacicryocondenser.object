@@ -39,7 +39,7 @@
   "inventoryIcon" : "peglacicryocondensericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "peglacicryocondenser.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglacicryocondenserlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "peglacicryocondenser.png:default.<frame>", "fullbright" : true }, { "image" : "peglacicryocondenserlit.png:default.<frame>" } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -51,7 +51,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "peglacicryocondenser.png:<color>.<frame>", "fullbright" : true }, { "image" : "peglacicryocondenserlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "peglacicryocondenser.png:default.<frame>", "fullbright" : true }, { "image" : "peglacicryocondenserlit.png:default.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],

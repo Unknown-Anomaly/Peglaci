@@ -27,7 +27,7 @@
   "inventoryIcon" : "flagpeglaciicon.png",
   "orientations" : [
     {
-      "image" : "flagpeglaci.png:<color>.<frame>",
+      "image" : "flagpeglaci.png:default.<frame>",
       "flipImages" : true,
       "direction" : "left",
       "imagePosition" : [-17, 0],
@@ -38,7 +38,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "flagpeglaci.png:<color>.<frame>",
+      "image" : "flagpeglaci.png:default.<frame>",
       "direction" : "right",
       "imagePosition" : [1, 0],
       "frames" : 6,

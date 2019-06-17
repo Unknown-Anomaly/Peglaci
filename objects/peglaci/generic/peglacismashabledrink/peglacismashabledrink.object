@@ -21,7 +21,7 @@
   "inventoryIcon" : "peglacismashabledrinkicon.png",
   "orientations" : [
     {
-      "image" : "peglacismashabledrink.png:<color>",
+      "image" : "peglacismashabledrink.png:default",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
