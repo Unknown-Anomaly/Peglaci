@@ -132,7 +132,7 @@
          "object":"peglacilightstripcross1",
          "tilesetDirection":"right"
         },
-     "20":
+     "15":
         {
          "\/\/description":"I can't describe this block.",
          "\/\/name":"peglaciwaterlight",
@@ -335,7 +335,7 @@
          "object":"string",
          "tilesetDirection":"string"
         },
-     "20":
+     "15":
         {
          "\/\/description":"string",
          "\/\/name":"string",
@@ -490,7 +490,7 @@
          "imageheight":8,
          "imagewidth":8
         },
-     "20":
+     "15":
         {
          "image":"..\/..\/..\/..\/tiled\/peglaci-custom\/furniture\/lights\/waterlight.png",
          "imageheight":10,
