@@ -34,5 +34,23 @@
       ],
       "def" : [ "tmx", "peglacipykretebuilding1.json" ]
     }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "peglacihiddenstash1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "peglacihiddenstash1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "peglacihiddenstash1.json" ]
+    }	
 }
 ]

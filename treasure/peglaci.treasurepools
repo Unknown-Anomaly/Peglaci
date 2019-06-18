@@ -1,0 +1,43 @@
+{
+"peglaciSmallChestTreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "valuableTreasure"}
+      ],
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "peglaciTreasure"}
+      ],
+      "poolRounds" : [
+        [0.2, 1],
+        [0.4, 2],
+        [0.3, 3],
+        [0.1, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+"peglaciTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["peglaciiceball", 25]},
+        {"weight" : 0.3, "item" : ["peglacitier0knife", 25]},
+        {"weight" : 0.1, "item" : ["peglacitier1knife", 25]},
+        {"weight" : 0.3, "item" : "peglacibandana"},
+        {"weight" : 0.3, "item" : "peglacivisor"},
+        {"weight" : 0.3, "item" : "peglacimask"},
+        {"weight" : 0.3, "item" : "peglacisunglasses"},
+        {"weight" : 0.3, "item" : "peglacigreatcoatjacket"},
+        {"weight" : 0.3, "item" : "peglacigreatcoatpants"},
+        {"weight" : 0.3, "item" : "peglacieyepatch"},
+        {"weight" : 0.3, "item" : "peglacisnowsuitjacket"},
+        {"weight" : 0.3, "item" : "peglacisnowsuitpants"},
+        {"weight" : 0.3, "item" : "peglacisnowrobejacket"},
+        {"weight" : 0.3, "item" : "peglacisnowrobepants"},
+        {"weight" : 0.3, "item" : "peglaciskijacketjacket"},
+        {"weight" : 0.3, "item" : "peglaciskijacketpants"}
+      ]
+    }]
+  ]
+}
