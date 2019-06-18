@@ -1,0 +1,9 @@
+[
+{"op":"add","path":"/snow/pykretebuilding1","value":
+  {
+    "name" : "peglaci merchant outpost",
+    "tags" : [ "generic", "friendly" ],
+    "range" : 600
+  }
+}
+]

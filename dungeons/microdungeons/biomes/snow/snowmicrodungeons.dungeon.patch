@@ -16,5 +16,23 @@
       ],
       "def" : [ "tmx", "peglacipod1.json" ]
     }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "peglacipykretebuilding1"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "peglacipykretebuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "peglacipykretebuilding1.json" ]
+    }	
 }
 ]
