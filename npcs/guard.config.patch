@@ -4,11 +4,14 @@
     "path":"/hail/peglaci",
     "value":{  
       "default":[  
-        "Nothing to see here.",
-	      "*Looks at you*",
-	      "Today is a good day.",
-	      "I'm used to be an adventurer like you."
-        "Welcome to our city. Please, behave."
+        "There's nothing to see there, foreigner.",
+        "Move along, I am currently busy with my duty.",
+        "I'm keeping an eye on you, better not cause any fuss.",
+        "The cold is not for the weak, thus I'm not weak.",
+        "Cause trouble? I'l smash you in.",
+        "Watch yourself.",
+        "I'm busy, not now.",
+        "Don't even think about it."
       ],
       "human":[  
         "TODO: human placeholder"
