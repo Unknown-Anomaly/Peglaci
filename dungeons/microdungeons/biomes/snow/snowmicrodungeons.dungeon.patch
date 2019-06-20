@@ -52,5 +52,23 @@
       ],
       "def" : [ "tmx", "peglacihiddenstash1.json" ]
     }	
+},
+{
+  "op": "add",
+  "path": "/metadata/anchor/-",
+  "value":  
+	 "peglacihiddenstash2"	
+},
+{
+  "op": "add",
+  "path": "/parts/-",
+  "value":  
+    {
+      "name" : "peglacihiddenstash2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "peglacihiddenstash2.json" ]
+    }	
 }
 ]
