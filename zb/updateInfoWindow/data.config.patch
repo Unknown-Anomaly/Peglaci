@@ -3,7 +3,7 @@
   "path" : "/peglaci",
   "value" : {
     "image" : "/zb/updateInfoWindow/peglaci_rebirth.png",
-    "file" : "/_PEGLACIversioning.config"
+    "file" : "/PEGLACIversioning.config"
     }  
   }
 ]
