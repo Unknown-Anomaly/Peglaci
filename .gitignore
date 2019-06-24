@@ -48,4 +48,9 @@ Temporary Items
 
 # Custom Files
 _packer.bat
-_exclusions.txt
+
+#Photoshop Files
+*.psd
+
+#disabled files
+.disabled
