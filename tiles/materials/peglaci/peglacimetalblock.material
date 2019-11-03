@@ -14,7 +14,7 @@
   "health" : 20,
   "category" : "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/peglaciCustomMaterialtemplate.config",
   "renderParameters" : {
     "texture" : "peglacimetalblock.png",
     "variants" : 5,
